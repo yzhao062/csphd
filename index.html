@@ -24,9 +24,9 @@
   .stats{display:flex; flex-wrap:wrap; gap:8px 22px; margin:22px 0 6px; padding:14px 0;
          border-top:1px solid var(--line); border-bottom:1px solid var(--line); font-size:14px; color:var(--muted)}
   .stats b{color:var(--ink); font-size:16px}
-  .shots{display:flex; gap:12px; overflow-x:auto; padding:18px 0 6px; -webkit-overflow-scrolling:touch}
+  .shots{display:flex; gap:12px; overflow-x:auto; align-items:flex-start; padding:18px 0 6px; -webkit-overflow-scrolling:touch}
   .shot{flex:0 0 auto; width:200px; margin:0}
-  .shot img{width:200px; height:300px; object-fit:cover; object-position:top;
+  .shot img{width:200px; height:auto; max-height:340px; object-fit:cover; object-position:top;
             border:1px solid var(--line); border-radius:12px; background:#f3f4f6; display:block}
   .shot .cap{font-size:12px; color:var(--muted); margin-top:7px; text-align:center}
   .ph{width:200px; height:300px; border:1px dashed #cfd4db; border-radius:12px; display:flex;
@@ -60,22 +60,32 @@
     <span><b>历年</b> NeurIPS / ICML / ACL / AAAI 开会群</span>
   </div>
 
-  <!-- Drop screenshots into screenshots/ with these names (or edit src/captions). -->
+  <!-- Real WeChat group screenshots: social proof across the lifecycle -->
   <div class="shots">
     <figure class="shot">
-      <img src="./screenshots/groups.png" alt="求职分享群"
-           onerror="this.outerHTML='&lt;div class=ph&gt;放 screenshots/groups.png&lt;br&gt;(求职群列表截图)&lt;/div&gt;'" />
-      <figcaption class="cap">12+ 求职分享群,数千成员</figcaption>
+      <img src="./screenshots/jobs.png" alt="求职分享群" loading="lazy"
+           onerror="this.outerHTML='&lt;div class=ph&gt;求职分享群截图&lt;/div&gt;'" />
+      <figcaption class="cap">求职分享 · 1–12 群</figcaption>
     </figure>
     <figure class="shot">
-      <img src="./screenshots/series.png" alt="系列群"
-           onerror="this.outerHTML='&lt;div class=ph&gt;放 screenshots/series.png&lt;br&gt;(教职/AP/审稿/社交 群截图)&lt;/div&gt;'" />
-      <figcaption class="cap">教职 · AP · 审稿 · 开会社交 系列群</figcaption>
+      <img src="./screenshots/faculty.png" alt="教职申请讨论群" loading="lazy"
+           onerror="this.outerHTML='&lt;div class=ph&gt;教职申请群截图&lt;/div&gt;'" />
+      <figcaption class="cap">教职申请 · 2024–2027</figcaption>
     </figure>
     <figure class="shot">
-      <img src="./screenshots/doc.png" alt="教职机会文档"
-           onerror="this.outerHTML='&lt;div class=ph&gt;放 screenshots/doc.png&lt;br&gt;(400+ 教职/RA 机会文档截图)&lt;/div&gt;'" />
-      <figcaption class="cap">400+ 教职 / RA 机会(共享文档)</figcaption>
+      <img src="./screenshots/ap.png" alt="AP 交流群" loading="lazy"
+           onerror="this.outerHTML='&lt;div class=ph&gt;AP 交流群截图&lt;/div&gt;'" />
+      <figcaption class="cap">AP 交流群</figcaption>
+    </figure>
+    <figure class="shot">
+      <img src="./screenshots/review.png" alt="审稿机会分享群" loading="lazy"
+           onerror="this.outerHTML='&lt;div class=ph&gt;审稿机会群截图&lt;/div&gt;'" />
+      <figcaption class="cap">审稿机会分享群</figcaption>
+    </figure>
+    <figure class="shot">
+      <img src="./screenshots/conf.png" alt="开会社交群" loading="lazy"
+           onerror="this.outerHTML='&lt;div class=ph&gt;开会社交群截图&lt;/div&gt;'" />
+      <figcaption class="cap">开会社交 · NeurIPS/ACL/AAAI</figcaption>
     </figure>
   </div>
 

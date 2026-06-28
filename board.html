@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>PhD 机会 · CS博士</title>
+<meta name="description" content="面向 CS / AI / EE / Stats 学生的 PhD、RA、Postdoc、实习机会,来自 PI 维护的源表格,可搜索筛选(长期 + 短期)。" />
+<style>
+  :root{--ink:#16181d; --muted:#5b6270; --line:#e6e8ec; --bg:#fff; --accent:#1f6feb; --accent-ink:#fff; --warn:#b45309;}
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6;-webkit-font-smoothing:antialiased}
+  .nav{max-width:960px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:14px 18px;border-bottom:1px solid var(--line)}
+  .nav-brand{font-weight:700;font-size:18px;color:var(--ink);text-decoration:none}
+  .nav-links{display:flex;gap:18px;flex-wrap:wrap;font-size:14px}
+  .nav-links a{color:var(--muted);text-decoration:none}
+  .nav-links a:hover{color:var(--ink)}
+  .nav-links a.active{color:var(--ink);font-weight:600}
+  .wrap{max-width:960px;margin:0 auto;padding:24px 18px 56px}
+  header{margin:8px 0 18px}
+  h1{font-size:26px;line-height:1.3;margin:0 0 8px}
+  .meta{margin:0;color:var(--muted);font-size:14px}
+  .source{margin:8px 0 0;color:var(--muted);font-size:13px}
+  .source a{color:var(--accent);text-decoration:none}
+  .source a:hover{text-decoration:underline}
+  .controls{position:sticky;top:0;z-index:2;margin:20px -18px 18px;padding:14px 18px;background:var(--bg);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .control-grid{display:grid;gap:12px}
+  .field label,.chip-label{display:block;margin:0 0 5px;color:var(--muted);font-size:12px;font-weight:600}
+  input[type="search"],select{width:100%;min-height:42px;border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--ink);font:inherit;font-size:15px;padding:9px 11px}
+  input[type="search"]:focus,select:focus{outline:2px solid rgba(31,111,235,.18);border-color:var(--accent)}
+  .chip-row{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+  .chip-box input{position:absolute;opacity:0;pointer-events:none}
+  .chip-box span{display:inline-flex;align-items:center;min-height:34px;border:1px solid var(--line);border-radius:999px;background:#fff;color:var(--muted);font-size:13px;font-weight:600;padding:5px 12px;cursor:pointer;user-select:none}
+  .chip-box input:checked + span{border-color:var(--accent);background:var(--accent);color:var(--accent-ink)}
+  .chip-box.cat input:checked + span{border-color:var(--warn);background:var(--warn)}
+  .chip-box input:focus-visible + span{outline:2px solid rgba(31,111,235,.28);outline-offset:2px}
+  .control-footer{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:12px}
+  .result-count{color:var(--muted);font-size:14px}
+  button{min-height:36px;border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--ink);font:inherit;font-size:14px;padding:6px 12px;cursor:pointer}
+  button:hover{border-color:#c8ccd4;background:#fbfbfc}
+  .list{display:grid;gap:12px}
+  .card{border:1px solid var(--line);border-radius:8px;padding:14px;background:#fff}
+  .card-head{display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin:0 0 6px}
+  .faculty{font-weight:700;color:var(--ink)}
+  a.faculty{text-decoration:none}
+  a.faculty:hover{color:var(--accent);text-decoration:underline}
+  .university{color:var(--ink)}
+  .dot{color:var(--muted)}
+  .badge{display:inline-flex;align-items:center;border:1px solid var(--line);border-radius:999px;color:var(--muted);background:#fbfbfc;font-size:12px;font-weight:600;line-height:1.4;padding:2px 8px}
+  .badge.type{color:#334155;background:#f3f6fa}
+  .badge.cat-long{color:#475569;background:#f1f5f9;border-color:#e2e8f0}
+  .badge.cat-short{color:#fff;background:var(--warn);border-color:var(--warn)}
+  .interests{margin:0 0 6px;font-size:15px}
+  .positions{margin:0 0 6px;color:var(--muted);font-size:13px}
+  .deadline{margin:0 0 8px;color:var(--warn);font-size:13px;font-weight:600}
+  .details{display:grid;gap:5px;margin:0;color:var(--muted);font-size:13px}
+  .details div{display:flex;gap:6px;align-items:flex-start}
+  .details dt{flex:0 0 auto;color:var(--ink);font-weight:600}
+  .details dd{margin:0}
+  .details a{color:var(--accent);text-decoration:none;word-break:break-all}
+  .empty{border:1px solid var(--line);border-radius:8px;padding:22px;text-align:center;color:var(--muted);background:#fbfbfc}
+  .hidden{display:none}
+  @media (min-width:720px){
+    .wrap{padding-top:30px}
+    h1{font-size:30px}
+    .control-grid{grid-template-columns:minmax(240px,1.4fr) minmax(180px,1fr);align-items:end}
+    .controls{border:1px solid var(--line);border-radius:8px;margin:22px 0 20px}
+    .card{padding:16px 18px}
+  }
+</style>
+</head>
+<body>
+<nav class="nav">
+  <a class="nav-brand" href="./index.html">CS博士</a>
+  <div class="nav-links">
+    <a href="./index.html">首页</a>
+    <a href="./board.html" class="active">PhD机会</a>
+    <a href="./index.html#community">社群</a>
+    <a href="https://yzhao062.github.io" target="_blank" rel="noopener">关于</a>
+  </div>
+</nav>
+<main class="wrap">
+  <header>
+    <h1>PhD / RA / Postdoc 机会</h1>
+    <p class="meta" id="summary">正在读取机会数据...</p>
+    <p class="source" id="sourceLine"></p>
+  </header>
+
+  <section class="controls" aria-label="筛选机会">
+    <div class="control-grid">
+      <div class="field">
+        <label for="searchInput">关键词</label>
+        <input id="searchInput" type="search" placeholder="学校、导师、方向" autocomplete="off" />
+      </div>
+      <div class="field">
+        <label for="universitySelect">学校</label>
+        <select id="universitySelect">
+          <option value="">全部学校</option>
+        </select>
+      </div>
+    </div>
+    <div>
+      <span class="chip-label">类别(短期含截止日期,更新更频繁)</span>
+      <div class="chip-row" id="categoryFilters">
+        <label class="chip-box cat"><input type="checkbox" value="短期" /><span>短期 / 当前</span></label>
+        <label class="chip-box cat"><input type="checkbox" value="长期" /><span>长期</span></label>
+      </div>
+    </div>
+    <div>
+      <span class="chip-label">类型</span>
+      <div class="chip-row" id="typeFilters">
+        <label class="chip-box"><input type="checkbox" value="PhD" /><span>PhD</span></label>
+        <label class="chip-box"><input type="checkbox" value="RA" /><span>RA</span></label>
+        <label class="chip-box"><input type="checkbox" value="Postdoc" /><span>Postdoc</span></label>
+        <label class="chip-box"><input type="checkbox" value="Intern" /><span>Intern</span></label>
+      </div>
+    </div>
+    <div class="control-footer">
+      <div class="result-count" id="resultCount" aria-live="polite">显示 0 / 0</div>
+      <button type="button" id="resetButton">清除筛选</button>
+    </div>
+  </section>
+
+  <section class="list" id="results" aria-label="机会列表"></section>
+  <p class="empty hidden" id="emptyMessage"></p>
+</main>
+<script src="./data/openings.js"></script>
+<script>
+(function(){
+  var data = window.OPENINGS || {};
+  var openings = Array.isArray(data.openings) ? data.openings : [];
+  var total = Number(data.count) || openings.length;
+  var summary = document.getElementById("summary");
+  var sourceLine = document.getElementById("sourceLine");
+  var searchInput = document.getElementById("searchInput");
+  var universitySelect = document.getElementById("universitySelect");
+  var categoryFilters = document.getElementById("categoryFilters");
+  var typeFilters = document.getElementById("typeFilters");
+  var categoryInputs = Array.prototype.slice.call(categoryFilters.querySelectorAll("input[type='checkbox']"));
+  var typeInputs = Array.prototype.slice.call(typeFilters.querySelectorAll("input[type='checkbox']"));
+  var resultCount = document.getElementById("resultCount");
+  var resetButton = document.getElementById("resetButton");
+  var results = document.getElementById("results");
+  var emptyMessage = document.getElementById("emptyMessage");
+  var searchTimer = 0;
+
+  function text(value){
+    return value == null ? "" : String(value).trim();
+  }
+
+  function isEmail(value){
+    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(text(value));
+  }
+
+  function safeUrl(value){
+    var raw = text(value);
+    if (!raw) return "";
+    try {
+      var url = new URL(raw, window.location.href);
+      return url.protocol === "http:" || url.protocol === "https:" ? url.href : "";
+    } catch (error) {
+      return "";
+    }
+  }
+
+  function makeText(tag, className, value){
+    var el = document.createElement(tag);
+    if (className) el.className = className;
+    el.textContent = text(value);
+    return el;
+  }
+
+  function makeBadge(value, extraClass){
+    return makeText("span", "badge" + (extraClass ? " " + extraClass : ""), value);
+  }
+
+  function setEmpty(message){
+    results.replaceChildren();
+    emptyMessage.textContent = message;
+    emptyMessage.classList.remove("hidden");
+  }
+
+  function updateSummary(){
+    var schools = new Set(openings.map(function(item){ return text(item.university); }).filter(Boolean));
+    if (!openings.length) {
+      summary.textContent = "暂无机会数据";
+      sourceLine.textContent = "学生在这里浏览机会; PI 可在源表格添加或更新招生信息。";
+      return;
+    }
+    var shortN = Number(data.shortterm) || openings.filter(function(i){ return text(i.category) === "短期"; }).length;
+    var longN = Number(data.longterm) || openings.filter(function(i){ return text(i.category) === "长期"; }).length;
+    summary.textContent = "共 " + total + " 个机会(短期 " + shortN + " · 长期 " + longN + ") · 来自 " + schools.size + " 所学校 · 最近更新 " + text(data.synced);
+    sourceLine.textContent = "学生在这里浏览机会; ";
+    var sourceUrl = safeUrl(data.source);
+    if (sourceUrl) {
+      sourceLine.append("PI:");
+      var link = document.createElement("a");
+      link.href = sourceUrl;
+      link.target = "_blank";
+      link.rel = "noopener";
+      link.textContent = "在源表格添加或更新你的招生信息 →";
+      sourceLine.appendChild(link);
+    } else {
+      sourceLine.append("PI 可在源表格添加或更新招生信息。");
+    }
+  }
+
+  function fillUniversities(){
+    var schools = Array.from(new Set(openings.map(function(item){ return text(item.university); }).filter(Boolean)));
+    schools.sort(function(a,b){ return a.localeCompare(b, "en"); });
+    schools.forEach(function(school){
+      var option = document.createElement("option");
+      option.value = school;
+      option.textContent = school;
+      universitySelect.appendChild(option);
+    });
+  }
+
+  function checkedValues(inputs){
+    return inputs.filter(function(input){ return input.checked; }).map(function(input){ return input.value; });
+  }
+
+  function matchesOpening(item, query, school, categories, types){
+    if (school && text(item.university) !== school) return false;
+    if (categories.length && categories.indexOf(text(item.category)) === -1) return false;
+    if (query) {
+      var haystack = [item.university, item.faculty, item.interests].map(text).join(" ").toLowerCase();
+      if (haystack.indexOf(query) === -1) return false;
+    }
+    if (types.length) {
+      var itemTypes = Array.isArray(item.types) ? item.types.map(text) : [];
+      if (!types.some(function(type){ return itemTypes.indexOf(type) !== -1; })) return false;
+    }
+    return true;
+  }
+
+  function renderCard(item){
+    var card = document.createElement("article");
+    card.className = "card";
+
+    var head = document.createElement("div");
+    head.className = "card-head";
+    var homepage = safeUrl(item.homepage);
+    var facultyName = text(item.faculty);
+    if (homepage) {
+      var facultyLink = makeText("a", "faculty", facultyName);
+      facultyLink.href = homepage;
+      facultyLink.target = "_blank";
+      facultyLink.rel = "noopener";
+      head.appendChild(facultyLink);
+    } else if (facultyName) {
+      head.appendChild(makeText("span", "faculty", facultyName));
+    }
+    head.appendChild(makeText("span", "dot", "·"));
+    head.appendChild(makeText("span", "university", item.university));
+
+    var category = text(item.category);
+    if (category === "短期") head.appendChild(makeBadge("短期", "cat-short"));
+    else if (category === "长期") head.appendChild(makeBadge("长期", "cat-long"));
+
+    var term = text(item.term);
+    if (term) head.appendChild(makeBadge(term, ""));
+    if (Array.isArray(item.types)) {
+      item.types.map(text).filter(Boolean).forEach(function(type){
+        head.appendChild(makeBadge(type, "type"));
+      });
+    }
+    card.appendChild(head);
+
+    var interests = text(item.interests);
+    if (interests) card.appendChild(makeText("p", "interests", interests));
+
+    var positions = text(item.positions);
+    if (positions) card.appendChild(makeText("p", "positions", positions));
+
+    var deadline = text(item.deadline);
+    if (deadline) card.appendChild(makeText("p", "deadline", "⏰ " + deadline));
+
+    var details = document.createElement("dl");
+    details.className = "details";
+    [
+      ["要求", item.requirements, false],
+      ["材料", item.materials, false],
+      ["联系", item.contact, true]
+    ].forEach(function(pair){
+      var value = text(pair[1]);
+      if (!value) return;
+      var row = document.createElement("div");
+      var dt = makeText("dt", "", pair[0]);
+      var dd;
+      if (pair[2] && isEmail(value)) {
+        dd = document.createElement("dd");
+        var mail = document.createElement("a");
+        mail.href = "mailto:" + value;
+        mail.textContent = value;
+        dd.appendChild(mail);
+      } else {
+        dd = makeText("dd", "", value);
+      }
+      row.append(dt, dd);
+      details.appendChild(row);
+    });
+    if (details.children.length) card.appendChild(details);
+
+    return card;
+  }
+
+  function render(){
+    var query = text(searchInput.value).toLowerCase();
+    var school = universitySelect.value;
+    var categories = checkedValues(categoryInputs);
+    var types = checkedValues(typeInputs);
+    var filtered = openings.filter(function(item){ return matchesOpening(item, query, school, categories, types); });
+    resultCount.textContent = "显示 " + filtered.length + " / " + total;
+
+    if (!openings.length) {
+      setEmpty("机会数据暂时不可用,请稍后再试。");
+      return;
+    }
+    if (!filtered.length) {
+      setEmpty("没有匹配的机会。请调整关键词、学校或筛选条件。");
+      return;
+    }
+
+    var fragment = document.createDocumentFragment();
+    filtered.forEach(function(item){ fragment.appendChild(renderCard(item)); });
+    emptyMessage.classList.add("hidden");
+    emptyMessage.textContent = "";
+    results.replaceChildren(fragment);
+  }
+
+  function scheduleRender(){
+    window.clearTimeout(searchTimer);
+    searchTimer = window.setTimeout(render, 120);
+  }
+
+  resetButton.addEventListener("click", function(){
+    searchInput.value = "";
+    universitySelect.value = "";
+    categoryInputs.forEach(function(input){ input.checked = false; });
+    typeInputs.forEach(function(input){ input.checked = false; });
+    render();
+    searchInput.focus();
+  });
+  searchInput.addEventListener("input", scheduleRender);
+  universitySelect.addEventListener("change", render);
+  categoryInputs.forEach(function(input){ input.addEventListener("change", render); });
+  typeInputs.forEach(function(input){ input.addEventListener("change", render); });
+
+  updateSummary();
+  fillUniversities();
+  render();
+})();
+</script>
+</body>
+</html>

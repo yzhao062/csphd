@@ -1,75 +1,105 @@
 <!DOCTYPE html>
 <html lang="zh">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>PhD 机会 · CS博士</title>
-<meta name="description" content="面向 CS / AI / EE / Stats 学生的 PhD、RA、Postdoc、实习机会,按学校汇总,来自 PI 维护的源表格,可搜索筛选(长期 + 短期)。" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PhD / RA / Postdoc 机会 · CS博士</title>
+<link rel="icon" href="./favicon.svg" type="image/svg+xml">
+<meta name="description" content="CS博士 PhD、RA、Postdoc、Intern 机会列表，按学校分组，可搜索和筛选。">
 <style>
-  :root{--ink:#16181d; --muted:#5b6270; --line:#e6e8ec; --bg:#fff; --accent:#1f6feb; --accent-ink:#fff; --warn:#b45309;}
+  :root{--ink:#16181d; --muted:#5b6270; --line:#e6e8ec; --bg:#fff; --accent:#1f6feb; --accent-ink:#fff; --warn:#b45309; --soft:#f7f8fa; --control-h:88px}
   *{box-sizing:border-box}
   html,body{margin:0;padding:0}
-  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6;-webkit-font-smoothing:antialiased}
-  .nav{max-width:960px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:14px 18px;border-bottom:1px solid var(--line)}
-  .nav-brand{font-weight:700;font-size:18px;color:var(--ink);text-decoration:none}
-  .nav-links{display:flex;gap:18px;flex-wrap:wrap;font-size:14px}
-  .nav-links a{color:var(--muted);text-decoration:none}
-  .nav-links a:hover{color:var(--ink)}
-  .nav-links a.active{color:var(--ink);font-weight:600}
-  .wrap{max-width:960px;margin:0 auto;padding:24px 18px 56px}
-  header{margin:8px 0 18px}
-  h1{font-size:26px;line-height:1.3;margin:0 0 8px}
-  .meta{margin:0;color:var(--muted);font-size:14px}
-  .pi-cta-row{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:14px 0 2px}
-  .pi-cta{display:inline-block;font-size:14px;font-weight:700;text-decoration:none;color:var(--accent);background:#fff;border:1.5px solid var(--accent);padding:9px 16px;border-radius:9px}
-  .pi-cta:hover{background:#f0f6ff}
-  .pi-note{color:var(--muted);font-size:13px}
-  .controls{position:sticky;top:0;z-index:2;margin:20px -18px 18px;padding:14px 18px;background:var(--bg);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-  .control-grid{display:grid;gap:12px}
-  .field label,.chip-label{display:block;margin:0 0 5px;color:var(--muted);font-size:12px;font-weight:600}
-  input[type="search"],select{width:100%;min-height:42px;border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--ink);font:inherit;font-size:15px;padding:9px 11px}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.45;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+  a{color:inherit}
+  .nav{max-width:900px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:14px 18px;border-bottom:1px solid var(--line)} .nav-brand{font-weight:700;font-size:18px;color:var(--ink);text-decoration:none} .nav-links{display:flex;gap:18px;flex-wrap:wrap;font-size:14px} .nav-links a{color:var(--muted);text-decoration:none} .nav-links a:hover{color:var(--ink)} .nav-links a.active{color:var(--ink);font-weight:600}
+  .wrap{max-width:900px;margin:0 auto;padding:16px 18px 44px}
+  .hero{display:flex;align-items:flex-start;justify-content:space-between;gap:14px;margin:6px 0 12px}
+  h1{margin:0 0 4px;font-size:24px;line-height:1.2;letter-spacing:0}
+  .meta{margin:0;color:var(--muted);font-size:13px}
+  .source-button{flex:0 0 auto;display:inline-flex;align-items:center;justify-content:center;min-height:34px;border:1px solid var(--accent);border-radius:7px;background:var(--accent);color:var(--accent-ink);font-size:13px;font-weight:650;line-height:1.2;text-decoration:none;padding:7px 10px;white-space:nowrap}
+  .source-button:hover{filter:brightness(.96)}
+  .source-button[hidden]{display:none}
+  .controls{position:sticky;top:0;z-index:5;background:var(--bg);border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin:0 -18px 8px;padding:8px 18px}
+  .control-grid{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(150px,.8fr);gap:8px}
+  .field label,.chip-label{display:block;margin:0 0 3px;color:var(--muted);font-size:11px;font-weight:650;line-height:1.2}
+  input[type="search"],select{width:100%;min-height:34px;border:1px solid var(--line);border-radius:7px;background:#fff;color:var(--ink);font:inherit;font-size:13px;line-height:1.25;padding:7px 9px}
   input[type="search"]:focus,select:focus{outline:2px solid rgba(31,111,235,.18);border-color:var(--accent)}
-  .chip-row{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
-  .chip-box input{position:absolute;opacity:0;pointer-events:none}
-  .chip-box span{display:inline-flex;align-items:center;min-height:34px;border:1px solid var(--line);border-radius:999px;background:#fff;color:var(--muted);font-size:13px;font-weight:600;padding:5px 12px;cursor:pointer;user-select:none}
-  .chip-box input:checked + span{border-color:var(--accent);background:var(--accent);color:var(--accent-ink)}
-  .chip-box.cat input:checked + span{border-color:var(--warn);background:var(--warn)}
-  .chip-box input:focus-visible + span{outline:2px solid rgba(31,111,235,.28);outline-offset:2px}
-  .control-footer{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:12px}
-  .result-count{color:var(--muted);font-size:14px}
-  button{min-height:36px;border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--ink);font:inherit;font-size:14px;padding:6px 12px;cursor:pointer}
-  button:hover{border-color:#c8ccd4;background:#fbfbfc}
-  .list{display:grid;gap:22px}
-  .school-group{display:grid;gap:10px}
-  .school-head{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;margin:6px 0 2px;padding-bottom:6px;border-bottom:2px solid var(--line)}
-  .school-name{font-weight:700;font-size:17px;color:var(--ink)}
-  .school-count{color:var(--muted);font-size:13px;font-weight:500}
-  .card{border:1px solid var(--line);border-radius:8px;padding:14px;background:#fff}
-  .card-head{display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin:0 0 6px}
-  .faculty{font-weight:700;color:var(--ink)}
-  a.faculty{text-decoration:none}
-  a.faculty:hover{color:var(--accent);text-decoration:underline}
-  .badge{display:inline-flex;align-items:center;border:1px solid var(--line);border-radius:999px;color:var(--muted);background:#fbfbfc;font-size:12px;font-weight:600;line-height:1.4;padding:2px 8px}
-  .badge.type{color:#334155;background:#f3f6fa}
-  .badge.cat-long{color:#475569;background:#f1f5f9;border-color:#e2e8f0}
-  .badge.cat-short{color:#fff;background:var(--warn);border-color:var(--warn)}
-  .interests{margin:0 0 6px;font-size:15px}
-  .positions{margin:0 0 6px;color:var(--muted);font-size:13px}
-  .deadline{margin:0 0 8px;color:var(--warn);font-size:13px;font-weight:600}
-  .details{display:grid;gap:5px;margin:0;color:var(--muted);font-size:13px}
-  .details div{display:flex;gap:6px;align-items:flex-start}
-  .details dt{flex:0 0 auto;color:var(--ink);font-weight:600}
-  .details dd{margin:0}
-  .details a{color:var(--accent);text-decoration:none;word-break:break-all}
-  .empty{border:1px solid var(--line);border-radius:8px;padding:22px;text-align:center;color:var(--muted);background:#fbfbfc}
-  .hidden{display:none}
-  @media (min-width:720px){
-    .wrap{padding-top:30px}
-    h1{font-size:30px}
-    .control-grid{grid-template-columns:minmax(240px,1.4fr) minmax(180px,1fr);align-items:end}
-    .controls{border:1px solid var(--line);border-radius:8px;margin:22px 0 20px}
-    .card{padding:16px 18px}
+  .chip-block{min-width:0}
+  .chip-row{display:flex;align-items:center;gap:5px;flex-wrap:wrap}
+  .chip input{position:absolute;opacity:0;pointer-events:none}
+  .chip span{display:inline-flex;align-items:center;justify-content:center;min-height:25px;border:1px solid var(--line);border-radius:999px;background:#fff;color:var(--muted);font-size:12px;font-weight:650;line-height:1;padding:5px 8px;cursor:pointer;user-select:none}
+  .chip input:checked + span{border-color:var(--accent);background:var(--accent);color:var(--accent-ink)}
+  .chip.warn input:checked + span{border-color:var(--warn);background:var(--warn);color:#fff}
+  .chip input:focus-visible + span{outline:2px solid rgba(31,111,235,.28);outline-offset:2px}
+  .control-footer{display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap;margin-top:7px}
+  .result-count{color:var(--muted);font-size:12px;line-height:1.2}
+  .control-actions{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+  button{min-height:28px;border:1px solid var(--line);border-radius:7px;background:#fff;color:var(--ink);font:inherit;font-size:12px;line-height:1.1;padding:5px 8px;cursor:pointer}
+  button:hover{border-color:#c9ced8;background:#fbfbfc}
+  button:focus-visible{outline:2px solid rgba(31,111,235,.28);outline-offset:2px}
+  .list{display:block}
+  .school-group{margin:0}
+  .school-head{position:sticky;top:var(--control-h);z-index:3;display:flex;align-items:center;justify-content:space-between;gap:10px;background:#f7f8fa;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:4px 8px;font-size:12px;line-height:1.2}
+  .school-name{font-weight:750;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .school-count{flex:0 0 auto;color:var(--muted);font-variant-numeric:tabular-nums}
+  .opening-row{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:start;gap:0 8px;border-bottom:1px solid var(--line);padding:5px 0}
+  .row-main{min-width:0;display:flex;align-items:center;gap:2px 5px;flex-wrap:wrap;font-size:13px;line-height:1.35}
+  .faculty{font-weight:750;color:var(--ink);text-decoration:none;white-space:nowrap}
+  .faculty:hover{color:var(--accent);text-decoration:underline}
+  .faculty-arrow{color:var(--accent);font-size:11px;margin-left:2px}
+  .sep{color:#9aa1ad}
+  .topic{min-width:8ch;flex:1 1 260px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--ink)}
+  .badge{display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--line);border-radius:999px;background:#f6f8fb;color:#334155;font-size:11px;font-weight:750;line-height:1;padding:3px 6px;white-space:nowrap}
+  .badge.short{border-color:rgba(180,83,9,.28);background:#fff7ed;color:var(--warn)}
+  .badge.long{color:var(--muted);background:#fff}
+  .when,.contact{min-width:0;color:var(--muted);font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .when{max-width:210px}
+  .contact{max-width:170px}
+  .contact a{color:var(--accent);text-decoration:none}
+  .contact a:hover{text-decoration:underline}
+  .details-toggle{grid-column:2;grid-row:1;justify-self:end;min-height:23px;border-radius:6px;color:var(--muted);font-size:12px;line-height:1;padding:3px 7px}
+  .details-toggle:after{content:"⌄";font-size:12px;margin-left:4px;color:var(--muted)}
+  .details-toggle[aria-expanded="true"]{border-color:#c9ced8;color:var(--ink)}
+  .details-toggle[aria-expanded="true"]:after{content:"⌃"}
+  .detail-panel{grid-column:1 / -1;margin-top:5px;padding:6px 8px;background:#fbfbfc;border:1px solid var(--line);border-radius:7px;color:var(--muted);font-size:12px}
+  .detail-panel[hidden]{display:none}
+  .detail-panel dl{display:grid;grid-template-columns:auto minmax(0,1fr);gap:3px 8px;margin:0}
+  .detail-panel dt{color:var(--ink);font-weight:700;white-space:nowrap}
+  .detail-panel dd{margin:0;min-width:0;overflow-wrap:anywhere}
+  .detail-panel a{color:var(--accent);text-decoration:none}
+  .detail-panel a:hover{text-decoration:underline}
+  .empty{border:1px solid var(--line);border-radius:8px;margin:10px 0 0;padding:20px 14px;text-align:center;color:var(--muted);background:#fbfbfc;font-size:14px}
+  .hidden{display:none!important}
+  @media (min-width:760px){
+    .wrap{padding-top:20px}
+    h1{font-size:26px}
+    .controls{border:1px solid var(--line);border-radius:8px;margin:0 0 10px;padding:8px}
+    .control-grid{grid-template-columns:minmax(190px,1.15fr) minmax(160px,.85fr) minmax(120px,.62fr) minmax(245px,1.35fr);align-items:end}
+    .school-head{padding-left:10px;padding-right:10px}
+    .opening-row{padding-left:4px;padding-right:4px}
   }
+  @media (max-width:620px){
+    .wrap{padding-left:12px;padding-right:12px}
+    .nav{padding-left:12px;padding-right:12px}
+    .hero{display:block}
+    .source-button{margin-top:8px;width:100%;white-space:normal;text-align:center}
+    .controls{margin-left:-12px;margin-right:-12px;padding-left:12px;padding-right:12px}
+    .control-grid{grid-template-columns:1fr}
+    .chip-row{gap:4px}
+    .chip span{min-height:24px;padding:5px 7px}
+    .school-head{top:var(--control-h);padding:5px 7px}
+    .opening-row{grid-template-columns:minmax(0,1fr) auto;padding:6px 0}
+    .row-main{font-size:12.5px;gap:2px 4px}
+    .topic{flex-basis:100%;white-space:nowrap}
+    .when{max-width:165px}
+    .contact{max-width:130px}
+    .detail-panel{font-size:12px}
+    .detail-panel dl{grid-template-columns:1fr;gap:1px}
+    .detail-panel dd + dt{margin-top:3px}
+  }
+  footer{max-width:900px;margin:0 auto;padding:18px;border-top:1px solid var(--line);font-size:12px;color:var(--muted);text-align:center}
+  footer a{color:var(--muted)}
 </style>
 </head>
 <body>
@@ -83,20 +113,19 @@
   </div>
 </nav>
 <main class="wrap">
-  <header>
-    <h1>PhD / RA / Postdoc 机会</h1>
-    <p class="meta" id="summary">正在读取机会数据...</p>
-    <div class="pi-cta-row">
-      <a class="pi-cta" href="https://tinyurl.com/2026phd" target="_blank" rel="noopener">PI:在 Google 源表格添加 / 更新招聘 →</a>
-      <span class="pi-note">学生在本页浏览检索;招聘由 PI 在源表格维护,每日自动同步。</span>
+  <header class="hero">
+    <div>
+      <h1>PhD / RA / Postdoc 机会</h1>
+      <p class="meta" id="summaryLine">正在读取机会数据...</p>
     </div>
+    <a class="source-button" id="sourceButton" href="#" target="_blank" rel="noopener" hidden>PI:在 Google 源表格添加 / 更新招聘 →</a>
   </header>
 
-  <section class="controls" aria-label="筛选机会">
+  <section class="controls" id="controls" aria-label="筛选机会">
     <div class="control-grid">
       <div class="field">
         <label for="searchInput">关键词</label>
-        <input id="searchInput" type="search" placeholder="学校、导师、方向" autocomplete="off" />
+        <input id="searchInput" type="search" placeholder="学校、导师、方向" autocomplete="off">
       </div>
       <div class="field">
         <label for="universitySelect">学校</label>
@@ -104,57 +133,71 @@
           <option value="">全部学校</option>
         </select>
       </div>
-    </div>
-    <div>
-      <span class="chip-label">类别(短期含截止日期,更新更频繁)</span>
-      <div class="chip-row" id="categoryFilters">
-        <label class="chip-box cat"><input type="checkbox" value="短期" /><span>短期 / 当前</span></label>
-        <label class="chip-box cat"><input type="checkbox" value="长期" /><span>长期</span></label>
+      <div class="chip-block">
+        <span class="chip-label">时效</span>
+        <div class="chip-row" id="categoryFilters">
+          <label class="chip warn"><input type="checkbox" value="短期"><span>短期</span></label>
+          <label class="chip"><input type="checkbox" value="长期"><span>长期</span></label>
+        </div>
       </div>
-    </div>
-    <div>
-      <span class="chip-label">类型</span>
-      <div class="chip-row" id="typeFilters">
-        <label class="chip-box"><input type="checkbox" value="PhD" /><span>PhD</span></label>
-        <label class="chip-box"><input type="checkbox" value="RA" /><span>RA</span></label>
-        <label class="chip-box"><input type="checkbox" value="Postdoc" /><span>Postdoc</span></label>
-        <label class="chip-box"><input type="checkbox" value="Intern" /><span>Intern</span></label>
+      <div class="chip-block">
+        <span class="chip-label">类型</span>
+        <div class="chip-row" id="typeFilters">
+          <label class="chip"><input type="checkbox" value="PhD"><span>PhD</span></label>
+          <label class="chip"><input type="checkbox" value="RA"><span>RA</span></label>
+          <label class="chip"><input type="checkbox" value="Postdoc"><span>Postdoc</span></label>
+          <label class="chip"><input type="checkbox" value="Intern"><span>Intern</span></label>
+        </div>
       </div>
     </div>
     <div class="control-footer">
       <div class="result-count" id="resultCount" aria-live="polite">显示 0 / 0</div>
-      <button type="button" id="resetButton">清除筛选</button>
+      <div class="control-actions">
+        <button type="button" id="toggleDetails" aria-pressed="false">全部展开</button>
+        <button type="button" id="resetButton">清除筛选</button>
+      </div>
     </div>
   </section>
 
-  <section class="list" id="results" aria-label="机会列表(按学校汇总)"></section>
+  <section class="list" id="results" aria-label="机会列表"></section>
   <p class="empty hidden" id="emptyMessage"></p>
 </main>
+<footer>由 <a href="https://yzhao062.github.io" target="_blank" rel="noopener">Yue Zhao</a>(USC)发起与维护 · <a href="mailto:contact@csphd.org">contact@csphd.org</a> · csphd.org · <a href="./privacy.html">隐私与使用说明</a></footer>
 <script src="./data/openings.js"></script>
 <script>
 (function(){
-  var data = window.OPENINGS || {};
-  var openings = Array.isArray(data.openings) ? data.openings : [];
-  var total = Number(data.count) || openings.length;
-  var summary = document.getElementById("summary");
+  "use strict";
+
+  var rawData = window.OPENINGS;
+  var hasData = rawData && Array.isArray(rawData.openings);
+  var data = hasData ? rawData : {};
+  var openings = hasData ? data.openings.map(function(item, index){
+    return { item: item || {}, index: index };
+  }) : [];
+
+  var summaryLine = document.getElementById("summaryLine");
+  var sourceButton = document.getElementById("sourceButton");
+  var controls = document.getElementById("controls");
   var searchInput = document.getElementById("searchInput");
   var universitySelect = document.getElementById("universitySelect");
-  var categoryFilters = document.getElementById("categoryFilters");
-  var typeFilters = document.getElementById("typeFilters");
-  var categoryInputs = Array.prototype.slice.call(categoryFilters.querySelectorAll("input[type='checkbox']"));
-  var typeInputs = Array.prototype.slice.call(typeFilters.querySelectorAll("input[type='checkbox']"));
+  var categoryInputs = Array.prototype.slice.call(document.querySelectorAll("#categoryFilters input[type='checkbox']"));
+  var typeInputs = Array.prototype.slice.call(document.querySelectorAll("#typeFilters input[type='checkbox']"));
   var resultCount = document.getElementById("resultCount");
+  var toggleDetails = document.getElementById("toggleDetails");
   var resetButton = document.getElementById("resetButton");
   var results = document.getElementById("results");
   var emptyMessage = document.getElementById("emptyMessage");
+  var expanded = false;
   var searchTimer = 0;
+  var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
   function text(value){
     return value == null ? "" : String(value).trim();
   }
 
-  function isEmail(value){
-    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(text(value));
+  function numberOrNull(value){
+    var number = Number(value);
+    return Number.isFinite(number) ? number : null;
   }
 
   function safeUrl(value){
@@ -162,40 +205,79 @@
     if (!raw) return "";
     try {
       var url = new URL(raw, window.location.href);
-      return url.protocol === "http:" || url.protocol === "https:" ? url.href : "";
-    } catch (error) {
-      return "";
+      if (url.protocol === "http:" || url.protocol === "https:") return url.href;
+    } catch (error) {}
+    return "";
+  }
+
+  function normalizedSchool(item){
+    return text(item.university) || "未注明学校";
+  }
+
+  function categoryOf(item){
+    return text(item.category) === "短期" ? "短期" : "长期";
+  }
+
+  function createText(tag, className, value){
+    var element = document.createElement(tag);
+    if (className) element.className = className;
+    element.textContent = text(value);
+    return element;
+  }
+
+  function appendPlain(parent, value){
+    parent.appendChild(document.createTextNode(value));
+  }
+
+  function clearElement(element){
+    while (element.firstChild) element.removeChild(element.firstChild);
+  }
+
+  function selectedValues(inputs){
+    return inputs.filter(function(input){ return input.checked; }).map(function(input){ return input.value; });
+  }
+
+  function totalCount(){
+    return numberOrNull(data.count) || openings.length;
+  }
+
+  function computedCounts(){
+    var shortCount = numberOrNull(data.shortterm);
+    var longCount = numberOrNull(data.longterm);
+    if (shortCount == null) {
+      shortCount = openings.filter(function(entry){ return categoryOf(entry.item) === "短期"; }).length;
+    }
+    if (longCount == null) {
+      longCount = openings.filter(function(entry){ return categoryOf(entry.item) !== "短期"; }).length;
+    }
+    return { shortCount: shortCount, longCount: longCount };
+  }
+
+  function setStickyOffset(){
+    if (!controls) return;
+    var height = Math.ceil(controls.getBoundingClientRect().height);
+    document.documentElement.style.setProperty("--control-h", height + "px");
+  }
+
+  function setupHeader(){
+    if (!hasData) {
+      summaryLine.textContent = "未能读取机会数据，请稍后刷新。";
+      return;
+    }
+    var schools = new Set(openings.map(function(entry){ return normalizedSchool(entry.item); }));
+    var counts = computedCounts();
+    var synced = text(data.synced) || "未注明";
+    summaryLine.textContent = "共 " + totalCount() + " 个机会(短期 " + counts.shortCount + " · 长期 " + counts.longCount + ") · " + schools.size + " 所学校 · 最近更新 " + synced;
+    var source = safeUrl(data.source);
+    if (source) {
+      sourceButton.href = source;
+      sourceButton.hidden = false;
     }
   }
 
-  function makeText(tag, className, value){
-    var el = document.createElement(tag);
-    if (className) el.className = className;
-    el.textContent = text(value);
-    return el;
-  }
-
-  function makeBadge(value, extraClass){
-    return makeText("span", "badge" + (extraClass ? " " + extraClass : ""), value);
-  }
-
-  function setEmpty(message){
-    results.replaceChildren();
-    emptyMessage.textContent = message;
-    emptyMessage.classList.remove("hidden");
-  }
-
-  function updateSummary(){
-    if (!openings.length) { summary.textContent = "暂无机会数据"; return; }
-    var schools = new Set(openings.map(function(item){ return text(item.university); }).filter(Boolean));
-    var shortN = Number(data.shortterm) || openings.filter(function(i){ return text(i.category) === "短期"; }).length;
-    var longN = Number(data.longterm) || openings.filter(function(i){ return text(i.category) === "长期"; }).length;
-    summary.textContent = "共 " + total + " 个机会(短期 " + shortN + " · 长期 " + longN + ") · " + schools.size + " 所学校 · 最近更新 " + text(data.synced);
-  }
-
-  function fillUniversities(){
-    var schools = Array.from(new Set(openings.map(function(item){ return text(item.university); }).filter(Boolean)));
-    schools.sort(function(a,b){ return a.localeCompare(b, "en"); });
+  function setupUniversities(){
+    var schools = Array.from(new Set(openings.map(function(entry){ return normalizedSchool(entry.item); })));
+    schools.sort(function(a, b){ return a.localeCompare(b, "en", { sensitivity: "base" }); });
     schools.forEach(function(school){
       var option = document.createElement("option");
       option.value = school;
@@ -204,158 +286,279 @@
     });
   }
 
-  function checkedValues(inputs){
-    return inputs.filter(function(input){ return input.checked; }).map(function(input){ return input.value; });
-  }
-
-  function matchesOpening(item, query, school, categories, types){
-    if (school && text(item.university) !== school) return false;
-    if (categories.length && categories.indexOf(text(item.category)) === -1) return false;
+  function matches(entry, query, school, categories, types){
+    var item = entry.item;
+    var itemSchool = normalizedSchool(item);
+    if (school && itemSchool !== school) return false;
+    if (categories.length && categories.indexOf(categoryOf(item)) === -1) return false;
     if (query) {
-      var haystack = [item.university, item.faculty, item.interests].map(text).join(" ").toLowerCase();
+      var haystack = [itemSchool, text(item.faculty), text(item.interests)].join(" ").toLowerCase();
       if (haystack.indexOf(query) === -1) return false;
     }
     if (types.length) {
-      var itemTypes = Array.isArray(item.types) ? item.types.map(text) : [];
+      var itemTypes = Array.isArray(item.types) ? item.types.map(text).filter(Boolean) : [];
       if (!types.some(function(type){ return itemTypes.indexOf(type) !== -1; })) return false;
     }
     return true;
   }
 
-  function renderCard(item){
-    var card = document.createElement("article");
-    card.className = "card";
+  function groupEntries(entries){
+    var map = new Map();
+    entries.forEach(function(entry){
+      var school = normalizedSchool(entry.item);
+      if (!map.has(school)) map.set(school, []);
+      map.get(school).push(entry);
+    });
+    var groups = Array.from(map.keys()).map(function(school){
+      var items = map.get(school).slice();
+      items.sort(function(a, b){
+        var catA = categoryOf(a.item) === "短期" ? 0 : 1;
+        var catB = categoryOf(b.item) === "短期" ? 0 : 1;
+        if (catA !== catB) return catA - catB;
+        return a.index - b.index;
+      });
+      return {
+        school: school,
+        hasShort: items.some(function(entry){ return categoryOf(entry.item) === "短期"; }),
+        items: items
+      };
+    });
+    groups.sort(function(a, b){
+      if (a.hasShort !== b.hasShort) return a.hasShort ? -1 : 1;
+      return a.school.localeCompare(b.school, "en", { sensitivity: "base" });
+    });
+    return groups;
+  }
+
+  function makeFaculty(item){
+    var faculty = text(item.faculty) || "未注明导师";
+    var homepage = safeUrl(item.homepage);
+    if (!homepage) return createText("span", "faculty", faculty);
+    var link = createText("a", "faculty", faculty);
+    link.href = homepage;
+    link.target = "_blank";
+    link.rel = "noopener";
+    link.title = "导师主页";
+    var arrow = createText("span", "faculty-arrow", "↗");
+    link.appendChild(arrow);
+    return link;
+  }
+
+  function makeBadge(value, extraClass){
+    return createText("span", "badge" + (extraClass ? " " + extraClass : ""), value);
+  }
+
+  function makeContact(value){
+    var contactText = text(value);
+    var holder = document.createElement("span");
+    holder.className = "contact";
+    if (!contactText) return holder;
+    appendPlain(holder, "联系:");
+    if (emailPattern.test(contactText)) {
+      var link = createText("a", "", contactText);
+      link.href = "mailto:" + contactText;
+      link.target = "_blank";
+      link.rel = "noopener";
+      holder.appendChild(link);
+    } else {
+      appendPlain(holder, contactText);
+    }
+    holder.title = contactText;
+    return holder;
+  }
+
+  function appendDetailRow(dl, label, value, asContact){
+    var content = text(value);
+    if (!content) return;
+    dl.appendChild(createText("dt", "", label));
+    var dd = document.createElement("dd");
+    if (asContact && emailPattern.test(content)) {
+      var link = createText("a", "", content);
+      link.href = "mailto:" + content;
+      link.target = "_blank";
+      link.rel = "noopener";
+      dd.appendChild(link);
+    } else {
+      dd.textContent = content;
+    }
+    dl.appendChild(dd);
+  }
+
+  function makeDetailPanel(entry){
+    var item = entry.item;
+    var panel = document.createElement("div");
+    panel.className = "detail-panel";
+    panel.hidden = !expanded;
+    var dl = document.createElement("dl");
+    appendDetailRow(dl, "职位", item.positions, false);
+    appendDetailRow(dl, "要求", item.requirements, false);
+    appendDetailRow(dl, "材料", item.materials, false);
+    appendDetailRow(dl, "学期", item.term, false);
+    appendDetailRow(dl, "截止", item.deadline, false);
+    appendDetailRow(dl, "联系", item.contact, true);
+    if (!dl.children.length) {
+      dl.appendChild(createText("dt", "", "信息"));
+      dl.appendChild(createText("dd", "", "暂无更多信息"));
+    }
+    panel.appendChild(dl);
+    return panel;
+  }
+
+  function makeRow(entry){
+    var item = entry.item;
+    var category = categoryOf(item);
+    var row = document.createElement("article");
+    row.className = "opening-row";
+
+    var main = document.createElement("div");
+    main.className = "row-main";
+    main.appendChild(makeFaculty(item));
+    main.appendChild(createText("span", "sep", "·"));
+
+    var topic = createText("span", "topic", text(item.interests) || "方向未注明");
+    topic.title = text(item.interests);
+    main.appendChild(topic);
+
+    var itemTypes = Array.isArray(item.types) ? item.types.map(text).filter(Boolean) : [];
+    itemTypes.forEach(function(type){
+      main.appendChild(makeBadge(type, ""));
+    });
+
+    if (category === "短期") {
+      main.appendChild(makeBadge("短期", "short"));
+      var deadline = text(item.deadline) || "未注明截止";
+      var deadlineEl = createText("span", "when", "截止:" + deadline);
+      deadlineEl.title = deadline;
+      main.appendChild(deadlineEl);
+    } else {
+      main.appendChild(makeBadge("长期", "long"));
+      var term = text(item.term) || "长期";
+      var termEl = createText("span", "when", "学期:" + term);
+      termEl.title = term;
+      main.appendChild(termEl);
+    }
+
+    var contact = makeContact(item.contact);
+    if (contact.textContent) main.appendChild(contact);
+
+    var detailButton = document.createElement("button");
+    detailButton.type = "button";
+    detailButton.className = "details-toggle";
+    detailButton.textContent = "详情";
+    detailButton.setAttribute("aria-expanded", expanded ? "true" : "false");
+    var panel = makeDetailPanel(entry);
+    detailButton.addEventListener("click", function(){
+      var isOpen = detailButton.getAttribute("aria-expanded") === "true";
+      detailButton.setAttribute("aria-expanded", isOpen ? "false" : "true");
+      panel.hidden = isOpen;
+    });
+
+    row.appendChild(main);
+    row.appendChild(detailButton);
+    row.appendChild(panel);
+    return row;
+  }
+
+  function makeGroup(group){
+    var section = document.createElement("section");
+    section.className = "school-group";
 
     var head = document.createElement("div");
-    head.className = "card-head";
-    var homepage = safeUrl(item.homepage);
-    var facultyName = text(item.faculty);
-    if (homepage) {
-      var facultyLink = makeText("a", "faculty", facultyName);
-      facultyLink.href = homepage;
-      facultyLink.target = "_blank";
-      facultyLink.rel = "noopener";
-      head.appendChild(facultyLink);
-    } else if (facultyName) {
-      head.appendChild(makeText("span", "faculty", facultyName));
-    }
+    head.className = "school-head";
+    head.appendChild(createText("div", "school-name", group.school));
+    head.appendChild(createText("div", "school-count", "· " + group.items.length));
+    section.appendChild(head);
 
-    var category = text(item.category);
-    if (category === "短期") head.appendChild(makeBadge("短期", "cat-short"));
-    else if (category === "长期") head.appendChild(makeBadge("长期", "cat-long"));
-
-    var term = text(item.term);
-    if (term) head.appendChild(makeBadge(term, ""));
-    if (Array.isArray(item.types)) {
-      item.types.map(text).filter(Boolean).forEach(function(type){
-        head.appendChild(makeBadge(type, "type"));
-      });
-    }
-    card.appendChild(head);
-
-    var interests = text(item.interests);
-    if (interests) card.appendChild(makeText("p", "interests", interests));
-
-    var positions = text(item.positions);
-    if (positions) card.appendChild(makeText("p", "positions", positions));
-
-    var deadline = text(item.deadline);
-    if (deadline) card.appendChild(makeText("p", "deadline", "⏰ " + deadline));
-
-    var details = document.createElement("dl");
-    details.className = "details";
-    [
-      ["要求", item.requirements, false],
-      ["材料", item.materials, false],
-      ["联系", item.contact, true]
-    ].forEach(function(pair){
-      var value = text(pair[1]);
-      if (!value) return;
-      var row = document.createElement("div");
-      var dt = makeText("dt", "", pair[0]);
-      var dd;
-      if (pair[2] && isEmail(value)) {
-        dd = document.createElement("dd");
-        var mail = document.createElement("a");
-        mail.href = "mailto:" + value;
-        mail.textContent = value;
-        dd.appendChild(mail);
-      } else {
-        dd = makeText("dd", "", value);
-      }
-      row.append(dt, dd);
-      details.appendChild(row);
+    group.items.forEach(function(entry){
+      section.appendChild(makeRow(entry));
     });
-    if (details.children.length) card.appendChild(details);
+    return section;
+  }
 
-    return card;
+  function showEmpty(message){
+    clearElement(results);
+    emptyMessage.textContent = message;
+    emptyMessage.classList.remove("hidden");
   }
 
   function render(){
+    setStickyOffset();
+    if (!hasData) {
+      resultCount.textContent = "显示 0 / 0";
+      showEmpty("机会数据暂时不可用。请稍后刷新页面，或从首页重新进入。");
+      return;
+    }
+
     var query = text(searchInput.value).toLowerCase();
     var school = universitySelect.value;
-    var categories = checkedValues(categoryInputs);
-    var types = checkedValues(typeInputs);
-    var filtered = openings.filter(function(item){ return matchesOpening(item, query, school, categories, types); });
-    resultCount.textContent = "显示 " + filtered.length + " / " + total;
-
-    if (!openings.length) {
-      setEmpty("机会数据暂时不可用,请稍后再试。");
-      return;
-    }
-    if (!filtered.length) {
-      setEmpty("没有匹配的机会。请调整关键词、学校或筛选条件。");
-      return;
-    }
-
-    // group by school so each school appears once as a header
-    var bySchool = new Map();
-    filtered.forEach(function(item){
-      var u = text(item.university) || "其他";
-      if (!bySchool.has(u)) bySchool.set(u, []);
-      bySchool.get(u).push(item);
+    var categories = selectedValues(categoryInputs);
+    var types = selectedValues(typeInputs);
+    var filtered = openings.filter(function(entry){
+      return matches(entry, query, school, categories, types);
     });
-    var schools = Array.from(bySchool.keys()).sort(function(a,b){ return a.localeCompare(b, "en"); });
+    resultCount.textContent = "显示 " + filtered.length + " / " + totalCount();
+
+    if (!filtered.length) {
+      showEmpty("没有匹配的机会。请调整关键词、学校、时效或类型筛选。");
+      return;
+    }
 
     var fragment = document.createDocumentFragment();
-    schools.forEach(function(u){
-      var items = bySchool.get(u);
-      var group = document.createElement("section");
-      group.className = "school-group";
-      var head = document.createElement("h2");
-      head.className = "school-head";
-      head.appendChild(makeText("span", "school-name", u));
-      head.appendChild(makeText("span", "school-count", items.length + " 个机会"));
-      group.appendChild(head);
-      items.forEach(function(item){ group.appendChild(renderCard(item)); });
-      fragment.appendChild(group);
+    groupEntries(filtered).forEach(function(group){
+      fragment.appendChild(makeGroup(group));
     });
-
     emptyMessage.classList.add("hidden");
     emptyMessage.textContent = "";
-    results.replaceChildren(fragment);
+    clearElement(results);
+    results.appendChild(fragment);
   }
 
   function scheduleRender(){
     window.clearTimeout(searchTimer);
-    searchTimer = window.setTimeout(render, 120);
+    searchTimer = window.setTimeout(render, 80);
   }
+
+  function updateToggleButton(){
+    toggleDetails.textContent = expanded ? "全部收起" : "全部展开";
+    toggleDetails.setAttribute("aria-pressed", expanded ? "true" : "false");
+  }
+
+  toggleDetails.addEventListener("click", function(){
+    expanded = !expanded;
+    updateToggleButton();
+    Array.prototype.forEach.call(results.querySelectorAll(".details-toggle"), function(button){
+      button.setAttribute("aria-expanded", expanded ? "true" : "false");
+    });
+    Array.prototype.forEach.call(results.querySelectorAll(".detail-panel"), function(panel){
+      panel.hidden = !expanded;
+    });
+  });
 
   resetButton.addEventListener("click", function(){
     searchInput.value = "";
     universitySelect.value = "";
-    categoryInputs.forEach(function(input){ input.checked = false; });
-    typeInputs.forEach(function(input){ input.checked = false; });
+    categoryInputs.concat(typeInputs).forEach(function(input){ input.checked = false; });
+    expanded = false;
+    updateToggleButton();
     render();
     searchInput.focus();
   });
+
   searchInput.addEventListener("input", scheduleRender);
   universitySelect.addEventListener("change", render);
-  categoryInputs.forEach(function(input){ input.addEventListener("change", render); });
-  typeInputs.forEach(function(input){ input.addEventListener("change", render); });
+  categoryInputs.concat(typeInputs).forEach(function(input){
+    input.addEventListener("change", render);
+  });
+  window.addEventListener("resize", function(){
+    window.clearTimeout(searchTimer);
+    searchTimer = window.setTimeout(function(){
+      setStickyOffset();
+    }, 80);
+  });
 
-  updateSummary();
-  fillUniversities();
+  setupHeader();
+  setupUniversities();
+  updateToggleButton();
   render();
 })();
 </script>

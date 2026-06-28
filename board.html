@@ -118,7 +118,7 @@
       <h1>PhD / RA / Postdoc 机会</h1>
       <p class="meta" id="summaryLine">正在读取机会数据...</p>
     </div>
-    <a class="source-button" id="sourceButton" href="#" target="_blank" rel="noopener" hidden>PI:在 Google 源表格添加 / 更新招聘 →</a>
+    <a class="source-button" id="sourceButton" href="#" target="_blank" rel="noopener" hidden>PI：在 Google 源表格添加 / 更新招聘 →</a>
   </header>
 
   <section class="controls" id="controls" aria-label="筛选机会">
@@ -267,7 +267,7 @@
     var schools = new Set(openings.map(function(entry){ return normalizedSchool(entry.item); }));
     var counts = computedCounts();
     var synced = text(data.synced) || "未注明";
-    summaryLine.textContent = "共 " + totalCount() + " 个机会(短期 " + counts.shortCount + " · 长期 " + counts.longCount + ") · " + schools.size + " 所学校 · 最近更新 " + synced;
+    summaryLine.textContent = "共 " + totalCount() + " 个机会（短期 " + counts.shortCount + " · 长期 " + counts.longCount + "） · " + schools.size + " 所学校 · 最近更新 " + synced;
     var source = safeUrl(data.source);
     if (source) {
       sourceButton.href = source;
@@ -353,7 +353,7 @@
     var holder = document.createElement("span");
     holder.className = "contact";
     if (!contactText) return holder;
-    appendPlain(holder, "联系:");
+    appendPlain(holder, "联系：");
     if (emailPattern.test(contactText)) {
       var link = createText("a", "", contactText);
       link.href = "mailto:" + contactText;
@@ -428,13 +428,13 @@
     if (category === "短期") {
       main.appendChild(makeBadge("短期", "short"));
       var deadline = text(item.deadline) || "未注明截止";
-      var deadlineEl = createText("span", "when", "截止:" + deadline);
+      var deadlineEl = createText("span", "when", "截止：" + deadline);
       deadlineEl.title = deadline;
       main.appendChild(deadlineEl);
     } else {
       main.appendChild(makeBadge("长期", "long"));
       var term = text(item.term) || "长期";
-      var termEl = createText("span", "when", "学期:" + term);
+      var termEl = createText("span", "when", "学期：" + term);
       termEl.title = term;
       main.appendChild(termEl);
     }

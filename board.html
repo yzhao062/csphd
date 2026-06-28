@@ -40,9 +40,11 @@
   button:focus-visible{outline:2px solid rgba(31,111,235,.28);outline-offset:2px}
   .list{display:block}
   .school-group{margin:0}
-  .school-head{position:sticky;top:var(--control-h);z-index:3;display:flex;align-items:center;justify-content:space-between;gap:10px;background:#f7f8fa;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:4px 8px;font-size:12px;line-height:1.2}
-  .school-name{font-weight:750;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-  .school-count{flex:0 0 auto;color:var(--muted);font-variant-numeric:tabular-nums}
+  .school-head{position:sticky;top:var(--control-h);z-index:3;display:flex;align-items:center;justify-content:space-between;gap:10px;background:#eef2f8;border-top:1px solid var(--line);border-bottom:1px solid #d6dde8;border-left:3px solid var(--accent);padding:6px 10px;font-size:13px;line-height:1.25}
+  .school-name{font-weight:800;color:var(--ink);min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .school-count{flex:0 0 auto;color:var(--muted);font-size:12px;font-variant-numeric:tabular-nums}
+  .school-count .short{color:var(--warn);font-weight:750}
+  .term-block{margin-top:8px}
   .opening-row{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:start;gap:0 8px;border-bottom:1px solid var(--line);padding:5px 0}
   .row-main{min-width:0;display:flex;align-items:center;gap:2px 5px;flex-wrap:wrap;font-size:13px;line-height:1.35}
   .faculty{font-weight:750;color:var(--ink);text-decoration:none;white-space:nowrap}
@@ -151,6 +153,10 @@
         </div>
       </div>
     </div>
+    <div class="chip-block term-block">
+      <span class="chip-label">学期</span>
+      <div class="chip-row" id="termFilters"></div>
+    </div>
     <div class="control-footer">
       <div class="result-count" id="resultCount" aria-live="polite">显示 0 / 0</div>
       <div class="control-actions">
@@ -183,6 +189,8 @@
   var universitySelect = document.getElementById("universitySelect");
   var categoryInputs = Array.prototype.slice.call(document.querySelectorAll("#categoryFilters input[type='checkbox']"));
   var typeInputs = Array.prototype.slice.call(document.querySelectorAll("#typeFilters input[type='checkbox']"));
+  var termFilters = document.getElementById("termFilters");
+  var termInputs = [];
   var resultCount = document.getElementById("resultCount");
   var toggleDetails = document.getElementById("toggleDetails");
   var resetButton = document.getElementById("resetButton");
@@ -217,6 +225,74 @@
 
   function categoryOf(item){
     return text(item.category) === "短期" ? "短期" : "长期";
+  }
+
+  var SEASON_ORDER = { "Spring": 0, "Summer": 1, "Fall": 2 };
+
+  // The source `term` field is free-text ("26 Fall", "2026 Spring/Fall", "25 Fall/26 Spring",
+  // typos like "Sping"). Normalize each into a set of clean "YYYY Season" tags so the filter
+  // can bucket reliably; each season is attached to its nearest preceding year (then following).
+  function parseTerms(raw){
+    var s = text(raw).toLowerCase();
+    if (!s) return [];
+    s = s.replace(/sping/g, "spring").replace(/autumn/g, "fall");
+    var rolling = /all year|year ?round|rolling|immediately|any ?time|long-?term effective|always welcome/.test(s);
+    var seq = [];
+    var tokenRe = /(20\d{2}|\d{2})|(spring|summer|fall)/g;
+    var match;
+    while ((match = tokenRe.exec(s))) {
+      if (match[1]) {
+        var num = parseInt(match[1], 10);
+        var year = num < 100 ? 2000 + num : num;
+        if (year >= 2020 && year <= 2035) seq.push({ year: year });
+      } else {
+        seq.push({ season: match[2].charAt(0).toUpperCase() + match[2].slice(1) });
+      }
+    }
+    var seen = {};
+    var tags = [];
+    seq.forEach(function(token, i){
+      if (!token.season) return;
+      var year = null, j;
+      for (j = i - 1; j >= 0; j--) { if (seq[j].year != null) { year = seq[j].year; break; } }
+      if (year == null) { for (j = i + 1; j < seq.length; j++) { if (seq[j].year != null) { year = seq[j].year; break; } } }
+      if (year == null) return;
+      var label = year + " " + token.season;
+      if (!seen[label]) { seen[label] = true; tags.push(label); }
+    });
+    if (rolling && !tags.length) tags.push("滚动/全年");
+    return tags;
+  }
+
+  function setupTerms(){
+    var counts = {};
+    openings.forEach(function(entry){
+      entry.terms = parseTerms(entry.item.term);
+      entry.terms.forEach(function(tag){ counts[tag] = (counts[tag] || 0) + 1; });
+    });
+    var labels = Object.keys(counts);
+    labels.sort(function(a, b){
+      if (a === "滚动/全年") return 1;
+      if (b === "滚动/全年") return -1;
+      var pa = a.split(" "), pb = b.split(" ");
+      var ya = parseInt(pa[0], 10), yb = parseInt(pb[0], 10);
+      if (ya !== yb) return ya - yb;
+      return (SEASON_ORDER[pa[1]] || 0) - (SEASON_ORDER[pb[1]] || 0);
+    });
+    labels.forEach(function(label){
+      var chip = document.createElement("label");
+      chip.className = "chip";
+      var input = document.createElement("input");
+      input.type = "checkbox";
+      input.value = label;
+      var span = document.createElement("span");
+      span.textContent = label + " · " + counts[label];
+      chip.appendChild(input);
+      chip.appendChild(span);
+      termFilters.appendChild(chip);
+    });
+    termInputs = Array.prototype.slice.call(termFilters.querySelectorAll("input[type='checkbox']"));
+    termInputs.forEach(function(input){ input.addEventListener("change", render); });
   }
 
   function createText(tag, className, value){
@@ -287,7 +363,7 @@
     });
   }
 
-  function matches(entry, query, school, categories, types){
+  function matches(entry, query, school, categories, types, terms){
     var item = entry.item;
     var itemSchool = normalizedSchool(item);
     if (school && itemSchool !== school) return false;
@@ -299,6 +375,10 @@
     if (types.length) {
       var itemTypes = Array.isArray(item.types) ? item.types.map(text).filter(Boolean) : [];
       if (!types.some(function(type){ return itemTypes.indexOf(type) !== -1; })) return false;
+    }
+    if (terms && terms.length) {
+      var entryTerms = entry.terms || [];
+      if (!terms.some(function(term){ return entryTerms.indexOf(term) !== -1; })) return false;
     }
     return true;
   }
@@ -469,7 +549,17 @@
     var head = document.createElement("div");
     head.className = "school-head";
     head.appendChild(createText("div", "school-name", group.school));
-    head.appendChild(createText("div", "school-count", "· " + group.items.length));
+    var count = document.createElement("div");
+    count.className = "school-count";
+    count.appendChild(document.createTextNode(group.items.length + " 个职位"));
+    var shortN = group.items.filter(function(entry){ return categoryOf(entry.item) === "短期"; }).length;
+    if (shortN) {
+      var shortTag = document.createElement("span");
+      shortTag.className = "short";
+      shortTag.textContent = " · " + shortN + " 短期";
+      count.appendChild(shortTag);
+    }
+    head.appendChild(count);
     section.appendChild(head);
 
     group.items.forEach(function(entry){
@@ -496,8 +586,9 @@
     var school = universitySelect.value;
     var categories = selectedValues(categoryInputs);
     var types = selectedValues(typeInputs);
+    var terms = selectedValues(termInputs);
     var filtered = openings.filter(function(entry){
-      return matches(entry, query, school, categories, types);
+      return matches(entry, query, school, categories, types, terms);
     });
     resultCount.textContent = "显示 " + filtered.length + " / " + totalCount();
 
@@ -540,7 +631,7 @@
   resetButton.addEventListener("click", function(){
     searchInput.value = "";
     universitySelect.value = "";
-    categoryInputs.concat(typeInputs).forEach(function(input){ input.checked = false; });
+    categoryInputs.concat(typeInputs).concat(termInputs).forEach(function(input){ input.checked = false; });
     expanded = false;
     updateToggleButton();
     render();
@@ -561,6 +652,7 @@
 
   setupHeader();
   setupUniversities();
+  setupTerms();
   updateToggleButton();
   render();
 })();

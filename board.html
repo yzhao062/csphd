@@ -3,16 +3,16 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>PhD / RA / Postdoc 机会 · CS博士</title>
+<title>PhD / RA / Postdoc 机会 · 博士栈</title>
 <link rel="icon" href="./favicon.svg" type="image/svg+xml">
-<meta name="description" content="CS博士 PhD、RA、Postdoc、Intern 机会列表，按学校分组，可搜索和筛选。">
+<meta name="description" content="博士栈 PhD、RA、Postdoc、Intern 机会列表，按学校分组，可搜索和筛选。">
 <style>
   :root{--ink:#16181d; --muted:#5b6270; --line:#e6e8ec; --bg:#fff; --accent:#1f6feb; --accent-ink:#fff; --warn:#b45309; --soft:#f7f8fa; --control-h:88px}
   *{box-sizing:border-box}
   html,body{margin:0;padding:0}
   body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.45;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
   a{color:inherit}
-  .nav{max-width:900px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:14px 18px;border-bottom:1px solid var(--line)} .nav-brand{font-weight:700;font-size:18px;color:var(--ink);text-decoration:none} .nav-links{display:flex;gap:18px;flex-wrap:wrap;font-size:14px} .nav-links a{color:var(--muted);text-decoration:none} .nav-links a:hover{color:var(--ink)} .nav-links a.active{color:var(--ink);font-weight:600}
+  .nav{max-width:900px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:14px 18px;border-bottom:1px solid var(--line)} .nav-brand{font-weight:700;font-size:18px;color:var(--ink);text-decoration:none} .nav-brand .en{color:var(--muted);font-weight:600;font-size:13px;margin-left:6px} .nav-links{display:flex;gap:18px;flex-wrap:wrap;font-size:14px} .nav-links a{color:var(--muted);text-decoration:none} .nav-links a:hover{color:var(--ink)} .nav-links a.active{color:var(--ink);font-weight:600}
   .wrap{max-width:900px;margin:0 auto;padding:16px 18px 44px}
   .hero{display:flex;align-items:flex-start;justify-content:space-between;gap:14px;margin:6px 0 12px}
   h1{margin:0 0 4px;font-size:24px;line-height:1.2;letter-spacing:0}
@@ -23,19 +23,19 @@
   .controls{position:sticky;top:0;z-index:5;background:var(--bg);border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin:0 -18px 8px;padding:8px 18px}
   .control-grid{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(150px,.8fr);gap:8px}
   .field label,.chip-label{display:block;margin:0 0 3px;color:var(--muted);font-size:11px;font-weight:650;line-height:1.2}
-  input[type="search"],select{width:100%;min-height:34px;border:1px solid var(--line);border-radius:7px;background:#fff;color:var(--ink);font:inherit;font-size:13px;line-height:1.25;padding:7px 9px}
+  input[type="search"],select{width:100%;min-height:36px;border:1px solid var(--line);border-radius:7px;background:#fff;color:var(--ink);font:inherit;font-size:13px;line-height:1.25;padding:7px 9px}
   input[type="search"]:focus,select:focus{outline:2px solid rgba(31,111,235,.18);border-color:var(--accent)}
   .chip-block{min-width:0}
   .chip-row{display:flex;align-items:center;gap:5px;flex-wrap:wrap}
   .chip input{position:absolute;opacity:0;pointer-events:none}
-  .chip span{display:inline-flex;align-items:center;justify-content:center;min-height:25px;border:1px solid var(--line);border-radius:999px;background:#fff;color:var(--muted);font-size:12px;font-weight:650;line-height:1;padding:5px 8px;cursor:pointer;user-select:none}
+  .chip span{display:inline-flex;align-items:center;justify-content:center;min-height:32px;border:1px solid var(--line);border-radius:999px;background:#fff;color:var(--muted);font-size:12px;font-weight:650;line-height:1;padding:7px 11px;cursor:pointer;user-select:none}
   .chip input:checked + span{border-color:var(--accent);background:var(--accent);color:var(--accent-ink)}
   .chip.warn input:checked + span{border-color:var(--warn);background:var(--warn);color:#fff}
   .chip input:focus-visible + span{outline:2px solid rgba(31,111,235,.28);outline-offset:2px}
   .control-footer{display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap;margin-top:7px}
   .result-count{color:var(--muted);font-size:12px;line-height:1.2}
   .control-actions{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
-  button{min-height:28px;border:1px solid var(--line);border-radius:7px;background:#fff;color:var(--ink);font:inherit;font-size:12px;line-height:1.1;padding:5px 8px;cursor:pointer}
+  button{min-height:32px;border:1px solid var(--line);border-radius:7px;background:#fff;color:var(--ink);font:inherit;font-size:12px;line-height:1.1;padding:7px 10px;cursor:pointer}
   button:hover{border-color:#c9ced8;background:#fbfbfc}
   button:focus-visible{outline:2px solid rgba(31,111,235,.28);outline-offset:2px}
   .list{display:block}
@@ -58,7 +58,7 @@
   .contact{max-width:170px}
   .contact a{color:var(--accent);text-decoration:none}
   .contact a:hover{text-decoration:underline}
-  .details-toggle{grid-column:2;grid-row:1;justify-self:end;min-height:23px;border-radius:6px;color:var(--muted);font-size:12px;line-height:1;padding:3px 7px}
+  .details-toggle{grid-column:2;grid-row:1;justify-self:end;min-height:30px;border-radius:6px;color:var(--muted);font-size:12px;line-height:1;padding:6px 9px}
   .details-toggle:after{content:"⌄";font-size:12px;margin-left:4px;color:var(--muted)}
   .details-toggle[aria-expanded="true"]{border-color:#c9ced8;color:var(--ink)}
   .details-toggle[aria-expanded="true"]:after{content:"⌃"}
@@ -87,7 +87,7 @@
     .controls{margin-left:-12px;margin-right:-12px;padding-left:12px;padding-right:12px}
     .control-grid{grid-template-columns:1fr}
     .chip-row{gap:4px}
-    .chip span{min-height:24px;padding:5px 7px}
+    .chip span{min-height:32px;padding:7px 11px}
     .school-head{top:var(--control-h);padding:5px 7px}
     .opening-row{grid-template-columns:minmax(0,1fr) auto;padding:6px 0}
     .row-main{font-size:12.5px;gap:2px 4px}
@@ -104,7 +104,7 @@
 </head>
 <body>
 <nav class="nav">
-  <a class="nav-brand" href="./index.html">CS博士</a>
+  <a class="nav-brand" href="./index.html">博士栈 <span class="en">csphd</span></a>
   <div class="nav-links">
     <a href="./index.html">首页</a>
     <a href="./board.html" class="active">PhD机会</a>
@@ -388,6 +388,7 @@
     var item = entry.item;
     var panel = document.createElement("div");
     panel.className = "detail-panel";
+    panel.id = "detail-panel-" + entry.index;
     panel.hidden = !expanded;
     var dl = document.createElement("dl");
     appendDetailRow(dl, "职位", item.positions, false);
@@ -447,6 +448,7 @@
     detailButton.textContent = "详情";
     detailButton.setAttribute("aria-expanded", expanded ? "true" : "false");
     var panel = makeDetailPanel(entry);
+    detailButton.setAttribute("aria-controls", panel.id);
     detailButton.addEventListener("click", function(){
       var isOpen = detailButton.getAttribute("aria-expanded") === "true";
       detailButton.setAttribute("aria-expanded", isOpen ? "false" : "true");

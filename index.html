@@ -29,18 +29,44 @@
   .cta.block{display:block; text-align:center; margin-top:8px}
   .hero .cta{margin-top:16px}
   .note{font-size:13px; color:var(--muted); margin-top:10px}
-  .stats{display:flex; flex-wrap:wrap; gap:8px 22px; margin:22px 0 6px; padding:14px 0;
-         border-top:1px solid var(--line); border-bottom:1px solid var(--line); font-size:14px; color:var(--muted)}
-  .stats b{color:var(--ink); font-size:16px}
-  .shots{display:flex; gap:12px; overflow-x:auto; align-items:flex-start; padding:18px 0 6px; -webkit-overflow-scrolling:touch}
-  .shot{flex:0 0 auto; width:200px; margin:0}
-  .shot img{width:200px; height:auto; max-height:340px; object-fit:cover; object-position:top;
-            border:1px solid var(--line); border-radius:12px; background:#f3f4f6; display:block}
-  .shot .cap{font-size:12px; color:var(--muted); margin-top:7px; text-align:center}
-  .ph{width:200px; height:300px; border:1px dashed #cfd4db; border-radius:12px; display:flex;
-      align-items:center; justify-content:center; text-align:center; font-size:12px; color:var(--muted); padding:14px}
-  .chips{display:flex; flex-wrap:wrap; gap:8px; margin:16px 0 2px}
-  .chip{font-size:13px; color:var(--ink); background:#eef1f6; border:1px solid var(--line); padding:5px 11px; border-radius:999px}
+  /* how to join */
+  .how{margin:24px 0 4px}
+  .how-title{font-size:15px; font-weight:700; margin:0 0 10px}
+  .how-steps{list-style:none; margin:0; padding:0; display:grid; gap:8px}
+  .how-steps li{display:flex; gap:10px; align-items:flex-start; font-size:14px; color:var(--ink)}
+  .how-n{flex:0 0 auto; width:22px; height:22px; border-radius:999px; background:var(--accent); color:#fff; font-size:12px; font-weight:700; display:inline-flex; align-items:center; justify-content:center; margin-top:2px}
+  @media(min-width:560px){ .how-steps{grid-template-columns:repeat(3,1fr); gap:14px} }
+  /* community block */
+  .cm-community, .cm-community *{box-sizing:border-box}
+  .cm-community{--cm-shadow:0 10px 28px rgba(22,24,29,.07); margin:36px 0 44px; padding:28px 0 30px;
+    border-top:1px solid var(--line); border-bottom:1px solid var(--line); background:var(--bg); color:var(--ink)}
+  .cm-head{display:grid; gap:12px; margin-bottom:22px}
+  .cm-title{margin:0; color:var(--ink); font-size:24px; font-weight:700; line-height:1.2}
+  .cm-lede{margin:0; max-width:58ch; color:var(--muted); font-size:15px; line-height:1.6}
+  .cm-kpis{display:flex; flex-wrap:wrap; gap:8px; margin:4px 0 0}
+  .cm-kpi{display:inline-flex; align-items:baseline; gap:5px; min-height:34px; padding:7px 11px; border:1px solid var(--line);
+    border-radius:999px; color:var(--muted); font-size:13px; line-height:1; background:var(--bg); text-decoration:none}
+  .cm-kpi:hover{border-color:#c8ccd4}
+  .cm-kpi strong{color:var(--accent); font-size:15px; font-weight:700}
+  .cm-block{display:grid; gap:18px}
+  .cm-section-title{margin:0 0 10px; color:var(--ink); font-size:15px; font-weight:700; line-height:1.3}
+  .cm-series-grid{display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px}
+  .cm-group-card{min-height:78px; padding:13px 14px; border:1px solid var(--line); border-radius:10px; background:var(--bg)}
+  .cm-group-label{color:var(--ink); font-size:15px; font-weight:700; line-height:1.35}
+  .cm-group-detail{margin-top:5px; color:var(--muted); font-size:13px; line-height:1.5}
+  .cm-shot-grid{display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px}
+  .cm-shot{margin:0; min-width:0}
+  .cm-shot-frame{position:relative; display:grid; place-items:center; width:100%; aspect-ratio:4/5; padding:8px; overflow:hidden;
+    border:1px solid var(--line); border-radius:18px; background:var(--bg); box-shadow:var(--cm-shadow);
+    color:var(--muted); font-size:13px; line-height:1.45; text-align:center}
+  .cm-shot-frame::after{content:""; position:absolute; inset:8px; border:1px solid rgba(22,24,29,.08); border-radius:12px; pointer-events:none}
+  .cm-shot-frame img{display:block; width:100%; height:100%; border-radius:12px; object-fit:cover; object-position:top center}
+  .cm-shot-caption{margin:8px 2px 0; color:var(--muted); font-size:13px; line-height:1.45}
+  @media (max-width:560px){
+    .cm-community{margin:30px 0 38px; padding:24px 0 26px}
+    .cm-title{font-size:22px}
+    .cm-series-grid, .cm-shot-grid{grid-template-columns:1fr}
+  }
   .closing{margin-top:30px; padding:22px; background:#fbfbfc; border:1px solid var(--line); border-radius:14px; text-align:center}
   .closing p{margin:0 0 14px; font-size:15px; color:var(--ink)}
   footer{margin-top:34px; padding-top:18px; border-top:1px solid var(--line); font-size:12px; color:var(--muted); text-align:center}
@@ -66,59 +92,109 @@
     <!-- ===== SETUP: replace the href with your Tencent 问卷 (wj.qq.com) form link ===== -->
     <a class="cta" href="TENCENT_FORM_URL">注册进群 →</a>
     <a class="cta secondary" href="./board.html">查看 PhD 机会 →</a>
-    <div class="note">注册后:加入对应微信群 + 按方向收到精准机会推送。</div>
+    <div class="note">填写问卷后进入对应微信群,导师与同行在群内第一手发布机会。</div>
     <p class="byline">发起人 <a href="https://yzhao062.github.io" target="_blank" rel="noopener">Yue Zhao</a> · USC 计算机系</p>
   </section>
 
-  <!-- scale + directions at a glance -->
-  <div class="stats">
-    <span><b>数千</b> 成员</span>
-    <span><b>12+</b> 求职分享群</span>
-    <span><a href="./board.html" style="text-decoration:none;color:inherit"><b>540+</b> PhD / RA 机会 →</a></span>
-    <span><b>历年</b> NeurIPS / ICML / ACL / AAAI 开会群</span>
+  <!-- how to join -->
+  <div class="how">
+    <h3 class="how-title">三步加入</h3>
+    <ol class="how-steps">
+      <li><span class="how-n">1</span>填写腾讯问卷,留下研究方向与所在阶段</li>
+      <li><span class="how-n">2</span>提交后扫码加入对应微信群</li>
+      <li><span class="how-n">3</span>第一手看到机会(导师与同行实时发布)</li>
+    </ol>
   </div>
 
-  <!-- Real WeChat group screenshots: social proof across the lifecycle -->
-  <div class="shots" id="community">
-    <figure class="shot">
-      <img src="./screenshots/jobs.png" alt="求职分享群" loading="lazy"
-           onerror="this.outerHTML='&lt;div class=ph&gt;求职分享群截图&lt;/div&gt;'" />
-      <figcaption class="cap">求职分享 · 1–12 群</figcaption>
-    </figure>
-    <figure class="shot">
-      <img src="./screenshots/faculty.png" alt="教职申请讨论群" loading="lazy"
-           onerror="this.outerHTML='&lt;div class=ph&gt;教职申请群截图&lt;/div&gt;'" />
-      <figcaption class="cap">教职申请 · 2024–2027</figcaption>
-    </figure>
-    <figure class="shot">
-      <img src="./screenshots/ap.png" alt="AP 交流群" loading="lazy"
-           onerror="this.outerHTML='&lt;div class=ph&gt;AP 交流群截图&lt;/div&gt;'" />
-      <figcaption class="cap">AP 交流群</figcaption>
-    </figure>
-    <figure class="shot">
-      <img src="./screenshots/review.png" alt="审稿机会分享群" loading="lazy"
-           onerror="this.outerHTML='&lt;div class=ph&gt;审稿机会群截图&lt;/div&gt;'" />
-      <figcaption class="cap">审稿机会分享群</figcaption>
-    </figure>
-    <figure class="shot">
-      <img src="./screenshots/conf.png" alt="开会社交群" loading="lazy"
-           onerror="this.outerHTML='&lt;div class=ph&gt;开会社交群截图&lt;/div&gt;'" />
-      <figcaption class="cap">开会社交 · NeurIPS/ACL/AAAI</figcaption>
-    </figure>
-  </div>
+  <!-- community at a glance -->
+  <section id="community" class="cm-community" aria-labelledby="cm-community-title">
+    <div class="cm-head">
+      <h2 id="cm-community-title" class="cm-title">我们的社群</h2>
+      <p class="cm-lede">从 PhD 申请、求职、教职申请到入职后的交流,按阶段组织,入口清楚。</p>
+      <div class="cm-kpis" aria-label="社群规模">
+        <span class="cm-kpi"><strong>数千</strong><span>成员</span></span>
+        <span class="cm-kpi"><strong>12+</strong><span>求职群</span></span>
+        <span class="cm-kpi"><strong>历年</strong><span>开会群</span></span>
+        <a class="cm-kpi" href="./board.html"><strong>540+</strong><span>PhD/RA 机会 →</span></a>
+      </div>
+    </div>
 
-  <div class="chips">
-    <span class="chip">求职分享</span><span class="chip">教职申请</span><span class="chip">AP 交流</span>
-    <span class="chip">审稿机会</span><span class="chip">开会社交</span><span class="chip">PhD 申请</span>
-  </div>
+    <div class="cm-block">
+      <div class="cm-series" aria-labelledby="cm-series-title">
+        <h3 id="cm-series-title" class="cm-section-title">群系列</h3>
+        <div class="cm-series-grid">
+          <div class="cm-group-card">
+            <div class="cm-group-label">求职分享</div>
+            <div class="cm-group-detail">12 群,数千成员(在读 → 找工)</div>
+          </div>
+          <div class="cm-group-card">
+            <div class="cm-group-label">教职申请</div>
+            <div class="cm-group-detail">按年讨论群 2024 / 2025 / 2026 / 2027(冲击 faculty 教职)</div>
+          </div>
+          <div class="cm-group-card">
+            <div class="cm-group-label">AP 交流</div>
+            <div class="cm-group-detail">CS+AI 青年教师(入职后)</div>
+          </div>
+          <div class="cm-group-card">
+            <div class="cm-group-label">审稿机会</div>
+            <div class="cm-group-detail">AI/ML 审稿招募</div>
+          </div>
+          <div class="cm-group-card">
+            <div class="cm-group-label">开会社交</div>
+            <div class="cm-group-detail">NeurIPS / ICML / ACL / AAAI 现场</div>
+          </div>
+          <div class="cm-group-card">
+            <div class="cm-group-label">PhD 申请</div>
+            <div class="cm-group-detail">入学前</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cm-gallery" aria-labelledby="cm-gallery-title">
+        <h3 id="cm-gallery-title" class="cm-section-title">群截图</h3>
+        <div class="cm-shot-grid">
+          <figure class="cm-shot">
+            <div class="cm-shot-frame">
+              <img src="./screenshots/jobs.png" width="428" height="1326" loading="lazy" alt="北美CS博士求职分享 1 到 12 群截图" onerror="this.onerror=null;this.parentElement.textContent='截图载入失败:求职分享';">
+            </div>
+            <figcaption class="cm-shot-caption">北美 CS 博士求职分享 1 到 12 群</figcaption>
+          </figure>
+          <figure class="cm-shot">
+            <div class="cm-shot-frame">
+              <img src="./screenshots/faculty.png" width="468" height="660" loading="lazy" alt="CS 教职申请讨论群 2024 2025 2026 2027 截图" onerror="this.onerror=null;this.parentElement.textContent='截图载入失败:教职申请';">
+            </div>
+            <figcaption class="cm-shot-caption">CS 教职申请讨论群 2024 / 2025 / 2026 / 2027</figcaption>
+          </figure>
+          <figure class="cm-shot">
+            <div class="cm-shot-frame">
+              <img src="./screenshots/ap.png" width="378" height="438" loading="lazy" alt="CS+AI AP 青年教师交流群截图" onerror="this.onerror=null;this.parentElement.textContent='截图载入失败:AP 交流';">
+            </div>
+            <figcaption class="cm-shot-caption">CS+AI AP(青年教师)交流群</figcaption>
+          </figure>
+          <figure class="cm-shot">
+            <div class="cm-shot-frame">
+              <img src="./screenshots/review.png" width="388" height="646" loading="lazy" alt="AI/ML 审稿机会分享群截图" onerror="this.onerror=null;this.parentElement.textContent='截图载入失败:审稿机会';">
+            </div>
+            <figcaption class="cm-shot-caption">AI/ML 审稿机会分享群</figcaption>
+          </figure>
+          <figure class="cm-shot">
+            <div class="cm-shot-frame">
+              <img src="./screenshots/conf.png" width="430" height="554" loading="lazy" alt="NeurIPS ICML ACL AAAI 开会社交群截图" onerror="this.onerror=null;this.parentElement.textContent='截图载入失败:开会社交';">
+            </div>
+            <figcaption class="cm-shot-caption">NeurIPS / ICML / ACL / AAAI 开会社交群</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <div class="closing">
-    <p>一次注册,进群 + 精准机会推送。</p>
+    <p>填写问卷进群,第一手看到导师与同行发布的机会。</p>
     <!-- ===== SETUP: same Tencent 问卷 link here ===== -->
     <a class="cta block" href="TENCENT_FORM_URL">注册进群 →</a>
   </div>
 
-  <footer>由 <a href="https://yzhao062.github.io" target="_blank" rel="noopener">Yue Zhao</a>(USC)发起与维护 · csphd.org · <a href="#" id="privacyLink">隐私说明 Privacy</a></footer>
+  <footer>由 <a href="https://yzhao062.github.io" target="_blank" rel="noopener">Yue Zhao</a>(USC)发起与维护 · 建议或合作:<a href="mailto:contact@csphd.org">contact@csphd.org</a> · csphd.org · <a href="#" id="privacyLink">隐私说明 Privacy</a></footer>
 </div>
 </body>
 </html>

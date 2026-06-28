@@ -184,7 +184,7 @@ window.OPENINGS = {
       ]
     },
     {
-      "university": "College of William Mary",
+      "university": "College of William & Mary",
       "faculty": "Ashley Gao",
       "interests": "Audio-LLMs, Affective Computing , NLP",
       "term": "",
@@ -4488,7 +4488,7 @@ window.OPENINGS = {
       ]
     },
     {
-      "university": "Ontario Tech University /  University of Toronto (Canada)",
+      "university": "Ontario Tech University / University of Toronto (Canada)",
       "faculty": "Annie Lee",
       "interests": "NLP, LLM, ML, multilinguality",
       "term": "25 Fall/26 Spring",
@@ -7835,7 +7835,7 @@ window.OPENINGS = {
       ]
     },
     {
-      "university": "University of Queensland, Australia",
+      "university": "University of Queensland (Australia)",
       "faculty": "Ruihong Qiu",
       "interests": "Graphs, LLMs, RecSys",
       "term": "26 Anytime",
@@ -8543,7 +8543,7 @@ window.OPENINGS = {
       ]
     },
     {
-      "university": "University of Waterloo  (Canada)",
+      "university": "University of Waterloo (Canada)",
       "faculty": "Jialu Zhang",
       "interests": "Generative AI, LLM for Code, LLM Agent, AI for Education, Automated Debugging",
       "term": "27 Fall/27 Winter (1/1/27 start)",
@@ -8560,7 +8560,7 @@ window.OPENINGS = {
       ]
     },
     {
-      "university": "University of Wisconsin, Madison",
+      "university": "University of Wisconsin-Madison",
       "faculty": "Junjie Hu",
       "interests": "NLP, Machine Learning (Multimodal LLMs, Inference & Post-training Efficency, Agentic system design)",
       "term": "26 Fall",
@@ -8576,7 +8576,7 @@ window.OPENINGS = {
       ]
     },
     {
-      "university": "University of Wisconsin, Madison",
+      "university": "University of Wisconsin-Madison",
       "faculty": "Ming Jiang",
       "interests": "NLP, human-centered AI, social-responsible NLP",
       "term": "26 Fall",
@@ -8592,7 +8592,7 @@ window.OPENINGS = {
       ]
     },
     {
-      "university": "University of Wisconsin, Madison",
+      "university": "University of Wisconsin-Madison",
       "faculty": "Yang Lu",
       "interests": "AI for science, Computational Biology",
       "term": "26 Fall",
@@ -8610,7 +8610,7 @@ window.OPENINGS = {
       ]
     },
     {
-      "university": "University of Wisconsin, Madison",
+      "university": "University of Wisconsin-Madison",
       "faculty": "Lucy Li",
       "interests": "NLP, computational social science, responsible AI, human-AI interaction",
       "term": "26 Fall",

@@ -4,7 +4,7 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>PhD 机会 · CS博士</title>
-<meta name="description" content="面向 CS / AI / EE / Stats 学生的 PhD、RA、Postdoc、实习机会,来自 PI 维护的源表格,可搜索筛选(长期 + 短期)。" />
+<meta name="description" content="面向 CS / AI / EE / Stats 学生的 PhD、RA、Postdoc、实习机会,按学校汇总,来自 PI 维护的源表格,可搜索筛选(长期 + 短期)。" />
 <style>
   :root{--ink:#16181d; --muted:#5b6270; --line:#e6e8ec; --bg:#fff; --accent:#1f6feb; --accent-ink:#fff; --warn:#b45309;}
   *{box-sizing:border-box}
@@ -20,9 +20,10 @@
   header{margin:8px 0 18px}
   h1{font-size:26px;line-height:1.3;margin:0 0 8px}
   .meta{margin:0;color:var(--muted);font-size:14px}
-  .source{margin:8px 0 0;color:var(--muted);font-size:13px}
-  .source a{color:var(--accent);text-decoration:none}
-  .source a:hover{text-decoration:underline}
+  .pi-cta-row{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:14px 0 2px}
+  .pi-cta{display:inline-block;font-size:14px;font-weight:700;text-decoration:none;color:var(--accent);background:#fff;border:1.5px solid var(--accent);padding:9px 16px;border-radius:9px}
+  .pi-cta:hover{background:#f0f6ff}
+  .pi-note{color:var(--muted);font-size:13px}
   .controls{position:sticky;top:0;z-index:2;margin:20px -18px 18px;padding:14px 18px;background:var(--bg);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
   .control-grid{display:grid;gap:12px}
   .field label,.chip-label{display:block;margin:0 0 5px;color:var(--muted);font-size:12px;font-weight:600}
@@ -38,14 +39,16 @@
   .result-count{color:var(--muted);font-size:14px}
   button{min-height:36px;border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--ink);font:inherit;font-size:14px;padding:6px 12px;cursor:pointer}
   button:hover{border-color:#c8ccd4;background:#fbfbfc}
-  .list{display:grid;gap:12px}
+  .list{display:grid;gap:22px}
+  .school-group{display:grid;gap:10px}
+  .school-head{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;margin:6px 0 2px;padding-bottom:6px;border-bottom:2px solid var(--line)}
+  .school-name{font-weight:700;font-size:17px;color:var(--ink)}
+  .school-count{color:var(--muted);font-size:13px;font-weight:500}
   .card{border:1px solid var(--line);border-radius:8px;padding:14px;background:#fff}
   .card-head{display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin:0 0 6px}
   .faculty{font-weight:700;color:var(--ink)}
   a.faculty{text-decoration:none}
   a.faculty:hover{color:var(--accent);text-decoration:underline}
-  .university{color:var(--ink)}
-  .dot{color:var(--muted)}
   .badge{display:inline-flex;align-items:center;border:1px solid var(--line);border-radius:999px;color:var(--muted);background:#fbfbfc;font-size:12px;font-weight:600;line-height:1.4;padding:2px 8px}
   .badge.type{color:#334155;background:#f3f6fa}
   .badge.cat-long{color:#475569;background:#f1f5f9;border-color:#e2e8f0}
@@ -83,7 +86,10 @@
   <header>
     <h1>PhD / RA / Postdoc 机会</h1>
     <p class="meta" id="summary">正在读取机会数据...</p>
-    <p class="source" id="sourceLine"></p>
+    <div class="pi-cta-row">
+      <a class="pi-cta" href="https://tinyurl.com/2026phd" target="_blank" rel="noopener">PI:在 Google 源表格添加 / 更新招聘 →</a>
+      <span class="pi-note">学生在本页浏览检索;招聘由 PI 在源表格维护,每日自动同步。</span>
+    </div>
   </header>
 
   <section class="controls" aria-label="筛选机会">
@@ -121,7 +127,7 @@
     </div>
   </section>
 
-  <section class="list" id="results" aria-label="机会列表"></section>
+  <section class="list" id="results" aria-label="机会列表(按学校汇总)"></section>
   <p class="empty hidden" id="emptyMessage"></p>
 </main>
 <script src="./data/openings.js"></script>
@@ -131,7 +137,6 @@
   var openings = Array.isArray(data.openings) ? data.openings : [];
   var total = Number(data.count) || openings.length;
   var summary = document.getElementById("summary");
-  var sourceLine = document.getElementById("sourceLine");
   var searchInput = document.getElementById("searchInput");
   var universitySelect = document.getElementById("universitySelect");
   var categoryFilters = document.getElementById("categoryFilters");
@@ -181,28 +186,11 @@
   }
 
   function updateSummary(){
+    if (!openings.length) { summary.textContent = "暂无机会数据"; return; }
     var schools = new Set(openings.map(function(item){ return text(item.university); }).filter(Boolean));
-    if (!openings.length) {
-      summary.textContent = "暂无机会数据";
-      sourceLine.textContent = "学生在这里浏览机会; PI 可在源表格添加或更新招生信息。";
-      return;
-    }
     var shortN = Number(data.shortterm) || openings.filter(function(i){ return text(i.category) === "短期"; }).length;
     var longN = Number(data.longterm) || openings.filter(function(i){ return text(i.category) === "长期"; }).length;
-    summary.textContent = "共 " + total + " 个机会(短期 " + shortN + " · 长期 " + longN + ") · 来自 " + schools.size + " 所学校 · 最近更新 " + text(data.synced);
-    sourceLine.textContent = "学生在这里浏览机会; ";
-    var sourceUrl = safeUrl(data.source);
-    if (sourceUrl) {
-      sourceLine.append("PI:");
-      var link = document.createElement("a");
-      link.href = sourceUrl;
-      link.target = "_blank";
-      link.rel = "noopener";
-      link.textContent = "在源表格添加或更新你的招生信息 →";
-      sourceLine.appendChild(link);
-    } else {
-      sourceLine.append("PI 可在源表格添加或更新招生信息。");
-    }
+    summary.textContent = "共 " + total + " 个机会(短期 " + shortN + " · 长期 " + longN + ") · " + schools.size + " 所学校 · 最近更新 " + text(data.synced);
   }
 
   function fillUniversities(){
@@ -251,8 +239,6 @@
     } else if (facultyName) {
       head.appendChild(makeText("span", "faculty", facultyName));
     }
-    head.appendChild(makeText("span", "dot", "·"));
-    head.appendChild(makeText("span", "university", item.university));
 
     var category = text(item.category);
     if (category === "短期") head.appendChild(makeBadge("短期", "cat-short"));
@@ -322,8 +308,29 @@
       return;
     }
 
+    // group by school so each school appears once as a header
+    var bySchool = new Map();
+    filtered.forEach(function(item){
+      var u = text(item.university) || "其他";
+      if (!bySchool.has(u)) bySchool.set(u, []);
+      bySchool.get(u).push(item);
+    });
+    var schools = Array.from(bySchool.keys()).sort(function(a,b){ return a.localeCompare(b, "en"); });
+
     var fragment = document.createDocumentFragment();
-    filtered.forEach(function(item){ fragment.appendChild(renderCard(item)); });
+    schools.forEach(function(u){
+      var items = bySchool.get(u);
+      var group = document.createElement("section");
+      group.className = "school-group";
+      var head = document.createElement("h2");
+      head.className = "school-head";
+      head.appendChild(makeText("span", "school-name", u));
+      head.appendChild(makeText("span", "school-count", items.length + " 个机会"));
+      group.appendChild(head);
+      items.forEach(function(item){ group.appendChild(renderCard(item)); });
+      fragment.appendChild(group);
+    });
+
     emptyMessage.classList.add("hidden");
     emptyMessage.textContent = "";
     results.replaceChildren(fragment);

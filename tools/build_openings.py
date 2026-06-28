@@ -63,6 +63,20 @@ TYPE_PATTERNS = (
 FIELDS = ("university", "faculty", "interests", "term", "deadline",
           "homepage", "positions", "requirements", "contact", "materials")
 
+# Merge known variant spellings of the same school so the board and the
+# university filter list show each school once. Applied after whitespace
+# normalization; extend as new variants appear in the source sheet.
+SCHOOL_ALIASES = {
+    "College of William Mary": "College of William & Mary",
+    "University of Queensland, Australia": "University of Queensland (Australia)",
+    "University of Wisconsin, Madison": "University of Wisconsin-Madison",
+}
+
+
+def normalize_school(name):
+    name = re.sub(r"\s+", " ", name).strip()
+    return SCHOOL_ALIASES.get(name, name)
+
 
 def fetch_csv(gid):
     url = ("https://docs.google.com/spreadsheets/d/" + SHEET_ID +
@@ -100,6 +114,7 @@ def parse_tab(csv_text, tab):
         if not university or not faculty or university == "University":
             continue
         record = {field: cell(cells, cols.get(field)) for field in FIELDS}
+        record["university"] = normalize_school(record["university"])
         record["category"] = tab["category"]
         record["types"] = derive_types(cell(cells, cols["positions"]))
         openings.append(record)

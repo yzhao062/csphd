@@ -4,7 +4,7 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>CS博士 · CS PhD</title>
-<meta name="description" content="CS / AI / EE / Stats 博士社区,立足北美、面向全球。从入学前到毕业后:PhD 机会、实习与全职、审稿、未来的高端岗位。注册进群。" />
+<meta name="description" content="CS / AI / EE / Stats 博士社区,立足北美、面向全球。PhD 机会、实习与全职、博后与教职、审稿、创业。注册进群。" />
 <style>
   :root{ --ink:#16181d; --muted:#5b6270; --line:#e6e8ec; --bg:#fff; --accent:#1f6feb; --accent-ink:#fff; --ok:#15803d; }
   *{box-sizing:border-box} html,body{margin:0;padding:0}
@@ -54,6 +54,9 @@
   .cm-group-card{min-height:78px; padding:13px 14px; border:1px solid var(--line); border-radius:10px; background:var(--bg)}
   .cm-group-label{color:var(--ink); font-size:15px; font-weight:700; line-height:1.35}
   .cm-group-detail{margin-top:5px; color:var(--muted); font-size:13px; line-height:1.5}
+  .cm-group-main{grid-column:1/-1; border:1.5px solid var(--accent); background:#f5f9ff}
+  .cm-group-main .cm-group-label{display:flex; align-items:center; gap:8px}
+  .cm-main-tag{display:inline-flex; align-items:center; background:var(--accent); color:#fff; font-size:11px; font-weight:700; padding:2px 8px; border-radius:999px}
   .cm-shot-grid{display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px}
   .cm-shot{margin:0; min-width:0}
   .cm-shot-frame{position:relative; display:grid; place-items:center; width:100%; aspect-ratio:4/5; padding:8px; overflow:hidden;
@@ -88,7 +91,7 @@
 
   <section class="hero">
     <h1>从入学前到毕业后,陪你走过每一步</h1>
-    <p>CS / AI / EE / Stats 博士社区,立足北美、面向全球。PhD 机会、实习与全职、审稿,以及未来的高端岗位。</p>
+    <p>CS / AI / EE / Stats 博士社区,立足北美、面向全球。PhD 机会、实习与全职、博后与教职、审稿、创业。</p>
     <!-- ===== SETUP: replace the href with your Google Form link ===== -->
     <a class="cta" href="https://forms.gle/ACJUTaqc5QPfLWPg8">注册进群 →</a>
     <a class="cta secondary" href="./board.html">查看 PhD 机会 →</a>
@@ -110,7 +113,7 @@
   <section id="community" class="cm-community" aria-labelledby="cm-community-title">
     <div class="cm-head">
       <h2 id="cm-community-title" class="cm-title">我们的社群</h2>
-      <p class="cm-lede">从 PhD 申请、求职、教职申请到入职后的交流,按阶段组织,入口清楚。</p>
+      <p class="cm-lede">以求职分享为核心群,覆盖教职申请、AP、审稿、开会等各阶段社群。</p>
       <div class="cm-kpis" aria-label="社群规模">
         <span class="cm-kpi"><strong>数千</strong><span>成员</span></span>
         <span class="cm-kpi"><strong>12+</strong><span>求职群</span></span>
@@ -123,9 +126,9 @@
       <div class="cm-series" aria-labelledby="cm-series-title">
         <h3 id="cm-series-title" class="cm-section-title">群系列</h3>
         <div class="cm-series-grid">
-          <div class="cm-group-card">
-            <div class="cm-group-label">求职分享</div>
-            <div class="cm-group-detail">12 群,数千成员(在读 → 找工)</div>
+          <div class="cm-group-card cm-group-main">
+            <div class="cm-group-label">求职分享 <span class="cm-main-tag">主群</span></div>
+            <div class="cm-group-detail">北美 CS 博士求职分享 1–12 群,数千成员,社群的核心与起点</div>
           </div>
           <div class="cm-group-card">
             <div class="cm-group-label">教职申请</div>
@@ -142,10 +145,6 @@
           <div class="cm-group-card">
             <div class="cm-group-label">开会社交</div>
             <div class="cm-group-detail">NeurIPS / ICML / ACL / AAAI 现场</div>
-          </div>
-          <div class="cm-group-card">
-            <div class="cm-group-label">PhD 申请</div>
-            <div class="cm-group-detail">入学前</div>
           </div>
         </div>
       </div>

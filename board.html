@@ -106,7 +106,7 @@
 </head>
 <body>
 <nav class="nav">
-  <a class="nav-brand" href="./index.html">博士栈 <span class="en">csphd</span></a>
+  <a class="nav-brand" href="./index.html">博士栈 <span class="en">CSPhD</span></a>
   <div class="nav-links">
     <a href="./index.html">首页</a>
     <a href="./board.html" class="active">PhD机会</a>
@@ -199,14 +199,11 @@
   var expanded = false;
   var searchTimer = 0;
   var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  var NOW = new Date();
+  var NOW_CODE = NOW.getFullYear() * 12 + NOW.getMonth();
 
   function text(value){
     return value == null ? "" : String(value).trim();
-  }
-
-  function numberOrNull(value){
-    var number = Number(value);
-    return Number.isFinite(number) ? number : null;
   }
 
   function safeUrl(value){
@@ -225,6 +222,20 @@
 
   function categoryOf(item){
     return text(item.category) === "短期" ? "短期" : "长期";
+  }
+
+  // A merged card can carry BOTH categories (a PI with a 短期 deadline row + a 长期 rolling row).
+  // categoryOf stays the primary for badge/sort; category filtering uses membership so such a
+  // card appears under both 短期 and 长期 rather than vanishing from the 长期 view.
+  function categoriesOf(item){
+    if (Array.isArray(item.categories)) {
+      var values = item.categories.map(text).filter(Boolean);
+      if (values.length) return values;
+    }
+    return [categoryOf(item)];
+  }
+  function hasCategory(item, category){
+    return categoriesOf(item).indexOf(category) !== -1;
   }
 
   var SEASON_ORDER = { "Spring": 0, "Summer": 1, "Fall": 2 };
@@ -264,11 +275,112 @@
     return tags;
   }
 
+  // A term tag is "past" when its intake start month is before the current month.
+  // Rolling has no fixed start, so it is never past. Computed against today's date.
+  function isPastTerm(tag){
+    if (tag === "滚动/全年") return false;
+    var parts = tag.split(" "), year = parseInt(parts[0], 10);
+    var startMonth = { "Spring": 0, "Summer": 4, "Fall": 7 }[parts[1]];
+    if (isNaN(year) || startMonth == null) return false;
+    return (year * 12 + startMonth) < NOW_CODE;
+  }
+
+  // An opening is "past only" (belongs under the 往期 chip) when it has term tags,
+  // is not rolling, and every one of them is past. A card with any upcoming term
+  // (e.g. "26 Spring/Fall") is current and stays out of 往期.
+  function isPastOnly(entry){
+    var terms = entry.terms || [];
+    if (!terms.length || terms.indexOf("滚动/全年") !== -1) return false;
+    return terms.every(isPastTerm);
+  }
+
+  function norm(value){ return text(value).toLowerCase().replace(/\s+/g, " "); }
+
+  function longest(items, key){
+    var best = "";
+    items.forEach(function(it){ var v = text(it[key]); if (v.length > best.length) best = v; });
+    return best;
+  }
+  function firstNonEmpty(items, key){
+    for (var i = 0; i < items.length; i++) { var v = text(items[i][key]); if (v) return v; }
+    return "";
+  }
+  function joinUnique(items, key, sep){
+    var seen = {}, out = [];
+    items.forEach(function(it){ var v = text(it[key]); if (v && !seen[v]) { seen[v] = true; out.push(v); } });
+    return out.join(sep);
+  }
+  function unionTypes(items){
+    var order = ["PhD", "RA", "Postdoc", "Intern"], set = {};
+    items.forEach(function(it){ (Array.isArray(it.types) ? it.types : []).forEach(function(t){ t = text(t); if (t) set[t] = true; }); });
+    var out = [];
+    order.forEach(function(t){ if (set[t]) { out.push(t); delete set[t]; } });
+    Object.keys(set).forEach(function(t){ out.push(t); });
+    return out;
+  }
+  function unionCategories(items){
+    var set = {};
+    items.forEach(function(it){ set[categoryOf(it)] = true; });
+    return ["短期", "长期"].filter(function(category){ return set[category]; });
+  }
+  function firstValidUrl(items){
+    for (var i = 0; i < items.length; i++) { if (safeUrl(items[i].homepage)) return text(items[i].homepage); }
+    return "";
+  }
+  function firstEmail(items){
+    for (var i = 0; i < items.length; i++) { var v = text(items[i].contact); if (emailPattern.test(v)) return v; }
+    return "";
+  }
+  function unionParsedTerms(items){
+    var seen = {}, out = [];
+    items.forEach(function(it){ parseTerms(it.term).forEach(function(t){ if (!seen[t]) { seen[t] = true; out.push(t); } }); });
+    return out;
+  }
+
+  // Merge rows for the same (faculty + school) into one card: many PIs are listed twice,
+  // a 短期 deadline row plus a 长期 term row for the same recruitment. Keyed on faculty+school
+  // so namesakes at different schools stay separate; rows with no faculty are left untouched.
+  function mergeEntities(entries){
+    var map = new Map(), order = [];
+    entries.forEach(function(entry){
+      var key = norm(entry.item.faculty)
+        ? norm(entry.item.faculty) + "||" + norm(entry.item.university)
+        : "__solo__" + entry.index;
+      if (!map.has(key)) { map.set(key, []); order.push(key); }
+      map.get(key).push(entry);
+    });
+    return order.map(function(key){
+      var rows = map.get(key);
+      if (rows.length === 1) { rows[0].terms = parseTerms(rows[0].item.term); return rows[0]; }
+      rows.sort(function(a, b){ return a.index - b.index; });
+      var items = rows.map(function(r){ return r.item; });
+      var item = {
+        university: firstNonEmpty(items, "university"),
+        faculty: firstNonEmpty(items, "faculty"),
+        category: items.some(function(it){ return text(it.category) === "短期"; }) ? "短期" : "长期",
+        categories: unionCategories(items),
+        types: unionTypes(items),
+        interests: longest(items, "interests"),
+        homepage: firstValidUrl(items) || longest(items, "homepage"),
+        contact: firstEmail(items) || firstNonEmpty(items, "contact"),
+        contactAll: joinUnique(items, "contact", " / "),
+        term: joinUnique(items, "term", " / "),
+        deadline: longest(items, "deadline"),
+        positions: joinUnique(items, "positions", " / "),
+        requirements: joinUnique(items, "requirements", " / "),
+        materials: joinUnique(items, "materials", " / ")
+      };
+      return { item: item, index: rows[0].index, terms: unionParsedTerms(items) };
+    });
+  }
+
   function setupTerms(){
-    var counts = {};
+    var counts = {}, pastOnly = 0;
     openings.forEach(function(entry){
-      entry.terms = parseTerms(entry.item.term);
-      entry.terms.forEach(function(tag){ counts[tag] = (counts[tag] || 0) + 1; });
+      (entry.terms || []).forEach(function(tag){
+        if (!isPastTerm(tag)) counts[tag] = (counts[tag] || 0) + 1;
+      });
+      if (isPastOnly(entry)) pastOnly += 1;
     });
     var labels = Object.keys(counts);
     labels.sort(function(a, b){
@@ -279,18 +391,20 @@
       if (ya !== yb) return ya - yb;
       return (SEASON_ORDER[pa[1]] || 0) - (SEASON_ORDER[pb[1]] || 0);
     });
-    labels.forEach(function(label){
+    function addChip(value, label){
       var chip = document.createElement("label");
       chip.className = "chip";
       var input = document.createElement("input");
       input.type = "checkbox";
-      input.value = label;
+      input.value = value;
       var span = document.createElement("span");
-      span.textContent = label + " · " + counts[label];
+      span.textContent = label;
       chip.appendChild(input);
       chip.appendChild(span);
       termFilters.appendChild(chip);
-    });
+    }
+    labels.forEach(function(label){ addChip(label, label + " · " + counts[label]); });
+    if (pastOnly) addChip("__past__", "往期 · " + pastOnly);
     termInputs = Array.prototype.slice.call(termFilters.querySelectorAll("input[type='checkbox']"));
     termInputs.forEach(function(input){ input.addEventListener("change", render); });
   }
@@ -315,18 +429,12 @@
   }
 
   function totalCount(){
-    return numberOrNull(data.count) || openings.length;
+    return openings.length;
   }
 
   function computedCounts(){
-    var shortCount = numberOrNull(data.shortterm);
-    var longCount = numberOrNull(data.longterm);
-    if (shortCount == null) {
-      shortCount = openings.filter(function(entry){ return categoryOf(entry.item) === "短期"; }).length;
-    }
-    if (longCount == null) {
-      longCount = openings.filter(function(entry){ return categoryOf(entry.item) !== "短期"; }).length;
-    }
+    var shortCount = openings.filter(function(entry){ return hasCategory(entry.item, "短期"); }).length;
+    var longCount = openings.filter(function(entry){ return hasCategory(entry.item, "长期"); }).length;
     return { shortCount: shortCount, longCount: longCount };
   }
 
@@ -344,7 +452,7 @@
     var schools = new Set(openings.map(function(entry){ return normalizedSchool(entry.item); }));
     var counts = computedCounts();
     var synced = text(data.synced) || "未注明";
-    summaryLine.textContent = "共 " + totalCount() + " 个机会（短期 " + counts.shortCount + " · 长期 " + counts.longCount + "） · " + schools.size + " 所学校 · 最近更新 " + synced;
+    summaryLine.textContent = "共 " + totalCount() + " 个机会 · 短期 " + counts.shortCount + " · 长期 " + counts.longCount + " · " + schools.size + " 所学校 · 最近更新 " + synced;
     var source = safeUrl(data.source);
     if (source) {
       sourceButton.href = source;
@@ -367,7 +475,7 @@
     var item = entry.item;
     var itemSchool = normalizedSchool(item);
     if (school && itemSchool !== school) return false;
-    if (categories.length && categories.indexOf(categoryOf(item)) === -1) return false;
+    if (categories.length && !categories.some(function(category){ return hasCategory(item, category); })) return false;
     if (query) {
       var haystack = [itemSchool, text(item.faculty), text(item.interests)].join(" ").toLowerCase();
       if (haystack.indexOf(query) === -1) return false;
@@ -378,7 +486,11 @@
     }
     if (terms && terms.length) {
       var entryTerms = entry.terms || [];
-      if (!terms.some(function(term){ return entryTerms.indexOf(term) !== -1; })) return false;
+      var hit = terms.some(function(term){
+        if (term === "__past__") return isPastOnly(entry);
+        return entryTerms.indexOf(term) !== -1;
+      });
+      if (!hit) return false;
     }
     return true;
   }
@@ -477,7 +589,7 @@
     appendDetailRow(dl, "材料", item.materials, false);
     appendDetailRow(dl, "学期", item.term, false);
     appendDetailRow(dl, "截止", item.deadline, false);
-    appendDetailRow(dl, "联系", item.contact, true);
+    appendDetailRow(dl, "联系", item.contactAll || item.contact, true);
     if (!dl.children.length) {
       dl.appendChild(createText("dt", "", "信息"));
       dl.appendChild(createText("dd", "", "暂无更多信息"));
@@ -514,9 +626,14 @@
       main.appendChild(deadlineEl);
     } else {
       main.appendChild(makeBadge("长期", "long"));
-      var term = text(item.term) || "长期";
-      var termEl = createText("span", "when", "学期：" + term);
-      termEl.title = term;
+      var entryTerms = entry.terms || [];
+      var upcoming = entryTerms.filter(function(t){ return t !== "滚动/全年" && !isPastTerm(t); });
+      var termLabel;
+      if (upcoming.length) termLabel = upcoming.join("、");
+      else if (entryTerms.indexOf("滚动/全年") !== -1 || isPastOnly(entry)) termLabel = "滚动招生";
+      else termLabel = text(item.term) || "长期";
+      var termEl = createText("span", "when", "学期：" + termLabel);
+      termEl.title = text(item.term) || termLabel;
       main.appendChild(termEl);
     }
 
@@ -650,6 +767,7 @@
     }, 80);
   });
 
+  openings = mergeEntities(openings);
   setupHeader();
   setupUniversities();
   setupTerms();

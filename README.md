@@ -1,6 +1,6 @@
 <div align="center">
 
-# 博士栈 · csphd
+# 博士栈 · CSPhD
 
 **CS / AI / EE / Stats 博士的成长社区**
 从入学前到毕业后,陪你走过每一步

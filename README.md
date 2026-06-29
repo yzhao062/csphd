@@ -43,12 +43,12 @@
 
 机会信息来自一份由各位导师本人维护的公开 Google 表格（[tinyurl.com/2026phd](https://tinyurl.com/2026phd)）。一个每日运行的 GitHub Action 把表格同步成 `data/openings.js`：导师在源表格里更新，学生在 csphd.org 上检索，板块不会过期。
 
-```mermaid
-flowchart LR
-    PI["导师 · Google 表格"] -->|"每日 GitHub Action"| S["build_openings.py"]
-    S --> D["data/openings.js"]
-    D --> B["csphd.org/board.html"]
-    U["学生"] -->|"搜索 · 筛选"| B
+```text
+  导师 · Google 表格  (tinyurl.com/2026phd)
+       │
+       │   每日 GitHub Action ·  build_openings.py（纯标准库）
+       ▼
+  data/openings.js  ──►  csphd.org/board.html  ◄──  学生：搜索 · 筛选
 ```
 
 同步脚本 `tools/build_openings.py`（纯标准库），定时任务 `.github/workflows/sync-openings.yml`（每日 cron，仅在数据有变化时提交）。

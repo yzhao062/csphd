@@ -55,7 +55,7 @@
 
 ## 🛠 技术亮点
 
-为什么这个站点对开发者也许有点意思：
+几个有意识的设计取舍，也是这个站点为什么干净、快、可信：
 
 - **纯静态，零后端**：没有构建步骤、没有服务器、没有数据库，整站就是几个 HTML 文件加一份 JS 数据。
 - **零外部运行时依赖，中国大陆可直连**：视图时不加载任何 CDN、Google 字体或第三方统计；系统字体 + 内联样式 + 本地资源。这是面向中国大陆用户的硬约束，顺带让站点更快、更私密。
@@ -63,7 +63,7 @@
 - **GitHub Pages + 自定义域名 + 自动 HTTPS**：一个仓库托管整站，`csphd.org` 自动签发证书。
 - **可访问 + 移动友好**：语义化标签、aria 标注、响应式布局、全角中文标点。
 
-一句话：一个用 GitHub 仓库就能跑起来、在防火墙后也能直连、数据每天自己更新的社区站点。
+一句话：它干净、轻、私密，在防火墙后也能直连，不追踪访客，数据每天自己更新。
 
 ## 🗂 仓库结构
 
@@ -90,18 +90,16 @@ csphd/
 
 > 表单与部分链接走 Google，中国大陆需自备网络环境。
 
-## 💻 本地预览
+## 🔍 透明
 
-整站是静态的，克隆后直接打开 `index.html`，或起一个本地服务器：
-
-```bash
-python -m http.server 8000   # 然后访问 http://localhost:8000
-```
-
-刷新机会数据：`python tools/build_openings.py`（仅标准库）。
+整站源码与机会数据都公开在本仓库，你可以核对它确实不加载任何第三方资源、不追踪访客。本仓库公开仅供透明与查阅。
 
 ## 📫 联系
 
 建议或合作：[contact@csphd.org](mailto:contact@csphd.org) · 发起人 [Yue Zhao](https://yzhao062.github.io)（USC 计算机系）
 
 <div align="center"><sub>纯公益 · 已运营 5 年 · 帮助过数千位同学 · 对同学永久免费</sub></div>
+
+---
+
+<div align="center"><sub>© 2026 Yue Zhao · 本仓库公开仅供透明与查阅，保留所有权利；未经许可请勿复制或二次分发。<br>Published for transparency only. All rights reserved; not licensed for reuse.</sub></div>

@@ -1,5 +1,5 @@
 window.OPENINGS = {
-  "synced": "2026-06-28",
+  "synced": "2026-06-29",
   "source": "https://tinyurl.com/2026phd",
   "count": 544,
   "shortterm": 93,
@@ -1497,7 +1497,7 @@ window.OPENINGS = {
       "positions": "1-2 PhD for 27 Spring/Fall, visiting PhD students, 1 MEng",
       "requirements": "TOELF/IETLS, Better with GRE",
       "contact": "qichen.wang@ntu.edu.sg",
-      "materials": "",
+      "materials": "CV, Transcript, Research Interest",
       "category": "短期",
       "types": [
         "PhD"
@@ -5043,7 +5043,7 @@ window.OPENINGS = {
       "university": "San Diego State University",
       "faculty": "Yifan Zhang",
       "interests": "System Security & Privacy; AI Security & Privacy",
-      "term": "26 Fall",
+      "term": "Open until filled. Fall semester only",
       "deadline": "",
       "homepage": "https://1phan.com",
       "positions": "2 PhDs with RA",
@@ -8057,8 +8057,8 @@ window.OPENINGS = {
     {
       "university": "University of Tennessee",
       "faculty": "Xiongye Xiao",
-      "interests": "AI for Science, Neural Operators, Complex Networks",
-      "term": "2026 Spring/ 2026 Fall",
+      "interests": "AI for Science, Science for AI, Neural Operators, Agentic AI",
+      "term": "26 fall/ 27 Spring/Fall",
       "deadline": "",
       "homepage": "https://xiongyexiao.com",
       "positions": "2-4 PhDs with RA/TA, Interns",

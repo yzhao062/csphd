@@ -61,6 +61,7 @@
   .cm-group-main .cm-group-label{display:flex; align-items:center; gap:8px}
   .cm-main-tag{display:inline-flex; align-items:center; background:var(--accent); color:#fff; font-size:11px; font-weight:700; padding:2px 8px; border-radius:999px}
   .cm-shot-grid{display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px}
+  .cm-shot-grid > .cm-shot:last-child:nth-child(odd){grid-column:1 / -1; width:calc(50% - 7px); justify-self:center}
   .cm-shot{margin:0; min-width:0}
   .cm-shot-frame{position:relative; display:grid; place-items:center; width:100%; aspect-ratio:4/5; padding:8px; overflow:hidden;
     border:1px solid var(--line); border-radius:18px; background:var(--bg); box-shadow:var(--cm-shadow);
@@ -72,6 +73,7 @@
     .cm-community{margin:30px 0 38px; padding:24px 0 26px}
     .cm-title{font-size:22px}
     .cm-series-grid, .cm-shot-grid{grid-template-columns:1fr}
+    .cm-shot-grid > .cm-shot:last-child:nth-child(odd){grid-column:auto; width:100%; justify-self:stretch}
   }
   .closing{margin-top:30px; padding:22px; background:#fbfbfc; border:1px solid var(--line); border-radius:14px; text-align:center}
   .closing p{margin:0 0 14px; font-size:15px; color:var(--ink)}
@@ -87,6 +89,7 @@
     <div class="nav-links">
       <a href="./index.html" class="active">首页</a>
       <a href="./board.html">PhD机会</a>
+      <a href="./grad.html">申请读博</a>
       <a href="./jobs.html">实习全职</a>
       <a href="./faculty.html">教职资源</a>
       <a href="#community">社群</a>

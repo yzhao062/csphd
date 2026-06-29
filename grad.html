@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>博士栈 · 申请读博</title>
+<link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+<meta name="description" content="CS / AI / EE / Stats PhD 申请与读博资源：选校、找导师、申请材料、时间线、科研写作、会议、审稿与国际生常见规则。由博士栈社群沉淀。" />
+<style>
+  :root{ --ink:#16181d; --muted:#5b6270; --line:#e6e8ec; --bg:#fff; --accent:#1f6feb; --accent-ink:#fff; --ok:#15803d; --soft:#f7f8fa; }
+  *{box-sizing:border-box} html,body{margin:0;padding:0}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",Roboto,Helvetica,Arial,sans-serif;
+       color:var(--ink); background:var(--bg); line-height:1.6; -webkit-font-smoothing:antialiased;}
+  .wrap{max-width:760px; margin:0 auto; padding:24px 18px 64px}
+  a{color:var(--accent)}
+  .en{color:var(--muted); font-weight:600; font-size:13px; margin-left:6px}
+  .nav{display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap; padding:14px 0; margin-bottom:6px; border-bottom:1px solid var(--line)}
+  .nav-brand{font-weight:700; font-size:18px; color:var(--ink); text-decoration:none}
+  .nav-links{display:flex; gap:18px; flex-wrap:wrap; font-size:14px}
+  .nav-links a{color:var(--muted); text-decoration:none}
+  .nav-links a:hover{color:var(--ink)}
+  .nav-links a.active{color:var(--ink); font-weight:600}
+  .hero{margin:24px 0 8px}
+  .hero h1{font-size:25px; line-height:1.3; margin:0 0 8px}
+  .hero p{font-size:15px; color:var(--muted); margin:0; max-width:60ch}
+  .res{margin:22px 0; padding:18px 18px 16px; border:1px solid var(--line); border-radius:12px; background:var(--bg)}
+  .res-h{font-size:17px; font-weight:700; margin:0 0 3px; color:var(--ink)}
+  .res-sub{font-size:13px; color:var(--muted); margin:0 0 12px}
+  .res p{font-size:14px; color:var(--ink); margin:0 0 9px; line-height:1.65}
+  .res ul{margin:6px 0 10px; padding-left:20px}
+  .res li{font-size:14px; margin:5px 0; line-height:1.55}
+  table.tl{width:100%; border-collapse:collapse; font-size:13px; margin:8px 0 12px}
+  table.tl th, table.tl td{text-align:left; padding:6px 9px; border-bottom:1px solid var(--line); vertical-align:top}
+  table.tl th{color:var(--muted); font-weight:650; background:var(--soft); white-space:nowrap}
+  table.tl td:last-child{white-space:nowrap; color:var(--muted)}
+  .stats{display:flex; flex-wrap:wrap; gap:10px; margin:10px 0 12px}
+  .stat{flex:1 1 150px; border:1px solid var(--line); border-radius:10px; padding:12px 14px; background:var(--soft)}
+  .stat .n{font-size:21px; font-weight:750; color:var(--accent); line-height:1.1}
+  .stat .l{font-size:12px; color:var(--muted); margin-top:3px; line-height:1.4}
+  .srcs{display:grid; gap:7px; margin-top:12px; padding-top:11px; border-top:1px dashed var(--line)}
+  .src{font-size:13px; line-height:1.5}
+  .src a{color:var(--accent); text-decoration:none; font-weight:600}
+  .src a:hover{text-decoration:underline}
+  .src .by{color:var(--muted); margin-left:2px}
+  .disc{font-size:12.5px; color:var(--muted); margin:20px 0 0; padding:13px 14px; background:var(--soft); border-radius:10px; line-height:1.6}
+  footer{margin-top:30px; padding-top:18px; border-top:1px solid var(--line); font-size:12px; color:var(--muted); text-align:center}
+  footer a{color:var(--muted)}
+  @media (max-width:560px){ .hero h1{font-size:22px} .res{padding:15px} }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <nav class="nav">
+    <a class="nav-brand" href="./index.html">博士栈 <span class="en">CSPhD.org</span></a>
+    <div class="nav-links">
+      <a href="./index.html">首页</a>
+      <a href="./board.html">PhD机会</a>
+      <a href="./grad.html" class="active">申请读博</a>
+      <a href="./jobs.html">实习全职</a>
+      <a href="./faculty.html">教职资源</a>
+      <a href="./index.html#community">社群</a>
+      <a href="https://yzhao062.github.io" target="_blank" rel="noopener">关于</a>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <h1>申请与读博</h1>
+    <p>面向北美 CS / AI / EE / Stats PhD 申请者，特别标出 F-1/J-1 国际生常被卡住的 GRE、fee waiver、fellowship 与 English-test 规则。</p>
+  </section>
+
+  <section class="res" aria-labelledby="res-school">
+    <h2 class="res-h" id="res-school">PhD 申请：选校与找导师</h2>
+    <p class="res-sub">先按近期研究与导师匹配缩小范围，再核对项目监督规则、funding、GRE 与英语要求。</p>
+    <ul>
+      <li><a href="https://csrankings.org/" target="_blank" rel="noopener"><strong>CSRankings</strong></a>：按 CS 子方向快速找北美院系和活跃教授。要点：设置 AI、ML、vision、systems、theory 等过滤器和近年窗口；优先找同方向有多位活跃教授的项目，再去实验室主页核对招生与研究贴合度。</li>
+      <li><a href="https://dblp.uni-trier.de/" target="_blank" rel="noopener"><strong>DBLP Computer Science Bibliography</strong></a>：查潜在导师最近是否仍在你的方向发文。要点：搜教授名，扫 2023 至 2026 年论文、venue 与合作者；若近作偏离你的主题，或长期没有相关论文，降低优先级。</li>
+      <li><a href="https://openreview.net/" target="_blank" rel="noopener"><strong>OpenReview</strong></a>：ML/AI 方向常比 DBLP 和主页更早出现 ICLR、NeurIPS 与 workshop 论文。要点：搜 PI、学生、实验室名和关键词；近期 accepted paper 能说明方向活跃，但不能自动说明导师今年招生。</li>
+      <li><a href="https://www.thegradcafe.com/survey/index.php" target="_blank" rel="noopener"><strong>TheGradCafe Admission-Results Survey</strong></a>：看 decision timing 和申请者叙述，但不是官方录取数据。要点：按学校加 Computer Science PhD、Electrical Engineering PhD 或 Statistics PhD 搜近期条目，只看时间簇；不要从自报数据计算录取率。</li>
+      <li><a href="https://www.grad.ubc.ca/prospective-students/research-supervisors" target="_blank" rel="noopener"><strong>UBC Research Supervisors</strong></a>：加拿大项目常把导师承诺、入学后分配和 funding 规则写在项目页里。要点：UBC 说明有的项目要求申请前已有 supervisor commitment，有的第一年再分配；联系导师前读近期论文和 theses，避免群发模板邮件。</li>
+      <li><a href="https://www.cs.columbia.edu/wp-content/uploads/2019/03/Get-Advisor.pdf" target="_blank" rel="noopener"><strong>Columbia CS Advisor Guide</strong></a>：给 offer 后评估导师的实用问题清单。要点：问 current students 会议频率、funding 年限与来源、署名规则、毕业时间和冲突处理；好方向配弱指导或不稳 funding，风险很高。</li>
+      <li><strong>NSF Award Search 和 NSERC Awards Database：</strong>用官方 grant 数据判断美国和加拿大导师的 funding 信号。<a href="https://www.nsf.gov/awardsearch/advancedSearch.jsp" target="_blank" rel="noopener">NSF Award Search →</a>；<a href="https://www.nserc-crsng.gc.ca/ase-oro/index_eng.asp" target="_blank" rel="noopener">NSERC Awards →</a>。要点：按 PI 与 institution 查 active awards；对国际生来说，active grant 加明确 RA opening 能降低 stipend 和签证材料不确定性，但不是 RA offer。</li>
+      <li><a href="https://www.cs.ubc.ca/grads/awards-support-current-grad-students/financial-assistantship/stipends-support-details-2026-2027" target="_blank" rel="noopener"><strong>UBC Computer Science Funding Details</strong></a>：展示加拿大 PhD funding 如何由 department guarantee、TA、RA、fellowship 与 tuition award 组成。要点：UBC CS 列出 PhD 1 至 3 年对 domestic 和 international students 的 department standard minimum funding 为 CAD 34,654，并写明 PhD funding 保证五年；页面 2026-03-04 更新，数字仍需以 offer letter 为准。</li>
+      <li><strong>Berkeley EECS 和 MIT EECS GRE Policies：</strong>顶尖 CS PhD 项目可能不是 waive GRE，而是根本不接受或不使用。<a href="https://eecs.berkeley.edu/academics/graduate/research-programs/admissions/" target="_blank" rel="noopener">Berkeley EECS →</a>；<a href="https://www.eecs.mit.edu/academics/graduate-programs/admission-process/graduate-admissions-faqs/" target="_blank" rel="noopener">MIT EECS →</a>。要点：Berkeley EECS 写明 GRE 不再需要且不接受；MIT EECS 写明无论 citizenship 都不使用 GRE 分数，LGO 项目除外。不要默认考 GRE，但 EE、Stats 和交叉项目要逐项核对。</li>
+      <li><a href="https://grad.berkeley.edu/admissions/application-process/requirements/" target="_blank" rel="noopener"><strong>UC Berkeley Graduate Division English-Proficiency Requirements</strong></a>：给国际申请者一个很具体的英语考试规则样例。要点：Berkeley Fall 2027 接受 TOEFL iBT/Home Edition 和 IELTS/IELTS Online，不接受 Duolingo、TOEFL ITP、MyBest Scores、IELTS Indicator 或 IELTS One Test Retake；TOEFL 2025-06-01 至 2026-01-20 考试最低 90，2026-01-21 后最低 total 5 且 speaking/writing 4.5，IELTS overall 或 total 7，2026-01-21 后 speaking/writing 6.5，院系可设更高线。</li>
+    </ul>
+  </section>
+
+  <section class="res" aria-labelledby="res-application">
+    <h2 class="res-h" id="res-application">PhD 申请：材料与流程</h2>
+    <p class="res-sub">材料的目标是证明研究潜力、研究贴合度和按时完成申请流程的可靠性。</p>
+    <ul>
+      <li><strong>Mor Harchol-Balter, Applying to Ph.D. Programs in Computer Science：</strong>CS PhD 申请的经典长指南，适合理解委员会如何读研究潜力、推荐信、成绩和研究经历。<a href="https://www.cs.cmu.edu/~harchol/" target="_blank" rel="noopener">Harchol-Balter 主页 →</a>；<a href="http://www.cs.cmu.edu/~harchol/gradschooltalk.pdf" target="_blank" rel="noopener">讲义 PDF →</a>。要点：把申请组织在 research potential、advisor fit 和 prior research evidence 上；GRE 与费用细节按当季项目页核对。</li>
+      <li><strong>MIT EECS Communication Lab, Graduate School Statement Of Purpose：</strong>官方 CS/EE 风格 SOP 指南，含 MIT EECS 语境下的 annotated examples。<a href="https://mitcommlab.mit.edu/eecs/commkit/graduate-school-statement-of-purpose/" target="_blank" rel="noopener">SOP 指南 →</a>；<a href="https://mitcommlab.mit.edu/eecs/wp-content/uploads/sites/6/2016/09/CS-grad-school-personal-statement-annotated-example-2.pdf" target="_blank" rel="noopener">标注示例 →</a>。要点：围绕研究轨迹写：做过什么问题、下一步想问什么、为什么具体 faculty 或 group 贴合、已有训练为何可信；学结构，不要学措辞。</li>
+      <li><a href="https://www.eecs.mit.edu/academics/graduate-programs/admission-process/what-faculty-members-are-looking-for-in-a-grad-school-application-essay/" target="_blank" rel="noopener"><strong>MIT EECS, What Faculty Members Are Looking For In A Grad School Application Essay</strong></a>：直接说明 faculty 想在 PhD essay 里看到什么。要点：essay 要证明你能提出并推进研究问题；如果研究经历少，也要写具体 future questions 和 intellectual fit，而不是泛泛人生故事。</li>
+      <li><a href="https://careerservices.upenn.edu/stemcv/" target="_blank" rel="noopener"><strong>UPenn Career Services, Creating A STEM CV</strong></a>：学校 career center 对 academic STEM CV 的结构建议。要点：PhD CV 不是一页 industry resume；education、research、publications、presentations、awards、teaching、service、skills 和 references 要让研究准备一眼可扫。</li>
+      <li><a href="https://mitcommlab.mit.edu/be/2021/07/20/asking-for-and-writing-recommendation-letters/" target="_blank" rel="noopener"><strong>MIT Communication Lab, Asking For And Writing Recommendation Letters</strong></a>：解释北美推荐信的选择、开口方式和 strong letter 语境。要点：提前数月问对方是否能写 strong letter，并提供 CV、transcript、draft statement、deadline list 和提醒；PhD 申请里，研究 supervisor 通常比名气大但距离远的人更有用。</li>
+      <li><a href="https://www.cs.washington.edu/academics/graduate/phd-program/phd-admissions/" target="_blank" rel="noopener"><strong>UW Allen School PhD Admissions</strong></a>：当前 CS PhD 项目页中很清楚的北美申请时间线样例。要点：UW 写明 application opening September 1、deadline December 15、decisions by mid-February、visit days in mid-March、response deadline April 15；具体日期每校每年不同。</li>
+      <li><strong>Council Of Graduate Schools April 15 Resolution：</strong>美国 funded graduate offer 的常见答复规则来源。<a href="https://cgsnet.org/resources/for-current-prospective-graduate-students/april-15-resolution" target="_blank" rel="noopener">April 15 Resolution →</a>；<a href="https://cgsnet.org/resources/for-current-prospective-graduate-students/april-15-resolution/april-15-resolution-faq" target="_blank" rel="noopener">FAQ →</a>。要点：规则覆盖 signatory institutions 给 Graduate Scholars、Fellows、Trainees 和 Assistants 的 financial-support offers，不等于所有 admission offer；公开页仍名为 April 15 Resolution，并说明 Fall 2027 需机构重新签署。</li>
+      <li><strong>ETS TOEFL iBT And GRE Score Reporting Pages：</strong>规划英语考试和仍需 GRE 的项目时要看官方送分时间。<a href="https://www.ets.org/toefl/test-takers/ibt/scores/send-scores.html" target="_blank" rel="noopener">TOEFL 送分 →</a>；<a href="https://www.ets.org/gre/test-takers/general-test/scores/get-scores.html" target="_blank" rel="noopener">GRE 取分 →</a>；<a href="https://www.ets.org/gre/test-takers/general-test/scores/send-scores.html" target="_blank" rel="noopener">GRE 送分 →</a>。要点：TOEFL 通过 ETS Data Manager 通常 4-8 business days，server feeds 通常 8-10 business days，邮寄更久；GRE official scores 通常考后 8-10 天给考生，Additional Score Reports 约 5 business days 处理，十二月截止项目前要提前数周考试。</li>
+      <li><strong>Yale GSAS And UCSD Fee-Waiver Pages：</strong>fee waiver 对国际申请者没有统一规则，要按学校和院系拆开看。<a href="https://gsas.yale.edu/admissions/phdmasters-application-process/application-fees-fee-waivers" target="_blank" rel="noopener">Yale GSAS →</a>；<a href="https://grad.ucsd.edu/admissions/requirements/application-fee-and-fee-waiver/" target="_blank" rel="noopener">UCSD 研究生院 →</a>；<a href="https://cse.ucsd.edu/graduate/admissions" target="_blank" rel="noopener">UCSD CSE →</a>。要点：Yale 写明 US citizens 和 non-US citizens 都可在提交前申请 fee waiver；UCSD general graduate page 写明 international applicants 不符合 general waiver，但 UCSD CSE 对至少提前两周申请的 international PhD applicants 可能有 limited departmental waivers。</li>
+      <li><a href="https://www.nsf.gov/funding/opportunities/dcl-computer-information-science-engineering-graduate" target="_blank" rel="noopener"><strong>NSF CSGrad4US, CISE Graduate Fellowships</strong></a>：这是 CS 方向的申请支持和 fellowship 路径，但不是通用 fee waiver。要点：eligibility 要求 US citizen、national 或 permanent resident，并有不能当前注册 degree-granting program 等条件；国际生不要把它当作一般 funding fallback。</li>
+    </ul>
+  </section>
+
+  <section class="res" aria-labelledby="res-toolkit">
+    <h2 class="res-h" id="res-toolkit">读博工具箱：科研与写作</h2>
+    <p class="res-sub">文献管理、论文发现、阅读方法、写作演讲和实验记录的最小工具集。</p>
+    <ul>
+      <li><a href="https://www.zotero.org/" target="_blank" rel="noopener"><strong>Zotero</strong></a>：免费开源 reference manager，用于收集论文、管理 PDF、标注、引用和共享 library。要点：用 browser connector 保存 metadata 和 PDF；LaTeX 写作时从清理过的 collection 导出 BibTeX 或 BibLaTeX。</li>
+      <li><a href="https://www.overleaf.com/" target="_blank" rel="noopener"><strong>Overleaf</strong></a>：在线协作 LaTeX 编辑器，含免费层、实时 coauthor editing、version history support 和大量模板。要点：尽量从官方 venue template 开始，把 source、figures 和 bibliography 放进同一个 shared project，减少本地 TeX 环境差异。</li>
+      <li><a href="https://www.semanticscholar.org/" target="_blank" rel="noopener"><strong>Semantic Scholar</strong></a>：AI-assisted scientific search，适合 citation trails、related work、author pages 和 alerts。要点：从 seed paper 看 references、cited-by 和 influential citations，区分背景文献和真正影响后续结果的论文。</li>
+      <li><a href="https://www.connectedpapers.com/" target="_blank" rel="noopener"><strong>Connected Papers</strong></a>：用图结构看 seed paper 附近的文献。要点：进入新方向时用一篇中心论文生成图，再看 prior works 和 derivative works，补足 keyword search 漏掉的经典和新作。</li>
+      <li><a href="https://huggingface.co/papers/trending" target="_blank" rel="noopener"><strong>Hugging Face Papers</strong></a>：当前可用的 AI/ML daily 和 trending paper feed；原 Papers with Code 候选 URL 会跳转到这里。要点：用 trending 页面快速 triage 新论文，再只跟进与你研究线相关的 paper、code、model 或 demo。</li>
+      <li><a href="https://arxiv.org/" target="_blank" rel="noopener"><strong>arXiv</strong></a>：CS、AI、ML、math、statistics 和 EE 论文的主要 open preprint server。要点：跟踪 cs.LG、stat.ML、cs.AI、cs.CL、eess.SP 等 subject classes；记录 arXiv ID 和 version number，避免引用错版本。</li>
+      <li><a href="https://scholar.google.com/" target="_blank" rel="noopener"><strong>Google Scholar</strong></a>：跨 publisher 和 repository 的广覆盖学术搜索。要点：用 exact-title search、Cited by 和 Related articles 提高 recall；metadata、重复记录和合并记录要回 publisher 或 arXiv 核对。</li>
+      <li><a href="http://ccr.sigcomm.org/online/files/p83-keshavA.pdf" target="_blank" rel="noopener"><strong>S. Keshav, How To Read A Paper</strong></a>：短而耐用的论文阅读方法，避免第一遍就陷进细节。要点：用 three-pass method：第一遍抓 category、context、correctness、contributions、clarity；第二遍理解主论证；第三遍深到足以复现思路并批判假设。</li>
+      <li><a href="https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper/" target="_blank" rel="noopener"><strong>Simon Peyton Jones, How To Write A Great Research Paper</strong></a>：Microsoft Research 的经典 CS 写作指南。要点：把 paper 当作研究故事的压力测试：先定义一个主想法，早写 introduction，让证据服务这个想法，而不是罗列实验。</li>
+      <li><a href="https://www.microsoft.com/en-us/research/video/how-to-give-a-great-research-talk-4/" target="_blank" rel="noopener"><strong>Simon Peyton Jones, How To Give A Great Research Talk</strong></a>：给 paper talk、proposal、defense 和 conference talk 的实用设计建议。要点：按听众应该学到什么组织 talk，用 motivation、one core idea、evidence 和 limitations 做主线，不要按你做过的每个细节排序。</li>
+      <li><a href="https://wandb.ai/site/research/" target="_blank" rel="noopener"><strong>Weights &amp; Biases Research</strong></a>：ML research 的 experiment tracking 和 collaboration platform；当前 research page 写明 students 和 researchers 免费。要点：记录 configs、metrics、artifacts、tables 和 sweeps，方便比较 ablations、开会复盘和 rebuttal 补实验。</li>
+      <li><a href="https://research.google.com/colaboratory/faq.html" target="_blank" rel="noopener"><strong>Google Colab</strong></a>：hosted Jupyter Notebook 服务，免费 compute 资源含 GPU 和 TPU，但有动态限制。要点：适合小复现、tutorial 和 baseline tests；把依赖安装和数据读取写进 cells，因为 runtime VM 是临时的，GPU access 不保证。</li>
+    </ul>
+  </section>
+
+  <section class="res" aria-labelledby="res-conference">
+    <h2 class="res-h" id="res-conference">会议与审稿</h2>
+    <p class="res-sub">用 deadline tracker 做提醒，用官方 venue root、OpenReview 和 reviewer guideline 做准绳。</p>
+    <ul>
+      <li><a href="https://mldeadlines.com/" target="_blank" rel="noopener"><strong>AI Conference Deadlines</strong></a>：当前可用的 AI、ML、CV、NLP、robotics、HCI、data mining 等会议 deadline tracker。要点：支持 countdown、subject filters、New York timezone display 和 calendar export；用于提醒，最终日期仍以官方会议页为准。</li>
+      <li><a href="https://ccfddl.com/" target="_blank" rel="noopener"><strong>CCF-DDL</strong></a>：中文友好的 CCF-oriented deadline tracker，适合关心 CCF area 和 rank 的学生。要点：按 AI、database/data mining、systems、theory、graphics、HCI 等过滤；其数据为人工维护，final submission dates 仍需去官网确认。</li>
+      <li><strong>NeurIPS、ICML 和 ICLR Official Roots：</strong>ML 主会的稳定入口。<a href="https://neurips.cc/" target="_blank" rel="noopener">NeurIPS →</a>；<a href="https://icml.cc/" target="_blank" rel="noopener">ICML →</a>；<a href="https://iclr.cc/" target="_blank" rel="noopener">ICLR →</a>。要点：从这里找 calls for papers、policy pages、author kits、dates、reviewer instructions 和 registration；年度页面会换，计划时同时记录 root 和 current year page。</li>
+      <li><strong>CVF And CVPR Official Roots：</strong>CVF 是 vision 会议与 proceedings 的稳定入口，CVPR 是年度主会入口。<a href="https://thecvf.com/" target="_blank" rel="noopener">CVF →</a>；<a href="https://cvpr.thecvf.com/" target="_blank" rel="noopener">CVPR →</a>。要点：CVF 查 proceedings 与会议家族，CVPR 年度站查 current calls、author instructions、reviewer material 和 participation support。</li>
+      <li><strong>ACL And ACL Anthology Official Roots：</strong>ACLWeb 管 NLP 会议公告与政策，ACL Anthology 是稳定论文档案。<a href="https://aclweb.org/" target="_blank" rel="noopener">ACLWeb →</a>；<a href="https://aclanthology.org/" target="_blank" rel="noopener">ACL Anthology →</a>。要点：ACLWeb 看 announcements 和 policy pages；ACL Anthology 查 final papers、canonical citations 和 prior work。</li>
+      <li><strong>AAAI And KDD Official Roots：</strong>AAAI 覆盖 broad AI，KDD 是 data mining 和 data science 主要会议家族。<a href="https://aaai.org/" target="_blank" rel="noopener">AAAI →</a>；<a href="https://kdd.org/" target="_blank" rel="noopener">KDD →</a>。要点：用 root 找 current annual call、special tracks、student programs 和 registration；年度 subdomain 与路径每年变化，申请前重查。</li>
+      <li><a href="https://openreview.net/" target="_blank" rel="noopener"><strong>OpenReview</strong></a>：很多 AI、ML、NLP 和 vision venue 用它提交、审稿、rebuttal、decision letter 和公开 review record。要点：早建完整 profile，检查 institutional conflict domains，弄清 reviews 是 public 还是 private，并按 venue timezone 盯 forum-level deadlines。</li>
+      <li><a href="https://icml.cc/Conferences/2026/FinancialAid" target="_blank" rel="noopener"><strong>ICML 2026 Financial Aid</strong></a>：major ML conference financial assistance 的当前官方样例。要点：financial-aid 页面按年更新，可能覆盖 registration 或 lodging 而不是 airfare；订票前先看可报销项目和申请截止。</li>
+      <li><a href="https://cvpr.thecvf.com/Conferences/2026/BroadeningParticipation" target="_blank" rel="noopener"><strong>CVPR 2026 Broadening Participation</strong></a>：vision venue 对 participation support 的年度官方样例。要点：这类支持通常有单独 eligibility、材料和截止日期；不要等论文结果后才第一次查看。</li>
+      <li><a href="https://kdd2026.kdd.org/call-for-student-travel-award-applications/" target="_blank" rel="noopener"><strong>KDD 2026 Student Travel Award Applications</strong></a>：data mining 会议 travel award call 的当前样例。要点：travel award 的规则和 deadline 独立于 paper submission；提前确认 student status、所需文件和 reimbursement receipts。</li>
+      <li><a href="https://aaai.org/conference/aaai/aaai-26/student-scholar-volunteer-program/" target="_blank" rel="noopener"><strong>AAAI-26 Student Scholar And Volunteer Program</strong></a>：AAAI 学生项目和 volunteer 路径的年度官方样例。要点：student scholar、volunteer 与 travel support 往往要求不同材料和服务承诺，申请时看清是否能同时参加。</li>
+      <li><a href="https://neurips.cc/Conferences/2026/ReviewerGuidelines" target="_blank" rel="noopener"><strong>NeurIPS 2026 Reviewer Guidelines</strong></a>：顶级 ML venue 对 confidential peer review 的官方要求。要点：好 review 先说明贡献，再给有证据的 strengths 和 weaknesses，检查 claims 是否被实验或理论支撑，避免人身化和只有分数没有理由的反馈。</li>
+      <li><a href="https://aclrollingreview.org/reviewerguidelines" target="_blank" rel="noopener"><strong>ACL Rolling Review Reviewer Guidelines</strong></a>：ACL-family NLP 审稿的结构化训练材料。要点：把 summary、main reasons、specific questions 和 actionable suggestions 分开写；按 review form 校准意见，方便 area chair 使用。</li>
+      <li><a href="https://cvpr.thecvf.com/Conferences/2026/ReviewerTrainingMaterial" target="_blank" rel="noopener"><strong>CVPR 2026 Reviewer Training Material</strong></a>：vision 审稿训练材料的官方年度入口。要点：第一次审 CVPR-family 论文前先看培训材料，按 venue rubric 写 evidence-backed comments，而不是把个人偏好当硬性标准。</li>
+      <li><strong>S. Keshav, How To Read A Paper：</strong>也适合作为初级 reviewer 的读稿流程。<a href="http://ccr.sigcomm.org/online/files/p83-keshavA.pdf" target="_blank" rel="noopener">SIGCOMM PDF →</a>；<a href="https://dl.acm.org/doi/10.1145/1273445.1273458" target="_blank" rel="noopener">ACM →</a>。要点：用 three-pass method 先抓问题、claims 和结构，再检查方法与证据，最后读到足以测试假设并写出具体 review comments。</li>
+    </ul>
+  </section>
+
+  <p class="disc">以上均为公开资源，仅供参考。项目政策、费用减免、fellowship、英语考试与会议资助每年可能变化，最终以学校、会议、ETS 与官方机构页面为准。</p>
+
+  <footer>由 <a href="https://yzhao062.github.io" target="_blank" rel="noopener">Yue Zhao</a>(USC)发起与维护 · <a href="mailto:contact@csphd.org">contact@csphd.org</a> · csphd.org · <a href="./privacy.html">隐私与使用说明</a></footer>
+</div>
+</body>
+</html>

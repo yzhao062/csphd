@@ -75,7 +75,7 @@ csphd/
 ├── jobs.html           实习全职：工业界求职资源
 ├── faculty.html        教职资源：CS 教职求职合集
 ├── privacy.html        隐私与使用说明
-├── data/openings.js    机会数据（GitHub Action 每日生成）
+├── data/openings.js    机会数据（GitHub Action 每日生成，含 firstSeen/lastChanged 新鲜度字段）
 ├── tools/              build_openings.py（表格 → JSON / JS）
 ├── .github/workflows/  sync-openings.yml（每日同步）
 ├── screenshots/        微信群截图

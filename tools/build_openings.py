@@ -63,6 +63,52 @@ TYPE_PATTERNS = (
 FIELDS = ("university", "faculty", "interests", "term", "deadline",
           "homepage", "positions", "requirements", "contact", "materials")
 
+TRACKED_FIELDS = ("interests", "positions", "requirements", "materials",
+                  "term", "deadline", "contact", "homepage")
+
+
+def identity_key(record):
+    faculty = re.sub(r"\s+", " ", record.get("faculty") or "").strip().lower()
+    school = re.sub(r"\s+", " ", record.get("university") or "").strip().lower()
+    return faculty + "\x00" + school + "\x00" + (record.get("category") or "")
+
+
+def tracked_signature(record):
+    return tuple(re.sub(r"\s+", " ", (record.get(field) or "")).strip()
+                 for field in TRACKED_FIELDS)
+
+
+def load_previous(data_dir):
+    path = os.path.join(data_dir, "openings.json")
+    try:
+        with open(path, encoding="utf-8") as handle:
+            payload = json.load(handle)
+    except (OSError, ValueError):
+        return {}
+    previous = {}
+    for record in payload.get("openings", []):
+        previous.setdefault(identity_key(record), []).append(record)
+    return previous
+
+
+def stamp_recency(openings, previous, today):
+    used = {}
+    for record in openings:
+        key = identity_key(record)
+        bucket = previous.get(key, [])
+        cursor = used.get(key, 0)
+        used[key] = cursor + 1
+        prior = bucket[cursor] if cursor < len(bucket) else None
+        if prior is None:
+            record["firstSeen"] = today
+            record["lastChanged"] = today
+            continue
+        record["firstSeen"] = prior.get("firstSeen") or today
+        last_changed = prior.get("lastChanged") or today
+        if tracked_signature(record) != tracked_signature(prior):
+            last_changed = today
+        record["lastChanged"] = last_changed
+
 # Merge known variant spellings of the same school so the board and the
 # university filter list show each school once. Applied after whitespace
 # normalization; extend as new variants appear in the source sheet.
@@ -121,12 +167,12 @@ def parse_tab(csv_text, tab):
     return openings
 
 
-def build_payload():
+def build_payload(today):
     short = parse_tab(fetch_csv(TABS[0]["gid"]), TABS[0])
     long_ = parse_tab(fetch_csv(TABS[1]["gid"]), TABS[1])
     openings = short + long_
     return {
-        "synced": dt.datetime.now(dt.timezone.utc).date().isoformat(),
+        "synced": today,
         "source": SOURCE_URL,
         "count": len(openings),
         "shortterm": len(short),
@@ -135,10 +181,13 @@ def build_payload():
     }
 
 
-def write_outputs(payload):
+def data_dir_path():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     repo_root = os.path.abspath(os.path.join(script_dir, os.pardir))
-    data_dir = os.path.join(repo_root, "data")
+    return os.path.join(repo_root, "data")
+
+
+def write_outputs(payload, data_dir):
     os.makedirs(data_dir, exist_ok=True)
     json_text = json.dumps(payload, ensure_ascii=False, indent=2)
     with open(os.path.join(data_dir, "openings.json"), "w", encoding="utf-8") as handle:
@@ -148,12 +197,15 @@ def write_outputs(payload):
 
 
 def main():
+    today = dt.datetime.now(dt.timezone.utc).date().isoformat()
+    data_dir = data_dir_path()
     try:
-        payload = build_payload()
+        payload = build_payload(today)
     except RuntimeError as exc:
         print("error: %s" % exc, file=sys.stderr)
         return 1
-    write_outputs(payload)
+    stamp_recency(payload["openings"], load_previous(data_dir), today)
+    write_outputs(payload, data_dir)
     print("Synced %s openings (short %s, long %s)." % (
         payload["count"], payload["shortterm"], payload["longterm"]))
     return 0

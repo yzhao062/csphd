@@ -5,9 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>PhD / RA / Postdoc 机会 · 博士栈</title>
 <link rel="icon" href="./favicon.svg" type="image/svg+xml">
-<meta name="description" content="博士栈 PhD、RA、Postdoc、Intern 机会列表，按学校分组，可搜索和筛选。">
+<meta name="description" content="博士栈 PhD、RA、Postdoc、Intern 机会列表，按最近更新排序，可搜索和筛选。">
 <style>
-  :root{--ink:#16181d; --muted:#5b6270; --line:#e6e8ec; --bg:#fff; --accent:#1f6feb; --accent-ink:#fff; --warn:#b45309; --soft:#f7f8fa; --control-h:88px}
+  :root{--ink:#16181d; --muted:#5b6270; --line:#e6e8ec; --bg:#fff; --accent:#1f6feb; --accent-ink:#fff; --warn:#b45309; --soft:#f7f8fa}
   *{box-sizing:border-box}
   html,body{margin:0;padding:0}
   body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.45;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
@@ -39,11 +39,9 @@
   button:hover{border-color:#c9ced8;background:#fbfbfc}
   button:focus-visible{outline:2px solid rgba(31,111,235,.28);outline-offset:2px}
   .list{display:block}
-  .school-group{margin:0}
-  .school-head{position:sticky;top:var(--control-h);z-index:3;display:flex;align-items:center;justify-content:space-between;gap:10px;background:#eef2f8;border-top:1px solid var(--line);border-bottom:1px solid #d6dde8;border-left:3px solid var(--accent);padding:6px 10px;font-size:13px;line-height:1.25}
-  .school-name{font-weight:800;color:var(--ink);min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-  .school-count{flex:0 0 auto;color:var(--muted);font-size:12px;font-variant-numeric:tabular-nums}
-  .school-count .short{color:var(--warn);font-weight:750}
+  .school-inline{color:var(--muted);font-weight:650;overflow-wrap:anywhere;min-width:0}
+  .badge.fresh{border-color:rgba(21,128,61,.3);background:#f0fdf4;color:#15803d}
+  .badge.upd{border-color:rgba(31,111,235,.28);background:#eff6ff;color:var(--accent)}
   .term-block{margin-top:8px}
   .opening-row{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:start;gap:0 8px;border-bottom:1px solid var(--line);padding:5px 0}
   .row-main{min-width:0;display:flex;align-items:center;gap:2px 5px;flex-wrap:wrap;font-size:13px;line-height:1.35}
@@ -78,7 +76,6 @@
     h1{font-size:26px}
     .controls{border:1px solid var(--line);border-radius:8px;margin:0 0 10px;padding:8px}
     .control-grid{grid-template-columns:minmax(190px,1.15fr) minmax(160px,.85fr) minmax(120px,.62fr) minmax(245px,1.35fr);align-items:end}
-    .school-head{padding-left:10px;padding-right:10px}
     .opening-row{padding-left:4px;padding-right:4px}
   }
   @media (max-width:620px){
@@ -90,7 +87,6 @@
     .control-grid{grid-template-columns:1fr}
     .chip-row{gap:4px}
     .chip span{min-height:32px;padding:7px 11px}
-    .school-head{top:var(--control-h);padding:5px 7px}
     .opening-row{grid-template-columns:minmax(0,1fr) auto;padding:6px 0}
     .row-main{font-size:12.5px;gap:2px 4px}
     .topic{flex-basis:100%;white-space:nowrap}
@@ -173,6 +169,7 @@
 </main>
 <footer>由 <a href="https://yzhao062.github.io" target="_blank" rel="noopener">Yue Zhao</a>(USC)发起与维护 · <a href="mailto:contact@csphd.org">contact@csphd.org</a> · csphd.org · <a href="./privacy.html">隐私与使用说明</a></footer>
 <script src="./data/openings.js"></script>
+<script src="./js/recency.js"></script>
 <script>
 (function(){
   "use strict";
@@ -186,7 +183,6 @@
 
   var summaryLine = document.getElementById("summaryLine");
   var sourceButton = document.getElementById("sourceButton");
-  var controls = document.getElementById("controls");
   var searchInput = document.getElementById("searchInput");
   var universitySelect = document.getElementById("universitySelect");
   var categoryInputs = Array.prototype.slice.call(document.querySelectorAll("#categoryFilters input[type='checkbox']"));
@@ -203,6 +199,9 @@
   var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   var NOW = new Date();
   var NOW_CODE = NOW.getFullYear() * 12 + NOW.getMonth();
+  var RECENCY_WINDOW_DAYS = 14;
+  var SYNCED = text(rawData && rawData.synced);
+  var TRACK_START = "";  // earliest firstSeen across cards; set after mergeEntities
 
   function text(value){
     return value == null ? "" : String(value).trim();
@@ -307,6 +306,12 @@
     for (var i = 0; i < items.length; i++) { var v = text(items[i][key]); if (v) return v; }
     return "";
   }
+  function minDate(items, key){
+    var best = ""; items.forEach(function(it){ var v = text(it[key]); if (v && (!best || v < best)) best = v; }); return best;
+  }
+  function maxDate(items, key){
+    var best = ""; items.forEach(function(it){ var v = text(it[key]); if (v && v > best) best = v; }); return best;
+  }
   function joinUnique(items, key, sep){
     var seen = {}, out = [];
     items.forEach(function(it){ var v = text(it[key]); if (v && !seen[v]) { seen[v] = true; out.push(v); } });
@@ -370,7 +375,9 @@
         deadline: longest(items, "deadline"),
         positions: joinUnique(items, "positions", " / "),
         requirements: joinUnique(items, "requirements", " / "),
-        materials: joinUnique(items, "materials", " / ")
+        materials: joinUnique(items, "materials", " / "),
+        firstSeen: minDate(items, "firstSeen"),
+        lastChanged: maxDate(items, "lastChanged")
       };
       return { item: item, index: rows[0].index, terms: unionParsedTerms(items) };
     });
@@ -440,12 +447,6 @@
     return { shortCount: shortCount, longCount: longCount };
   }
 
-  function setStickyOffset(){
-    if (!controls) return;
-    var height = Math.ceil(controls.getBoundingClientRect().height);
-    document.documentElement.style.setProperty("--control-h", height + "px");
-  }
-
   function setupHeader(){
     if (!hasData) {
       summaryLine.textContent = "未能读取机会数据，请稍后刷新。";
@@ -497,32 +498,12 @@
     return true;
   }
 
-  function groupEntries(entries){
-    var map = new Map();
-    entries.forEach(function(entry){
-      var school = normalizedSchool(entry.item);
-      if (!map.has(school)) map.set(school, []);
-      map.get(school).push(entry);
-    });
-    var groups = Array.from(map.keys()).map(function(school){
-      var items = map.get(school).slice();
-      items.sort(function(a, b){
-        var catA = categoryOf(a.item) === "短期" ? 0 : 1;
-        var catB = categoryOf(b.item) === "短期" ? 0 : 1;
-        if (catA !== catB) return catA - catB;
-        return a.index - b.index;
-      });
-      return {
-        school: school,
-        hasShort: items.some(function(entry){ return categoryOf(entry.item) === "短期"; }),
-        items: items
-      };
-    });
-    groups.sort(function(a, b){
-      if (a.hasShort !== b.hasShort) return a.hasShort ? -1 : 1;
-      return a.school.localeCompare(b.school, "en", { sensitivity: "base" });
-    });
-    return groups;
+  function compareEntries(a, b){
+    var la = text(a.item.lastChanged), lb = text(b.item.lastChanged);
+    if (la !== lb) return la < lb ? 1 : -1;  // newer date first; empty sorts last
+    var c = normalizedSchool(a.item).localeCompare(normalizedSchool(b.item), "en", { sensitivity: "base" });
+    if (c !== 0) return c;
+    return text(a.item.faculty).localeCompare(text(b.item.faculty), "en", { sensitivity: "base" });
   }
 
   function makeFaculty(item){
@@ -608,6 +589,12 @@
 
     var main = document.createElement("div");
     main.className = "row-main";
+    var tag = (typeof Recency !== "undefined")
+      ? Recency.recencyTag(text(item.firstSeen), text(item.lastChanged), TRACK_START, SYNCED, RECENCY_WINDOW_DAYS)
+      : "";
+    if (tag) main.appendChild(makeBadge(tag, tag === "新" ? "fresh" : "upd"));
+    main.appendChild(createText("span", "school-inline", normalizedSchool(item)));
+    main.appendChild(createText("span", "sep", "·"));
     main.appendChild(makeFaculty(item));
     main.appendChild(createText("span", "sep", "·"));
 
@@ -661,32 +648,6 @@
     return row;
   }
 
-  function makeGroup(group){
-    var section = document.createElement("section");
-    section.className = "school-group";
-
-    var head = document.createElement("div");
-    head.className = "school-head";
-    head.appendChild(createText("div", "school-name", group.school));
-    var count = document.createElement("div");
-    count.className = "school-count";
-    count.appendChild(document.createTextNode(group.items.length + " 个职位"));
-    var shortN = group.items.filter(function(entry){ return categoryOf(entry.item) === "短期"; }).length;
-    if (shortN) {
-      var shortTag = document.createElement("span");
-      shortTag.className = "short";
-      shortTag.textContent = " · " + shortN + " 短期";
-      count.appendChild(shortTag);
-    }
-    head.appendChild(count);
-    section.appendChild(head);
-
-    group.items.forEach(function(entry){
-      section.appendChild(makeRow(entry));
-    });
-    return section;
-  }
-
   function showEmpty(message){
     clearElement(results);
     emptyMessage.textContent = message;
@@ -694,7 +655,6 @@
   }
 
   function render(){
-    setStickyOffset();
     if (!hasData) {
       resultCount.textContent = "显示 0 / 0";
       showEmpty("机会数据暂时不可用。请稍后刷新页面，或从首页重新进入。");
@@ -716,10 +676,9 @@
       return;
     }
 
+    filtered.sort(compareEntries);
     var fragment = document.createDocumentFragment();
-    groupEntries(filtered).forEach(function(group){
-      fragment.appendChild(makeGroup(group));
-    });
+    filtered.forEach(function(entry){ fragment.appendChild(makeRow(entry)); });
     emptyMessage.classList.add("hidden");
     emptyMessage.textContent = "";
     clearElement(results);
@@ -762,14 +721,10 @@
   categoryInputs.concat(typeInputs).forEach(function(input){
     input.addEventListener("change", render);
   });
-  window.addEventListener("resize", function(){
-    window.clearTimeout(searchTimer);
-    searchTimer = window.setTimeout(function(){
-      setStickyOffset();
-    }, 80);
-  });
-
   openings = mergeEntities(openings);
+  TRACK_START = openings.reduce(function(min, e){
+    var v = text(e.item.firstSeen); return (v && (!min || v < min)) ? v : min;
+  }, "");
   setupHeader();
   setupUniversities();
   setupTerms();

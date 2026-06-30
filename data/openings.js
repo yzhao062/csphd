@@ -1,9 +1,9 @@
 window.OPENINGS = {
   "synced": "2026-06-30",
   "source": "https://tinyurl.com/2026phd",
-  "count": 547,
+  "count": 548,
   "shortterm": 94,
-  "longterm": 453,
+  "longterm": 454,
   "openings": [
     {
       "university": "Arizona State University",
@@ -19,7 +19,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Pittsburgh",
@@ -35,7 +37,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Chinese University of Hong Kong",
@@ -51,7 +55,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Chinese University of Hong Kong, Shenzhen",
@@ -68,7 +74,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Chinese University of Hong Kong, Shenzhen",
@@ -84,7 +92,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Chinese University of Hong Kong, Shenzhen",
@@ -101,7 +111,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "City University of Hong Kong",
@@ -117,7 +129,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Claude Bernard University Lyon 1, France",
@@ -133,7 +147,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "Postdoc"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Clemson University",
@@ -149,7 +165,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Clemson University",
@@ -165,7 +183,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Clemson University",
@@ -181,7 +201,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "College of William & Mary",
@@ -197,7 +219,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Florida State University",
@@ -213,7 +237,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Florida State University",
@@ -230,7 +256,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "HKUST(GZ)",
@@ -246,7 +274,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "HKUST(GZ)",
@@ -263,7 +293,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "HKUST(GZ)",
@@ -279,7 +311,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Hong Kong Baptist University",
@@ -295,7 +329,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Hong Kong University of Science and Technology",
@@ -311,7 +347,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Johns Hopkins University",
@@ -327,7 +365,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Michigan Technological University",
@@ -343,7 +383,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "National University of Singapore",
@@ -359,7 +401,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "National University of Singapore",
@@ -376,7 +420,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "New Jersey Institute of Technology",
@@ -392,7 +438,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Oregon State University",
@@ -408,7 +456,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Rochester Institute of Technology",
@@ -424,7 +474,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Singapore University of Technology and Design",
@@ -440,7 +492,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Singapore University of Technology and Design",
@@ -456,7 +510,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "South Dakota State Uni",
@@ -472,7 +528,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Temple University",
@@ -488,7 +546,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Temple University",
@@ -504,7 +564,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Texas A&M University",
@@ -520,7 +582,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Texas A&M University",
@@ -536,7 +600,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Texas Christian University",
@@ -552,7 +618,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "The Ohio State University",
@@ -570,7 +638,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "UMass Amherst",
@@ -586,7 +656,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Arizona",
@@ -602,7 +674,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Arizona",
@@ -618,7 +692,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Arizona",
@@ -634,7 +710,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Arizona",
@@ -651,7 +729,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Arkansas",
@@ -667,7 +747,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of California, Merced",
@@ -683,7 +765,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Central Florida",
@@ -699,7 +783,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Connecticut",
@@ -715,7 +801,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Connecticut",
@@ -731,7 +819,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of North Florida",
@@ -747,7 +837,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of South Florida",
@@ -764,7 +856,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Tennessee, Knoxville",
@@ -780,7 +874,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Texas at Arlington",
@@ -796,7 +892,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Wisconsin-Madison",
@@ -812,7 +910,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Universty of Tennessee, Knoxville",
@@ -828,7 +928,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University College Dublin, Ireland",
@@ -844,7 +946,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Washington State University",
@@ -860,7 +964,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Louisiana at Lafayette",
@@ -877,7 +983,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "City University of Hong Kong",
@@ -893,7 +1001,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Hong Kong",
@@ -909,7 +1019,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Hong Kong",
@@ -925,7 +1037,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Columbia University",
@@ -941,7 +1055,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Temple University",
@@ -957,7 +1073,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Virginia Tech",
@@ -973,7 +1091,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Binghamton Univeristy",
@@ -989,7 +1109,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Auburn University",
@@ -1005,7 +1127,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Mississippi",
@@ -1021,7 +1145,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Wayne State University",
@@ -1037,7 +1163,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Washington State University",
@@ -1053,7 +1181,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Rowan University",
@@ -1069,7 +1199,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Virginia Tech",
@@ -1083,7 +1215,9 @@ window.OPENINGS = {
       "contact": "zhoud@vt.edu",
       "materials": "CV, Transcript, Signature Work",
       "category": "短期",
-      "types": []
+      "types": [],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Georgia",
@@ -1099,7 +1233,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Georgia",
@@ -1115,7 +1251,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Queensland (Australia)",
@@ -1131,7 +1269,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Chinese University of Hong Kong, Shenzhen",
@@ -1147,7 +1287,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Waterloo (Canada)",
@@ -1163,7 +1305,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Colorado Denver",
@@ -1179,7 +1323,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "The University of Hong Kong",
@@ -1195,7 +1341,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Oklahoma",
@@ -1211,7 +1359,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Texas A&M University",
@@ -1227,7 +1377,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Arizona State University",
@@ -1243,7 +1395,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Universiti Malaya",
@@ -1259,7 +1413,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Northeastern University (Boston USA)",
@@ -1275,7 +1431,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Washington State University",
@@ -1291,7 +1449,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Iowa State University",
@@ -1307,7 +1467,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of California, Riverside",
@@ -1323,7 +1485,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Concordia University (Canada)",
@@ -1339,7 +1503,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Auburn University (AL, USA)",
@@ -1355,7 +1521,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Tampere University",
@@ -1371,7 +1539,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Arizona",
@@ -1388,7 +1558,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Kennesaw State University",
@@ -1404,7 +1576,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Hong Kong Baptist University",
@@ -1420,7 +1594,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Rutgers",
@@ -1436,7 +1612,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Rutgers University",
@@ -1453,7 +1631,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "ELLIS Institute Finland and Tampere University",
@@ -1470,7 +1650,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Postdoc"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Waterloo",
@@ -1486,7 +1668,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Oxford",
@@ -1502,7 +1686,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Nanyang Technological University",
@@ -1518,7 +1704,9 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Arizona State University",
@@ -1536,7 +1724,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Arizona State University",
@@ -1553,7 +1743,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Arizona State University",
@@ -1570,7 +1762,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Arizona State University",
@@ -1586,7 +1780,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Arizona State University",
@@ -1603,7 +1799,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Arizona State University",
@@ -1620,7 +1818,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Arizona State University",
@@ -1638,7 +1838,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Arizona State University",
@@ -1654,7 +1856,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Arizona State University",
@@ -1670,7 +1874,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Arizona State University",
@@ -1688,7 +1894,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Auburn University",
@@ -1704,7 +1912,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Auburn University",
@@ -1720,7 +1930,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Auburn University",
@@ -1737,7 +1949,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Auburn University",
@@ -1754,7 +1968,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Auburn University (AL, USA)",
@@ -1768,7 +1984,9 @@ window.OPENINGS = {
       "contact": "Email",
       "materials": "CV, Transcript, Publications if available",
       "category": "长期",
-      "types": []
+      "types": [],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Augusta University",
@@ -1785,7 +2003,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Baylor University",
@@ -1802,7 +2022,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Binghamton University",
@@ -1819,7 +2041,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Boise State University",
@@ -1836,7 +2060,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Boise State University",
@@ -1853,7 +2079,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Boise State University",
@@ -1870,7 +2098,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Boston College",
@@ -1887,7 +2117,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Postdoc"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Boston University",
@@ -1906,7 +2138,9 @@ window.OPENINGS = {
         "RA",
         "Postdoc",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Boston University",
@@ -1923,7 +2157,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Carleton University, Canada",
@@ -1937,7 +2173,9 @@ window.OPENINGS = {
       "contact": "",
       "materials": "",
       "category": "长期",
-      "types": []
+      "types": [],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Case Western Reserve University",
@@ -1954,7 +2192,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Chapman University",
@@ -1970,7 +2210,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Chinese University of Hong Kong",
@@ -1986,7 +2228,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Chinese University of Hong Kong, Shenzhen",
@@ -2003,7 +2247,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Chinese University of Hong Kong, Shenzhen",
@@ -2020,7 +2266,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Chinese University of Hong Kong, Shenzhen",
@@ -2037,7 +2285,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Chinese University of Hong Kong, Shenzhen",
@@ -2055,7 +2305,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Postdoc"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "City University of Hong Kong",
@@ -2072,7 +2324,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Postdoc"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Claude Bernard University Lyon 1, France",
@@ -2090,7 +2344,9 @@ window.OPENINGS = {
         "PhD",
         "Postdoc",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Clemson University",
@@ -2108,7 +2364,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Clemson University",
@@ -2125,7 +2383,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Clemson University",
@@ -2142,7 +2402,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Clemson University",
@@ -2161,7 +2423,9 @@ window.OPENINGS = {
         "RA",
         "Postdoc",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Clemson University",
@@ -2177,7 +2441,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Clemson University",
@@ -2195,7 +2461,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Clemson University",
@@ -2209,7 +2477,9 @@ window.OPENINGS = {
       "contact": "Email",
       "materials": "",
       "category": "长期",
-      "types": []
+      "types": [],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Clemson University",
@@ -2226,7 +2496,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Clemson University",
@@ -2243,7 +2515,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "College of William & Mary",
@@ -2260,7 +2534,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Columbia University",
@@ -2279,7 +2555,9 @@ window.OPENINGS = {
         "RA",
         "Postdoc",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Cornell University",
@@ -2293,7 +2571,28 @@ window.OPENINGS = {
       "contact": "",
       "materials": "",
       "category": "长期",
-      "types": []
+      "types": [],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
+    },
+    {
+      "university": "Cornell University",
+      "faculty": "Chengxi Zang",
+      "interests": "LLM/Agents, Multimodal Learning, AI for science (health/medicine)",
+      "term": "2026 Fall, 2027 Spring",
+      "deadline": "",
+      "homepage": "https://www.calvinzang.com/",
+      "positions": "Postdoc, PhD, Visiting, ...",
+      "requirements": "",
+      "contact": "Email (Chengxi Zang: chengxi.zang@gmail.com, Zheqi Lv (Zheqi Lyu): zheqi.lv@gmail.com), In-person (chat with Chengxi Zang during ACL, chat with Zheqi Lv (Zheqi Lyu) during ICML)",
+      "materials": "CV",
+      "category": "长期",
+      "types": [
+        "PhD",
+        "Postdoc"
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Dartmouth College",
@@ -2307,7 +2606,9 @@ window.OPENINGS = {
       "contact": "Email",
       "materials": "",
       "category": "长期",
-      "types": []
+      "types": [],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Dartmouth College",
@@ -2325,7 +2626,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Postdoc"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Drexel University",
@@ -2342,7 +2645,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Drexel University",
@@ -2360,7 +2665,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Drexel University",
@@ -2377,7 +2684,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Duke Kunshan",
@@ -2393,7 +2702,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Duke University",
@@ -2412,7 +2723,9 @@ window.OPENINGS = {
         "RA",
         "Postdoc",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "ELLIS Institute Finland and Tampere University",
@@ -2429,7 +2742,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Postdoc"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Emory University",
@@ -2446,7 +2761,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Emory University",
@@ -2463,7 +2780,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Emory University",
@@ -2480,7 +2799,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Florida Atlantic University",
@@ -2497,7 +2818,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Florida International University",
@@ -2515,7 +2838,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Postdoc"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Florida International University",
@@ -2531,7 +2856,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Florida International University",
@@ -2548,7 +2875,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Florida International University",
@@ -2565,7 +2894,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Florida State University",
@@ -2582,7 +2913,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Florida State University",
@@ -2599,7 +2932,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Florida State University",
@@ -2617,7 +2952,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Florida State University",
@@ -2634,7 +2971,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Florida State University",
@@ -2651,7 +2990,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Florida State University",
@@ -2668,7 +3009,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "George Mason University",
@@ -2685,7 +3028,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "George Mason University",
@@ -2702,7 +3047,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "George Mason University",
@@ -2719,7 +3066,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "George Mason University",
@@ -2736,7 +3085,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Georgia Institute of Technology",
@@ -2753,7 +3104,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Postdoc"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Georgia Institute of Technology",
@@ -2770,7 +3123,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Georgia Institute of Technology",
@@ -2787,7 +3142,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Georgia Institute of Technology",
@@ -2804,7 +3161,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Georgia Institute of Technology",
@@ -2821,7 +3180,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Postdoc"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Georgia Institute of Technology",
@@ -2838,7 +3199,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Georgia Institute of Technology",
@@ -2855,7 +3218,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Georgia State University",
@@ -2872,7 +3237,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Georgia State University",
@@ -2886,7 +3253,9 @@ window.OPENINGS = {
       "contact": "Email",
       "materials": "CV, Transcript",
       "category": "长期",
-      "types": []
+      "types": [],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Georgia State University",
@@ -2903,7 +3272,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Geroge Washington University",
@@ -2917,7 +3288,9 @@ window.OPENINGS = {
       "contact": "Email",
       "materials": "",
       "category": "长期",
-      "types": []
+      "types": [],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Harvard University",
@@ -2934,7 +3307,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "HKUST(GZ)",
@@ -2950,7 +3325,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "HKUST(GZ)",
@@ -2966,7 +3343,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "HKUST(GZ)",
@@ -2982,7 +3361,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Hong Kong Baptist University",
@@ -2998,7 +3379,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Hong Kong Baptist University",
@@ -3015,7 +3398,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Hong Kong Polytechnic University",
@@ -3033,7 +3418,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Hong Kong University of Science and Technology",
@@ -3049,7 +3436,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Hong Kong University of Science and Technology",
@@ -3065,7 +3454,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Hong Kong University of Science and Technology",
@@ -3083,7 +3474,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Hong Kong University of Science and Technology",
@@ -3099,7 +3492,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Hong Kong University of Science and Technology",
@@ -3116,7 +3511,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Postdoc"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Hong Kong University of Science and Technology",
@@ -3134,7 +3531,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Hong Kong University of Science and Technology (Guangzhou)",
@@ -3150,7 +3549,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Hong Kong University of Science and Technology (Guangzhou)",
@@ -3168,7 +3569,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Hong Kong University of Science and Technology (Guangzhou)",
@@ -3186,7 +3589,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Hong Kong University of Science and Technology (Guangzhou)",
@@ -3204,7 +3609,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Illinois Institute of Technology",
@@ -3221,7 +3628,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Illinois Institute of Technology",
@@ -3238,7 +3647,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Illinois Institute of Technology",
@@ -3255,7 +3666,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Imperial College London",
@@ -3271,7 +3684,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Indiana University Bloomington",
@@ -3288,7 +3703,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Iowa State University",
@@ -3305,7 +3722,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Iowa State University",
@@ -3322,7 +3741,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Iowa State University",
@@ -3339,7 +3760,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Johns Hopkins University",
@@ -3357,7 +3780,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Johns Hopkins University",
@@ -3374,7 +3799,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Postdoc"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Johns Hopkins University",
@@ -3392,7 +3819,9 @@ window.OPENINGS = {
         "PhD",
         "Postdoc",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Kansas State University",
@@ -3409,7 +3838,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Kansas State University",
@@ -3426,7 +3857,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Kennesaw State University",
@@ -3443,7 +3876,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Kent State University/Miami University",
@@ -3460,7 +3895,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "King Abdullah University of Science and Technology (KAUST)",
@@ -3477,7 +3914,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "King Abdullah University of Science and Technology (KAUST)",
@@ -3494,7 +3933,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "King's College London, UK",
@@ -3510,7 +3951,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Lehigh university",
@@ -3527,7 +3970,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Lehigh University",
@@ -3544,7 +3989,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Louisiana State University",
@@ -3561,7 +4008,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Louisiana State University",
@@ -3578,7 +4027,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Massachusetts Institute of Technology",
@@ -3595,7 +4046,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "MBZUAI",
@@ -3612,7 +4065,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "MBZUAI",
@@ -3628,7 +4083,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "MBZUAI",
@@ -3646,7 +4103,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Postdoc"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "MBZUAI",
@@ -3663,7 +4122,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "MBZUAI",
@@ -3681,7 +4142,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Postdoc"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Michigan State University",
@@ -3698,7 +4161,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Michigan State University",
@@ -3716,7 +4181,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Michigan Technological University",
@@ -3733,7 +4200,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Michigan Technological University",
@@ -3750,7 +4219,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Missouri S&T",
@@ -3767,7 +4238,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Missouri S&T",
@@ -3784,7 +4257,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Nanyang Technological University, Singapore",
@@ -3800,7 +4275,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Nanyang Technological University, Singapore",
@@ -3818,7 +4295,9 @@ window.OPENINGS = {
         "PhD",
         "Postdoc",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Nanyang Technological University, Singapore",
@@ -3832,7 +4311,9 @@ window.OPENINGS = {
       "contact": "",
       "materials": "",
       "category": "长期",
-      "types": []
+      "types": [],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Nanyang Technological University, Singapore",
@@ -3849,7 +4330,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Postdoc"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "National University of Singapore",
@@ -3865,7 +4348,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "National University of Singapore",
@@ -3883,7 +4368,9 @@ window.OPENINGS = {
         "PhD",
         "Postdoc",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "National University of Singapore",
@@ -3899,7 +4386,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "National University of Singapore",
@@ -3913,7 +4402,9 @@ window.OPENINGS = {
       "contact": "am3grouphiring@gmail.com",
       "materials": "Please read https://zhongpc.github.io/opening.html",
       "category": "长期",
-      "types": []
+      "types": [],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "National University of Singapore",
@@ -3931,7 +4422,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "NC State University",
@@ -3948,7 +4441,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "NC State University",
@@ -3965,7 +4460,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "NC State University",
@@ -3981,7 +4478,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "NC State University",
@@ -3999,7 +4498,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "NC State University",
@@ -4016,7 +4517,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "NC State University",
@@ -4033,7 +4536,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "NC State University",
@@ -4049,7 +4554,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "New Jersey Institute of Technology",
@@ -4066,7 +4573,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "New Jersey Institute of Technology",
@@ -4083,7 +4592,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "New Jersey Institute of Technology",
@@ -4099,7 +4610,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "New Jersey Institute of Technology",
@@ -4113,7 +4626,9 @@ window.OPENINGS = {
       "contact": "",
       "materials": "",
       "category": "长期",
-      "types": []
+      "types": [],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "New York University",
@@ -4129,7 +4644,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "New York University - Shanghai Track",
@@ -4147,7 +4664,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "North Carolina A&T State University",
@@ -4164,7 +4683,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "North Carolina State University",
@@ -4180,7 +4701,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "North Carolina State University",
@@ -4197,7 +4720,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "North Carolina State University",
@@ -4213,7 +4738,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "North Carolina State University",
@@ -4232,7 +4759,9 @@ window.OPENINGS = {
         "RA",
         "Postdoc",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Northeastern University",
@@ -4249,7 +4778,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Northeastern University",
@@ -4265,7 +4796,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Northeastern University",
@@ -4282,7 +4815,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Northeastern University",
@@ -4300,7 +4835,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Northwestern University",
@@ -4317,7 +4854,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Northwestern University",
@@ -4334,7 +4873,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Northwestern University",
@@ -4351,7 +4892,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Northwestern University",
@@ -4368,7 +4911,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Northwestern University",
@@ -4385,7 +4930,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Northwestern University",
@@ -4402,7 +4949,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Ohio State University",
@@ -4419,7 +4968,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Postdoc"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Ohio State University",
@@ -4437,7 +4988,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Ohio University",
@@ -4451,7 +5004,9 @@ window.OPENINGS = {
       "contact": "Email",
       "materials": "",
       "category": "长期",
-      "types": []
+      "types": [],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Oklahoma State University",
@@ -4468,7 +5023,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Oklahoma State University",
@@ -4485,7 +5042,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Okland University",
@@ -4502,7 +5061,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Ontario Tech University / University of Toronto (Canada)",
@@ -4518,7 +5079,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Ontario Tech University / Western University (Canada)",
@@ -4534,7 +5097,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Oregon State University",
@@ -4551,7 +5116,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Oregon State University",
@@ -4568,7 +5135,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Osaka University (Japan)",
@@ -4585,7 +5154,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Penn State University",
@@ -4602,7 +5173,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Penn State University",
@@ -4616,7 +5189,9 @@ window.OPENINGS = {
       "contact": "Email",
       "materials": "",
       "category": "长期",
-      "types": []
+      "types": [],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Penn State University",
@@ -4633,7 +5208,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Purdue University",
@@ -4650,7 +5227,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Purdue University",
@@ -4666,7 +5245,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Purdue University",
@@ -4684,7 +5265,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Purdue University",
@@ -4701,7 +5284,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Purdue University",
@@ -4717,7 +5302,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Purdue University",
@@ -4734,7 +5321,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Purdue University",
@@ -4751,7 +5340,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Rensselaer Polytechnic Institute",
@@ -4768,7 +5359,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Rensselaer Polytechnic Institute",
@@ -4785,7 +5378,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Rice University",
@@ -4802,7 +5397,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Postdoc"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Rochester Institute of Technology",
@@ -4818,7 +5415,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Rochester Institute of Technology",
@@ -4835,7 +5434,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Rochester Institute of Technology",
@@ -4852,7 +5453,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Rochester Institute of Technology",
@@ -4869,7 +5472,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Rowan University",
@@ -4886,7 +5491,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Rowan University",
@@ -4902,7 +5509,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Rowan University",
@@ -4918,7 +5527,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Rowan University",
@@ -4935,7 +5546,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Rutgers University",
@@ -4951,7 +5564,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Rutgers University",
@@ -4969,7 +5584,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Rutgers University",
@@ -4986,7 +5603,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Rutgers University",
@@ -5004,7 +5623,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Rutgers University",
@@ -5020,7 +5641,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Saint Louis University",
@@ -5037,7 +5660,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "San Diego State University",
@@ -5054,7 +5679,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "San Diego State University",
@@ -5071,7 +5698,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Simon Fraser University",
@@ -5087,7 +5716,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Simon Fraser University",
@@ -5103,7 +5734,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Singapore University of Technology and Design",
@@ -5119,7 +5752,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Singapore University of Technology and Design",
@@ -5135,7 +5770,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "South Dakota State University",
@@ -5149,7 +5786,9 @@ window.OPENINGS = {
       "contact": "email: rayxu2908@gmail.com",
       "materials": "CV, Transcript, Research Interest",
       "category": "长期",
-      "types": []
+      "types": [],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Southern University of Science and Technology (Shenzhen, China)",
@@ -5167,7 +5806,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Postdoc"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Stanford University",
@@ -5183,7 +5824,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Stevens Institute of Technology",
@@ -5201,7 +5844,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Stevens Institute of Technology",
@@ -5218,7 +5863,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Stevens Institute of Technology",
@@ -5235,7 +5882,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Stevens Institute of Technology",
@@ -5252,7 +5901,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Stony Brook University",
@@ -5266,7 +5917,9 @@ window.OPENINGS = {
       "contact": "Email",
       "materials": "",
       "category": "长期",
-      "types": []
+      "types": [],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Stony Brook University",
@@ -5283,7 +5936,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Stony Brook University",
@@ -5300,7 +5955,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "SUNY Albany",
@@ -5318,7 +5975,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Suny Buffalo",
@@ -5335,7 +5994,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Suny Buffalo",
@@ -5352,7 +6013,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Temple University",
@@ -5370,7 +6033,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Postdoc"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Temple University",
@@ -5387,7 +6052,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Texas A&M University",
@@ -5404,7 +6071,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Texas A&M University",
@@ -5421,7 +6090,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Texas A&M University",
@@ -5439,7 +6110,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Texas A&M University",
@@ -5456,7 +6129,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Texas A&M University",
@@ -5473,7 +6148,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Texas A&M University",
@@ -5491,7 +6168,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Texas A&M University",
@@ -5509,7 +6188,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Texas Tech University",
@@ -5526,7 +6207,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Texas Tech University",
@@ -5543,7 +6226,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "The Hong Kong University of Science and Technology (Guangzhou)",
@@ -5557,7 +6242,9 @@ window.OPENINGS = {
       "contact": "",
       "materials": "",
       "category": "长期",
-      "types": []
+      "types": [],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "The University of Hong Kong",
@@ -5573,7 +6260,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "The University of Hong Kong",
@@ -5589,7 +6278,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Toyota Technological Institute at Chicago",
@@ -5603,7 +6294,9 @@ window.OPENINGS = {
       "contact": "",
       "materials": "",
       "category": "长期",
-      "types": []
+      "types": [],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Tulane University",
@@ -5620,7 +6313,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Universiti Malaya",
@@ -5637,7 +6332,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University at Albany, SUNY",
@@ -5654,7 +6351,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University at Albany, SUNY",
@@ -5668,7 +6367,9 @@ window.OPENINGS = {
       "contact": "",
       "materials": "",
       "category": "长期",
-      "types": []
+      "types": [],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University at Buffalo",
@@ -5684,7 +6385,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University at Buffalo",
@@ -5702,7 +6405,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Postdoc"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University College Dublin, Ireland",
@@ -5718,7 +6423,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University College London - UCL",
@@ -5735,7 +6442,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Postdoc"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Alabama",
@@ -5752,7 +6461,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Alabama in Huntsville",
@@ -5769,7 +6480,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Arizona",
@@ -5785,7 +6498,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Arizona",
@@ -5801,7 +6516,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Arizona",
@@ -5819,7 +6536,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Arizona",
@@ -5835,7 +6554,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Arizona",
@@ -5852,7 +6573,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Arizona",
@@ -5869,7 +6592,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Arkansas",
@@ -5886,7 +6611,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Auckland",
@@ -5902,7 +6629,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of British Columbia",
@@ -5918,7 +6647,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of British Columbia",
@@ -5932,7 +6663,9 @@ window.OPENINGS = {
       "contact": "Email",
       "materials": "",
       "category": "长期",
-      "types": []
+      "types": [],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of California, Berkeley",
@@ -5950,7 +6683,9 @@ window.OPENINGS = {
         "PhD",
         "Postdoc",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of California, Davis",
@@ -5966,7 +6701,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of California, Davis",
@@ -5983,7 +6720,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of California, Irvine",
@@ -6001,7 +6740,9 @@ window.OPENINGS = {
         "PhD",
         "Postdoc",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of California, Los Angeles",
@@ -6018,7 +6759,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of California, Los Angeles",
@@ -6035,7 +6778,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of California, Los Angeles",
@@ -6052,7 +6797,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of California, Los Angeles",
@@ -6070,7 +6817,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of California, Merced",
@@ -6084,7 +6833,9 @@ window.OPENINGS = {
       "contact": "",
       "materials": "",
       "category": "长期",
-      "types": []
+      "types": [],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of California, Merced",
@@ -6101,7 +6852,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of California, Merced",
@@ -6119,7 +6872,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of California, Riverside",
@@ -6137,7 +6892,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of California, Riverside",
@@ -6154,7 +6911,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of California, Riverside",
@@ -6172,7 +6931,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of California, Riverside",
@@ -6189,7 +6950,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of California, San Diego",
@@ -6206,7 +6969,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of California, Santa Barbara",
@@ -6224,7 +6989,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of California, Santa Barbara",
@@ -6242,7 +7009,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of California, Santa Barbara",
@@ -6260,7 +7029,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of California, Santa Barbara",
@@ -6277,7 +7048,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of California, Santa Cruz",
@@ -6294,7 +7067,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Central Florida",
@@ -6308,7 +7083,9 @@ window.OPENINGS = {
       "contact": "",
       "materials": "",
       "category": "长期",
-      "types": []
+      "types": [],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Central Florida",
@@ -6325,7 +7102,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Central Florida",
@@ -6342,7 +7121,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Central Florida",
@@ -6359,7 +7140,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Central Florida",
@@ -6376,7 +7159,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Central Florida",
@@ -6393,7 +7178,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Central Florida",
@@ -6410,7 +7197,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Central Florida",
@@ -6424,7 +7213,9 @@ window.OPENINGS = {
       "contact": "",
       "materials": "",
       "category": "长期",
-      "types": []
+      "types": [],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Central Florida",
@@ -6441,7 +7232,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Central Florida",
@@ -6455,7 +7248,9 @@ window.OPENINGS = {
       "contact": "",
       "materials": "",
       "category": "长期",
-      "types": []
+      "types": [],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Central Florida",
@@ -6473,7 +7268,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Colorado Boulder",
@@ -6491,7 +7288,9 @@ window.OPENINGS = {
         "PhD",
         "Postdoc",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Colorado Boulder",
@@ -6508,7 +7307,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Colorado Denver",
@@ -6525,7 +7326,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Colorado Denver",
@@ -6542,7 +7345,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Connecticut",
@@ -6558,7 +7363,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Connecticut",
@@ -6575,7 +7382,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Connecticut",
@@ -6592,7 +7401,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Delaware",
@@ -6609,7 +7420,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Edinburgh",
@@ -6627,7 +7440,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Florida",
@@ -6644,7 +7459,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Florida",
@@ -6663,7 +7480,9 @@ window.OPENINGS = {
         "RA",
         "Postdoc",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Florida",
@@ -6681,7 +7500,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Georgia",
@@ -6697,7 +7518,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Georgia",
@@ -6711,7 +7534,9 @@ window.OPENINGS = {
       "contact": "",
       "materials": "",
       "category": "长期",
-      "types": []
+      "types": [],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Georgia",
@@ -6728,7 +7553,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Georgia",
@@ -6745,7 +7572,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Georgia",
@@ -6762,7 +7591,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Hawaii at Manoa",
@@ -6779,7 +7610,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Hawaii at Manoa",
@@ -6796,7 +7629,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Hawaii at Manoa",
@@ -6813,7 +7648,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Hong Kong",
@@ -6832,7 +7669,9 @@ window.OPENINGS = {
         "RA",
         "Postdoc",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Hong Kong",
@@ -6850,7 +7689,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Postdoc"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Hong Kong",
@@ -6868,7 +7709,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Houston",
@@ -6885,7 +7728,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Houston",
@@ -6902,7 +7747,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Houston",
@@ -6918,7 +7765,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Houston",
@@ -6934,7 +7783,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Illinois Chicago",
@@ -6951,7 +7802,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Illinois Urbana-Champaign",
@@ -6969,7 +7822,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Illinois Urbana-Champaign",
@@ -6987,7 +7842,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Illinois Urbana-Champaign",
@@ -7004,7 +7861,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Illinois Urbana-Champaign",
@@ -7020,7 +7879,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Illinois Urbana-Champaign",
@@ -7037,7 +7898,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Iowa",
@@ -7054,7 +7917,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Iowa",
@@ -7071,7 +7936,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Louisiana at Lafayette",
@@ -7089,7 +7956,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Louisiana at Lafayette",
@@ -7106,7 +7975,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Macau",
@@ -7124,7 +7995,9 @@ window.OPENINGS = {
         "PhD",
         "Postdoc",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Macau",
@@ -7140,7 +8013,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Maine",
@@ -7157,7 +8032,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Maine",
@@ -7171,7 +8048,9 @@ window.OPENINGS = {
       "contact": "",
       "materials": "",
       "category": "长期",
-      "types": []
+      "types": [],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Maryland, Baltimore County",
@@ -7188,7 +8067,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Maryland, Baltimore County",
@@ -7204,7 +8085,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Maryland, Baltimore County",
@@ -7218,7 +8101,9 @@ window.OPENINGS = {
       "contact": "",
       "materials": "",
       "category": "长期",
-      "types": []
+      "types": [],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Maryland, College Park",
@@ -7232,7 +8117,9 @@ window.OPENINGS = {
       "contact": "Email",
       "materials": "",
       "category": "长期",
-      "types": []
+      "types": [],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Maryland, College Park",
@@ -7249,7 +8136,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Maryland, College Park",
@@ -7266,7 +8155,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Massachusetts Amherst",
@@ -7283,7 +8174,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Melbourne",
@@ -7300,7 +8193,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Memphis",
@@ -7316,7 +8211,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Miami",
@@ -7333,7 +8230,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Michigan, Ann Arbor",
@@ -7350,7 +8249,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Michigan, Ann Arbor",
@@ -7366,7 +8267,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Minnesota",
@@ -7384,7 +8287,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Minnesota, Twin-Cities",
@@ -7400,7 +8305,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Minnesuta, Twin-Cities",
@@ -7418,7 +8325,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Minnesuta, Twin-Cities",
@@ -7435,7 +8344,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Minnesuta, Twin-Cities",
@@ -7453,7 +8364,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of North Carolina at Chapel Hill",
@@ -7470,7 +8383,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of North Carolina at Chapel Hill",
@@ -7487,7 +8402,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of North Carolina at Chapel Hill",
@@ -7504,7 +8421,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of North Carolina at Chapel Hill",
@@ -7520,7 +8439,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of North Carolina at Chapel Hill",
@@ -7537,7 +8458,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of North Carolina at Chapel Hill",
@@ -7554,7 +8477,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of North Carolina at Charlotte",
@@ -7571,7 +8496,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of North Carolina at Charlotte",
@@ -7588,7 +8515,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of North Carolina at Charlotte",
@@ -7604,7 +8533,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of North Carolina at Charlotte",
@@ -7618,7 +8549,9 @@ window.OPENINGS = {
       "contact": "",
       "materials": "",
       "category": "长期",
-      "types": []
+      "types": [],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of North Texas",
@@ -7635,7 +8568,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of North Texas",
@@ -7652,7 +8587,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of North Texas",
@@ -7669,7 +8606,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Notre Dame",
@@ -7686,7 +8625,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Notre Dame",
@@ -7703,7 +8644,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Postdoc"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Notre Dame",
@@ -7717,7 +8660,9 @@ window.OPENINGS = {
       "contact": "Email",
       "materials": "",
       "category": "长期",
-      "types": []
+      "types": [],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Oklahoma",
@@ -7734,7 +8679,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Oregon",
@@ -7751,7 +8698,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Oregon",
@@ -7768,7 +8717,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Oxford",
@@ -7784,7 +8735,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Pennsylvania",
@@ -7801,7 +8754,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Pittsburgh",
@@ -7817,7 +8772,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Pittsburgh",
@@ -7833,7 +8790,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Queensland (Australia)",
@@ -7849,7 +8808,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Queensland (Australia)",
@@ -7866,7 +8827,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Rochester",
@@ -7883,7 +8846,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of South Florida",
@@ -7900,7 +8865,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of South Florida",
@@ -7916,7 +8883,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of South Florida",
@@ -7933,7 +8902,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of South Florida",
@@ -7950,7 +8921,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of South Florida",
@@ -7967,7 +8940,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Southern California",
@@ -7985,7 +8960,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Southern California",
@@ -8002,7 +8979,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Southern California",
@@ -8019,7 +8998,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Southern California",
@@ -8036,7 +9017,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Postdoc"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Southern California",
@@ -8053,7 +9036,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Southern California",
@@ -8069,7 +9054,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Tennessee",
@@ -8087,7 +9074,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Tennessee",
@@ -8105,7 +9094,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Tennessee, Knoxville",
@@ -8123,7 +9114,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Texas at Arlington",
@@ -8139,7 +9132,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Texas at Arlington",
@@ -8156,7 +9151,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Texas at Arlington",
@@ -8173,7 +9170,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Texas at Arlington",
@@ -8190,7 +9189,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Texas at Austin",
@@ -8208,7 +9209,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Texas at Austin",
@@ -8225,7 +9228,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Texas at Austin",
@@ -8242,7 +9247,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Texas at Dallas",
@@ -8259,7 +9266,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Texas at Dallas",
@@ -8273,7 +9282,9 @@ window.OPENINGS = {
       "contact": "",
       "materials": "",
       "category": "长期",
-      "types": []
+      "types": [],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Texas at Southwestern Medical Center",
@@ -8291,7 +9302,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Texas Rio Grande Valley",
@@ -8307,7 +9320,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Toronto",
@@ -8323,7 +9338,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Utah",
@@ -8340,7 +9357,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Utah",
@@ -8357,7 +9376,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Utah",
@@ -8374,7 +9395,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Utah",
@@ -8391,7 +9414,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Virgina",
@@ -8408,7 +9433,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Virgina",
@@ -8425,7 +9452,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Virgina",
@@ -8442,7 +9471,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Virginia",
@@ -8458,7 +9489,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Virginia",
@@ -8475,7 +9508,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Virginia",
@@ -8491,7 +9526,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Virginia",
@@ -8507,7 +9544,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Washington",
@@ -8524,7 +9563,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Washington",
@@ -8541,7 +9582,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Waterloo",
@@ -8557,7 +9600,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Waterloo (Canada)",
@@ -8574,7 +9619,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Wisconsin-Madison",
@@ -8590,7 +9637,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Wisconsin-Madison",
@@ -8606,7 +9655,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Wisconsin-Madison",
@@ -8624,7 +9675,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Wisconsin-Madison",
@@ -8640,7 +9693,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Universty of Tennessee, Knoxville",
@@ -8658,7 +9713,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Universty of Tennessee, Knoxville",
@@ -8676,7 +9733,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Utah State University",
@@ -8692,7 +9751,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Utah State University",
@@ -8709,7 +9770,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Utah State University",
@@ -8726,7 +9789,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Villanova University",
@@ -8743,7 +9808,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Villanova University",
@@ -8760,7 +9827,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Postdoc"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Virginia Tech",
@@ -8777,7 +9846,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Postdoc"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Virginia Tech",
@@ -8794,7 +9865,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Virginia Tech",
@@ -8811,7 +9884,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Vrije Universiteit Amsterdam",
@@ -8827,7 +9902,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Washington State University",
@@ -8843,7 +9920,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Washington State University",
@@ -8860,7 +9939,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Washington State University",
@@ -8877,7 +9958,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Washington State University, Tri-cities",
@@ -8894,7 +9977,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Washington State University, Tri-cities",
@@ -8911,7 +9996,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Wayne State University",
@@ -8927,7 +10014,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "William and Mary",
@@ -8945,7 +10034,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "William and Mary",
@@ -8961,7 +10052,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "William and Mary",
@@ -8978,7 +10071,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "William and Mary",
@@ -8995,7 +10090,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "William and Mary",
@@ -9009,7 +10106,9 @@ window.OPENINGS = {
       "contact": "Email",
       "materials": "",
       "category": "长期",
-      "types": []
+      "types": [],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Xi’an Jiaotong-Liverpool University, China",
@@ -9025,7 +10124,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Yale University",
@@ -9041,7 +10142,9 @@ window.OPENINGS = {
       "category": "长期",
       "types": [
         "PhD"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Yeshiva University",
@@ -9058,7 +10161,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Zhejiang University",
@@ -9072,7 +10177,9 @@ window.OPENINGS = {
       "contact": "Email",
       "materials": "",
       "category": "长期",
-      "types": []
+      "types": [],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Zhejiang University",
@@ -9089,7 +10196,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "Temple University",
@@ -9106,7 +10215,9 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     },
     {
       "university": "University of Arizona",
@@ -9124,7 +10235,9 @@ window.OPENINGS = {
         "PhD",
         "RA",
         "Intern"
-      ]
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
     }
   ]
 };

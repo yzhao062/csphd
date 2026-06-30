@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>PhD / RA / Postdoc 机会 · 博士栈</title>
 <link rel="icon" href="./favicon.svg" type="image/svg+xml">
-<meta name="description" content="博士栈 PhD、RA、Postdoc、Intern 机会列表，按学校分组，可搜索和筛选。">
+<meta name="description" content="博士栈 PhD、RA、Postdoc、Intern 机会列表，按最近更新排序，可搜索和筛选。">
 <style>
   :root{--ink:#16181d; --muted:#5b6270; --line:#e6e8ec; --bg:#fff; --accent:#1f6feb; --accent-ink:#fff; --warn:#b45309; --soft:#f7f8fa}
   *{box-sizing:border-box}
@@ -39,7 +39,7 @@
   button:hover{border-color:#c9ced8;background:#fbfbfc}
   button:focus-visible{outline:2px solid rgba(31,111,235,.28);outline-offset:2px}
   .list{display:block}
-  .school-inline{color:var(--muted);font-weight:650;white-space:nowrap}
+  .school-inline{color:var(--muted);font-weight:650;overflow-wrap:anywhere;min-width:0}
   .badge.fresh{border-color:rgba(21,128,61,.3);background:#f0fdf4;color:#15803d}
   .badge.upd{border-color:rgba(31,111,235,.28);background:#eff6ff;color:var(--accent)}
   .term-block{margin-top:8px}
@@ -183,7 +183,6 @@
 
   var summaryLine = document.getElementById("summaryLine");
   var sourceButton = document.getElementById("sourceButton");
-  var controls = document.getElementById("controls");
   var searchInput = document.getElementById("searchInput");
   var universitySelect = document.getElementById("universitySelect");
   var categoryInputs = Array.prototype.slice.call(document.querySelectorAll("#categoryFilters input[type='checkbox']"));

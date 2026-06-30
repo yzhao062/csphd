@@ -282,7 +282,7 @@ test("no tracking data yields no badge", () => {
 
 - [ ] **Step 2: Run the test to verify it fails**
 
-Run: `node --test tests/`
+Run: `node --test tests/recency.test.js`
 Expected: FAIL — cannot find module `../js/recency.js`.
 
 - [ ] **Step 3: Implement `js/recency.js`**
@@ -326,7 +326,7 @@ Create `js/recency.js`:
 
 - [ ] **Step 4: Run the test to verify it passes**
 
-Run: `node --test tests/`
+Run: `node --test tests/recency.test.js`
 Expected: PASS — `tests 7`, `pass 7`, `fail 0`.
 (If Node ≥18 is not installed, skip this run; `js/recency.js` is also exercised by the Task 3 browser check. Do not add npm dependencies.)
 
@@ -630,7 +630,7 @@ git commit -m "feat(board): flat recency-first list with inline school and 新/�
 - [ ] **Step 1: Re-run both test suites**
 
 Run: `python tools/test_build_openings.py` → Expected: `OK`.
-Run: `node --test tests/` → Expected: `pass 7` (skip if Node unavailable).
+Run: `node --test tests/recency.test.js` → Expected: `pass 7` (skip if Node unavailable).
 
 - [ ] **Step 2: Note the new fields in the README repo map**
 

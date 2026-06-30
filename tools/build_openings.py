@@ -68,9 +68,9 @@ TRACKED_FIELDS = ("interests", "positions", "requirements", "materials",
 
 
 def identity_key(record):
-    faculty = re.sub(r"\s+", " ", record.get("faculty", "")).strip().lower()
-    school = re.sub(r"\s+", " ", record.get("university", "")).strip().lower()
-    return faculty + "\x00" + school + "\x00" + record.get("category", "")
+    faculty = re.sub(r"\s+", " ", record.get("faculty") or "").strip().lower()
+    school = re.sub(r"\s+", " ", record.get("university") or "").strip().lower()
+    return faculty + "\x00" + school + "\x00" + (record.get("category") or "")
 
 
 def tracked_signature(record):

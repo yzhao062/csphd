@@ -1,9 +1,9 @@
 window.OPENINGS = {
-  "synced": "2026-06-29",
+  "synced": "2026-06-30",
   "source": "https://tinyurl.com/2026phd",
-  "count": 544,
-  "shortterm": 93,
-  "longterm": 451,
+  "count": 547,
+  "shortterm": 94,
+  "longterm": 453,
   "openings": [
     {
       "university": "Arizona State University",
@@ -634,6 +634,23 @@ window.OPENINGS = {
       "category": "短期",
       "types": [
         "PhD"
+      ]
+    },
+    {
+      "university": "University of Arizona",
+      "faculty": "Lingyao Li",
+      "interests": "LLM, Agent, Human-AI Interaction, AI for Health",
+      "term": "",
+      "deadline": "Open until filled",
+      "homepage": "https://sociotechnical-ai-lab.github.io/",
+      "positions": "1 PhD for Fall 27, Interns",
+      "requirements": "TOEFL",
+      "contact": "lingyaoli@arizona.edu",
+      "materials": "CV, Transcript, Papers (if available)",
+      "category": "短期",
+      "types": [
+        "PhD",
+        "Intern"
       ]
     },
     {
@@ -1506,8 +1523,8 @@ window.OPENINGS = {
     {
       "university": "Arizona State University",
       "faculty": "Hua Wei",
-      "interests": "Reinforcement Learning, LLM Reasoning, Urban Data Mining",
-      "term": "26 Fall",
+      "interests": "Reinforcement Learning, LLM Reasoning, Education, Multi-agent System",
+      "term": "27 Fall",
       "deadline": "",
       "homepage": "https://labs.engineering.asu.edu/hw/",
       "positions": "1-2 PhDs with RA, Interns",
@@ -9072,6 +9089,41 @@ window.OPENINGS = {
       "types": [
         "PhD",
         "RA"
+      ]
+    },
+    {
+      "university": "Temple University",
+      "faculty": "Hongchang Gao",
+      "interests": "Distributed Optimization, Efficient Optimization for LLM, Foundation Models",
+      "term": "27 Spring/Fall",
+      "deadline": "",
+      "homepage": "https://hcgao.github.io/index.html",
+      "positions": "1-2 PhD with RA",
+      "requirements": "",
+      "contact": "hongchang.gao@temple.edu",
+      "materials": "CV, transcript, Research Interest, paper if applicable,",
+      "category": "长期",
+      "types": [
+        "PhD",
+        "RA"
+      ]
+    },
+    {
+      "university": "University of Arizona",
+      "faculty": "Lingyao Li",
+      "interests": "LLM, Agent, Human-AI Interaction, AI for Health",
+      "term": "27 Spring/Fall PhD, 26 Fall Interns",
+      "deadline": "",
+      "homepage": "https://sociotechnical-ai-lab.github.io/",
+      "positions": "1 PhD with RA, Interns",
+      "requirements": "TOEFL",
+      "contact": "Email (lingyaoli@arizona.edu)",
+      "materials": "CV, Transcript, Papers (if available)",
+      "category": "长期",
+      "types": [
+        "PhD",
+        "RA",
+        "Intern"
       ]
     }
   ]

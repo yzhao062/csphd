@@ -602,7 +602,7 @@
     var tag = (typeof Recency !== "undefined")
       ? Recency.recencyTag(text(item.firstSeen), text(item.lastChanged), TRACK_START, SYNCED, RECENCY_WINDOW_DAYS)
       : "";
-    if (tag) main.appendChild(makeBadge(tag, tag === "新" ? "fresh" : "upd"));
+    if (tag && !isPastOnly(entry)) main.appendChild(makeBadge(tag, tag === "新" ? "fresh" : "upd"));
     main.appendChild(createText("span", "school-inline", normalizedSchool(item)));
     main.appendChild(createText("span", "sep", "·"));
     main.appendChild(makeFaculty(item));

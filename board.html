@@ -488,9 +488,29 @@
     return true;
   }
 
+  // Higher = a more recent (less stale) intake term; -1 if no dated term. Grades past-only entries.
+  function latestTermCode(entry){
+    var best = -1;
+    (entry.terms || []).forEach(function(t){
+      if (t === "滚动/全年") return;
+      var parts = t.split(" "), y = parseInt(parts[0], 10);
+      var st = { "Spring": 0, "Summer": 4, "Fall": 7 }[parts[1]];
+      if (!isNaN(y) && st != null) best = Math.max(best, y * 12 + st);
+    });
+    return best;
+  }
+
+  // Current opportunities first (by edit-recency); past-only ("往期") entries sink to the bottom,
+  // graded by how recent their already-past term is — non-updaters don't hold the top spots.
   function compareEntries(a, b){
+    var sa = isPastOnly(a) ? 1 : 0, sb = isPastOnly(b) ? 1 : 0;
+    if (sa !== sb) return sa - sb;                    // current (0) before stale (1)
+    if (sa === 1) {                                   // both stale: less-past term first
+      var ta = latestTermCode(a), tb = latestTermCode(b);
+      if (ta !== tb) return tb - ta;
+    }
     var la = text(a.item.lastChanged), lb = text(b.item.lastChanged);
-    if (la !== lb) return la < lb ? 1 : -1;  // newer date first; empty sorts last
+    if (la !== lb) return la < lb ? 1 : -1;           // newer edit first
     var c = normalizedSchool(a.item).localeCompare(normalizedSchool(b.item), "en", { sensitivity: "base" });
     if (c !== 0) return c;
     return text(a.item.faculty).localeCompare(text(b.item.faculty), "en", { sensitivity: "base" });
@@ -609,7 +629,8 @@
       var upcoming = entryTerms.filter(function(t){ return t !== "滚动/全年" && !isPastTerm(t); });
       var termLabel;
       if (upcoming.length) termLabel = upcoming.join("、");
-      else if (entryTerms.indexOf("滚动/全年") !== -1 || isPastOnly(entry)) termLabel = "滚动招生";
+      else if (entryTerms.indexOf("滚动/全年") !== -1) termLabel = "滚动招生";
+      else if (isPastOnly(entry)) termLabel = "往期：" + entryTerms.join("、");
       else termLabel = text(item.term) || "长期";
       var termEl = createText("span", "when", "学期：" + termLabel);
       termEl.title = text(item.term) || termLabel;

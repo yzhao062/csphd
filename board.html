@@ -443,16 +443,26 @@
     return entry.blob;
   }
 
-  // Tokenized AND search: every whitespace-separated token must appear somewhere in the haystack,
+  // Compile one query token into a matcher. Short 1-2 letter ASCII tokens (ai, ml, cv, ra) are
+  // noisy as bare substrings: they hit inside graph/program/France, so require them at a word
+  // start, which still catches AI/AIGC, RA/RAs, CV/CVPR while dropping mid-word noise. Longer
+  // tokens keep plain substring matching (so "graph" still matches "subgraph"/"graphs").
+  function makeMatcher(token){
+    if (/^[a-z]{1,2}$/.test(token)) return new RegExp("(^|[^a-z])" + token);
+    return token;
+  }
+
+  // Tokenized AND search: every whitespace-separated token must match somewhere in the haystack,
   // in any order (so "graph llm" matches a card mentioning both, even non-adjacent).
-  function matches(entry, queryTokens, school, types, terms){
+  function matches(entry, queryMatchers, school, types, terms){
     var item = entry.item;
     var itemSchool = normalizedSchool(item);
     if (school && itemSchool !== school) return false;
-    if (queryTokens.length) {
+    if (queryMatchers.length) {
       var blob = searchBlob(entry);
-      for (var qi = 0; qi < queryTokens.length; qi++) {
-        if (blob.indexOf(queryTokens[qi]) === -1) return false;
+      for (var qi = 0; qi < queryMatchers.length; qi++) {
+        var m = queryMatchers[qi];
+        if (typeof m === "string" ? blob.indexOf(m) === -1 : !m.test(blob)) return false;
       }
     }
     if (types.length) {
@@ -658,12 +668,12 @@
     }
 
     var query = text(searchInput.value).toLowerCase();
-    var queryTokens = query ? query.split(/\s+/).filter(Boolean) : [];
+    var queryMatchers = query ? query.split(/\s+/).filter(Boolean).map(makeMatcher) : [];
     var school = universitySelect.value;
     var types = selectedValues(typeInputs);
     var terms = selectedValues(termInputs);
     var filtered = openings.filter(function(entry){
-      return matches(entry, queryTokens, school, types, terms);
+      return matches(entry, queryMatchers, school, types, terms);
     });
     resultCount.textContent = "显示 " + filtered.length + " / " + totalCount();
 

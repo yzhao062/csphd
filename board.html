@@ -30,7 +30,6 @@
   .chip input{position:absolute;opacity:0;pointer-events:none}
   .chip span{display:inline-flex;align-items:center;justify-content:center;min-height:32px;border:1px solid var(--line);border-radius:999px;background:#fff;color:var(--muted);font-size:12px;font-weight:650;line-height:1;padding:7px 11px;cursor:pointer;user-select:none}
   .chip input:checked + span{border-color:var(--accent);background:var(--accent);color:var(--accent-ink)}
-  .chip.warn input:checked + span{border-color:var(--warn);background:var(--warn);color:#fff}
   .chip input:focus-visible + span{outline:2px solid rgba(31,111,235,.28);outline-offset:2px}
   .control-footer{display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap;margin-top:7px}
   .result-count{color:var(--muted);font-size:12px;line-height:1.2}
@@ -75,7 +74,7 @@
     .wrap{padding-top:20px}
     h1{font-size:26px}
     .controls{border:1px solid var(--line);border-radius:8px;margin:0 0 10px;padding:8px}
-    .control-grid{grid-template-columns:minmax(190px,1.15fr) minmax(160px,.85fr) minmax(120px,.62fr) minmax(245px,1.35fr);align-items:end}
+    .control-grid{grid-template-columns:minmax(190px,1.25fr) minmax(160px,.9fr) minmax(245px,1.5fr);align-items:end}
     .opening-row{padding-left:4px;padding-right:4px}
   }
   @media (max-width:620px){
@@ -135,13 +134,6 @@
         </select>
       </div>
       <div class="chip-block">
-        <span class="chip-label">时效</span>
-        <div class="chip-row" id="categoryFilters">
-          <label class="chip warn"><input type="checkbox" value="短期"><span>短期</span></label>
-          <label class="chip"><input type="checkbox" value="长期"><span>长期</span></label>
-        </div>
-      </div>
-      <div class="chip-block">
         <span class="chip-label">类型</span>
         <div class="chip-row" id="typeFilters">
           <label class="chip"><input type="checkbox" value="PhD"><span>PhD</span></label>
@@ -185,7 +177,6 @@
   var sourceButton = document.getElementById("sourceButton");
   var searchInput = document.getElementById("searchInput");
   var universitySelect = document.getElementById("universitySelect");
-  var categoryInputs = Array.prototype.slice.call(document.querySelectorAll("#categoryFilters input[type='checkbox']"));
   var typeInputs = Array.prototype.slice.call(document.querySelectorAll("#typeFilters input[type='checkbox']"));
   var termFilters = document.getElementById("termFilters");
   var termInputs = [];
@@ -474,11 +465,10 @@
     });
   }
 
-  function matches(entry, query, school, categories, types, terms){
+  function matches(entry, query, school, types, terms){
     var item = entry.item;
     var itemSchool = normalizedSchool(item);
     if (school && itemSchool !== school) return false;
-    if (categories.length && !categories.some(function(category){ return hasCategory(item, category); })) return false;
     if (query) {
       var haystack = [itemSchool, text(item.faculty), text(item.interests)].join(" ").toLowerCase();
       if (haystack.indexOf(query) === -1) return false;
@@ -663,16 +653,15 @@
 
     var query = text(searchInput.value).toLowerCase();
     var school = universitySelect.value;
-    var categories = selectedValues(categoryInputs);
     var types = selectedValues(typeInputs);
     var terms = selectedValues(termInputs);
     var filtered = openings.filter(function(entry){
-      return matches(entry, query, school, categories, types, terms);
+      return matches(entry, query, school, types, terms);
     });
     resultCount.textContent = "显示 " + filtered.length + " / " + totalCount();
 
     if (!filtered.length) {
-      showEmpty("没有匹配的机会。请调整关键词、学校、时效或类型筛选。");
+      showEmpty("没有匹配的机会。请调整关键词、学校或类型筛选。");
       return;
     }
 
@@ -709,7 +698,7 @@
   resetButton.addEventListener("click", function(){
     searchInput.value = "";
     universitySelect.value = "";
-    categoryInputs.concat(typeInputs).concat(termInputs).forEach(function(input){ input.checked = false; });
+    typeInputs.concat(termInputs).forEach(function(input){ input.checked = false; });
     expanded = false;
     updateToggleButton();
     render();
@@ -718,7 +707,7 @@
 
   searchInput.addEventListener("input", scheduleRender);
   universitySelect.addEventListener("change", render);
-  categoryInputs.concat(typeInputs).forEach(function(input){
+  typeInputs.forEach(function(input){
     input.addEventListener("change", render);
   });
   openings = mergeEntities(openings);

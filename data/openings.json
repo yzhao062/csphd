@@ -1,9 +1,9 @@
 {
-  "synced": "2026-06-30",
+  "synced": "2026-07-01",
   "source": "https://tinyurl.com/2026phd",
-  "count": 548,
+  "count": 546,
   "shortterm": 94,
-  "longterm": 454,
+  "longterm": 452,
   "openings": [
     {
       "university": "Arizona State University",
@@ -2067,7 +2067,7 @@
     {
       "university": "Boise State University",
       "faculty": "Yu Zhang",
-      "interests": "Computer Vision, Robotics, Edge AI, Remote Sensing",
+      "interests": "Computer Vision, Robotics, Remote Sensing",
       "term": "2026 Fall",
       "deadline": "",
       "homepage": "https://yuzhang03.github.io/",
@@ -2081,7 +2081,7 @@
         "RA"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-07-01"
     },
     {
       "university": "Boise State University",
@@ -2117,27 +2117,6 @@
       "types": [
         "PhD",
         "Postdoc"
-      ],
-      "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
-    },
-    {
-      "university": "Boston University",
-      "faculty": "Chang Xiao",
-      "interests": "HCI, Human-AI Interaction, XR",
-      "term": "26 Fall",
-      "deadline": "",
-      "homepage": "https://chang.engineer/",
-      "positions": "2-3 PhD w/ RA, 0-1 Postdoc, Interns",
-      "requirements": "",
-      "contact": "Email",
-      "materials": "",
-      "category": "长期",
-      "types": [
-        "PhD",
-        "RA",
-        "Postdoc",
-        "Intern"
       ],
       "firstSeen": "2026-06-30",
       "lastChanged": "2026-06-30"
@@ -4505,7 +4484,7 @@
     {
       "university": "NC State University",
       "faculty": "Ruozhou Yu",
-      "interests": "Wireless Network, Quantum Network, Blockchain, Distributed/Federated Learning, Learn to Optimize, Security & Privacy, Edge Computing",
+      "interests": "Agentic edge intelligence, satellite computing/networking, AI/ML for geospatial applications, AI/ML for networking, wireless networks, decentralized systems, quantum networks and computing, cybersecurity",
       "term": "25 Fall",
       "deadline": "",
       "homepage": "https://ruozhouy.github.io/",
@@ -4519,13 +4498,13 @@
         "RA"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-07-01"
     },
     {
       "university": "NC State University",
       "faculty": "Peng Gao",
       "interests": "Multi-Robot System, Human-Robot Teaming, Lifelong Learning and Adaptation",
-      "term": "26 Fall",
+      "term": "27 Fall",
       "deadline": "",
       "homepage": "https://research.csc.ncsu.edu/corob",
       "positions": "1 PhD and multiple interns",
@@ -4538,7 +4517,7 @@
         "Intern"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-07-01"
     },
     {
       "university": "NC State University",
@@ -4634,10 +4613,10 @@
       "university": "New York University",
       "faculty": "Zongyi Li",
       "interests": "AI for Science, Neural Operator, Flow Matching, Partial differential equations, Weather and Climate",
-      "term": "26 Fall",
+      "term": "27 Fall",
       "deadline": "",
       "homepage": "https://zongyi-li.github.io/",
-      "positions": "2 PhD in CS/DS, 1 PhD in Math",
+      "positions": "1 PhD in CS/DS",
       "requirements": "",
       "contact": "Email",
       "materials": "",
@@ -4646,7 +4625,7 @@
         "PhD"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-07-01"
     },
     {
       "university": "New York University - Shanghai Track",
@@ -4846,25 +4825,6 @@
       "term": "26 Fall",
       "deadline": "",
       "homepage": "http://magics.cs.northwestern.edu/index.html",
-      "positions": "Multiple PhDs/interns",
-      "requirements": "",
-      "contact": "Email",
-      "materials": "",
-      "category": "长期",
-      "types": [
-        "PhD",
-        "Intern"
-      ],
-      "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
-    },
-    {
-      "university": "Northwestern University",
-      "faculty": "Manling Li",
-      "interests": "AI/ML, Multimodal Foundation Models, NLP, CV, Robotics",
-      "term": "26 Fall",
-      "deadline": "",
-      "homepage": "limanling.github.io",
       "positions": "Multiple PhDs/interns",
       "requirements": "",
       "contact": "Email",
@@ -5889,8 +5849,8 @@
     {
       "university": "Stevens Institute of Technology",
       "faculty": "Zining Zhu",
-      "interests": "NLP, Safety",
-      "term": "25/26 Fall",
+      "interests": "NLP, efficient LLM, interpretability.",
+      "term": "27 Fall",
       "deadline": "",
       "homepage": "https://ecailab.org",
       "positions": "PhDs/Interns",
@@ -5903,7 +5863,7 @@
         "Intern"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-07-01"
     },
     {
       "university": "Stony Brook University",
@@ -6097,7 +6057,7 @@
     {
       "university": "Texas A&M University",
       "faculty": "Kuan-Hao Huang",
-      "interests": "Trustworthy NLP, LLMs, VLMs; Multilingual NLP",
+      "interests": "Trustworthy NLP, LLMs, VLMs; Multilingual NLP; Multimodal Learning",
       "term": "PhD (27 Fall), intern (anytime)",
       "deadline": "",
       "homepage": "https://khhuang.me/",
@@ -6112,7 +6072,7 @@
         "Intern"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-07-01"
     },
     {
       "university": "Texas A&M University",
@@ -7716,13 +7676,13 @@
     {
       "university": "University of Houston",
       "faculty": "Jingchao Ni",
-      "interests": "Machine Learning, Data Mining, AI for Time Series (with LVMs/LLMs/LMMs/agents)",
-      "term": "26 Spring / Fall",
+      "interests": "Machine Learning, Data Mining, AI for Time Series and Spatiotemporal Data (with LVMs/LLMs/Agents)",
+      "term": "27 Spring / Fall",
       "deadline": "",
       "homepage": "https://nijingchao.github.io/",
       "positions": "1-2 PhDs with RA/TA",
-      "requirements": "TOEFL or IELTS, no GRE.",
-      "contact": "Email",
+      "requirements": "TOEFL or IELTS, no GRE",
+      "contact": "Email (jni7@uh.edu)",
       "materials": "",
       "category": "长期",
       "types": [
@@ -7730,7 +7690,7 @@
         "RA"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-07-01"
     },
     {
       "university": "University of Houston",
@@ -8684,10 +8644,10 @@
       "lastChanged": "2026-06-30"
     },
     {
-      "university": "University of Oregon",
+      "university": "University of Georgia",
       "faculty": "Yu Wang",
       "interests": "Neural-Symbolic AI, Agentic Social Network, Trustworthy AI, Information Retrieval, Cybersecurity",
-      "term": "25 Spring/26 Fall",
+      "term": "27 Spring/27 Fall",
       "deadline": "",
       "homepage": "https://yuwvandy.github.io/",
       "positions": "1-2 PhDs with RA/TA",
@@ -8699,8 +8659,8 @@
         "PhD",
         "RA"
       ],
-      "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "firstSeen": "2026-07-01",
+      "lastChanged": "2026-07-01"
     },
     {
       "university": "University of Oregon",
@@ -9365,7 +9325,7 @@
       "university": "University of Utah",
       "faculty": "Yue Jiang",
       "interests": "Human Computer Interaction (UI understanding and generation, eye tracking), Computer Vision, Multimodal Model, Vision Language Model",
-      "term": "2026 Spring / Fall",
+      "term": "2027 Fall",
       "deadline": "",
       "homepage": "https://yuejiang-nj.github.io/",
       "positions": "1 PhD with RA/TA",
@@ -9378,16 +9338,16 @@
         "RA"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-07-01"
     },
     {
-      "university": "University of Utah",
+      "university": "National University of Singapore",
       "faculty": "Weiyu Liu",
       "interests": "Robotics, Robot Learning, Manipulation, Planning, Embodied AI, Natural Language Processing, Computer Vision",
-      "term": "2026 Fall",
+      "term": "2027 Fall",
       "deadline": "",
       "homepage": "https://www.weiyuliu.com/",
-      "positions": "2 PhD with RA/TA",
+      "positions": "1-2 PhD with RA/TA",
       "requirements": "TOEFL/IELTS, no GRE requirement",
       "contact": "Email",
       "materials": "",
@@ -9396,8 +9356,8 @@
         "PhD",
         "RA"
       ],
-      "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "firstSeen": "2026-07-01",
+      "lastChanged": "2026-07-01"
     },
     {
       "university": "University of Utah",
@@ -9853,11 +9813,11 @@
     {
       "university": "Virginia Tech",
       "faculty": "Jiaming Cui",
-      "interests": "AI for healthcare, LLM, KG, scientific modeling",
-      "term": "25 Fall/26 Spring/26 Fall",
+      "interests": "Multi-agent systems, Agentic AI, AI for Science (healthcare/finance/urban computing)",
+      "term": "27 Fall",
       "deadline": "",
       "homepage": "https://people.cs.vt.edu/jiamingcui/",
-      "positions": "2-3 PhD RA/TA",
+      "positions": "2-3 PhDs with RA/TA",
       "requirements": "TOEFL",
       "contact": "Email",
       "materials": "",
@@ -9867,7 +9827,7 @@
         "RA"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-07-01"
     },
     {
       "university": "Virginia Tech",
@@ -9910,7 +9870,7 @@
       "university": "Washington State University",
       "faculty": "Xuanyu Cao",
       "interests": "Distributed learning/optimization, federated learning, bilevel optimization, online optimization, wireless networks",
-      "term": "26 Fall, 27 Spring, 27 Fall",
+      "term": "27 Spring, 27 Fall",
       "deadline": "",
       "homepage": "https://labs.wsu.edu/xuanyu/",
       "positions": "1 PhD",
@@ -9922,7 +9882,7 @@
         "PhD"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-07-01"
     },
     {
       "university": "Washington State University",

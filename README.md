@@ -10,7 +10,7 @@
 
 [![website](https://img.shields.io/website?url=https%3A%2F%2Fcsphd.org&label=csphd.org&up_message=online&up_color=1f6feb)](https://csphd.org)
 [![sync](https://github.com/yzhao062/csphd/actions/workflows/sync-openings.yml/badge.svg)](https://github.com/yzhao062/csphd/actions/workflows/sync-openings.yml)
-[![openings](https://img.shields.io/badge/PhD%2FRA%20机会-540%2B-1f6feb)](https://csphd.org/board.html)
+[![openings](https://img.shields.io/badge/PhD%2FRA%20机会-500%2B-1f6feb)](https://csphd.org/board.html)
 [![china-safe](https://img.shields.io/badge/零外部依赖-中国大陆可直连-15803d)](#-技术亮点)
 [![free](https://img.shields.io/badge/对同学-永久免费-15803d)](https://csphd.org)
 
@@ -33,7 +33,7 @@
 
 | | 页面 | 一句话 |
 |:--:|---|---|
-| 🎯 | [**PhD 机会板**](https://csphd.org/board.html) | 540+ 长期与短期 PhD / RA / Postdoc 机会，按学校分组，可搜索筛选，**每日自动同步** |
+| 🎯 | [**PhD 机会板**](https://csphd.org/board.html) | 500+ 长期与短期 PhD / RA / Postdoc 机会，按学校分组，可搜索筛选，**每日自动同步** |
 | 🎓 | [**申请读博**](https://csphd.org/grad.html) | 选校找导师、申请材料、读博工具、会议审稿；专门标出国际生（F-1/J-1）常被卡的 GRE、fee waiver 与 fellowship 资格 |
 | 💼 | [**实习全职**](https://csphd.org/jobs.html) | 北美工业界实习与全职：职位追踪、求职时间线、面试准备、薪资基准、国际生身份基础 |
 | 🧑‍🏫 | [**教职资源**](https://csphd.org/faculty.html) | 教职申请全流程、材料清单、推荐信、面试题库、CRA 薪资数据 |

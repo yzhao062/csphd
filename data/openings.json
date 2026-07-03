@@ -1,5 +1,5 @@
 {
-  "synced": "2026-07-02",
+  "synced": "2026-07-03",
   "source": "https://tinyurl.com/2026phd",
   "count": 556,
   "shortterm": 94,
@@ -5092,13 +5092,13 @@
       "university": "Ohio State University",
       "faculty": "Ping Zhang",
       "interests": "Multimodal Large Language Models, Human-Computer Interaction, Medical Image Analysis",
-      "term": "26 Fall/26 Spring",
+      "term": "2027 Spring/2027 Fall",
       "deadline": "",
       "homepage": "https://www.pingzhang.net/",
       "positions": "4 PhDs with RA, and interns",
       "requirements": "TOEFL or IELTS, no GRE",
       "contact": "Email",
-      "materials": "CV, Transcript",
+      "materials": "CV, Transcript, Paper if applicable",
       "category": "长期",
       "types": [
         "PhD",
@@ -5106,7 +5106,7 @@
         "Intern"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-07-03"
     },
     {
       "university": "Ohio University",

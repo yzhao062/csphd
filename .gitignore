@@ -2,5 +2,6 @@ __pycache__/
 *.pyc
 .idea/
 .agent-config/
+/.claude/
 
 agent-config.local.yaml

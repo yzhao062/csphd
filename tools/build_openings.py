@@ -33,6 +33,12 @@ USER_AGENT = (
     "Chrome/126.0 Safari/537.36"
 )
 
+# Refuse to overwrite the committed data when a fresh build looks corrupt: either
+# source tab parsing to zero rows, or the total collapsing below this fraction of
+# the previous committed count. Both almost always mean the CSV fetch returned
+# non-tabular content (a login or redirect page) rather than a real mass deletion.
+MIN_RETAIN_RATIO = 0.7
+
 # Each tab: its category label, gid, and the 0-based CSV column index for every
 # field. A field mapped to None is absent on that tab. Short-term is listed
 # first so its (deadline-driven) entries sort ahead of the long-term list.
@@ -89,6 +95,27 @@ def load_previous(data_dir):
     for record in payload.get("openings", []):
         previous.setdefault(identity_key(record), []).append(record)
     return previous
+
+
+def previous_count(data_dir):
+    """Total opening count from the last committed build, or 0 if unavailable."""
+    path = os.path.join(data_dir, "openings.json")
+    try:
+        with open(path, encoding="utf-8") as handle:
+            return int(json.load(handle).get("count", 0))
+    except (OSError, ValueError, TypeError):
+        return 0
+
+
+def sanity_check(payload, previous_total):
+    """Return an error string if the fresh build looks corrupt, else None."""
+    if payload["shortterm"] == 0 or payload["longterm"] == 0:
+        return ("a source tab parsed empty (short %s, long %s); refusing to overwrite"
+                % (payload["shortterm"], payload["longterm"]))
+    if previous_total and payload["count"] < MIN_RETAIN_RATIO * previous_total:
+        return ("count %s is below %d%% of the previous %s; refusing to overwrite"
+                % (payload["count"], int(MIN_RETAIN_RATIO * 100), previous_total))
+    return None
 
 
 def stamp_recency(openings, previous, today):
@@ -203,6 +230,10 @@ def main():
         payload = build_payload(today)
     except RuntimeError as exc:
         print("error: %s" % exc, file=sys.stderr)
+        return 1
+    guard = sanity_check(payload, previous_count(data_dir))
+    if guard:
+        print("error: %s" % guard, file=sys.stderr)
         return 1
     stamp_recency(payload["openings"], load_previous(data_dir), today)
     write_outputs(payload, data_dir)

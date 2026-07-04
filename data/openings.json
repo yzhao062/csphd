@@ -1,5 +1,5 @@
 {
-  "synced": "2026-07-03",
+  "synced": "2026-07-04",
   "source": "https://tinyurl.com/2026phd",
   "count": 556,
   "shortterm": 94,
@@ -1743,25 +1743,6 @@
       "types": [
         "PhD",
         "Intern"
-      ],
-      "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
-    },
-    {
-      "university": "Arizona State University",
-      "faculty": "Chenkai Weng",
-      "interests": "Cryptography, computer security and privacy",
-      "term": "2025 Fall",
-      "deadline": "",
-      "homepage": "https://ckweng.github.io/",
-      "positions": "2 PhDs with RA",
-      "requirements": "TOEFL/IETLS",
-      "contact": "Email",
-      "materials": "",
-      "category": "长期",
-      "types": [
-        "PhD",
-        "RA"
       ],
       "firstSeen": "2026-06-30",
       "lastChanged": "2026-06-30"
@@ -5091,7 +5072,7 @@
     {
       "university": "Ohio State University",
       "faculty": "Ping Zhang",
-      "interests": "Multimodal Large Language Models, Human-Computer Interaction, Medical Image Analysis",
+      "interests": "Multimodal Large Language Models, AI Agents, Medical Image Analysis",
       "term": "2027 Spring/2027 Fall",
       "deadline": "",
       "homepage": "https://www.pingzhang.net/",
@@ -5106,7 +5087,7 @@
         "Intern"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-07-03"
+      "lastChanged": "2026-07-04"
     },
     {
       "university": "Ohio University",
@@ -6772,8 +6753,8 @@
     {
       "university": "University of Arkansas",
       "faculty": "Dongyi Wang",
-      "interests": "Robotics, 3D vision, hyperspectral imaging in agriculture",
-      "term": "26 Spring / Fall",
+      "interests": "Robotic Manipulation, 3D vision, hyperspectral imaging in agriculture",
+      "term": "27 Spring / Fall",
       "deadline": "",
       "homepage": "https://dw-bioag.github.io/safelab/",
       "positions": "Multiple PhD and MS with RA",
@@ -6786,7 +6767,7 @@
         "RA"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-07-04"
     },
     {
       "university": "University of Auckland",
@@ -9041,6 +9022,22 @@
       ],
       "firstSeen": "2026-06-30",
       "lastChanged": "2026-06-30"
+    },
+    {
+      "university": "University of Rochester",
+      "faculty": "Xiangxiang Xu",
+      "interests": "Deep Learning Theory; Representation Learning; Information Theory",
+      "term": "2027 Fall",
+      "deadline": "",
+      "homepage": "",
+      "positions": "",
+      "requirements": "",
+      "contact": "",
+      "materials": "",
+      "category": "长期",
+      "types": [],
+      "firstSeen": "2026-07-04",
+      "lastChanged": "2026-07-04"
     },
     {
       "university": "University of South Florida",

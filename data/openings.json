@@ -1,5 +1,5 @@
 {
-  "synced": "2026-07-04",
+  "synced": "2026-07-05",
   "source": "https://tinyurl.com/2026phd",
   "count": 556,
   "shortterm": 94,
@@ -3069,6 +3069,27 @@
       ],
       "firstSeen": "2026-06-30",
       "lastChanged": "2026-06-30"
+    },
+    {
+      "university": "Georgia Institute of Technology",
+      "faculty": "Jiachen Li",
+      "interests": "Robotics, Embodied AI, Agentic AI, Trustworthy AI, Foundation Models, Human-Robot Interaction, Multi-Agent Systems, Autonomous Driving",
+      "term": "27 Spring/Fall",
+      "deadline": "",
+      "homepage": "https://tasl-lab.github.io/",
+      "positions": "2-4 PhDs with RA, Interns, Postdocs",
+      "requirements": "TOEFL, no GRE requirement",
+      "contact": "Fill out this form: https://tasl-lab.github.io/join/",
+      "materials": "",
+      "category": "长期",
+      "types": [
+        "PhD",
+        "RA",
+        "Postdoc",
+        "Intern"
+      ],
+      "firstSeen": "2026-07-05",
+      "lastChanged": "2026-07-05"
     },
     {
       "university": "Georgia Institute of Technology",
@@ -7021,26 +7042,6 @@
       "requirements": "",
       "contact": "Email",
       "materials": "CV, Transcript",
-      "category": "长期",
-      "types": [
-        "PhD",
-        "RA",
-        "Intern"
-      ],
-      "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
-    },
-    {
-      "university": "University of California, Riverside",
-      "faculty": "Jiachen Li",
-      "interests": "Robotics, Embodied AI, Human-Robot Interaction, Multi-Robot Systems, Autonomous Driving, Multi-Agent Learning, Trustworthy AI",
-      "term": "2026 Fall",
-      "deadline": "",
-      "homepage": "https://tasl.ucr.edu/",
-      "positions": "Multiple PhDs (Fellowship+RA), interns",
-      "requirements": "TOEFL, no GRE requirement",
-      "contact": "Email",
-      "materials": "",
       "category": "长期",
       "types": [
         "PhD",

@@ -1,9 +1,9 @@
 {
-  "synced": "2026-07-05",
+  "synced": "2026-07-06",
   "source": "https://tinyurl.com/2026phd",
-  "count": 556,
+  "count": 557,
   "shortterm": 94,
-  "longterm": 462,
+  "longterm": 463,
   "openings": [
     {
       "university": "Arizona State University",
@@ -2526,8 +2526,8 @@
       "homepage": "http://mai-lab-2026.com/",
       "positions": "1-2 PhD, RA, Interns, visiting students",
       "requirements": "TOEFL or IELTS, no GRE",
-      "contact": "Fill this form",
-      "materials": "",
+      "contact": "Fill this form https://forms.gle/AyEmbJZnWQt4ZLSv6 or Email: liminghan0330@gmail.com",
+      "materials": "CV, Transcript, Research Interest, Publications if available",
       "category": "长期",
       "types": [
         "PhD",
@@ -2535,7 +2535,7 @@
         "Intern"
       ],
       "firstSeen": "2026-07-01",
-      "lastChanged": "2026-07-01"
+      "lastChanged": "2026-07-06"
     },
     {
       "university": "Columbia University",
@@ -5855,6 +5855,26 @@
       ],
       "firstSeen": "2026-06-30",
       "lastChanged": "2026-06-30"
+    },
+    {
+      "university": "Singapore Management University",
+      "faculty": "Hanjia Lyu",
+      "interests": "Computational Social Science, AI and Society, Simulation",
+      "term": "2026 Fall, 2027 Spring / Fall",
+      "deadline": "",
+      "homepage": "https://brucelyu17.github.io/",
+      "positions": "PhDs, visiting students, RAs, interns, postdocs",
+      "requirements": "TOEFL, GRE",
+      "contact": "Email",
+      "materials": "CV, Transcripts, Research Interest",
+      "category": "长期",
+      "types": [
+        "PhD",
+        "Postdoc",
+        "Intern"
+      ],
+      "firstSeen": "2026-07-06",
+      "lastChanged": "2026-07-06"
     },
     {
       "university": "Singapore University of Technology and Design",

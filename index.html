@@ -38,6 +38,14 @@
   .how-steps li{display:flex; gap:10px; align-items:flex-start; font-size:14px; color:var(--ink)}
   .how-n{flex:0 0 auto; width:22px; height:22px; border-radius:999px; background:var(--accent); color:#fff; font-size:12px; font-weight:700; display:inline-flex; align-items:center; justify-content:center; margin-top:2px}
   @media(min-width:560px){ .how-steps{grid-template-columns:repeat(3,1fr); gap:14px} }
+  .news{margin:24px 0 4px}
+  .news-title{font-size:15px; font-weight:700; margin:0 0 10px}
+  .news-list{list-style:none; margin:0; padding:0; display:grid; gap:10px}
+  .news-item{display:flex; gap:10px; align-items:baseline; font-size:14px; line-height:1.5; color:var(--ink)}
+  .news-date{flex:0 0 auto; color:var(--muted); font-size:12px; font-weight:650; font-variant-numeric:tabular-nums; min-width:52px}
+  .news-body{flex:1; min-width:0}
+  .news-item a{color:var(--accent); text-decoration:none}
+  .news-item a:hover{text-decoration:underline}
   /* community block */
   .cm-community, .cm-community *{box-sizing:border-box}
   .cm-community{--cm-shadow:0 10px 28px rgba(22,24,29,.07); margin:36px 0 44px; padding:28px 0 30px;
@@ -115,6 +123,18 @@
       <li><span class="how-n">3</span>加拉群小助手，按方向进对应群，第一手看到机会</li>
     </ol>
   </div>
+
+  <!-- recent updates -->
+  <section class="news" aria-labelledby="news-title">
+    <h2 class="news-title" id="news-title">近期更新</h2>
+    <ul class="news-list">
+      <!-- 最新在上；保留最近约 5 条即可。新增一条：复制下面的 li，改日期、内容与链接（可用 #锚点 直达具体板块）。 -->
+      <li class="news-item">
+        <span class="news-date">2026-07</span>
+        <span class="news-body">接入 <b>2025 CRA Taulbee</b> 报告数据：<a href="./grad.html#res-landscape">博士大盘与新生趋势</a>、<a href="./faculty.html#res-salary">教职薪资与产出</a>、<a href="./jobs.html#res-outcomes">博士就业去向</a>。</span>
+      </li>
+    </ul>
+  </section>
 
   <!-- community at a glance -->
   <section id="community" class="cm-community" aria-labelledby="cm-community-title">

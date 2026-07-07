@@ -1,5 +1,5 @@
 window.OPENINGS = {
-  "synced": "2026-07-06",
+  "synced": "2026-07-07",
   "source": "https://tinyurl.com/2026phd",
   "count": 557,
   "shortterm": 94,
@@ -7792,11 +7792,11 @@ window.OPENINGS = {
     {
       "university": "University of Georgia",
       "faculty": "Yu Wang",
-      "interests": "Neural-Symbolic AI, Agentic Social Network, Trustworthy AI, Information Retrieval, Cybersecurity",
+      "interests": "Neural-Symbolic AI, Agentic Reasoning, Structured Agentic Processing, Trustworthy AI.",
       "term": "27 Spring/27 Fall",
       "deadline": "",
       "homepage": "https://yuwvandy.github.io/",
-      "positions": "1-2 PhDs with RA/TA",
+      "positions": "2 PhDs with RA/TA",
       "requirements": "TOEFL or IELTS, no GRE",
       "contact": "Email",
       "materials": "CV, Transcript",
@@ -7806,7 +7806,7 @@ window.OPENINGS = {
         "RA"
       ],
       "firstSeen": "2026-07-01",
-      "lastChanged": "2026-07-01"
+      "lastChanged": "2026-07-07"
     },
     {
       "university": "University of Hawaii at Manoa",

@@ -1,9 +1,9 @@
 {
-  "synced": "2026-07-07",
+  "synced": "2026-07-08",
   "source": "https://tinyurl.com/2026phd",
-  "count": 557,
+  "count": 558,
   "shortterm": 94,
-  "longterm": 463,
+  "longterm": 464,
   "openings": [
     {
       "university": "Arizona State University",
@@ -5855,6 +5855,25 @@
       ],
       "firstSeen": "2026-06-30",
       "lastChanged": "2026-06-30"
+    },
+    {
+      "university": "Simon Fraser University",
+      "faculty": "Hang Ma",
+      "interests": "Robotics, AI Planning, Multi-Agent Systems, Multi-Robot Coordination",
+      "term": "2027 Spring / Fall",
+      "deadline": "",
+      "homepage": "https://airob-group.github.io/",
+      "positions": "2 PhDs with RA",
+      "requirements": "TOEFL or IELTS, no GRE requirement",
+      "contact": "Email",
+      "materials": "",
+      "category": "长期",
+      "types": [
+        "PhD",
+        "RA"
+      ],
+      "firstSeen": "2026-07-08",
+      "lastChanged": "2026-07-08"
     },
     {
       "university": "Singapore Management University",

@@ -1,9 +1,9 @@
 window.OPENINGS = {
-  "synced": "2026-07-14",
+  "synced": "2026-07-15",
   "source": "https://tinyurl.com/2026phd",
-  "count": 560,
+  "count": 561,
   "shortterm": 94,
-  "longterm": 466,
+  "longterm": 467,
   "openings": [
     {
       "university": "Arizona State University",
@@ -10468,6 +10468,26 @@ window.OPENINGS = {
       ],
       "firstSeen": "2026-07-10",
       "lastChanged": "2026-07-10"
+    },
+    {
+      "university": "Nanyang Technological University, Singapore",
+      "faculty": "Penghui Li",
+      "interests": "Security, Program Analysis, AI for Security",
+      "term": "27 Spring/Fall",
+      "deadline": "",
+      "homepage": "https://peng-hui.github.io/",
+      "positions": "2-3 PhD with RA/TA, interns",
+      "requirements": "TOEFL or IELTS",
+      "contact": "https://peng-hui.github.io/openings.html",
+      "materials": "CV, Transcript, Research interest",
+      "category": "长期",
+      "types": [
+        "PhD",
+        "RA",
+        "Intern"
+      ],
+      "firstSeen": "2026-07-15",
+      "lastChanged": "2026-07-15"
     }
   ]
 };

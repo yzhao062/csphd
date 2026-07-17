@@ -1,5 +1,5 @@
 window.OPENINGS = {
-  "synced": "2026-07-16",
+  "synced": "2026-07-17",
   "source": "https://tinyurl.com/2026phd",
   "count": 561,
   "shortterm": 94,
@@ -4190,8 +4190,8 @@ window.OPENINGS = {
     {
       "university": "MBZUAI",
       "faculty": "Jian Kang",
-      "interests": "AI + X, graph learning, trustworthy ML (robustness, uncertainty, factuality, interpretability), model evaluation, data attribution",
-      "term": "26 Fall",
+      "interests": "AI for health/science, graph learning, model evaluation, data attribution, trustworthy ML (uncertainty, mechanistic interpretability)",
+      "term": "27 Fall PhD (recruiting annually), Postdoc/RA/Intern (any time)",
       "deadline": "",
       "homepage": "https://jiank2.github.io/",
       "positions": "2 - 4 PhD with RA and 1 Postdoc",
@@ -4205,7 +4205,7 @@ window.OPENINGS = {
         "Postdoc"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-07-17"
     },
     {
       "university": "Michigan State University",
@@ -7073,22 +7073,20 @@ window.OPENINGS = {
     {
       "university": "University of California, Merced",
       "faculty": "Xiaofan Yu",
-      "interests": "Embedded System, Edge AI, CPS/IoT, Neuromorphic Computing",
-      "term": "26 Fall",
+      "interests": "Embedded AI, Neuromorphic computing",
+      "term": "27 Spring/Fall",
       "deadline": "",
       "homepage": "https://yuccalab.ucmerced.edu/",
-      "positions": "1-2 PhDs with RA/TA, interns",
+      "positions": "Postdoc",
       "requirements": "",
       "contact": "Email",
       "materials": "CV, Transcript",
       "category": "长期",
       "types": [
-        "PhD",
-        "RA",
-        "Intern"
+        "Postdoc"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-07-17"
     },
     {
       "university": "University of California, Riverside",

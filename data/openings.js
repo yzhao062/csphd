@@ -1,5 +1,5 @@
 window.OPENINGS = {
-  "synced": "2026-07-18",
+  "synced": "2026-07-19",
   "source": "https://tinyurl.com/2026phd",
   "count": 561,
   "shortterm": 94,
@@ -1900,20 +1900,20 @@ window.OPENINGS = {
     {
       "university": "Auburn University",
       "faculty": "Pan He",
-      "interests": "Computer Vision, Deep Learning",
-      "term": "2025 Spring / Fall",
+      "interests": "Computer Vision, Deep Learning, Machine Learning, Multimodal Models",
+      "term": "2026 & 2027 Spring / Fall",
       "deadline": "",
       "homepage": "https://panhe.org/",
-      "positions": "1 PhD",
-      "requirements": "",
+      "positions": "1-2 PhDs",
+      "requirements": "Just email me for potential positions",
       "contact": "Email",
-      "materials": "",
+      "materials": "pan.he@auburn.edu or mybestsonny@gmail.com",
       "category": "长期",
       "types": [
         "PhD"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-07-19"
     },
     {
       "university": "Auburn University",
@@ -3407,8 +3407,8 @@ window.OPENINGS = {
     {
       "university": "Hong Kong Polytechnic University",
       "faculty": "Xingyi Yang",
-      "interests": "Generative AI, 3D Vision, Computer Vision, Efficiency, Agantic Learning",
-      "term": "26 Spring/Fall",
+      "interests": "World Model, Embodied AI, Generative AI, 3D Vision, Computer Vision, Efficiency",
+      "term": "27 Spring/Fall",
       "deadline": "",
       "homepage": "https://adamdad.github.io/",
       "positions": "2-3 PhDs, Multiple RA/Interns",
@@ -3422,7 +3422,7 @@ window.OPENINGS = {
         "Intern"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-07-19"
     },
     {
       "university": "Hong Kong Polytechnic University",
@@ -4190,7 +4190,7 @@ window.OPENINGS = {
     {
       "university": "MBZUAI",
       "faculty": "Jian Kang",
-      "interests": "AI for health/science, graph learning, model evaluation, data attribution, trustworthy ML (uncertainty, mechanistic interpretability)",
+      "interests": "AI for health/science, LLM/agent, graph learning, model evaluation, data attribution, trustworthy ML (uncertainty, mechanistic interpretability)",
       "term": "27 Fall PhD (recruiting annually), Postdoc/RA/Intern (any time)",
       "deadline": "",
       "homepage": "https://jiank2.github.io/",
@@ -4205,7 +4205,7 @@ window.OPENINGS = {
         "Postdoc"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-07-17"
+      "lastChanged": "2026-07-19"
     },
     {
       "university": "Michigan State University",
@@ -5336,7 +5336,7 @@ window.OPENINGS = {
       "interests": "Efficient AI/ML; Algorithm-Hardware Co-Design; MLSys",
       "term": "26 Fall, 27 Spring/Fall",
       "deadline": "",
-      "homepage": "http://haoranyou.com/",
+      "homepage": "https://www.haoranyou.com/",
       "positions": "2-3 PhDs; multiple interns",
       "requirements": "",
       "contact": "",
@@ -5347,7 +5347,7 @@ window.OPENINGS = {
         "Intern"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-07-19"
     },
     {
       "university": "Purdue University",
@@ -5749,7 +5749,7 @@ window.OPENINGS = {
       "university": "Rutgers University",
       "faculty": "Kaiyuan Zhang",
       "interests": "agentic AI, LLM post-training, AI safety & security",
-      "term": "all year round, long-term effective; PhD, Visiting Students, RAs",
+      "term": "all year round, long-term effective; 2027 Spring; 2027 Fall; PhD, Visiting Students, RAs",
       "deadline": "",
       "homepage": "https://kaiyuanzhang.com/",
       "positions": "PhD, Visiting Students, RAs",
@@ -5761,7 +5761,7 @@ window.OPENINGS = {
         "PhD"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-07-19"
     },
     {
       "university": "Saint Louis University",
@@ -7110,22 +7110,20 @@ window.OPENINGS = {
     {
       "university": "University of California, Riverside",
       "faculty": "Zhouxing Shi",
-      "interests": "Machine Learning, LLM, Trustworthy AI, formal verification",
-      "term": "26 Fall",
+      "interests": "ML, LLM, Formal methods for AI, Trustworthy AI",
+      "term": "27 Fall",
       "deadline": "",
       "homepage": "https://shizhouxing.github.io/",
-      "positions": "1-2 PhDs (Fellowship + RA/TA); interns",
+      "positions": "1 PhD",
       "requirements": "TOEFL, no GRE requirement",
       "contact": "Email",
       "materials": "CV, Transcript, Research Interest",
       "category": "长期",
       "types": [
-        "PhD",
-        "RA",
-        "Intern"
+        "PhD"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-07-19"
     },
     {
       "university": "University of California, Riverside",
@@ -7582,7 +7580,7 @@ window.OPENINGS = {
       "university": "University of Connecticut",
       "faculty": "Yuyang Wang",
       "interests": "Integrated photonics, optical interconnects, photonic computing, heterogeneous integration and advanced packaging, electronic-photonic design automation",
-      "term": "26 Fall",
+      "term": "27 Fall",
       "deadline": "",
       "homepage": "https://wangyy.phd",
       "positions": "1-2 PhDs with RA",
@@ -7595,7 +7593,7 @@ window.OPENINGS = {
         "RA"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-07-19"
     },
     {
       "university": "University of Connecticut",
@@ -8018,9 +8016,9 @@ window.OPENINGS = {
       "lastChanged": "2026-06-30"
     },
     {
-      "university": "University of Illinois Chicago",
+      "university": "Penn State University",
       "faculty": "Lu Cheng",
-      "interests": "Responsible and Reliable AI, Causal ML, LLMs, AI for Computational Biology",
+      "interests": "Responsible and Reliable AI, World Model, Causal ML, AI for Drug Discovery and MD Simulation",
       "term": "Self-motivated and qualified students are always welcome",
       "deadline": "",
       "homepage": "Lu Cheng",
@@ -8033,8 +8031,8 @@ window.OPENINGS = {
         "PhD",
         "RA"
       ],
-      "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "firstSeen": "2026-07-19",
+      "lastChanged": "2026-07-19"
     },
     {
       "university": "University of Illinois Urbana-Champaign",
@@ -9762,19 +9760,19 @@ window.OPENINGS = {
       "university": "University of Virginia",
       "faculty": "Lei Li",
       "interests": "3D Computer Vision, Generative Models, Human Motion Modeling, Vision-Language Models, Shape Analysis, Transfer Learning",
-      "term": "2026 Fall",
+      "term": "2027 Fall",
       "deadline": "",
       "homepage": "https://craigleili.github.io/",
       "positions": "1-2 PhDs",
       "requirements": "TOEFL/IETLS",
-      "contact": "Fill this form",
+      "contact": "Fill this form: https://tinyurl.com/uvasailapply",
       "materials": "",
       "category": "长期",
       "types": [
         "PhD"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-07-19"
     },
     {
       "university": "University of Washington",

@@ -1,9 +1,9 @@
 {
-  "synced": "2026-07-19",
+  "synced": "2026-07-20",
   "source": "https://tinyurl.com/2026phd",
-  "count": 561,
+  "count": 562,
   "shortterm": 94,
-  "longterm": 467,
+  "longterm": 468,
   "openings": [
     {
       "university": "Arizona State University",
@@ -861,6 +861,24 @@
       "lastChanged": "2026-06-30"
     },
     {
+      "university": "Universty of Tennessee, Knoxville",
+      "faculty": "Dongsheng Ding",
+      "interests": "Reinforcement Leanring and Stochastic Systems, Generative Artificial Intelligence, Optimization and Control, AI Safety and Alignment",
+      "term": "",
+      "deadline": "Open",
+      "homepage": "https://dongshed.github.io",
+      "positions": "2-3 PhDs for Fall 2026",
+      "requirements": "TOEFL/IELTS",
+      "contact": "dongshed@utk.edu",
+      "materials": "CV, Transcript (Math courses), Research Interest, Publications if available",
+      "category": "短期",
+      "types": [
+        "PhD"
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
+    },
+    {
       "university": "University of Tennessee, Knoxville",
       "faculty": "Suya",
       "interests": "Generative AI, Security, Privacy, System Security",
@@ -907,24 +925,6 @@
       "requirements": "",
       "contact": "ylu97@wisc.edu",
       "materials": "",
-      "category": "短期",
-      "types": [
-        "PhD"
-      ],
-      "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
-    },
-    {
-      "university": "Universty of Tennessee, Knoxville",
-      "faculty": "Dongsheng Ding",
-      "interests": "Reinforcement Leanring and Stochastic Systems, Generative Artificial Intelligence, Optimization and Control, AI Safety and Alignment",
-      "term": "",
-      "deadline": "Open",
-      "homepage": "https://dongshed.github.io",
-      "positions": "2-3 PhDs for Fall 2026",
-      "requirements": "TOEFL/IELTS",
-      "contact": "dongshed@utk.edu",
-      "materials": "CV, Transcript (Math courses), Research Interest, Publications if available",
       "category": "短期",
       "types": [
         "PhD"
@@ -1476,7 +1476,7 @@
       "faculty": "Zhouxing Shi",
       "interests": "LLM post-training and reasoning, AI x formal methods, trustworthy AI",
       "term": "",
-      "deadline": "Open as of March 29, until filled",
+      "deadline": "",
       "homepage": "https://shizhouxing.github.io/",
       "positions": "2 PhD for Fall 26, visiting students",
       "requirements": "TOEFL>=80 or IELTS>=7",
@@ -1487,7 +1487,7 @@
         "PhD"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-07-20"
     },
     {
       "university": "Concordia University (Canada)",
@@ -5070,6 +5070,26 @@
       ],
       "firstSeen": "2026-06-30",
       "lastChanged": "2026-06-30"
+    },
+    {
+      "university": "Ohio State University",
+      "faculty": "Weidan Cao",
+      "interests": "Human Computer Interaction (HCI), Computer-Supported Cooperative Work (CSCW), Human-Centered AI, Mobile Health",
+      "term": "27 Fall PhD, Postdoc/RA (any time)",
+      "deadline": "",
+      "homepage": "https://caolab.org/",
+      "positions": "2 PhDs with RA, and Postdocs",
+      "requirements": "",
+      "contact": "Email",
+      "materials": "CV, Transcript, Research Interest",
+      "category": "长期",
+      "types": [
+        "PhD",
+        "RA",
+        "Postdoc"
+      ],
+      "firstSeen": "2026-07-20",
+      "lastChanged": "2026-07-20"
     },
     {
       "university": "Ohio State University",
@@ -9284,6 +9304,26 @@
       "lastChanged": "2026-06-30"
     },
     {
+      "university": "Universty of Tennessee, Knoxville",
+      "faculty": "Dongsheng Ding",
+      "interests": "Reinforcement Learning and Stochastic Systems, Generative Artificial Intelligence, Optimization and Control, AI Safety and Alignment",
+      "term": "1-2 PhDs for Fall 2026, 1-2 PhDs for Spring/Fall 2027",
+      "deadline": "",
+      "homepage": "https://dongshed.github.io",
+      "positions": "2-4 PhDs with RA/TA, Interns",
+      "requirements": "TOEFL/IELTS",
+      "contact": "dongshed@utk.edu",
+      "materials": "CV, Transcript (Math courses), Research Interest, Publications if available",
+      "category": "长期",
+      "types": [
+        "PhD",
+        "RA",
+        "Intern"
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-07-20"
+    },
+    {
       "university": "University of Tennessee, Knoxville",
       "faculty": "Fnu Suya",
       "interests": "Trustworthy Machine Learning, AI for Cybersecurity",
@@ -9922,26 +9962,6 @@
       ],
       "firstSeen": "2026-06-30",
       "lastChanged": "2026-06-30"
-    },
-    {
-      "university": "Universty of Tennessee, Knoxville",
-      "faculty": "Dongsheng Ding",
-      "interests": "Reinforcement Leanring and Stochastic Systems, Generative Artificial Intelligence, Optimization and Control, AI Safety and Alignment",
-      "term": "1-2 PhDs for Fall 2026, 1-2 PhDs for Fall 2027",
-      "deadline": "",
-      "homepage": "https://dongshed.github.io",
-      "positions": "2-4 PhDs with RA/TA, Interns",
-      "requirements": "TOEFL/IELTS",
-      "contact": "dongshed@utk.edu",
-      "materials": "CV, Transcript (Math courses), Research Interest, Publications if available",
-      "category": "长期",
-      "types": [
-        "PhD",
-        "RA",
-        "Intern"
-      ],
-      "firstSeen": "2026-06-30",
-      "lastChanged": "2026-07-01"
     },
     {
       "university": "Utah State University",

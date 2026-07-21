@@ -1,5 +1,5 @@
 window.OPENINGS = {
-  "synced": "2026-07-20",
+  "synced": "2026-07-21",
   "source": "https://tinyurl.com/2026phd",
   "count": 562,
   "shortterm": 94,
@@ -1474,11 +1474,11 @@ window.OPENINGS = {
     {
       "university": "University of California, Riverside",
       "faculty": "Zhouxing Shi",
-      "interests": "LLM post-training and reasoning, AI x formal methods, trustworthy AI",
+      "interests": "ML, LLM, Formal methods for AI, Trustworthy AI",
       "term": "",
       "deadline": "",
       "homepage": "https://shizhouxing.github.io/",
-      "positions": "2 PhD for Fall 26, visiting students",
+      "positions": "1 PhD for Fall 27, or visiting students",
       "requirements": "TOEFL>=80 or IELTS>=7",
       "contact": "zhouxing.shi@ucr.edu",
       "materials": "",
@@ -1487,7 +1487,7 @@ window.OPENINGS = {
         "PhD"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-07-20"
+      "lastChanged": "2026-07-21"
     },
     {
       "university": "Concordia University (Canada)",
@@ -1938,7 +1938,7 @@ window.OPENINGS = {
       "university": "Auburn University",
       "faculty": "Shuai Huang",
       "interests": "AI for healthcare, computer vision, GNN, biomedical imaging, MRI",
-      "term": "2026 Spring/Fall",
+      "term": "2027 Spring/Fall",
       "deadline": "",
       "homepage": "https://shuai-huang.github.io/",
       "positions": "1 PhD with RA",
@@ -1951,7 +1951,7 @@ window.OPENINGS = {
         "RA"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-07-21"
     },
     {
       "university": "Auburn University (AL, USA)",
@@ -5370,7 +5370,7 @@ window.OPENINGS = {
       "lastChanged": "2026-07-19"
     },
     {
-      "university": "Purdue University",
+      "university": "Peking University",
       "faculty": "Xupeng Miao",
       "interests": "MLSys",
       "term": "25 Spring / Fall",
@@ -5384,8 +5384,8 @@ window.OPENINGS = {
       "types": [
         "PhD"
       ],
-      "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "firstSeen": "2026-07-21",
+      "lastChanged": "2026-07-21"
     },
     {
       "university": "Purdue University",
@@ -5447,8 +5447,8 @@ window.OPENINGS = {
     {
       "university": "Purdue University",
       "faculty": "Jinghan Sun",
-      "interests": "ML for Systems, Memory/Storage Systems for LLM",
-      "term": "26 Fall",
+      "interests": "ML for Systems, MLSys",
+      "term": "2027 Fall/Spring",
       "deadline": "",
       "homepage": "https://my-henrys.github.io/",
       "positions": "Multiple PhDs/Interns",
@@ -5461,7 +5461,7 @@ window.OPENINGS = {
         "Intern"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-07-21"
     },
     {
       "university": "Purdue University",
@@ -6445,20 +6445,20 @@ window.OPENINGS = {
       "lastChanged": "2026-06-30"
     },
     {
-      "university": "The Hong Kong University of Science and Technology (Guangzhou)",
+      "university": "Hong Kong University of Science and Technology (Guangzhou)",
       "faculty": "Jian Zhang",
       "interests": "Computer System, Storage, Distributed Systems",
-      "term": "26 Spring/Fall, PhD/RAs",
+      "term": "27 Spring/Fall, PhD/RAs",
       "deadline": "",
-      "homepage": "",
+      "homepage": "https://sosp.dev/",
       "positions": "",
       "requirements": "",
       "contact": "",
       "materials": "",
       "category": "长期",
       "types": [],
-      "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "firstSeen": "2026-07-21",
+      "lastChanged": "2026-07-21"
     },
     {
       "university": "The University of Hong Kong",

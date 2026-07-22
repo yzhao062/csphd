@@ -1,5 +1,5 @@
 window.OPENINGS = {
-  "synced": "2026-07-21",
+  "synced": "2026-07-22",
   "source": "https://tinyurl.com/2026phd",
   "count": 562,
   "shortterm": 94,
@@ -5080,7 +5080,7 @@ window.OPENINGS = {
       "homepage": "https://caolab.org/",
       "positions": "2 PhDs with RA, and Postdocs",
       "requirements": "",
-      "contact": "Email",
+      "contact": "Email (weidan.cao@osumc.edu)",
       "materials": "CV, Transcript, Research Interest",
       "category": "长期",
       "types": [
@@ -5089,7 +5089,7 @@ window.OPENINGS = {
         "Postdoc"
       ],
       "firstSeen": "2026-07-20",
-      "lastChanged": "2026-07-20"
+      "lastChanged": "2026-07-22"
     },
     {
       "university": "Ohio State University",

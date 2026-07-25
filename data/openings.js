@@ -1,9 +1,9 @@
 window.OPENINGS = {
-  "synced": "2026-07-24",
+  "synced": "2026-07-25",
   "source": "https://tinyurl.com/2026phd",
-  "count": 562,
+  "count": 563,
   "shortterm": 94,
-  "longterm": 468,
+  "longterm": 469,
   "openings": [
     {
       "university": "Arizona State University",
@@ -6459,6 +6459,25 @@ window.OPENINGS = {
       "types": [],
       "firstSeen": "2026-07-21",
       "lastChanged": "2026-07-21"
+    },
+    {
+      "university": "The University of Hong Kong",
+      "faculty": "Shiwei Liu",
+      "interests": "LLM Pre-training, LLM post-training, Agent, Efficient AI, ML system",
+      "term": "26 Fall / 27 Spring",
+      "deadline": "",
+      "homepage": "https://shiweiliuiiiiiii.github.io/",
+      "positions": "2-3 PhD, N RAs, 1 Postdoc",
+      "requirements": "TOEFL/IETLS, no GRE requirement",
+      "contact": "",
+      "materials": "",
+      "category": "长期",
+      "types": [
+        "PhD",
+        "Postdoc"
+      ],
+      "firstSeen": "2026-07-25",
+      "lastChanged": "2026-07-25"
     },
     {
       "university": "The University of Hong Kong",

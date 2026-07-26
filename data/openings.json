@@ -1,9 +1,9 @@
 {
-  "synced": "2026-07-04",
+  "synced": "2026-07-25",
   "source": "https://tinyurl.com/2026phd",
-  "count": 556,
+  "count": 563,
   "shortterm": 94,
-  "longterm": 462,
+  "longterm": 469,
   "openings": [
     {
       "university": "Arizona State University",
@@ -861,6 +861,24 @@
       "lastChanged": "2026-06-30"
     },
     {
+      "university": "Universty of Tennessee, Knoxville",
+      "faculty": "Dongsheng Ding",
+      "interests": "Reinforcement Leanring and Stochastic Systems, Generative Artificial Intelligence, Optimization and Control, AI Safety and Alignment",
+      "term": "",
+      "deadline": "Open",
+      "homepage": "https://dongshed.github.io",
+      "positions": "2-3 PhDs for Fall 2026",
+      "requirements": "TOEFL/IELTS",
+      "contact": "dongshed@utk.edu",
+      "materials": "CV, Transcript (Math courses), Research Interest, Publications if available",
+      "category": "短期",
+      "types": [
+        "PhD"
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-06-30"
+    },
+    {
       "university": "University of Tennessee, Knoxville",
       "faculty": "Suya",
       "interests": "Generative AI, Security, Privacy, System Security",
@@ -907,24 +925,6 @@
       "requirements": "",
       "contact": "ylu97@wisc.edu",
       "materials": "",
-      "category": "短期",
-      "types": [
-        "PhD"
-      ],
-      "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
-    },
-    {
-      "university": "Universty of Tennessee, Knoxville",
-      "faculty": "Dongsheng Ding",
-      "interests": "Reinforcement Leanring and Stochastic Systems, Generative Artificial Intelligence, Optimization and Control, AI Safety and Alignment",
-      "term": "",
-      "deadline": "Open",
-      "homepage": "https://dongshed.github.io",
-      "positions": "2-3 PhDs for Fall 2026",
-      "requirements": "TOEFL/IELTS",
-      "contact": "dongshed@utk.edu",
-      "materials": "CV, Transcript (Math courses), Research Interest, Publications if available",
       "category": "短期",
       "types": [
         "PhD"
@@ -1474,11 +1474,11 @@
     {
       "university": "University of California, Riverside",
       "faculty": "Zhouxing Shi",
-      "interests": "LLM post-training and reasoning, AI x formal methods, trustworthy AI",
+      "interests": "ML, LLM, Formal methods for AI, Trustworthy AI",
       "term": "",
-      "deadline": "Open as of March 29, until filled",
+      "deadline": "",
       "homepage": "https://shizhouxing.github.io/",
-      "positions": "2 PhD for Fall 26, visiting students",
+      "positions": "1 PhD for Fall 27, or visiting students",
       "requirements": "TOEFL>=80 or IELTS>=7",
       "contact": "zhouxing.shi@ucr.edu",
       "materials": "",
@@ -1487,7 +1487,7 @@
         "PhD"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-07-21"
     },
     {
       "university": "Concordia University (Canada)",
@@ -1900,20 +1900,20 @@
     {
       "university": "Auburn University",
       "faculty": "Pan He",
-      "interests": "Computer Vision, Deep Learning",
-      "term": "2025 Spring / Fall",
+      "interests": "Computer Vision, Deep Learning, Machine Learning, Multimodal Models",
+      "term": "2026 & 2027 Spring / Fall",
       "deadline": "",
       "homepage": "https://panhe.org/",
-      "positions": "1 PhD",
-      "requirements": "",
+      "positions": "1-2 PhDs",
+      "requirements": "Just email me for potential positions",
       "contact": "Email",
-      "materials": "",
+      "materials": "pan.he@auburn.edu or mybestsonny@gmail.com",
       "category": "长期",
       "types": [
         "PhD"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-07-19"
     },
     {
       "university": "Auburn University",
@@ -1938,7 +1938,7 @@
       "university": "Auburn University",
       "faculty": "Shuai Huang",
       "interests": "AI for healthcare, computer vision, GNN, biomedical imaging, MRI",
-      "term": "2026 Spring/Fall",
+      "term": "2027 Spring/Fall",
       "deadline": "",
       "homepage": "https://shuai-huang.github.io/",
       "positions": "1 PhD with RA",
@@ -1951,7 +1951,7 @@
         "RA"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-07-21"
     },
     {
       "university": "Auburn University (AL, USA)",
@@ -2526,8 +2526,8 @@
       "homepage": "http://mai-lab-2026.com/",
       "positions": "1-2 PhD, RA, Interns, visiting students",
       "requirements": "TOEFL or IELTS, no GRE",
-      "contact": "Fill this form",
-      "materials": "",
+      "contact": "Fill this form https://forms.gle/AyEmbJZnWQt4ZLSv6 or Email: liminghan0330@gmail.com",
+      "materials": "CV, Transcript, Research Interest, Publications if available",
       "category": "长期",
       "types": [
         "PhD",
@@ -2535,7 +2535,7 @@
         "Intern"
       ],
       "firstSeen": "2026-07-01",
-      "lastChanged": "2026-07-01"
+      "lastChanged": "2026-07-06"
     },
     {
       "university": "Columbia University",
@@ -3072,6 +3072,27 @@
     },
     {
       "university": "Georgia Institute of Technology",
+      "faculty": "Jiachen Li",
+      "interests": "Robotics, Embodied AI, Agentic AI, Trustworthy AI, Foundation Models, Human-Robot Interaction, Multi-Agent Systems, Autonomous Driving",
+      "term": "27 Spring/Fall",
+      "deadline": "",
+      "homepage": "https://tasl-lab.github.io/",
+      "positions": "2-4 PhDs with RA, Interns, Postdocs",
+      "requirements": "TOEFL, no GRE requirement",
+      "contact": "Fill out this form: https://tasl-lab.github.io/join/",
+      "materials": "",
+      "category": "长期",
+      "types": [
+        "PhD",
+        "RA",
+        "Postdoc",
+        "Intern"
+      ],
+      "firstSeen": "2026-07-05",
+      "lastChanged": "2026-07-05"
+    },
+    {
+      "university": "Georgia Institute of Technology",
       "faculty": "Molei Tao",
       "interests": "Gen-AI (e.g., Diffusion Model), AI4Science (e.g., Quantum), Deep Learning Theory (e.g., Optimization and Generalization)",
       "term": "26 Fall",
@@ -3386,8 +3407,8 @@
     {
       "university": "Hong Kong Polytechnic University",
       "faculty": "Xingyi Yang",
-      "interests": "Generative AI, 3D Vision, Computer Vision, Efficiency, Agantic Learning",
-      "term": "26 Spring/Fall",
+      "interests": "World Model, Embodied AI, Generative AI, 3D Vision, Computer Vision, Efficiency",
+      "term": "27 Spring/Fall",
       "deadline": "",
       "homepage": "https://adamdad.github.io/",
       "positions": "2-3 PhDs, Multiple RA/Interns",
@@ -3401,7 +3422,7 @@
         "Intern"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-07-19"
     },
     {
       "university": "Hong Kong Polytechnic University",
@@ -4169,8 +4190,8 @@
     {
       "university": "MBZUAI",
       "faculty": "Jian Kang",
-      "interests": "AI + X, graph learning, trustworthy ML (robustness, uncertainty, factuality, interpretability), model evaluation, data attribution",
-      "term": "26 Fall",
+      "interests": "AI for health/science, LLM/agent, graph learning, model evaluation, data attribution, trustworthy ML (uncertainty, mechanistic interpretability)",
+      "term": "27 Fall PhD (recruiting annually), Postdoc/RA/Intern (any time)",
       "deadline": "",
       "homepage": "https://jiank2.github.io/",
       "positions": "2 - 4 PhD with RA and 1 Postdoc",
@@ -4184,7 +4205,7 @@
         "Postdoc"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-07-19"
     },
     {
       "university": "Michigan State University",
@@ -5052,6 +5073,26 @@
     },
     {
       "university": "Ohio State University",
+      "faculty": "Weidan Cao",
+      "interests": "Human Computer Interaction (HCI), Computer-Supported Cooperative Work (CSCW), Human-Centered AI, Mobile Health",
+      "term": "27 Fall PhD, Postdoc/RA (any time)",
+      "deadline": "",
+      "homepage": "https://caolab.org/",
+      "positions": "2 PhDs with RA, and Postdocs",
+      "requirements": "",
+      "contact": "Email (weidan.cao@osumc.edu)",
+      "materials": "CV, Transcript, Research Interest",
+      "category": "长期",
+      "types": [
+        "PhD",
+        "RA",
+        "Postdoc"
+      ],
+      "firstSeen": "2026-07-20",
+      "lastChanged": "2026-07-22"
+    },
+    {
+      "university": "Ohio State University",
       "faculty": "Xia Ning",
       "interests": "LLMs (multimodal foundation models, reasoning, planning, in-contex learning, agents), generative AI for science",
       "term": "immediately, or 26 Spring/Fall",
@@ -5315,7 +5356,7 @@
       "interests": "Efficient AI/ML; Algorithm-Hardware Co-Design; MLSys",
       "term": "26 Fall, 27 Spring/Fall",
       "deadline": "",
-      "homepage": "http://haoranyou.com/",
+      "homepage": "https://www.haoranyou.com/",
       "positions": "2-3 PhDs; multiple interns",
       "requirements": "",
       "contact": "",
@@ -5326,10 +5367,10 @@
         "Intern"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-07-19"
     },
     {
-      "university": "Purdue University",
+      "university": "Peking University",
       "faculty": "Xupeng Miao",
       "interests": "MLSys",
       "term": "25 Spring / Fall",
@@ -5343,8 +5384,8 @@
       "types": [
         "PhD"
       ],
-      "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "firstSeen": "2026-07-21",
+      "lastChanged": "2026-07-21"
     },
     {
       "university": "Purdue University",
@@ -5406,8 +5447,8 @@
     {
       "university": "Purdue University",
       "faculty": "Jinghan Sun",
-      "interests": "ML for Systems, Memory/Storage Systems for LLM",
-      "term": "26 Fall",
+      "interests": "ML for Systems, MLSys",
+      "term": "2027 Fall/Spring",
       "deadline": "",
       "homepage": "https://my-henrys.github.io/",
       "positions": "Multiple PhDs/Interns",
@@ -5420,7 +5461,7 @@
         "Intern"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-07-21"
     },
     {
       "university": "Purdue University",
@@ -5728,7 +5769,7 @@
       "university": "Rutgers University",
       "faculty": "Kaiyuan Zhang",
       "interests": "agentic AI, LLM post-training, AI safety & security",
-      "term": "all year round, long-term effective; PhD, Visiting Students, RAs",
+      "term": "all year round, long-term effective; 2027 Spring; 2027 Fall; PhD, Visiting Students, RAs",
       "deadline": "",
       "homepage": "https://kaiyuanzhang.com/",
       "positions": "PhD, Visiting Students, RAs",
@@ -5740,7 +5781,7 @@
         "PhD"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-07-19"
     },
     {
       "university": "Saint Louis University",
@@ -5834,6 +5875,45 @@
       ],
       "firstSeen": "2026-06-30",
       "lastChanged": "2026-06-30"
+    },
+    {
+      "university": "Simon Fraser University",
+      "faculty": "Hang Ma",
+      "interests": "Robotics, AI Planning, Multi-Agent Systems, Multi-Robot Coordination",
+      "term": "2027 Spring / Fall",
+      "deadline": "",
+      "homepage": "https://airob-group.github.io/",
+      "positions": "2 PhDs with RA",
+      "requirements": "TOEFL or IELTS, no GRE requirement",
+      "contact": "Email",
+      "materials": "",
+      "category": "长期",
+      "types": [
+        "PhD",
+        "RA"
+      ],
+      "firstSeen": "2026-07-08",
+      "lastChanged": "2026-07-08"
+    },
+    {
+      "university": "Singapore Management University",
+      "faculty": "Hanjia Lyu",
+      "interests": "Computational Social Science, AI and Society, Simulation",
+      "term": "2026 Fall, 2027 Spring / Fall",
+      "deadline": "",
+      "homepage": "https://brucelyu17.github.io/",
+      "positions": "PhDs, visiting students, RAs, interns, postdocs",
+      "requirements": "TOEFL, GRE",
+      "contact": "Email",
+      "materials": "CV, Transcripts, Research Interest",
+      "category": "长期",
+      "types": [
+        "PhD",
+        "Postdoc",
+        "Intern"
+      ],
+      "firstSeen": "2026-07-06",
+      "lastChanged": "2026-07-06"
     },
     {
       "university": "Singapore University of Technology and Design",
@@ -6365,20 +6445,39 @@
       "lastChanged": "2026-06-30"
     },
     {
-      "university": "The Hong Kong University of Science and Technology (Guangzhou)",
+      "university": "Hong Kong University of Science and Technology (Guangzhou)",
       "faculty": "Jian Zhang",
       "interests": "Computer System, Storage, Distributed Systems",
-      "term": "26 Spring/Fall, PhD/RAs",
+      "term": "27 Spring/Fall, PhD/RAs",
       "deadline": "",
-      "homepage": "",
+      "homepage": "https://sosp.dev/",
       "positions": "",
       "requirements": "",
       "contact": "",
       "materials": "",
       "category": "长期",
       "types": [],
-      "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "firstSeen": "2026-07-21",
+      "lastChanged": "2026-07-21"
+    },
+    {
+      "university": "The University of Hong Kong",
+      "faculty": "Shiwei Liu",
+      "interests": "LLM Pre-training, LLM post-training, Agent, Efficient AI, ML system",
+      "term": "26 Fall / 27 Spring",
+      "deadline": "",
+      "homepage": "https://shiweiliuiiiiiii.github.io/",
+      "positions": "2-3 PhD, N RAs, 1 Postdoc",
+      "requirements": "TOEFL/IETLS, no GRE requirement",
+      "contact": "",
+      "materials": "",
+      "category": "长期",
+      "types": [
+        "PhD",
+        "Postdoc"
+      ],
+      "firstSeen": "2026-07-25",
+      "lastChanged": "2026-07-25"
     },
     {
       "university": "The University of Hong Kong",
@@ -7013,42 +7112,20 @@
     {
       "university": "University of California, Merced",
       "faculty": "Xiaofan Yu",
-      "interests": "Embedded System, Edge AI, CPS/IoT, Neuromorphic Computing",
-      "term": "26 Fall",
+      "interests": "Embedded AI, Neuromorphic computing",
+      "term": "27 Spring/Fall",
       "deadline": "",
       "homepage": "https://yuccalab.ucmerced.edu/",
-      "positions": "1-2 PhDs with RA/TA, interns",
+      "positions": "Postdoc",
       "requirements": "",
       "contact": "Email",
       "materials": "CV, Transcript",
       "category": "长期",
       "types": [
-        "PhD",
-        "RA",
-        "Intern"
+        "Postdoc"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
-    },
-    {
-      "university": "University of California, Riverside",
-      "faculty": "Jiachen Li",
-      "interests": "Robotics, Embodied AI, Human-Robot Interaction, Multi-Robot Systems, Autonomous Driving, Multi-Agent Learning, Trustworthy AI",
-      "term": "2026 Fall",
-      "deadline": "",
-      "homepage": "https://tasl.ucr.edu/",
-      "positions": "Multiple PhDs (Fellowship+RA), interns",
-      "requirements": "TOEFL, no GRE requirement",
-      "contact": "Email",
-      "materials": "",
-      "category": "长期",
-      "types": [
-        "PhD",
-        "RA",
-        "Intern"
-      ],
-      "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-07-17"
     },
     {
       "university": "University of California, Riverside",
@@ -7072,22 +7149,20 @@
     {
       "university": "University of California, Riverside",
       "faculty": "Zhouxing Shi",
-      "interests": "Machine Learning, LLM, Trustworthy AI, formal verification",
-      "term": "26 Fall",
+      "interests": "ML, LLM, Formal methods for AI, Trustworthy AI",
+      "term": "27 Fall",
       "deadline": "",
       "homepage": "https://shizhouxing.github.io/",
-      "positions": "1-2 PhDs (Fellowship + RA/TA); interns",
+      "positions": "1 PhD",
       "requirements": "TOEFL, no GRE requirement",
       "contact": "Email",
       "materials": "CV, Transcript, Research Interest",
       "category": "长期",
       "types": [
-        "PhD",
-        "RA",
-        "Intern"
+        "PhD"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-07-19"
     },
     {
       "university": "University of California, Riverside",
@@ -7544,7 +7619,7 @@
       "university": "University of Connecticut",
       "faculty": "Yuyang Wang",
       "interests": "Integrated photonics, optical interconnects, photonic computing, heterogeneous integration and advanced packaging, electronic-photonic design automation",
-      "term": "26 Fall",
+      "term": "27 Fall",
       "deadline": "",
       "homepage": "https://wangyy.phd",
       "positions": "1-2 PhDs with RA",
@@ -7557,7 +7632,7 @@
         "RA"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-07-19"
     },
     {
       "university": "University of Connecticut",
@@ -7771,11 +7846,11 @@
     {
       "university": "University of Georgia",
       "faculty": "Yu Wang",
-      "interests": "Neural-Symbolic AI, Agentic Social Network, Trustworthy AI, Information Retrieval, Cybersecurity",
+      "interests": "Neural-Symbolic AI, Agentic Reasoning, Structured Agentic Processing, Trustworthy AI.",
       "term": "27 Spring/27 Fall",
       "deadline": "",
       "homepage": "https://yuwvandy.github.io/",
-      "positions": "1-2 PhDs with RA/TA",
+      "positions": "2 PhDs with RA/TA",
       "requirements": "TOEFL or IELTS, no GRE",
       "contact": "Email",
       "materials": "CV, Transcript",
@@ -7785,7 +7860,7 @@
         "RA"
       ],
       "firstSeen": "2026-07-01",
-      "lastChanged": "2026-07-01"
+      "lastChanged": "2026-07-07"
     },
     {
       "university": "University of Hawaii at Manoa",
@@ -7980,9 +8055,9 @@
       "lastChanged": "2026-06-30"
     },
     {
-      "university": "University of Illinois Chicago",
+      "university": "Penn State University",
       "faculty": "Lu Cheng",
-      "interests": "Responsible and Reliable AI, Causal ML, LLMs, AI for Computational Biology",
+      "interests": "Responsible and Reliable AI, World Model, Causal ML, AI for Drug Discovery and MD Simulation",
       "term": "Self-motivated and qualified students are always welcome",
       "deadline": "",
       "homepage": "Lu Cheng",
@@ -7995,8 +8070,8 @@
         "PhD",
         "RA"
       ],
-      "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "firstSeen": "2026-07-19",
+      "lastChanged": "2026-07-19"
     },
     {
       "university": "University of Illinois Urbana-Champaign",
@@ -9248,6 +9323,26 @@
       "lastChanged": "2026-06-30"
     },
     {
+      "university": "Universty of Tennessee, Knoxville",
+      "faculty": "Dongsheng Ding",
+      "interests": "Reinforcement Learning and Stochastic Systems, Generative Artificial Intelligence, Optimization and Control, AI Safety and Alignment",
+      "term": "1-2 PhDs for Fall 2026, 1-2 PhDs for Spring/Fall 2027",
+      "deadline": "",
+      "homepage": "https://dongshed.github.io",
+      "positions": "2-4 PhDs with RA/TA, Interns",
+      "requirements": "TOEFL/IELTS",
+      "contact": "dongshed@utk.edu",
+      "materials": "CV, Transcript (Math courses), Research Interest, Publications if available",
+      "category": "长期",
+      "types": [
+        "PhD",
+        "RA",
+        "Intern"
+      ],
+      "firstSeen": "2026-06-30",
+      "lastChanged": "2026-07-20"
+    },
+    {
       "university": "University of Tennessee, Knoxville",
       "faculty": "Fnu Suya",
       "interests": "Trustworthy Machine Learning, AI for Cybersecurity",
@@ -9724,19 +9819,19 @@
       "university": "University of Virginia",
       "faculty": "Lei Li",
       "interests": "3D Computer Vision, Generative Models, Human Motion Modeling, Vision-Language Models, Shape Analysis, Transfer Learning",
-      "term": "2026 Fall",
+      "term": "2027 Fall",
       "deadline": "",
       "homepage": "https://craigleili.github.io/",
       "positions": "1-2 PhDs",
       "requirements": "TOEFL/IETLS",
-      "contact": "Fill this form",
+      "contact": "Fill this form: https://tinyurl.com/uvasailapply",
       "materials": "",
       "category": "长期",
       "types": [
         "PhD"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-07-19"
     },
     {
       "university": "University of Washington",
@@ -9886,26 +9981,6 @@
       ],
       "firstSeen": "2026-06-30",
       "lastChanged": "2026-06-30"
-    },
-    {
-      "university": "Universty of Tennessee, Knoxville",
-      "faculty": "Dongsheng Ding",
-      "interests": "Reinforcement Leanring and Stochastic Systems, Generative Artificial Intelligence, Optimization and Control, AI Safety and Alignment",
-      "term": "1-2 PhDs for Fall 2026, 1-2 PhDs for Fall 2027",
-      "deadline": "",
-      "homepage": "https://dongshed.github.io",
-      "positions": "2-4 PhDs with RA/TA, Interns",
-      "requirements": "TOEFL/IELTS",
-      "contact": "dongshed@utk.edu",
-      "materials": "CV, Transcript (Math courses), Research Interest, Publications if available",
-      "category": "长期",
-      "types": [
-        "PhD",
-        "RA",
-        "Intern"
-      ],
-      "firstSeen": "2026-06-30",
-      "lastChanged": "2026-07-01"
     },
     {
       "university": "Utah State University",
@@ -10389,6 +10464,65 @@
       ],
       "firstSeen": "2026-07-02",
       "lastChanged": "2026-07-02"
+    },
+    {
+      "university": "Chinese University of Hong Kong, Shenzhen",
+      "faculty": "Jinsheng Ba",
+      "interests": "AI/LLM for Software Engineering, Software Reliability, Solf-improving software, Database",
+      "term": "27 Spring/ Fall",
+      "deadline": "",
+      "homepage": "https://bajinsheng.github.io/",
+      "positions": "multiple PhDs/RA, 1 Postdoc",
+      "requirements": "TOEFL or IELTS",
+      "contact": "jinsheng.ba@inf.ethz.ch",
+      "materials": "CV, Transcript, Research Interest, Publications if available",
+      "category": "长期",
+      "types": [
+        "PhD",
+        "RA",
+        "Postdoc"
+      ],
+      "firstSeen": "2026-07-10",
+      "lastChanged": "2026-07-10"
+    },
+    {
+      "university": "Kennesaw State University",
+      "faculty": "Huayue Gu",
+      "interests": "quantum networking and communication, distributed quantum computing, satellite networks, AI for quantum",
+      "term": "27 Spring/ Fall",
+      "deadline": "",
+      "homepage": "https://gghhhyy.github.io/",
+      "positions": "1-2 PhD with RA/TA",
+      "requirements": "TOEFL or IELTS",
+      "contact": "Email",
+      "materials": "CV, Transcript, Research Interest, Publications if available",
+      "category": "长期",
+      "types": [
+        "PhD",
+        "RA"
+      ],
+      "firstSeen": "2026-07-10",
+      "lastChanged": "2026-07-10"
+    },
+    {
+      "university": "Nanyang Technological University, Singapore",
+      "faculty": "Penghui Li",
+      "interests": "Security, Program Analysis, AI for Security",
+      "term": "27 Spring/Fall",
+      "deadline": "",
+      "homepage": "https://peng-hui.github.io/",
+      "positions": "2-3 PhD with RA/TA, interns",
+      "requirements": "TOEFL or IELTS",
+      "contact": "https://peng-hui.github.io/openings.html",
+      "materials": "CV, Transcript, Research interest",
+      "category": "长期",
+      "types": [
+        "PhD",
+        "RA",
+        "Intern"
+      ],
+      "firstSeen": "2026-07-15",
+      "lastChanged": "2026-07-15"
     }
   ]
 }

@@ -1,5 +1,5 @@
 window.OPENINGS = {
-  "synced": "2026-07-26",
+  "synced": "2026-07-27",
   "source": "https://tinyurl.com/2026phd",
   "count": 563,
   "shortterm": 94,
@@ -8211,7 +8211,7 @@ window.OPENINGS = {
       "university": "University of Louisiana at Lafayette",
       "faculty": "Hao Zheng",
       "interests": "Computer Vision, Machine Learning, Multi-modal Analysis, Healthcare, NLP/LLM",
-      "term": "26 Fall / 27 Spring",
+      "term": "27 Spring / 27 Fall",
       "deadline": "",
       "homepage": "https://hzaoheng123.github.io/HZ/",
       "positions": "2 PhDs with RA/TA, interns",
@@ -8225,7 +8225,7 @@ window.OPENINGS = {
         "Intern"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-07-27"
     },
     {
       "university": "University of Louisiana at Lafayette",

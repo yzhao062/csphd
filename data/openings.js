@@ -1,5 +1,5 @@
 window.OPENINGS = {
-  "synced": "2026-07-27",
+  "synced": "2026-07-28",
   "source": "https://tinyurl.com/2026phd",
   "count": 563,
   "shortterm": 94,
@@ -6315,18 +6315,17 @@ window.OPENINGS = {
       "term": "27 Fall",
       "deadline": "",
       "homepage": "https://khhuang.me/",
-      "positions": "1 PhD with RA, interns",
+      "positions": "Multiple interns / 1 potential PhD for strong candidates",
       "requirements": "",
       "contact": "Email, Google Form",
       "materials": "https://forms.gle/Cw4mn47AWNgkmcRS6",
       "category": "长期",
       "types": [
         "PhD",
-        "RA",
         "Intern"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-07-01"
+      "lastChanged": "2026-07-28"
     },
     {
       "university": "Texas A&M University",

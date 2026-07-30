@@ -1,5 +1,5 @@
 {
-  "synced": "2026-07-29",
+  "synced": "2026-07-30",
   "source": "https://tinyurl.com/2026phd",
   "count": 563,
   "shortterm": 94,
@@ -2272,8 +2272,8 @@
     {
       "university": "City University of Hong Kong",
       "faculty": "Xiangyu Zhao",
-      "interests": "LLMs, Recommender System, IR, Trustworthy AI, Smart City, AI+Healthcare",
-      "term": "26 Fall",
+      "interests": "LLM Agents, Recommender System, IR, Trustworthy AI, Smart City, AI+Healthcare",
+      "term": "2027 Spring / Fall",
       "deadline": "",
       "homepage": "https://zhaoxyai.github.io/",
       "positions": "5 PhDs, 2 Postdocs",
@@ -2286,7 +2286,7 @@
         "Postdoc"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-07-30"
     },
     {
       "university": "City University of Hong Kong",

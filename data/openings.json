@@ -1,9 +1,9 @@
 {
-  "synced": "2026-07-30",
+  "synced": "2026-07-31",
   "source": "https://tinyurl.com/2026phd",
-  "count": 563,
+  "count": 564,
   "shortterm": 94,
-  "longterm": 469,
+  "longterm": 470,
   "openings": [
     {
       "university": "Arizona State University",
@@ -9380,6 +9380,25 @@
       ],
       "firstSeen": "2026-07-01",
       "lastChanged": "2026-07-01"
+    },
+    {
+      "university": "University of Tennessee, Knoxville",
+      "faculty": "Yifan Xu",
+      "interests": "Robotics, VLA, Physical AI, Digital Twins",
+      "term": "2026 Fall/ 2027 Spring/Fall",
+      "deadline": "",
+      "homepage": "https://yifan-cloud.github.io/",
+      "positions": "1-2 PhDs with RA",
+      "requirements": "",
+      "contact": "Email: yfx@umich.edu",
+      "materials": "CV, Transcript, Research Interest, Publications if available",
+      "category": "长期",
+      "types": [
+        "PhD",
+        "RA"
+      ],
+      "firstSeen": "2026-07-31",
+      "lastChanged": "2026-07-31"
     },
     {
       "university": "University of Tennessee, Knoxville",

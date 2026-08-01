@@ -1,9 +1,9 @@
 {
-  "synced": "2026-07-31",
+  "synced": "2026-08-01",
   "source": "https://tinyurl.com/2026phd",
-  "count": 564,
-  "shortterm": 94,
-  "longterm": 470,
+  "count": 566,
+  "shortterm": 95,
+  "longterm": 471,
   "openings": [
     {
       "university": "Arizona State University",
@@ -1707,6 +1707,24 @@
       ],
       "firstSeen": "2026-06-30",
       "lastChanged": "2026-06-30"
+    },
+    {
+      "university": "Stony Brook University",
+      "faculty": "Yi Liu",
+      "interests": "AI4Science, Agentic AI, Agentic AI for Science, Quantum Computing",
+      "term": "",
+      "deadline": "Open until filled",
+      "homepage": "https://jacoblau0513.github.io/",
+      "positions": "1-2 PhDs for Spring/Fall 2027",
+      "requirements": "TOEFL or IELTS, no GRE",
+      "contact": "yi.liu.4@stonybrook.edu",
+      "materials": "",
+      "category": "短期",
+      "types": [
+        "PhD"
+      ],
+      "firstSeen": "2026-08-01",
+      "lastChanged": "2026-08-01"
     },
     {
       "university": "Arizona State University",
@@ -5081,7 +5099,7 @@
       "positions": "2 PhDs with RA, and Postdocs",
       "requirements": "",
       "contact": "Email (weidan.cao@osumc.edu)",
-      "materials": "CV, Transcript, Research Interest",
+      "materials": "CV, Transcript, Publications in CHI/CSCW/UbiComp (or similar) if available",
       "category": "长期",
       "types": [
         "PhD",
@@ -5089,7 +5107,7 @@
         "Postdoc"
       ],
       "firstSeen": "2026-07-20",
-      "lastChanged": "2026-07-22"
+      "lastChanged": "2026-08-01"
     },
     {
       "university": "Ohio State University",
@@ -6153,6 +6171,25 @@
       ],
       "firstSeen": "2026-06-30",
       "lastChanged": "2026-06-30"
+    },
+    {
+      "university": "Stony Brook University",
+      "faculty": "Yi Liu",
+      "interests": "AI4Science, Agentic AI, Agentic AI for Science, Quantum Computing",
+      "term": "27 Spring / Fall",
+      "deadline": "",
+      "homepage": "https://jacoblau0513.github.io/",
+      "positions": "1-2 PhDs with RA/TA",
+      "requirements": "TOEFL or IELTS, no GRE",
+      "contact": "Email",
+      "materials": "",
+      "category": "长期",
+      "types": [
+        "PhD",
+        "RA"
+      ],
+      "firstSeen": "2026-08-01",
+      "lastChanged": "2026-08-01"
     },
     {
       "university": "SUNY Albany",

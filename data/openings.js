@@ -1,9 +1,9 @@
 window.OPENINGS = {
-  "synced": "2026-08-05",
+  "synced": "2026-08-06",
   "source": "https://tinyurl.com/2026phd",
-  "count": 566,
+  "count": 567,
   "shortterm": 95,
-  "longterm": 471,
+  "longterm": 472,
   "openings": [
     {
       "university": "Arizona State University",
@@ -9887,6 +9887,25 @@ window.OPENINGS = {
       ],
       "firstSeen": "2026-06-30",
       "lastChanged": "2026-07-19"
+    },
+    {
+      "university": "University of Virginia",
+      "faculty": "Tianhao Wang",
+      "interests": "Trustworthy AI, Agent Security and Safety",
+      "term": "2027 Fall",
+      "deadline": "",
+      "homepage": "https://tianhao.wang/",
+      "positions": "1-2 PhDs, multiple interns",
+      "requirements": "TOEFL or IELTS, no GRE",
+      "contact": "Fill this form: https://forms.gle/nC36g8rdrEVBTG1bA",
+      "materials": "",
+      "category": "长期",
+      "types": [
+        "PhD",
+        "Intern"
+      ],
+      "firstSeen": "2026-08-06",
+      "lastChanged": "2026-08-06"
     },
     {
       "university": "University of Washington",

@@ -1,9 +1,9 @@
 window.OPENINGS = {
-  "synced": "2026-08-09",
+  "synced": "2026-08-10",
   "source": "https://tinyurl.com/2026phd",
-  "count": 567,
+  "count": 569,
   "shortterm": 95,
-  "longterm": 472,
+  "longterm": 474,
   "openings": [
     {
       "university": "Arizona State University",
@@ -7730,6 +7730,25 @@ window.OPENINGS = {
     },
     {
       "university": "University of Florida",
+      "faculty": "Long Cheng",
+      "interests": "Trustworthy AI, Agent Security and Safety, Cybersecurity",
+      "term": "27 Fall",
+      "deadline": "",
+      "homepage": "https://cslongc.github.io",
+      "positions": "1-2 PhD with RA",
+      "requirements": "Priorities to students in North America, Australia, Singapore, Europe",
+      "contact": "Email (cheng.long@ufl.edu)",
+      "materials": "CV, Transcripts, Research Interest, Paper if applicable",
+      "category": "长期",
+      "types": [
+        "PhD",
+        "RA"
+      ],
+      "firstSeen": "2026-08-10",
+      "lastChanged": "2026-08-10"
+    },
+    {
+      "university": "University of Florida",
       "faculty": "Zhe Jiang",
       "interests": "AI, ML, LLM, Spatiotemporal Data, Health Informatics",
       "term": "25 Spring/Fall",
@@ -9153,12 +9172,12 @@ window.OPENINGS = {
     {
       "university": "University of South Florida",
       "faculty": "Xiaomin Lin",
-      "interests": "Underwater Robotics, Multi-modal perception, Edge VLM, LLM",
-      "term": "26 Spring/Fall",
+      "interests": "Underwater Robotics, Underwater Computer Vision",
+      "term": "27 Spring/Fall",
       "deadline": "",
       "homepage": "https://xiaominlin.github.io/",
       "positions": "1-2 PhDs with RA/TA",
-      "requirements": "TOEFL or IELTS, no GRE",
+      "requirements": "Can waive",
       "contact": "xiaominlin01@gmail.com",
       "materials": "CV, Transcript, Research Interest",
       "category": "长期",
@@ -9167,7 +9186,7 @@ window.OPENINGS = {
         "RA"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-08-10"
     },
     {
       "university": "University of South Florida",
@@ -9944,6 +9963,24 @@ window.OPENINGS = {
       ],
       "firstSeen": "2026-06-30",
       "lastChanged": "2026-06-30"
+    },
+    {
+      "university": "University of Waterloo",
+      "faculty": "Ruiyi Zhang",
+      "interests": "Hardware and System Security, Confidential Computing",
+      "term": "27 Fall",
+      "deadline": "",
+      "homepage": "https://zhangruiyi.me/",
+      "positions": "1-2 PhDs",
+      "requirements": "",
+      "contact": "Email",
+      "materials": "CV, Transcript, Research Interest",
+      "category": "长期",
+      "types": [
+        "PhD"
+      ],
+      "firstSeen": "2026-08-10",
+      "lastChanged": "2026-08-10"
     },
     {
       "university": "University of Waterloo",

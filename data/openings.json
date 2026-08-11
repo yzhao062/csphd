@@ -1,9 +1,9 @@
 {
-  "synced": "2026-08-10",
+  "synced": "2026-08-11",
   "source": "https://tinyurl.com/2026phd",
-  "count": 569,
+  "count": 570,
   "shortterm": 95,
-  "longterm": 474,
+  "longterm": 475,
   "openings": [
     {
       "university": "Arizona State University",
@@ -5499,6 +5499,26 @@
       ],
       "firstSeen": "2026-06-30",
       "lastChanged": "2026-06-30"
+    },
+    {
+      "university": "Purdue University",
+      "faculty": "Bo Hui",
+      "interests": "Agentic AI security, Privacy-preserving LLM post-training, and Trustworthy generative AI",
+      "term": "2027 Spring/Fall",
+      "deadline": "",
+      "homepage": "https://www.cs.jhu.edu/~bohui/",
+      "positions": "2-3 Phd with RA/TA and interns",
+      "requirements": "TOEFL or IELTS",
+      "contact": "Email",
+      "materials": "CV, Transcript and Research interest",
+      "category": "长期",
+      "types": [
+        "PhD",
+        "RA",
+        "Intern"
+      ],
+      "firstSeen": "2026-08-11",
+      "lastChanged": "2026-08-11"
     },
     {
       "university": "Rensselaer Polytechnic Institute",

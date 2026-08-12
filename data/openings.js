@@ -1,5 +1,5 @@
 window.OPENINGS = {
-  "synced": "2026-08-11",
+  "synced": "2026-08-12",
   "source": "https://tinyurl.com/2026phd",
   "count": 570,
   "shortterm": 95,
@@ -9987,12 +9987,12 @@ window.OPENINGS = {
     {
       "university": "University of Waterloo",
       "faculty": "Ruiyi Zhang",
-      "interests": "Hardware and System Security, Confidential Computing",
+      "interests": "CPU and System Security, Confidential Computing",
       "term": "27 Fall",
       "deadline": "",
       "homepage": "https://zhangruiyi.me/",
       "positions": "1-2 PhDs",
-      "requirements": "",
+      "requirements": "TOEFL/IELTS",
       "contact": "Email",
       "materials": "CV, Transcript, Research Interest",
       "category": "长期",
@@ -10000,7 +10000,7 @@ window.OPENINGS = {
         "PhD"
       ],
       "firstSeen": "2026-08-10",
-      "lastChanged": "2026-08-10"
+      "lastChanged": "2026-08-12"
     },
     {
       "university": "University of Waterloo",

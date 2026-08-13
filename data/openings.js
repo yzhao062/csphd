@@ -1,9 +1,9 @@
 window.OPENINGS = {
-  "synced": "2026-08-12",
+  "synced": "2026-08-13",
   "source": "https://tinyurl.com/2026phd",
-  "count": 570,
+  "count": 571,
   "shortterm": 95,
-  "longterm": 475,
+  "longterm": 476,
   "openings": [
     {
       "university": "Arizona State University",
@@ -5294,6 +5294,24 @@ window.OPENINGS = {
       ],
       "firstSeen": "2026-06-30",
       "lastChanged": "2026-06-30"
+    },
+    {
+      "university": "Oregon State University",
+      "faculty": "Fuxin Li",
+      "interests": "3D vision, world modeling, SLAM, robotics",
+      "term": "2027 Fall",
+      "deadline": "",
+      "homepage": "https://web.engr.oregonstate.edu/~lif/",
+      "positions": "1 PhD",
+      "requirements": "",
+      "contact": "email",
+      "materials": "CV",
+      "category": "长期",
+      "types": [
+        "PhD"
+      ],
+      "firstSeen": "2026-08-13",
+      "lastChanged": "2026-08-13"
     },
     {
       "university": "Osaka University (Japan)",

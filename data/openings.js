@@ -1,9 +1,9 @@
 window.OPENINGS = {
-  "synced": "2026-08-14",
+  "synced": "2026-08-15",
   "source": "https://tinyurl.com/2026phd",
-  "count": 571,
+  "count": 572,
   "shortterm": 95,
-  "longterm": 476,
+  "longterm": 477,
   "openings": [
     {
       "university": "Arizona State University",
@@ -8261,6 +8261,25 @@ window.OPENINGS = {
       ],
       "firstSeen": "2026-06-30",
       "lastChanged": "2026-06-30"
+    },
+    {
+      "university": "University of Illinois Urbana-Champaign",
+      "faculty": "Yujia Zheng",
+      "interests": "Causal ML, World Model, Generative Models",
+      "term": "2027 Spring / Fall",
+      "deadline": "",
+      "homepage": "https://yjzheng.com/",
+      "positions": "PhDs, research MS, interns",
+      "requirements": "",
+      "contact": "Email",
+      "materials": "CV, Transcript, Research Interest",
+      "category": "长期",
+      "types": [
+        "PhD",
+        "Intern"
+      ],
+      "firstSeen": "2026-08-15",
+      "lastChanged": "2026-08-15"
     },
     {
       "university": "University of Iowa",

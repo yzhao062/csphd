@@ -1,9 +1,9 @@
 window.OPENINGS = {
-  "synced": "2026-08-15",
+  "synced": "2026-08-16",
   "source": "https://tinyurl.com/2026phd",
-  "count": 572,
+  "count": 573,
   "shortterm": 95,
-  "longterm": 477,
+  "longterm": 478,
   "openings": [
     {
       "university": "Arizona State University",
@@ -10691,6 +10691,25 @@ window.OPENINGS = {
       ],
       "firstSeen": "2026-07-15",
       "lastChanged": "2026-07-15"
+    },
+    {
+      "university": "City University of Hong Kong",
+      "faculty": "Gang Liu",
+      "interests": "LLMs, Agent for Science, Graph Learning, Diffusion Models, AI for Science/Molecules",
+      "term": "27 Fall / Spring",
+      "deadline": "",
+      "homepage": "https://liugangcode.github.io/dsail.html",
+      "positions": "1-2 PhD, Multiple RAs, 1 Postdoc",
+      "requirements": "IELTS 6.5 or TOEFL 79, no GRE, first degree 985 + GPA 85/100",
+      "contact": "Gang.Liu@cityu.edu.hk or https://forms.gle/uNb2oZf4NVjDMuEi6",
+      "materials": "CV, Transcript, Research Interest, Publications if available",
+      "category": "长期",
+      "types": [
+        "PhD",
+        "Postdoc"
+      ],
+      "firstSeen": "2026-08-16",
+      "lastChanged": "2026-08-16"
     }
   ]
 };

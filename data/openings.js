@@ -1,5 +1,5 @@
 window.OPENINGS = {
-  "synced": "2026-08-16",
+  "synced": "2026-08-17",
   "source": "https://tinyurl.com/2026phd",
   "count": 573,
   "shortterm": 95,
@@ -10699,17 +10699,18 @@ window.OPENINGS = {
       "term": "27 Fall / Spring",
       "deadline": "",
       "homepage": "https://liugangcode.github.io/dsail.html",
-      "positions": "1-2 PhD, Multiple RAs, 1 Postdoc",
+      "positions": "1-2 PhD, Multiple RA, 1 Postdoc",
       "requirements": "IELTS 6.5 or TOEFL 79, no GRE, first degree 985 + GPA 85/100",
       "contact": "Gang.Liu@cityu.edu.hk or https://forms.gle/uNb2oZf4NVjDMuEi6",
       "materials": "CV, Transcript, Research Interest, Publications if available",
       "category": "长期",
       "types": [
         "PhD",
+        "RA",
         "Postdoc"
       ],
       "firstSeen": "2026-08-16",
-      "lastChanged": "2026-08-16"
+      "lastChanged": "2026-08-17"
     }
   ]
 };

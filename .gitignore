@@ -10,3 +10,6 @@ todo/*
 !todo/README.md
 
 agent-config.local.yaml
+/AGENTS.md
+/CLAUDE.md
+/agents/codex.md

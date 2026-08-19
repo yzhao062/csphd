@@ -1,5 +1,5 @@
 {
-  "synced": "2026-08-18",
+  "synced": "2026-08-19",
   "source": "https://tinyurl.com/2026phd",
   "count": 573,
   "shortterm": 95,
@@ -5054,8 +5054,8 @@
     {
       "university": "Northwestern University",
       "faculty": "Kaize Ding",
-      "interests": "Reliable ML, Data-Efficient Leanring, AI for healthcare, environmental science",
-      "term": "26 Fall",
+      "interests": "LLM agents, Reliable ML, Data-Efficient Leanring, AI for healthcare, environmental science",
+      "term": "PhD for 27 Fall, Postdoc for 26 Fall or 27 Spring",
       "deadline": "",
       "homepage": "https://kaize0409.github.io/",
       "positions": "1-3 PhDs, interns",
@@ -5068,7 +5068,7 @@
         "Intern"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-08-19"
     },
     {
       "university": "Northwestern University",

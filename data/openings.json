@@ -1,9 +1,9 @@
 {
-  "synced": "2026-08-20",
+  "synced": "2026-08-21",
   "source": "https://tinyurl.com/2026phd",
-  "count": 573,
+  "count": 574,
   "shortterm": 95,
-  "longterm": 478,
+  "longterm": 479,
   "openings": [
     {
       "university": "Arizona State University",
@@ -8056,14 +8056,14 @@
     {
       "university": "University of Hong Kong",
       "faculty": "Cheng Chen",
-      "interests": "AI for Healthcare, Multimodal Medical AI, LLM/Agentic AI",
-      "term": "26 Summer/Fall",
+      "interests": "AI for Healthcare, Medical image generation, LLM/Agentic AI",
+      "term": "27 Spring/Fall",
       "deadline": "",
       "homepage": "https://cchen-cc.github.io/",
       "positions": "2 PhD, 2RA, Interns",
       "requirements": "TOEFL or IELTS, no GRE",
       "contact": "Email",
-      "materials": "CV, Transcript, Research Interest, Publications if available",
+      "materials": "CV, Transcript, Research Statement, Publications if available",
       "category": "长期",
       "types": [
         "PhD",
@@ -8071,7 +8071,7 @@
         "Intern"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-08-21"
     },
     {
       "university": "University of Houston",
@@ -10711,6 +10711,25 @@
       ],
       "firstSeen": "2026-08-16",
       "lastChanged": "2026-08-17"
+    },
+    {
+      "university": "Texas Tech University",
+      "faculty": "Liangkai Liu",
+      "interests": "robot learning system, autonomous driving, cyber-physical systems, embedded AI",
+      "term": "27 Fall / Spring",
+      "deadline": "",
+      "homepage": "https://liangkai.org/",
+      "positions": "1-2 PhD RA",
+      "requirements": "TOEFL or IELTS",
+      "contact": "liangkai.liu@ttu.edu",
+      "materials": "CV, Transcript, Research interest",
+      "category": "长期",
+      "types": [
+        "PhD",
+        "RA"
+      ],
+      "firstSeen": "2026-08-21",
+      "lastChanged": "2026-08-21"
     }
   ]
 }

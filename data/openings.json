@@ -1,9 +1,9 @@
 {
-  "synced": "2026-08-21",
+  "synced": "2026-08-22",
   "source": "https://tinyurl.com/2026phd",
-  "count": 574,
+  "count": 576,
   "shortterm": 95,
-  "longterm": 479,
+  "longterm": 481,
   "openings": [
     {
       "university": "Arizona State University",
@@ -5539,6 +5539,25 @@
       "lastChanged": "2026-08-14"
     },
     {
+      "university": "Purdue University",
+      "faculty": "Tao Li",
+      "interests": "AI security, Mobile and Wireless Security",
+      "term": "2027 Spring/Fall",
+      "deadline": "",
+      "homepage": "https://taolitxjs.github.io/",
+      "positions": "1-2 PhD with RA/TA support",
+      "requirements": "",
+      "contact": "",
+      "materials": "CVs, transcripts, TOEFL/IELTS scores, and any other materials they believe would be helpful",
+      "category": "长期",
+      "types": [
+        "PhD",
+        "RA"
+      ],
+      "firstSeen": "2026-08-22",
+      "lastChanged": "2026-08-22"
+    },
+    {
       "university": "Rensselaer Polytechnic Institute",
       "faculty": "Shaowu Pan",
       "interests": "AI4PDE, Agents for Science, Scientific Machine Learning, Computational Physics, Data-Driven Dynamical Systems",
@@ -10730,6 +10749,24 @@
       ],
       "firstSeen": "2026-08-21",
       "lastChanged": "2026-08-21"
+    },
+    {
+      "university": "University of Southern California",
+      "faculty": "Yue Zhao",
+      "interests": "Bluesky ideas -- what is your thought that might be impactful?",
+      "term": "27 Fall",
+      "deadline": "",
+      "homepage": "https://viterbi-web.usc.edu/~yzhao010/",
+      "positions": "1 PhD",
+      "requirements": "",
+      "contact": "",
+      "materials": "",
+      "category": "长期",
+      "types": [
+        "PhD"
+      ],
+      "firstSeen": "2026-08-22",
+      "lastChanged": "2026-08-22"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "synced": "2026-08-22",
+  "synced": "2026-08-23",
   "source": "https://tinyurl.com/2026phd",
   "count": 576,
   "shortterm": 95,
@@ -5547,7 +5547,7 @@
       "homepage": "https://taolitxjs.github.io/",
       "positions": "1-2 PhD with RA/TA support",
       "requirements": "",
-      "contact": "",
+      "contact": "https://taolitxjs.github.io/",
       "materials": "CVs, transcripts, TOEFL/IELTS scores, and any other materials they believe would be helpful",
       "category": "长期",
       "types": [
@@ -5555,7 +5555,7 @@
         "RA"
       ],
       "firstSeen": "2026-08-22",
-      "lastChanged": "2026-08-22"
+      "lastChanged": "2026-08-23"
     },
     {
       "university": "Rensselaer Polytechnic Institute",

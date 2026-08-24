@@ -1,5 +1,5 @@
 {
-  "synced": "2026-08-23",
+  "synced": "2026-08-24",
   "source": "https://tinyurl.com/2026phd",
   "count": 576,
   "shortterm": 95,
@@ -136,20 +136,21 @@
     {
       "university": "Claude Bernard University Lyon 1, France",
       "faculty": "Chao Zhang",
-      "interests": "Data Systems and AI, Query Processing, Indexing Methods, Data Agents",
+      "interests": "Data Systems and AI, Agentic Systems, Vector DB, Data Agents, Query Processing",
       "term": "",
       "deadline": "Open until filled; three-years fully funded phd program; full-time reasearch; no teaching; no TA;",
       "homepage": "https://chaozhang-cs.github.io/",
-      "positions": "1 Postdoc for Fall 26",
+      "positions": "1PhD (Fall 26 / Spring 27); 1 Postdoc (Fall 26)",
       "requirements": "No requirements",
       "contact": "chao.zhang.db@gmail.com",
       "materials": "CV, Transcript, Research Interest",
       "category": "短期",
       "types": [
+        "PhD",
         "Postdoc"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-08-24"
     },
     {
       "university": "Clemson University",

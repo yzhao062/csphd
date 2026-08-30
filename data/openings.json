@@ -1,9 +1,9 @@
 {
-  "synced": "2026-08-29",
+  "synced": "2026-08-30",
   "source": "https://tinyurl.com/2026phd",
-  "count": 576,
+  "count": 577,
   "shortterm": 95,
-  "longterm": 481,
+  "longterm": 482,
   "openings": [
     {
       "university": "Arizona State University",
@@ -10768,6 +10768,25 @@
       ],
       "firstSeen": "2026-08-22",
       "lastChanged": "2026-08-22"
+    },
+    {
+      "university": "Rochester Institute of Technology",
+      "faculty": "Jinming Zhuang",
+      "interests": "Heterogeneous Computing, AI Compiler, FPGAs, Computer Architecture",
+      "term": "27 Spring/Fall",
+      "deadline": "",
+      "homepage": "https://www.jinmingzhuang.com/",
+      "positions": "1-2 PhD with RA",
+      "requirements": "TOEFL/IELTS/Duolingo, GRE optional",
+      "contact": "jxzeec@rit.edu",
+      "materials": "CV, Transcript, Research interest (Flyer: https://www.jinmingzhuang.com/uploads/Flyer_RIT_Jinming.png )",
+      "category": "长期",
+      "types": [
+        "PhD",
+        "RA"
+      ],
+      "firstSeen": "2026-08-30",
+      "lastChanged": "2026-08-30"
     }
   ]
 }

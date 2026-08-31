@@ -1,9 +1,9 @@
 {
-  "synced": "2026-08-30",
+  "synced": "2026-08-31",
   "source": "https://tinyurl.com/2026phd",
-  "count": 577,
+  "count": 578,
   "shortterm": 95,
-  "longterm": 482,
+  "longterm": 483,
   "openings": [
     {
       "university": "Arizona State University",
@@ -10776,7 +10776,7 @@
       "term": "27 Spring/Fall",
       "deadline": "",
       "homepage": "https://www.jinmingzhuang.com/",
-      "positions": "1-2 PhD with RA",
+      "positions": "1-2 PhDs with RA",
       "requirements": "TOEFL/IELTS/Duolingo, GRE optional",
       "contact": "jxzeec@rit.edu",
       "materials": "CV, Transcript, Research interest (Flyer: https://www.jinmingzhuang.com/uploads/Flyer_RIT_Jinming.png )",
@@ -10786,7 +10786,27 @@
         "RA"
       ],
       "firstSeen": "2026-08-30",
-      "lastChanged": "2026-08-30"
+      "lastChanged": "2026-08-31"
+    },
+    {
+      "university": "University of Hawaii at Manoa",
+      "faculty": "Liuwan Zhu",
+      "interests": "Trustworthy AI, LLM, Cybersecurity, Power Grid",
+      "term": "26 Fall, 27Spring",
+      "deadline": "",
+      "homepage": "https://liuwan95.github.io",
+      "positions": "1 PhD with RA, 1 Postdoc",
+      "requirements": "TOEFL or IELTS, no GRE",
+      "contact": "Email",
+      "materials": "CV, Transcript",
+      "category": "长期",
+      "types": [
+        "PhD",
+        "RA",
+        "Postdoc"
+      ],
+      "firstSeen": "2026-08-31",
+      "lastChanged": "2026-08-31"
     }
   ]
 }

@@ -1,9 +1,9 @@
 {
-  "synced": "2026-08-31",
+  "synced": "2026-09-01",
   "source": "https://tinyurl.com/2026phd",
-  "count": 578,
+  "count": 579,
   "shortterm": 95,
-  "longterm": 483,
+  "longterm": 484,
   "openings": [
     {
       "university": "Arizona State University",
@@ -2631,7 +2631,7 @@
     {
       "university": "Dartmouth College",
       "faculty": "Yaoqing Yang",
-      "interests": "Theory of Large Language Models",
+      "interests": "LLM for algorithm discovery, Lean formal proof, auto-research, theory of LLM",
       "term": "PhD (26 fall), Postdoc (anytime)",
       "deadline": "",
       "homepage": "https://sites.google.com/site/yangyaoqingcmu/",
@@ -2646,7 +2646,7 @@
         "Postdoc"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-09-01"
     },
     {
       "university": "Drexel University",
@@ -10807,6 +10807,25 @@
       ],
       "firstSeen": "2026-08-31",
       "lastChanged": "2026-08-31"
+    },
+    {
+      "university": "University of Miami",
+      "faculty": "Zhenglun Kong",
+      "interests": "Efficient AI (for LLMs, VLMs, Agent, etc), Multimodal foundation and world models for Science, AI for Health",
+      "term": "27 Spring/Fall",
+      "deadline": "",
+      "homepage": "https://zlkong.github.io/homepage/",
+      "positions": "1-2 PhD with RA",
+      "requirements": "TOEFL/IELTS",
+      "contact": "zxk244@miami.edu",
+      "materials": "CV, Research Interest",
+      "category": "长期",
+      "types": [
+        "PhD",
+        "RA"
+      ],
+      "firstSeen": "2026-09-01",
+      "lastChanged": "2026-09-01"
     }
   ]
 }

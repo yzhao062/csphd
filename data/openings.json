@@ -1,5 +1,5 @@
 {
-  "synced": "2026-09-01",
+  "synced": "2026-09-02",
   "source": "https://tinyurl.com/2026phd",
   "count": 579,
   "shortterm": 95,
@@ -2632,21 +2632,20 @@
       "university": "Dartmouth College",
       "faculty": "Yaoqing Yang",
       "interests": "LLM for algorithm discovery, Lean formal proof, auto-research, theory of LLM",
-      "term": "PhD (26 fall), Postdoc (anytime)",
+      "term": "2027 Fall",
       "deadline": "",
       "homepage": "https://sites.google.com/site/yangyaoqingcmu/",
-      "positions": "1 PhD with RA and/or 1 postdoc",
+      "positions": "1 PhD with RA",
       "requirements": "comfortable with math",
       "contact": "Email",
       "materials": "CV, Transcript, Research Interest",
       "category": "长期",
       "types": [
         "PhD",
-        "RA",
-        "Postdoc"
+        "RA"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-09-01"
+      "lastChanged": "2026-09-02"
     },
     {
       "university": "Drexel University",

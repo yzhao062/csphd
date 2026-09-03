@@ -1,5 +1,5 @@
 {
-  "synced": "2026-09-02",
+  "synced": "2026-09-03",
   "source": "https://tinyurl.com/2026phd",
   "count": 579,
   "shortterm": 95,
@@ -5558,6 +5558,22 @@
       "lastChanged": "2026-08-23"
     },
     {
+      "university": "Purdue University",
+      "faculty": "Xueling Zhang",
+      "interests": "Software Security&Privacy,  Software Engineering, Augmented Reality",
+      "term": "2027 Spring/Fall",
+      "deadline": "",
+      "homepage": "https://xuelingz.github.io/",
+      "positions": "",
+      "requirements": "",
+      "contact": "",
+      "materials": "",
+      "category": "长期",
+      "types": [],
+      "firstSeen": "2026-09-03",
+      "lastChanged": "2026-09-03"
+    },
+    {
       "university": "Rensselaer Polytechnic Institute",
       "faculty": "Shaowu Pan",
       "interests": "AI4PDE, Agents for Science, Scientific Machine Learning, Computational Physics, Data-Driven Dynamical Systems",
@@ -9114,25 +9130,6 @@
       "category": "长期",
       "types": [
         "PhD"
-      ],
-      "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
-    },
-    {
-      "university": "University of Pennsylvania",
-      "faculty": "Jing Huang",
-      "interests": "Medical AI",
-      "term": "26 Fall",
-      "deadline": "",
-      "homepage": "https://www.med.upenn.edu/apps/faculty/index.php/g275/p8929019",
-      "positions": "2 PhDs with RA",
-      "requirements": "TOEFL",
-      "contact": "Email",
-      "materials": "",
-      "category": "长期",
-      "types": [
-        "PhD",
-        "RA"
       ],
       "firstSeen": "2026-06-30",
       "lastChanged": "2026-06-30"

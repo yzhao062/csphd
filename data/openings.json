@@ -1,5 +1,5 @@
 {
-  "synced": "2026-09-03",
+  "synced": "2026-09-04",
   "source": "https://tinyurl.com/2026phd",
   "count": 579,
   "shortterm": 95,
@@ -5564,14 +5564,17 @@
       "term": "2027 Spring/Fall",
       "deadline": "",
       "homepage": "https://xuelingz.github.io/",
-      "positions": "",
+      "positions": "2 PhDs with RA/TA",
       "requirements": "",
-      "contact": "",
-      "materials": "",
+      "contact": "Email",
+      "materials": "CVs, transcripts, TOEFL/IELTS scores",
       "category": "长期",
-      "types": [],
+      "types": [
+        "PhD",
+        "RA"
+      ],
       "firstSeen": "2026-09-03",
-      "lastChanged": "2026-09-03"
+      "lastChanged": "2026-09-04"
     },
     {
       "university": "Rensselaer Polytechnic Institute",
@@ -9359,8 +9362,8 @@
     {
       "university": "University of Southern California",
       "faculty": "Sai Praneeth Karimireddy",
-      "interests": "Privacy-preserving ML, Federated Learning, Game theory and Incentives (Data Economics)",
-      "term": "25 Fall",
+      "interests": "Foundations of Multi-agent AI; AI Safety+Privacy; your passionate problem",
+      "term": "2027 Fall",
       "deadline": "",
       "homepage": "https://spkreddy.org/",
       "positions": "1-2 PhD with RA",
@@ -9373,7 +9376,7 @@
         "RA"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-09-04"
     },
     {
       "university": "University of Southern California",

@@ -1,9 +1,9 @@
 {
-  "synced": "2026-09-05",
+  "synced": "2026-09-06",
   "source": "https://tinyurl.com/2026phd",
-  "count": 579,
+  "count": 580,
   "shortterm": 95,
-  "longterm": 484,
+  "longterm": 485,
   "openings": [
     {
       "university": "Arizona State University",
@@ -10825,6 +10825,25 @@
       ],
       "firstSeen": "2026-09-01",
       "lastChanged": "2026-09-01"
+    },
+    {
+      "university": "University of Texas at Dallas",
+      "faculty": "Xinda Wang",
+      "interests": "AI for Software and Systems Security",
+      "term": "27 Spring/Fall",
+      "deadline": "",
+      "homepage": "https://xindawang.org",
+      "positions": "1-2 PhDs with TA/RA",
+      "requirements": "TOEFL/IELTS/Duolingo, no GRE",
+      "contact": "Email",
+      "materials": "CV, Transcript, Research Interest, Publication (if any)",
+      "category": "长期",
+      "types": [
+        "PhD",
+        "RA"
+      ],
+      "firstSeen": "2026-09-06",
+      "lastChanged": "2026-09-06"
     }
   ]
 }

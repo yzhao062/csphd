@@ -1,0 +1,20 @@
+# https://csphd.org/robots.txt
+# 博士栈 · CSPhD.org：纯静态公益站点，共六个页面，内容全部公开。
+# Non-profit static site. Nothing here is private, so nothing is disallowed.
+
+User-agent: *
+Allow: /
+
+# 不区分抓取器：搜索抓取、AI 训练数据抓取、网页存档，一律允许。
+# 本站的目的是帮同学找到导师、机会与经验，被检索到与这个目的一致。
+# 允许抓取不等于会被收录或被引用，本站没有验证过任何一家的实际效果。
+# All crawlers are allowed, search, training-data and archival alike.
+# Access is not a promise of indexing, citation or referral.
+
+# data/ 与 js/ 不屏蔽：board.html 的机会列表由 data/openings.js 在浏览器里渲染，
+# 屏蔽脚本会让能执行 JavaScript 的抓取器也读不到列表。不执行 JavaScript 的
+# 抓取器无论如何都读不到，这一条只对前者有意义。
+# data/ and js/ stay crawlable so a rendering crawler can load the listings.
+# A crawler that does not execute JavaScript cannot read them either way.
+
+Sitemap: https://csphd.org/sitemap.xml

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  博士栈 · CSPhD.org 站点地图，手工维护，共六个页面。
+  新增页面时请在此登记；assets/、screenshots/、data/ 等静态资源不列入。
+
+  未使用 <lastmod>：board.html 的内容由每日同步的 data/openings.js 在浏览器里渲染，
+  HTML 文件自身的提交时间并不代表页面内容的更新时间。本文件手工维护，没有能可靠
+  跟踪内容变更的流程，而 lastmod 是可选字段，只在日期可靠时才值得提供。
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://csphd.org/</loc>
+  </url>
+  <url>
+    <loc>https://csphd.org/board.html</loc>
+  </url>
+  <url>
+    <loc>https://csphd.org/grad.html</loc>
+  </url>
+  <url>
+    <loc>https://csphd.org/jobs.html</loc>
+  </url>
+  <url>
+    <loc>https://csphd.org/faculty.html</loc>
+  </url>
+  <url>
+    <loc>https://csphd.org/privacy.html</loc>
+  </url>
+</urlset>

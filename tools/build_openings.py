@@ -6,8 +6,8 @@ The sheet (https://tinyurl.com/2026phd) has two tabs with different columns:
     a leading banner row. Updated frequently.
   - long-term  (gid=0):         a Term column, generic "Email" contacts.
 
-This script fetches both, normalizes them into one schema with a `category`
-("短期"/"长期") and a `deadline` field, and writes data/openings.json and
+This script fetches the configured tabs, normalizes them into one schema with a
+`category` ("短期"/"长期") and a `deadline` field, and writes data/openings.json and
 data/openings.js (which sets window.OPENINGS for the static board page).
 
 Run from anywhere in the repository:
@@ -33,26 +33,34 @@ USER_AGENT = (
     "Chrome/126.0 Safari/537.36"
 )
 
-# Refuse to overwrite the committed data when a fresh build looks corrupt: either
-# source tab parsing to zero rows, or the total collapsing below this fraction of
-# the previous committed count. Both almost always mean the CSV fetch returned
+# Refuse to overwrite the committed data when a fresh build looks corrupt: any
+# configured source tab parsing to zero rows, or the total collapsing below this
+# fraction of the previous committed count. Both almost always mean the CSV returned
 # non-tabular content (a login or redirect page) rather than a real mass deletion.
 MIN_RETAIN_RATIO = 0.7
 
-# Each tab: its category label, gid, and the 0-based CSV column index for every
-# field. A field mapped to None is absent on that tab. Short-term is listed
+# Each tab: its category label, payload count key, gid, expected header, and the
+# 0-based CSV column index for every field. None means absent. Short-term is listed
 # first so its (deadline-driven) entries sort ahead of the long-term list.
+# Blank header cells are significant, including the unnamed short-term materials column.
 TABS = (
     {
         "category": "短期",
+        "count_key": "shortterm",
         "gid": "387325261",
+        "header": ["University", "Faculty", "Research Interests", "Homepage",
+                   "Positions", "Requirements", "How to Reach out", "Comments", ""],
         "cols": {"university": 0, "faculty": 1, "interests": 2, "homepage": 3,
                  "positions": 4, "requirements": 5, "contact": 6,
                  "deadline": 7, "materials": 8, "term": None},
     },
     {
         "category": "长期",
+        "count_key": "longterm",
         "gid": "0",
+        "header": ["University", "Faculty", "Research Interests", "Notes",
+                   "Homepage", "Positions", "Requirements", "How to Reach out", "@",
+                   "", "", "", "", "", "", "", "", ""],
         "cols": {"university": 0, "faculty": 1, "interests": 2, "term": 3,
                  "homepage": 4, "positions": 5, "requirements": 6,
                  "contact": 7, "materials": 8, "deadline": None},
@@ -109,9 +117,10 @@ def previous_count(data_dir):
 
 def sanity_check(payload, previous_total):
     """Return an error string if the fresh build looks corrupt, else None."""
-    if payload["shortterm"] == 0 or payload["longterm"] == 0:
-        return ("a source tab parsed empty (short %s, long %s); refusing to overwrite"
-                % (payload["shortterm"], payload["longterm"]))
+    for tab in TABS:
+        if payload["tab_counts"][tab["gid"]] == 0:
+            return ("a source tab parsed empty (gid %s, category %s); refusing to overwrite"
+                    % (tab["gid"], tab["category"]))
     if previous_total and payload["count"] < MIN_RETAIN_RATIO * previous_total:
         return ("count %s is below %d%% of the previous %s; refusing to overwrite"
                 % (payload["count"], int(MIN_RETAIN_RATIO * 100), previous_total))
@@ -179,11 +188,27 @@ def cell(cells, index):
 def parse_tab(csv_text, tab):
     cols = tab["cols"]
     openings = []
+    header = None
     for row in csv.reader(io.StringIO(csv_text)):
         cells = [c.strip() for c in row]
+        if header is None:
+            # A banner occupies one cell; the header has multiple populated columns.
+            if sum(bool(c) for c in cells) < 2:
+                continue
+            header = cells
+            # Deliberately exact, trailing blank columns included. Comparing only the mapped
+            # prefix would tolerate export-width changes, but it would also stop catching the
+            # case this check exists for: the short-term tab's materials column (index 8) has no
+            # header name, so a blank column inserted before it leaves the prefix looking correct
+            # while real materials text shifts one column right and is silently dropped. The cost
+            # is that a harmless width change stops the daily sync until this list is updated;
+            # that failure is loud and names the gid, which is the safer side to err on.
+            if header != tab["header"]:
+                raise RuntimeError("header mismatch for gid %s: expected %r; received %r"
+                                   % (tab["gid"], tab["header"], header))
+            continue
         university = cell(cells, cols["university"])
         faculty = cell(cells, cols["faculty"])
-        # skip the banner row (empty first cell) and the header row
         if not university or not faculty or university == "University":
             continue
         record = {field: cell(cells, cols.get(field)) for field in FIELDS}
@@ -191,19 +216,28 @@ def parse_tab(csv_text, tab):
         record["category"] = tab["category"]
         record["types"] = derive_types(cell(cells, cols["positions"]))
         openings.append(record)
+    if header is None:
+        raise RuntimeError("missing header for gid %s: expected %r; received %r"
+                           % (tab["gid"], tab["header"], []))
     return openings
 
 
 def build_payload(today):
-    short = parse_tab(fetch_csv(TABS[0]["gid"]), TABS[0])
-    long_ = parse_tab(fetch_csv(TABS[1]["gid"]), TABS[1])
-    openings = short + long_
+    openings = []
+    counts = {}
+    tab_counts = {}
+    for tab in TABS:
+        rows = parse_tab(fetch_csv(tab["gid"]), tab)
+        openings.extend(rows)
+        count_key = tab["count_key"]
+        counts[count_key] = counts.get(count_key, 0) + len(rows)
+        tab_counts[tab["gid"]] = len(rows)
     return {
         "synced": today,
         "source": SOURCE_URL,
         "count": len(openings),
-        "shortterm": len(short),
-        "longterm": len(long_),
+        **counts,
+        "tab_counts": tab_counts,
         "openings": openings,
     }
 
@@ -229,7 +263,7 @@ def main():
     try:
         payload = build_payload(today)
     except RuntimeError as exc:
-        print("error: %s" % exc, file=sys.stderr)
+        print("error: %s; refusing to overwrite" % exc, file=sys.stderr)
         return 1
     guard = sanity_check(payload, previous_count(data_dir))
     if guard:
@@ -237,8 +271,7 @@ def main():
         return 1
     stamp_recency(payload["openings"], load_previous(data_dir), today)
     write_outputs(payload, data_dir)
-    print("Synced %s openings (short %s, long %s)." % (
-        payload["count"], payload["shortterm"], payload["longterm"]))
+    print("Synced %s openings." % payload["count"])
     return 0
 
 

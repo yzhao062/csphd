@@ -1,9 +1,13 @@
 window.OPENINGS = {
-  "synced": "2026-09-07",
+  "synced": "2026-09-08",
   "source": "https://tinyurl.com/2026phd",
-  "count": 580,
+  "count": 581,
   "shortterm": 95,
-  "longterm": 485,
+  "longterm": 486,
+  "tab_counts": {
+    "387325261": 95,
+    "0": 486
+  },
   "openings": [
     {
       "university": "Arizona State University",
@@ -10844,6 +10848,25 @@ window.OPENINGS = {
       ],
       "firstSeen": "2026-09-06",
       "lastChanged": "2026-09-06"
+    },
+    {
+      "university": "University of Texas at Dallas",
+      "faculty": "Hao Zhou",
+      "interests": "Wearable AI for health; Inclusive & Assistive Technology",
+      "term": "27 Spring/Summer/Fall",
+      "deadline": "",
+      "homepage": "https://hzhou3.github.io/",
+      "positions": "2-3 PhDs with TA/RA",
+      "requirements": "TOEFL/IELTS",
+      "contact": "hao.zhou@utdallas.edu",
+      "materials": "CV, Transcript, Research Interest, Publication (if any)",
+      "category": "长期",
+      "types": [
+        "PhD",
+        "RA"
+      ],
+      "firstSeen": "2026-09-08",
+      "lastChanged": "2026-09-08"
     }
   ]
 };

@@ -1,5 +1,5 @@
 {
-  "synced": "2026-09-11",
+  "synced": "2026-09-12",
   "source": "https://tinyurl.com/2026phd",
   "count": 581,
   "shortterm": 95,
@@ -4981,14 +4981,14 @@
     {
       "university": "Northeastern University",
       "faculty": "Yang Ye",
-      "interests": "Robotics, 3D vision, human-robot interaction",
-      "term": "2025 Spring/Fall",
+      "interests": "Embodied AI, HCI, XR+AI",
+      "term": "2027 Spring/Fall",
       "deadline": "",
       "homepage": "https://gilbert-yangye.github.io/",
       "positions": "1 PhD with RA + GTAs. Interns",
       "requirements": "TOEFL/IELTS/Duolingo, GRE not required",
       "contact": "Email",
-      "materials": "",
+      "materials": "CV, Transcript, papers",
       "category": "长期",
       "types": [
         "PhD",
@@ -4996,7 +4996,7 @@
         "Intern"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-09-12"
     },
     {
       "university": "Northwestern University",

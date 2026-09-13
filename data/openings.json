@@ -1,12 +1,12 @@
 {
-  "synced": "2026-09-12",
+  "synced": "2026-09-13",
   "source": "https://tinyurl.com/2026phd",
-  "count": 581,
+  "count": 582,
   "shortterm": 95,
-  "longterm": 486,
+  "longterm": 487,
   "tab_counts": {
     "387325261": 95,
-    "0": 486
+    "0": 487
   },
   "openings": [
     {
@@ -10867,6 +10867,25 @@
       ],
       "firstSeen": "2026-09-08",
       "lastChanged": "2026-09-08"
+    },
+    {
+      "university": "Northeastern University",
+      "faculty": "Yingzi Lin",
+      "interests": "Human AI, Human machine systems",
+      "term": "27 Spring/Fall",
+      "deadline": "",
+      "homepage": "https://coe.northeastern.edu/people/lin-yingzi/",
+      "positions": "1-2 PhD with TA/RA",
+      "requirements": "",
+      "contact": "yi.lin@northeastern.edu",
+      "materials": "CV, Transcript, Research Interest, Publication (if any)",
+      "category": "长期",
+      "types": [
+        "PhD",
+        "RA"
+      ],
+      "firstSeen": "2026-09-13",
+      "lastChanged": "2026-09-13"
     }
   ]
 }

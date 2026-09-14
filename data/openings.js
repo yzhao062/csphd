@@ -1,12 +1,12 @@
 window.OPENINGS = {
-  "synced": "2026-09-13",
+  "synced": "2026-09-14",
   "source": "https://tinyurl.com/2026phd",
-  "count": 582,
+  "count": 583,
   "shortterm": 95,
-  "longterm": 487,
+  "longterm": 488,
   "tab_counts": {
     "387325261": 95,
-    "0": 487
+    "0": 488
   },
   "openings": [
     {
@@ -3411,7 +3411,7 @@ window.OPENINGS = {
       "university": "Hong Kong Baptist University",
       "faculty": "Yifan Chen",
       "interests": "Data Science (graphs, time series, multimodal data), Machine Learning (for LLM and for Science)",
-      "term": "26 Fall (open until Apr. 15) / 27 Spring",
+      "term": "27 Spring/Fall",
       "deadline": "",
       "homepage": "https://zhuanlan.zhihu.com/p/651070296",
       "positions": "2-3 PHD with TA/RA",
@@ -3424,7 +3424,7 @@ window.OPENINGS = {
         "RA"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-09-14"
     },
     {
       "university": "Hong Kong Polytechnic University",
@@ -6559,6 +6559,26 @@ window.OPENINGS = {
       ],
       "firstSeen": "2026-06-30",
       "lastChanged": "2026-06-30"
+    },
+    {
+      "university": "Tsinghua University",
+      "faculty": "Haoyue Bai",
+      "interests": "Reliable Machine Learning, Trustworthy AI, Foundation Models & Agents",
+      "term": "27 Fall",
+      "deadline": "",
+      "homepage": "https://haoyuebaizju.github.io/",
+      "positions": "1-2 PhD RA, interns, visiting students",
+      "requirements": "",
+      "contact": "Email: bhaoyue@gmail.com",
+      "materials": "CV, Transcript, Research Interest",
+      "category": "长期",
+      "types": [
+        "PhD",
+        "RA",
+        "Intern"
+      ],
+      "firstSeen": "2026-09-14",
+      "lastChanged": "2026-09-14"
     },
     {
       "university": "Hong Kong University of Science and Technology (Guangzhou)",

@@ -1,12 +1,12 @@
 window.OPENINGS = {
-  "synced": "2026-09-15",
+  "synced": "2026-09-16",
   "source": "https://tinyurl.com/2026phd",
-  "count": 583,
+  "count": 584,
   "shortterm": 95,
-  "longterm": 488,
+  "longterm": 489,
   "tab_counts": {
     "387325261": 95,
-    "0": 488
+    "0": 489
   },
   "openings": [
     {
@@ -6779,24 +6779,6 @@ window.OPENINGS = {
       "lastChanged": "2026-06-30"
     },
     {
-      "university": "University College Dublin, Ireland",
-      "faculty": "Wanling Cai",
-      "interests": "Human-AI Interaction, HCI for Health and Wellbeing, Digital Mental Health",
-      "term": "2026 Fall",
-      "deadline": "",
-      "homepage": "https://wanlingcai.github.io/",
-      "positions": "1-2 PhDs",
-      "requirements": "TOEFL/IETLS (6.5)",
-      "contact": "Email",
-      "materials": "CV, Transcript, Research Interest",
-      "category": "长期",
-      "types": [
-        "PhD"
-      ],
-      "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
-    },
-    {
       "university": "University College London - UCL",
       "faculty": "Yao Lu",
       "interests": "Natural Language Processing, LLMs, Multilingual NLP, Pretraining (Group website: https://nlp.cs.ucl.ac.uk/)",
@@ -7304,7 +7286,7 @@ window.OPENINGS = {
       "university": "University of California, Riverside",
       "faculty": "Bingyao Li",
       "interests": "Computer architecture, System, LLM",
-      "term": "26 Spring/Fall",
+      "term": "27 Fall",
       "deadline": "",
       "homepage": "https://libingyao.github.io/",
       "positions": "2 PhDs (Fellowship + RA/TA)",
@@ -7317,7 +7299,7 @@ window.OPENINGS = {
         "RA"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-09-16"
     },
     {
       "university": "University of California, San Diego",
@@ -10906,6 +10888,41 @@ window.OPENINGS = {
       ],
       "firstSeen": "2026-09-13",
       "lastChanged": "2026-09-13"
+    },
+    {
+      "university": "University of Illinois Chicago",
+      "faculty": "Yan Yan",
+      "interests": "Machine Learning, Computer Vision, Robotics, Bioinformatics, Multimedia",
+      "term": "27 Fall",
+      "deadline": "",
+      "homepage": "",
+      "positions": "",
+      "requirements": "",
+      "contact": "",
+      "materials": "",
+      "category": "长期",
+      "types": [],
+      "firstSeen": "2026-09-16",
+      "lastChanged": "2026-09-16"
+    },
+    {
+      "university": "University of Texas at San Antonio",
+      "faculty": "Yingnan Zhao",
+      "interests": "Computer Architecture, High-Performance Computing, Algorithm-Architecture Co-Designs",
+      "term": "27 Spring/Fall",
+      "deadline": "",
+      "homepage": "https://yingnan96.github.io/",
+      "positions": "1-2 PhD with TA/RA",
+      "requirements": "",
+      "contact": "yingnan.zhao@utsa.edu",
+      "materials": "CV, Transcript, Research Interest, Publication (if any)",
+      "category": "长期",
+      "types": [
+        "PhD",
+        "RA"
+      ],
+      "firstSeen": "2026-09-16",
+      "lastChanged": "2026-09-16"
     }
   ]
 };

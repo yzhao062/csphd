@@ -1,12 +1,12 @@
 {
-  "synced": "2026-09-16",
+  "synced": "2026-09-17",
   "source": "https://tinyurl.com/2026phd",
-  "count": 584,
+  "count": 586,
   "shortterm": 95,
-  "longterm": 489,
+  "longterm": 491,
   "tab_counts": {
     "387325261": 95,
-    "0": 489
+    "0": 491
   },
   "openings": [
     {
@@ -7302,6 +7302,25 @@
       "lastChanged": "2026-09-16"
     },
     {
+      "university": "University of California, Riverside",
+      "faculty": "Qian Zhang",
+      "interests": "Coding Agents, Software Engineering, Agentic SE",
+      "term": "27 Fall",
+      "deadline": "",
+      "homepage": "https://www.cs.ucr.edu/~qzhang/",
+      "positions": "2 PhDs (Fellowship + RA/TA)",
+      "requirements": "",
+      "contact": "Email",
+      "materials": "CV, Transcript, Research Interest",
+      "category": "长期",
+      "types": [
+        "PhD",
+        "RA"
+      ],
+      "firstSeen": "2026-09-17",
+      "lastChanged": "2026-09-17"
+    },
+    {
       "university": "University of California, San Diego",
       "faculty": "Zhijian Liu",
       "interests": "Efficient machine learning, systems and applications (such as LLMs, generative AI)",
@@ -8324,6 +8343,25 @@
       ],
       "firstSeen": "2026-08-15",
       "lastChanged": "2026-08-15"
+    },
+    {
+      "university": "University of Illinois Urbana-Champaign",
+      "faculty": "Yichun He",
+      "interests": "AI for biology and intelligence, Multimodal and causal AI, Biological foundation models, Spatial genomics · AI agents for scientific discovery",
+      "term": "2027 Fall",
+      "deadline": "",
+      "homepage": "https://yichun-he-lab.github.io/",
+      "positions": "PhDs, research MS, interns",
+      "requirements": "TOEFL or IELTS, no GRE.",
+      "contact": "Email",
+      "materials": "CV, Transcript, Research Interest",
+      "category": "长期",
+      "types": [
+        "PhD",
+        "Intern"
+      ],
+      "firstSeen": "2026-09-17",
+      "lastChanged": "2026-09-17"
     },
     {
       "university": "University of Iowa",

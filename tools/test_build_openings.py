@@ -172,8 +172,7 @@ HEADERS = {
     "387325261": ["University", "Faculty", "Research Interests", "Homepage",
                   "Positions", "Requirements", "How to Reach out", "Comments", ""],
     "0": ["University", "Faculty", "Research Interests", "Notes", "Homepage",
-          "Positions", "Requirements", "How to Reach out", "@",
-          "", "", "", "", "", "", "", "", ""],
+          "Positions", "Requirements", "How to Reach out", "@"],
 }
 
 SOURCE_ROWS = {

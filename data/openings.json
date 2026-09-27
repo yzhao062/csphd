@@ -1,12 +1,12 @@
 {
-  "synced": "2026-09-20",
+  "synced": "2026-09-27",
   "source": "https://tinyurl.com/2026phd",
-  "count": 586,
+  "count": 588,
   "shortterm": 95,
-  "longterm": 491,
+  "longterm": 493,
   "tab_counts": {
     "387325261": 95,
-    "0": 491
+    "0": 493
   },
   "openings": [
     {
@@ -5135,11 +5135,11 @@
     {
       "university": "Ohio State University",
       "faculty": "Ping Zhang",
-      "interests": "Multimodal Large Language Models, AI Agents, Medical Image Analysis",
+      "interests": "Multimodal LLMs, AI Agents, Medical Image Analysis",
       "term": "2027 Spring/2027 Fall",
       "deadline": "",
       "homepage": "https://www.pingzhang.net/",
-      "positions": "4 PhDs with RA, and interns",
+      "positions": "4 PhDs with RA, interns, and Postdocs",
       "requirements": "TOEFL or IELTS, no GRE",
       "contact": "Email",
       "materials": "CV, Transcript, Paper if applicable",
@@ -5147,10 +5147,11 @@
       "types": [
         "PhD",
         "RA",
+        "Postdoc",
         "Intern"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-07-04"
+      "lastChanged": "2026-09-27"
     },
     {
       "university": "Ohio University",
@@ -5846,7 +5847,7 @@
     {
       "university": "Rutgers University",
       "faculty": "Lesia Semenova",
-      "interests": "Trustworhy AI: Intepretable ML, Model Multiplicity/Uncertainty, Reasoning in LLM, AI Evaluation",
+      "interests": "Safe AI: Intepretability, Uncertainty, LLMs and Agents, ML Theory, AI Evaluation",
       "term": "Fall 2027",
       "deadline": "",
       "homepage": "https://lesiasemenova.github.io/",
@@ -5861,7 +5862,7 @@
         "Intern"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-09-27"
     },
     {
       "university": "Rutgers University",
@@ -7342,7 +7343,7 @@
     {
       "university": "University of California, Santa Barbara",
       "faculty": "Yuheng Bu",
-      "interests": "Trustworthy AI, learning theory, information theory",
+      "interests": "Trustworthy AI, LLM watermarking, agentic AI, embodied AI",
       "term": "26 Fall",
       "deadline": "",
       "homepage": "https://buyuheng.github.io/",
@@ -7357,7 +7358,7 @@
         "Intern"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-09-27"
     },
     {
       "university": "University of California, Santa Barbara",
@@ -8830,6 +8831,26 @@
       "lastChanged": "2026-06-30"
     },
     {
+      "university": "University of Nebraska at Omaha",
+      "faculty": "Xiao Hu",
+      "interests": "Digital forensics, cybersecurity and AI-assisted investigations",
+      "term": "27 Spring/27 Fall",
+      "deadline": "",
+      "homepage": "https://www.unomaha.edu/college-of-information-science-and-technology/about/faculty-staff/xiao-hu.php",
+      "positions": "1-2 PhDs with RA/TA. Interns",
+      "requirements": "TOEFL/IELTS and GRE (waivers available for eligible applicants)",
+      "contact": "Email (xiaohu@unomaha.edu)",
+      "materials": "CV, Transcript, Research Interest",
+      "category": "长期",
+      "types": [
+        "PhD",
+        "RA",
+        "Intern"
+      ],
+      "firstSeen": "2026-09-27",
+      "lastChanged": "2026-09-27"
+    },
+    {
       "university": "University of North Carolina at Chapel Hill",
       "faculty": "Zhun Deng",
       "interests": "machine learning, learning theory, AI ethics",
@@ -9171,7 +9192,7 @@
       "deadline": "",
       "homepage": "https://tfjmp.org/",
       "positions": "1-2 PhD, visiting students",
-      "requirements": "IELTS",
+      "requirements": "TOEFL or IELTS, no GRE",
       "contact": "Email",
       "materials": "CV, Transcript, Research Interest",
       "category": "长期",
@@ -9179,7 +9200,7 @@
         "PhD"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-09-27"
     },
     {
       "university": "University of Pittsburgh",
@@ -10961,6 +10982,25 @@
       ],
       "firstSeen": "2026-09-16",
       "lastChanged": "2026-09-16"
+    },
+    {
+      "university": "Lehigh University",
+      "faculty": "Xiaolong Guo",
+      "interests": "Large Lanugage Models, Hardware Security",
+      "term": "27 Spring/Fall",
+      "deadline": "",
+      "homepage": "https://engineering.lehigh.edu/faculty/xiaolong-guo",
+      "positions": "1-2 PhD with TA/RA",
+      "requirements": "TOEFL/IELTS/Duolingo/Cambridge/Pearson, GPA 3.0/4.0",
+      "contact": "xig426@lehigh.edu",
+      "materials": "CV, Transcript",
+      "category": "长期",
+      "types": [
+        "PhD",
+        "RA"
+      ],
+      "firstSeen": "2026-09-27",
+      "lastChanged": "2026-09-27"
     }
   ]
 }

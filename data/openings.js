@@ -1,12 +1,12 @@
 window.OPENINGS = {
-  "synced": "2026-09-30",
+  "synced": "2026-10-01",
   "source": "https://tinyurl.com/2026phd",
-  "count": 588,
+  "count": 589,
   "shortterm": 95,
-  "longterm": 493,
+  "longterm": 494,
   "tab_counts": {
     "387325261": 95,
-    "0": 493
+    "0": 494
   },
   "openings": [
     {
@@ -5340,21 +5340,21 @@ window.OPENINGS = {
     {
       "university": "Penn State University",
       "faculty": "Ying Chen",
-      "interests": "Virtual and augmented reality, machine learning, HCI",
-      "term": "2026 Fall",
+      "interests": "LLM, ML, virtual and augmented reality, roboticis, wireless communication",
+      "term": "2027 Fall",
       "deadline": "",
       "homepage": "https://yingchen115.github.io/bio/",
-      "positions": "multiple PhDs/interns",
+      "positions": "2 PhDs with RA",
       "requirements": "TOEFL/IETLS, no GRE requirement",
       "contact": "Email",
       "materials": "CV, Transcript",
       "category": "长期",
       "types": [
         "PhD",
-        "Intern"
+        "RA"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-10-01"
     },
     {
       "university": "Penn State University",
@@ -7320,6 +7320,22 @@ window.OPENINGS = {
       ],
       "firstSeen": "2026-09-17",
       "lastChanged": "2026-09-17"
+    },
+    {
+      "university": "University of California, Riverside",
+      "faculty": "Elaheh Sadredini",
+      "interests": "Computer architecture, AI hardware acceleration, AI security, LLM code verification",
+      "term": "27 Fall",
+      "deadline": "",
+      "homepage": "https://www.cs.ucr.edu/~elaheh/",
+      "positions": "",
+      "requirements": "",
+      "contact": "",
+      "materials": "",
+      "category": "长期",
+      "types": [],
+      "firstSeen": "2026-10-01",
+      "lastChanged": "2026-10-01"
     },
     {
       "university": "University of California, San Diego",

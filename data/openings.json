@@ -1,12 +1,12 @@
 {
-  "synced": "2026-10-01",
+  "synced": "2026-10-02",
   "source": "https://tinyurl.com/2026phd",
-  "count": 589,
+  "count": 590,
   "shortterm": 95,
-  "longterm": 494,
+  "longterm": 495,
   "tab_counts": {
     "387325261": 95,
-    "0": 494
+    "0": 495
   },
   "openings": [
     {
@@ -11017,6 +11017,25 @@
       ],
       "firstSeen": "2026-09-27",
       "lastChanged": "2026-09-27"
+    },
+    {
+      "university": "Purdue University",
+      "faculty": "Qianqian Song",
+      "interests": "Bioinformatics, AI, Medical Informatics",
+      "term": "27 Spring/Fall",
+      "deadline": "",
+      "homepage": "https://polytechnic.purdue.edu/profile/song1081",
+      "positions": "PhD students, RAs, Research Interns",
+      "requirements": "",
+      "contact": "song1081@purdue.edu",
+      "materials": "CV, Transcript, Research Interest, Publication (if any)",
+      "category": "长期",
+      "types": [
+        "PhD",
+        "Intern"
+      ],
+      "firstSeen": "2026-10-02",
+      "lastChanged": "2026-10-02"
     }
   ]
 }

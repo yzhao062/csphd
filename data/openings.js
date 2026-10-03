@@ -1,5 +1,5 @@
 window.OPENINGS = {
-  "synced": "2026-10-02",
+  "synced": "2026-10-03",
   "source": "https://tinyurl.com/2026phd",
   "count": 590,
   "shortterm": 95,
@@ -5550,7 +5550,7 @@ window.OPENINGS = {
       "term": "2027 Spring/Fall",
       "deadline": "",
       "homepage": "https://taolitxjs.github.io/",
-      "positions": "1-2 PhD with RA/TA support",
+      "positions": "2 PhDs with RA/TA support",
       "requirements": "",
       "contact": "https://taolitxjs.github.io/",
       "materials": "CVs, transcripts, TOEFL/IELTS scores, and any other materials they believe would be helpful",
@@ -5560,7 +5560,7 @@ window.OPENINGS = {
         "RA"
       ],
       "firstSeen": "2026-08-22",
-      "lastChanged": "2026-08-23"
+      "lastChanged": "2026-10-03"
     },
     {
       "university": "Purdue University",

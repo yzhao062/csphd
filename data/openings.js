@@ -1,12 +1,12 @@
 window.OPENINGS = {
-  "synced": "2026-10-05",
+  "synced": "2026-10-06",
   "source": "https://tinyurl.com/2026phd",
-  "count": 590,
+  "count": 591,
   "shortterm": 95,
-  "longterm": 495,
+  "longterm": 496,
   "tab_counts": {
     "387325261": 95,
-    "0": 495
+    "0": 496
   },
   "openings": [
     {
@@ -8811,7 +8811,7 @@ window.OPENINGS = {
       "university": "University of Minnesuta, Twin-Cities",
       "faculty": "Caiwen Ding",
       "interests": "LLM for Chip Deisgn, FPGA/ASIC Design, GPU Kernel Design",
-      "term": "26 Fall, 27 Fall",
+      "term": "27 Spring/ 27Fall",
       "deadline": "",
       "homepage": "https://caiwending.github.io/web/home.html",
       "positions": "1 Ph.D. with RA/TA; 1 Post-doc (co-supervising with Prof. Celine Lin at Gatech)",
@@ -8825,7 +8825,7 @@ window.OPENINGS = {
         "Postdoc"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-10-05"
+      "lastChanged": "2026-10-06"
     },
     {
       "university": "University of Minnesuta, Twin-Cities",
@@ -9877,6 +9877,22 @@ window.OPENINGS = {
       ],
       "firstSeen": "2026-06-30",
       "lastChanged": "2026-06-30"
+    },
+    {
+      "university": "University of Utah",
+      "faculty": "Benjie Wang",
+      "interests": "LLMs, Probabilistic AI, AI + Verification, Agentic AI, Causality",
+      "term": "2027 Fall",
+      "deadline": "",
+      "homepage": "",
+      "positions": "",
+      "requirements": "",
+      "contact": "",
+      "materials": "",
+      "category": "长期",
+      "types": [],
+      "firstSeen": "2026-10-06",
+      "lastChanged": "2026-10-06"
     },
     {
       "university": "University of Utah",

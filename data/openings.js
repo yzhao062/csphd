@@ -1,5 +1,5 @@
 window.OPENINGS = {
-  "synced": "2026-10-06",
+  "synced": "2026-10-07",
   "source": "https://tinyurl.com/2026phd",
   "count": 591,
   "shortterm": 95,
@@ -9884,15 +9884,17 @@ window.OPENINGS = {
       "interests": "LLMs, Probabilistic AI, AI + Verification, Agentic AI, Causality",
       "term": "2027 Fall",
       "deadline": "",
-      "homepage": "",
-      "positions": "",
+      "homepage": "https://benjiewang.com/",
+      "positions": "Multiple PhD",
       "requirements": "",
-      "contact": "",
+      "contact": "Email",
       "materials": "",
       "category": "长期",
-      "types": [],
+      "types": [
+        "PhD"
+      ],
       "firstSeen": "2026-10-06",
-      "lastChanged": "2026-10-06"
+      "lastChanged": "2026-10-07"
     },
     {
       "university": "University of Utah",

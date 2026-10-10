@@ -1,12 +1,12 @@
 window.OPENINGS = {
-  "synced": "2026-10-09",
+  "synced": "2026-10-10",
   "source": "https://tinyurl.com/2026phd",
-  "count": 591,
+  "count": 592,
   "shortterm": 95,
-  "longterm": 496,
+  "longterm": 497,
   "tab_counts": {
     "387325261": 95,
-    "0": 496
+    "0": 497
   },
   "openings": [
     {
@@ -6845,14 +6845,14 @@ window.OPENINGS = {
       "homepage": "https://ergodicmarkovian.github.io/main/",
       "positions": "Multiple RAs / Interns",
       "requirements": "TOEFL or IELTS, no GRE",
-      "contact": "Email",
-      "materials": "CV, Transcript, Research Interest",
+      "contact": "Email, Google Form",
+      "materials": "CV, Transcript, Research Interest; https://forms.gle/fVK4p4DrohVNykJ98",
       "category": "长期",
       "types": [
         "Intern"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-10-10"
     },
     {
       "university": "University of Arizona",
@@ -8379,6 +8379,25 @@ window.OPENINGS = {
       ],
       "firstSeen": "2026-09-17",
       "lastChanged": "2026-09-17"
+    },
+    {
+      "university": "University of Illinois Urbana-Champaign",
+      "faculty": "Yaqi Xie",
+      "interests": "Robotics, Dexterous manipulation, Humanoid, Agents, World Model, Planning",
+      "term": "2027 Spring / 2027 Fall",
+      "deadline": "",
+      "homepage": "https://yaqi-xie.me/",
+      "positions": "PhD, MS, Intern",
+      "requirements": "",
+      "contact": "Email (yaqixie.ai@gmail.com)",
+      "materials": "CV, Research Interest",
+      "category": "长期",
+      "types": [
+        "PhD",
+        "Intern"
+      ],
+      "firstSeen": "2026-10-10",
+      "lastChanged": "2026-10-10"
     },
     {
       "university": "University of Iowa",

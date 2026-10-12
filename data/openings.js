@@ -1,12 +1,12 @@
 window.OPENINGS = {
-  "synced": "2026-10-11",
+  "synced": "2026-10-12",
   "source": "https://tinyurl.com/2026phd",
-  "count": 592,
+  "count": 593,
   "shortterm": 95,
-  "longterm": 497,
+  "longterm": 498,
   "tab_counts": {
     "387325261": 95,
-    "0": 497
+    "0": 498
   },
   "openings": [
     {
@@ -11074,6 +11074,25 @@ window.OPENINGS = {
       ],
       "firstSeen": "2026-10-02",
       "lastChanged": "2026-10-02"
+    },
+    {
+      "university": "Penn State University",
+      "faculty": "Jiachang Liu",
+      "interests": "GPU-acclereated Math Optimization, Interpretable and Verifiable AI, AI for Healthcare and Science",
+      "term": "2027 Fall",
+      "deadline": "",
+      "homepage": "https://jiachangliu.github.io/",
+      "positions": "1-2 PhD with RA",
+      "requirements": "TOEFL/IETLS, GRE",
+      "contact": "Email",
+      "materials": "CV, Transcript(s), Research Interest",
+      "category": "长期",
+      "types": [
+        "PhD",
+        "RA"
+      ],
+      "firstSeen": "2026-10-12",
+      "lastChanged": "2026-10-12"
     }
   ]
 };

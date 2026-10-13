@@ -1,5 +1,5 @@
 window.OPENINGS = {
-  "synced": "2026-10-12",
+  "synced": "2026-10-13",
   "source": "https://tinyurl.com/2026phd",
   "count": 593,
   "shortterm": 95,
@@ -9483,12 +9483,12 @@ window.OPENINGS = {
       "university": "University of Southern California",
       "faculty": "Ruishan Liu",
       "interests": "AI for health, Biomedical AI",
-      "term": "27 Fall",
+      "term": "2027 Fall",
       "deadline": "",
       "homepage": "https://viterbi-web.usc.edu/~ruishanl/",
-      "positions": "3 PhDs with RA",
+      "positions": "2-3 PhDs with RA",
       "requirements": "",
-      "contact": "Email",
+      "contact": "",
       "materials": "",
       "category": "长期",
       "types": [
@@ -9496,7 +9496,7 @@ window.OPENINGS = {
         "RA"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-07-01"
+      "lastChanged": "2026-10-13"
     },
     {
       "university": "University of Southern California",

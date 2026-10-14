@@ -1,5 +1,5 @@
 {
-  "synced": "2026-10-13",
+  "synced": "2026-10-14",
   "source": "https://tinyurl.com/2026phd",
   "count": 593,
   "shortterm": 95,
@@ -4757,18 +4757,22 @@
     {
       "university": "New Jersey Institute of Technology",
       "faculty": "Zhi Wei",
-      "interests": "Foundation models for multimodal and single-cell omics data; agentic AI",
-      "term": "26 fall/ 27 Spring/Fall",
+      "interests": "LLM Reasoning, Agentic AI, Foundation models for omics data, representation learning",
+      "term": "27 Spring/Fall",
       "deadline": "",
-      "homepage": "",
-      "positions": "",
+      "homepage": "https://web.njit.edu/~zhiwei/",
+      "positions": "1 PhD with RA, interns",
       "requirements": "",
       "contact": "",
       "materials": "",
       "category": "长期",
-      "types": [],
+      "types": [
+        "PhD",
+        "RA",
+        "Intern"
+      ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-10-14"
     },
     {
       "university": "New York University",

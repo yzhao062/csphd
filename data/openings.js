@@ -1,12 +1,12 @@
 window.OPENINGS = {
-  "synced": "2026-10-16",
+  "synced": "2026-10-17",
   "source": "https://tinyurl.com/2026phd",
-  "count": 593,
+  "count": 594,
   "shortterm": 95,
-  "longterm": 498,
+  "longterm": 499,
   "tab_counts": {
     "387325261": 95,
-    "0": 498
+    "0": 499
   },
   "openings": [
     {
@@ -7099,6 +7099,22 @@ window.OPENINGS = {
       ],
       "firstSeen": "2026-06-30",
       "lastChanged": "2026-06-30"
+    },
+    {
+      "university": "University of California, Davis",
+      "faculty": "Xin Liu",
+      "interests": "multimodal foundation models for scientific discovery",
+      "term": "27 Spring/Fall",
+      "deadline": "",
+      "homepage": "https://xinliu.engineering.ucdavis.edu/",
+      "positions": "",
+      "requirements": "",
+      "contact": "",
+      "materials": "",
+      "category": "长期",
+      "types": [],
+      "firstSeen": "2026-10-17",
+      "lastChanged": "2026-10-17"
     },
     {
       "university": "University of California, Irvine",

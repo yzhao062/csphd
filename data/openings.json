@@ -1,12 +1,12 @@
 {
-  "synced": "2026-10-24",
+  "synced": "2026-10-25",
   "source": "https://tinyurl.com/2026phd",
-  "count": 594,
+  "count": 595,
   "shortterm": 95,
-  "longterm": 499,
+  "longterm": 500,
   "tab_counts": {
     "387325261": 95,
-    "0": 499
+    "0": 500
   },
   "openings": [
     {
@@ -11113,6 +11113,25 @@
       ],
       "firstSeen": "2026-10-12",
       "lastChanged": "2026-10-12"
+    },
+    {
+      "university": "University of Utah",
+      "faculty": "Tenghao Huang",
+      "interests": "LLM Agents, Post-trainning, Human-centered AI, AI Creativity",
+      "term": "2027 Fall",
+      "deadline": "",
+      "homepage": "Tenghao Huang",
+      "positions": "1-2PhD with RA",
+      "requirements": "TOEFL/IELTS/Duolingo, no GRE requirement",
+      "contact": "ohara.lab.recruiting@gmail.com",
+      "materials": "CV, Transcript, Research Interest, Publication (if any)",
+      "category": "长期",
+      "types": [
+        "PhD",
+        "RA"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastChanged": "2026-10-25"
     }
   ]
 }

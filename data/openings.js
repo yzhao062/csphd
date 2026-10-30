@@ -1,12 +1,12 @@
 window.OPENINGS = {
-  "synced": "2026-10-29",
+  "synced": "2026-10-30",
   "source": "https://tinyurl.com/2026phd",
-  "count": 595,
+  "count": 596,
   "shortterm": 95,
-  "longterm": 500,
+  "longterm": 501,
   "tab_counts": {
     "387325261": 95,
-    "0": 500
+    "0": 501
   },
   "openings": [
     {
@@ -6526,6 +6526,26 @@ window.OPENINGS = {
       ],
       "firstSeen": "2026-06-30",
       "lastChanged": "2026-06-30"
+    },
+    {
+      "university": "Texas A&M University",
+      "faculty": "Yimeng Min",
+      "interests": "GenAI, AI4Science (physics, chemistry, materials science), AI for inverse problem/decision making, sustainability",
+      "term": "27 Spring/Fall, 28 Spring/Fall",
+      "deadline": "",
+      "homepage": "http://www.cs.cmu.edu/~yiweilyu/",
+      "positions": "2 PhDs with RA/TA, Interns",
+      "requirements": "TOEFL or IELTS",
+      "contact": "Email",
+      "materials": "CV, transcript, research interests, papers if applicable",
+      "category": "长期",
+      "types": [
+        "PhD",
+        "RA",
+        "Intern"
+      ],
+      "firstSeen": "2026-10-30",
+      "lastChanged": "2026-10-30"
     },
     {
       "university": "Texas Tech University",

@@ -1,12 +1,12 @@
 {
-  "synced": "2026-11-03",
+  "synced": "2026-11-04",
   "source": "https://tinyurl.com/2026phd",
-  "count": 596,
+  "count": 597,
   "shortterm": 95,
-  "longterm": 501,
+  "longterm": 502,
   "tab_counts": {
     "387325261": 95,
-    "0": 501
+    "0": 502
   },
   "openings": [
     {
@@ -3675,6 +3675,26 @@
       ],
       "firstSeen": "2026-07-01",
       "lastChanged": "2026-07-01"
+    },
+    {
+      "university": "Hong Kong University of Science and Technology (Guangzhou)",
+      "faculty": "Zhensu Sun",
+      "interests": "AI Coding",
+      "term": "27 Fall, 28 Spring, 28 Fall",
+      "deadline": "",
+      "homepage": "https://v587su.github.io/",
+      "positions": "2 PhD, RA, Interns",
+      "requirements": "TOEFL/IETLS",
+      "contact": "Email",
+      "materials": "CV",
+      "category": "长期",
+      "types": [
+        "PhD",
+        "RA",
+        "Intern"
+      ],
+      "firstSeen": "2026-11-04",
+      "lastChanged": "2026-11-04"
     },
     {
       "university": "Illinois Institute of Technology",

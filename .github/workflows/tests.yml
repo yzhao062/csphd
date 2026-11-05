@@ -32,5 +32,14 @@ jobs:
       - name: Run build (Python) tests
         run: python tools/test_build_openings.py
 
+      - name: Run rankings (Python) tests
+        run: python tools/test_build_rankings.py
+
+      - name: Run location (Python) tests
+        run: python tools/test_build_location.py
+
       - name: Run recency (JS) tests
         run: node --test tests/recency.test.js
+
+      - name: Run ranking (JS) tests
+        run: node --test tests/ranking.test.js

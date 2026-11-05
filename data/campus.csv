@@ -1,0 +1,182 @@
+school,city,lat,lon,county,cbsa
+Arizona State University,"Tempe, AZ",33.417721,-111.934383,04013,38060
+Auburn University,"Auburn, AL",32.599378,-85.488258,01081,12220
+Augusta University,"Augusta, GA",33.47037,-81.989071,13245,12260
+Baylor University,"Waco, TX",31.546872,-97.121041,48309,47380
+Binghamton University,"Vestal, NY",42.087868,-75.966889,36007,13780
+Boise State University,"Boise, ID",43.604284,-116.203301,16001,14260
+Boston College,"Chestnut Hill, MA",42.336213,-71.169242,25017,14460
+Boston University,"Boston, MA",42.351118,-71.107942,25025,14460
+Brandeis University,"Waltham, MA",42.365727,-71.260155,25017,14460
+Brigham Young University,"Provo, UT",40.250851,-111.649281,49049,39340
+Brown University,"Providence, RI",41.82617,-71.40385,44007,39300
+California Inst. of Technology,"Pasadena, CA",34.137349,-118.125878,06037,31080
+Carnegie Mellon University,"Pittsburgh, PA",40.44357,-79.941993,42003,38300
+Case Western Reserve University,"Cleveland, OH",41.507419,-81.609596,39035,17410
+Clemson University,"Clemson, SC",34.679381,-82.835114,45077,24860
+Cleveland State University,"Cleveland, OH",41.502281,-81.674355,39035,17410
+College of William and Mary,"Williamsburg, VA",37.269489,-76.708214,51830,47260
+Colorado School of Mines,"Golden, CO",39.751443,-105.223364,08059,19740
+Colorado State University,"Fort Collins, CO",40.574805,-105.080732,08069,22660
+Columbia University,"New York, NY",40.808286,-73.961885,36061,35620
+Cornell University,"Ithaca, NY",42.4472,-76.483084,36109,27060
+Dartmouth College,"Hanover, NH",43.704115,-72.289949,33009,30150
+DePaul University,"Chicago, IL",41.877618,-87.62724,17031,16980
+Drexel University,"Philadelphia, PA",39.955217,-75.190051,42101,37980
+Duke University,"Durham, NC",36.001135,-78.937624,37063,20500
+Emory University,"Atlanta, GA",33.790183,-84.325512,13089,12060
+Florida Atlantic University,"Boca Raton, FL",26.372421,-80.102978,12099,33100
+Florida Institute of Technology,"Melbourne, FL",28.065773,-80.623123,12009,37340
+Florida International University,"Miami, FL",25.75732,-80.373928,12086,33100
+Florida State University,"Tallahassee, FL",30.443147,-84.295064,12073,45220
+George Mason University,"Fairfax, VA",38.83195,-77.307063,51059,47900
+George Washington University,"Washington, DC",38.89923,-77.048363,11001,47900
+Georgetown University,"Washington, DC",38.908809,-77.073463,11001,47900
+Georgia Institute of Technology,"Atlanta, GA",33.77242,-84.394832,13121,12060
+Georgia State University,"Atlanta, GA",33.7527,-84.38667,13121,12060
+Harvard University,"Cambridge, MA",42.374471,-71.118313,25017,14460
+Illinois Institute of Technology,"Chicago, IL",41.8313,-87.627321,17031,16980
+Indiana University,"Bloomington, IN",39.16609,-86.526559,18105,14020
+Iowa State University,"Ames, IA",42.026212,-93.648504,19169,11180
+Johns Hopkins University,"Baltimore, MD",39.328977,-76.621595,24510,12580
+Kansas State University,"Manhattan, KS",39.188648,-96.581077,20161,31740
+Kent State University,"Kent, OH",41.146653,-81.342533,39133,10420
+Lehigh University,"Bethlehem, PA",40.606822,-75.380236,42095,10900
+Louisiana State University,"Baton Rouge, LA",30.414986,-91.178921,22033,12940
+Massachusetts Inst. of Technology,"Cambridge, MA",42.359243,-71.093226,25017,14460
+Michigan State University,"East Lansing, MI",42.73212,-84.476111,26065,29620
+Michigan Technological University,"Houghton, MI",47.11866,-88.548092,26061,26340
+Mississippi State University,"Mississippi State, MS",33.454852,-88.790139,28105,44260
+Missouri S&T,"Rolla, MO",37.953426,-91.775583,29161,40620
+Montana State University,"Bozeman, MT",45.666726,-111.048812,30031,14580
+NJIT,"Newark, NJ",40.741997,-74.177113,34013,35620
+New Mexico State University,"Las Cruces, NM",32.281568,-106.752069,35013,29740
+New York Tech,"Old Westbury, NY",40.812447,-73.6078,36059,35620
+New York University,"New York, NY",40.729452,-73.997264,36061,35620
+North Carolina State University,"Raleigh, NC",35.785111,-78.674517,37183,39580
+Northeastern University,"Boston, MA",42.339992,-71.088782,25025,14460
+Northern Arizona University,"Flagstaff, AZ",35.188449,-111.653724,04005,22380
+Northwestern University,"Evanston, IL",42.050356,-87.679858,17031,16980
+Nova Southeastern University,"Fort Lauderdale, FL",26.082288,-80.249891,12011,33100
+Oakland University,"Rochester Hills, MI",42.674573,-83.216418,26125,19820
+Ohio State University,"Columbus, OH",39.999803,-83.007525,39049,18140
+Ohio University,"Athens, OH",39.326798,-82.100985,39009,11900
+Oklahoma State University,"Stillwater, OK",36.123085,-97.069743,40119,44660
+Old Dominion University,"Norfolk, VA",36.886418,-76.30666,51710,47260
+Oregon State University,"Corvallis, OR",44.56395,-123.274723,41003,18700
+Pennsylvania State University,"University Park, PA",40.7965,-77.862848,42027,44300
+Portland State University,"Portland, OR",45.511601,-122.686289,41051,38900
+Princeton University,"Princeton, NJ",40.348732,-74.659365,34021,45940
+Purdue University,"West Lafayette, IN",40.428206,-86.914435,18157,29200
+Rensselaer Polytechnic Institute,"Troy, NY",42.729978,-73.676646,36083,10580
+Rice University,"Houston, TX",29.717897,-95.402035,48201,26420
+Rochester Inst. of Technology,"Rochester, NY",43.084188,-77.67386,36055,40380
+Rutgers University,"New Brunswick, NJ",40.498769,-74.446251,34023,35620
+Southern Methodist University,"Dallas, TX",32.843612,-96.783365,48113,19100
+Stanford University,"Stanford, CA",37.429434,-122.167359,06085,41940
+Stevens Institute of Technology,"Hoboken, NJ",40.744776,-74.025334,34017,35620
+Stony Brook University,"Stony Brook, NY",40.91476,-73.12046,36103,35620
+Syracuse University,"Syracuse, NY",43.036644,-76.133989,36067,45060
+Temple University,"Philadelphia, PA",39.980546,-75.156859,42101,37980
+Texas A&M University,"College Station, TX",30.618726,-96.336475,48041,17780
+Texas State University,"San Marcos, TX",29.888885,-97.943029,48209,12420
+Texas Tech University,"Lubbock, TX",33.583448,-101.874783,48303,31180
+The University of Alabama,"Tuscaloosa, AL",33.211875,-87.545978,01125,46220
+Tufts University,"Medford, MA",42.40855,-71.118293,25017,14460
+Tulane University,"New Orleans, LA",29.940069,-90.122144,22071,35380
+UNC - Charlotte,"Charlotte, NC",35.306022,-80.730919,37119,16740
+UNC - Greensboro,"Greensboro, NC",36.068236,-79.809414,37081,24660
+Univ. of Arkansas - Little Rock,"Little Rock, AR",34.723254,-92.339778,05119,30780
+Univ. of California - Berkeley,"Berkeley, CA",37.871918,-122.260463,06001,41860
+Univ. of California - Davis,"Davis, CA",38.539667,-121.749567,06113,40900
+Univ. of California - Irvine,"Irvine, CA",33.648434,-117.841248,06059,31080
+Univ. of California - Los Angeles,"Los Angeles, CA",34.07178,-118.442179,06037,31080
+Univ. of California - Merced,"Merced, CA",37.366237,-120.424944,06047,32900
+Univ. of California - Riverside,"Riverside, CA",33.97246,-117.32741,06065,40140
+Univ. of California - San Diego,"La Jolla, CA",32.877749,-117.235866,06073,41740
+Univ. of California - Santa Barbara,"Santa Barbara, CA",34.416297,-119.846426,06083,42200
+Univ. of California - Santa Cruz,"Santa Cruz, CA",36.995584,-122.058801,06087,42100
+Univ. of Illinois at Urbana-Champaign,"Champaign, IL",40.104718,-88.229114,17019,16580
+Univ. of Louisiana - Lafayette,"Lafayette, LA",30.212191,-92.020165,22055,29180
+Univ. of Maryland - Baltimore County,"Baltimore, MD",39.256686,-76.711607,24005,12580
+Univ. of Maryland - College Park,"College Park, MD",38.988178,-76.944721,24033,47900
+Univ. of Massachusetts Amherst,"Amherst, MA",42.385999,-72.526728,25015,11200
+Univ. of Missouri - Kansas City,"Kansas City, MO",39.034179,-94.582141,29095,28140
+Univ. of Wisconsin - Milwaukee,"Milwaukee, WI",43.076848,-87.880488,55079,33340
+University at Albany - SUNY,"Albany, NY",42.685489,-73.824662,36001,10580
+University at Buffalo,"Buffalo, NY",43.000942,-78.789458,36029,15380
+University of Alabama - Birmingham,"Birmingham, AL",33.505697,-86.799345,01073,13820
+University of Alabama - Huntsville,"Huntsville, AL",34.724557,-86.640449,01089,26620
+University of Arizona,"Tucson, AZ",32.232672,-110.950815,04019,46060
+University of Arkansas,"Fayetteville, AR",36.070009,-94.176981,05143,22220
+University of Central Florida,"Orlando, FL",28.602159,-81.200889,12095,36740
+University of Chicago,"Chicago, IL",41.787994,-87.599539,17031,16980
+University of Cincinnati,"Cincinnati, OH",39.131159,-84.51428,39061,17140
+University of Colorado - Denver,"Denver, CO",39.745841,-105.002522,08031,19740
+University of Colorado Boulder,"Boulder, CO",40.008781,-105.270823,08013,14500
+University of Connecticut,"Storrs, CT",41.809098,-72.249948,09110,25540
+University of Delaware,"Newark, DE",39.679577,-75.752822,10003,37980
+University of Denver,"Denver, CO",39.678005,-104.963259,08031,19740
+University of Florida,"Gainesville, FL",29.64629,-82.347911,12001,23540
+University of Georgia,"Athens, GA",33.956262,-83.374039,13059,12020
+University of Hawaii at Manoa,"Honolulu, HI",21.298598,-157.818979,15003,46520
+University of Houston,"Houston, TX",29.720393,-95.343537,48201,26420
+University of Idaho,"Moscow, ID",46.727406,-117.014167,16057,34140
+University of Illinois at Chicago,"Chicago, IL",41.871837,-87.650503,17031,16980
+University of Iowa,"Iowa City, IA",41.661935,-91.536425,19103,26980
+University of Kansas,"Lawrence, KS",38.958549,-95.247567,20045,29940
+University of Kentucky,"Lexington, KY",38.038911,-84.504747,21067,30460
+University of Louisville,"Louisville, KY",38.216862,-85.760412,21111,31140
+University of Massachusetts Boston,"Boston, MA",42.312881,-71.036865,25025,14460
+University of Massachusetts Lowell,"Lowell, MA",42.652864,-71.326809,25017,14460
+University of Memphis,"Memphis, TN",35.118878,-89.938068,47157,32820
+University of Miami,"Coral Gables, FL",25.72126,-80.278662,12086,33100
+University of Michigan,"Ann Arbor, MI",42.278374,-83.73481,26161,11460
+University of Michigan-Dearborn,"Dearborn, MI",42.317287,-83.231417,26163,19820
+University of Minnesota,"Minneapolis, MN",44.972851,-93.235464,27053,33460
+University of Mississippi,"University, MS",34.365529,-89.537434,28071,37060
+University of Missouri,"Columbia, MO",38.94531,-92.328843,29019,17860
+University of Nebraska,"Lincoln, NE",40.817598,-96.700508,31109,30700
+University of Nebraska - Omaha,"Omaha, NE",41.258769,-96.008516,31055,36540
+University of Nevada,"Reno, NV",39.543642,-119.815377,32031,39900
+University of Nevada Las Vegas,"Las Vegas, NV",36.106047,-115.138462,32003,29820
+University of New Hampshire,"Durham, NH",43.135934,-70.932465,33017,14460
+University of New Mexico,"Albuquerque, NM",35.083868,-106.620155,35001,10740
+University of North Carolina,"Chapel Hill, NC",35.911769,-79.050969,37135,20500
+University of North Texas,"Denton, TX",33.211178,-97.148422,48121,19100
+University of Notre Dame,"Notre Dame, IN",41.703058,-86.238959,18141,43780
+University of Oklahoma,"Norman, OK",35.209407,-97.444211,40027,36420
+University of Oregon,"Eugene, OR",44.045146,-123.075792,41039,21660
+University of Pennsylvania,"Philadelphia, PA",39.950929,-75.19391,42101,37980
+University of Pittsburgh,"Pittsburgh, PA",40.444388,-79.953254,42003,38300
+University of Rhode Island,"Kingston, RI",41.484691,-71.527356,44009,39300
+University of Rochester,"Rochester, NY",43.126397,-77.631202,36055,40380
+University of South Carolina,"Columbia, SC",33.996788,-81.026935,45079,17900
+University of South Florida,"Tampa, FL",28.061458,-82.413232,12057,45300
+University of Southern California,"Los Angeles, CA",34.021281,-118.284169,06037,31080
+University of Southern Mississippi,"Hattiesburg, MS",31.32661,-89.331236,28035,25620
+University of Tennessee,"Knoxville, TN",35.952082,-83.925852,47093,28940
+University of Texas - El Paso,"El Paso, TX",31.77015,-106.504098,48141,21340
+University of Texas at Arlington,"Arlington, TX",32.729718,-97.11296,48439,19100
+University of Texas at Austin,"Austin, TX",30.282825,-97.738273,48453,12420
+University of Texas at Dallas,"Richardson, TX",32.984673,-96.749702,48113,19100
+University of Texas at San Antonio,"San Antonio, TX",29.583709,-98.620657,48029,41700
+University of Tulsa,"Tulsa, OK",36.152324,-95.945941,40143,46140
+University of Utah,"Salt Lake City, UT",40.762484,-111.846044,49035,41620
+University of Vermont,"Burlington, VT",44.477325,-73.196646,50007,15540
+University of Virginia,"Charlottesville, VA",38.035665,-78.503428,51003,16820
+University of Washington,"Seattle, WA",47.65538,-122.30514,53033,42660
+University of Wisconsin - Madison,"Madison, WI",43.075409,-89.404098,55025,31540
+University of Wyoming,"Laramie, WY",41.311773,-105.57931,56001,29660
+Utah State University,"Logan, UT",41.740748,-111.81391,49005,30860
+Vanderbilt University,"Nashville, TN",36.14659,-86.803369,47037,34980
+Virginia Commonwealth University,"Richmond, VA",37.54962,-77.452697,51760,40060
+Virginia Tech,"Blacksburg, VA",37.229012,-80.423675,51121,13980
+Washington State University,"Pullman, WA",46.730448,-117.158168,53075,39420
+Washington University in St. Louis,"Saint Louis, MO",38.647929,-90.310604,29189,41180
+Wayne State University,"Detroit, MI",42.358994,-83.068998,26163,19820
+West Virginia University,"Morgantown, WV",39.634371,-79.954391,54061,34060
+Western Michigan University,"Kalamazoo, MI",42.282194,-85.613759,26077,28020
+Wichita State University,"Wichita, KS",37.718882,-97.292361,20173,48620
+Worcester Polytechnic Institute,"Worcester, MA",42.274853,-71.808339,25027,49340
+Yale University,"New Haven, CT",41.311158,-72.926688,09170,35300

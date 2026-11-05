@@ -1,0 +1,182 @@
+school,rank,source
+Massachusetts Inst. of Technology,1,ivytalent+collegekickstart
+Princeton University,2,ivytalent+collegekickstart
+Harvard University,3,ivytalent+collegekickstart
+Yale University,4,ivytalent+collegekickstart
+California Inst. of Technology,5,ivytalent+collegekickstart
+Stanford University,5,ivytalent+collegekickstart
+University of Pennsylvania,7,ivytalent+collegekickstart
+Duke University,8,ivytalent+collegekickstart
+Johns Hopkins University,9,ivytalent+collegekickstart
+Northwestern University,9,ivytalent+collegekickstart
+University of Chicago,9,ivytalent+collegekickstart
+Columbia University,12,ivytalent+collegekickstart
+Dartmouth College,12,ivytalent+collegekickstart
+Carnegie Mellon University,14,ivytalent+collegekickstart
+Cornell University,14,ivytalent+collegekickstart
+Brown University,16,ivytalent+collegekickstart
+Rice University,16,ivytalent+collegekickstart
+Vanderbilt University,16,ivytalent+collegekickstart
+Washington University in St. Louis,16,ivytalent+collegekickstart
+Univ. of California - Berkeley,20,ivytalent+collegekickstart
+Univ. of California - Los Angeles,20,ivytalent+collegekickstart
+University of Notre Dame,20,ivytalent+collegekickstart
+Emory University,23,ivytalent+collegekickstart
+Georgetown University,23,ivytalent+collegekickstart
+University of Michigan,25,ivytalent+collegekickstart
+University of Virginia,26,ivytalent+collegekickstart+usnews.com
+University of North Carolina,27,ivytalent+collegekickstart
+University of Southern California,27,ivytalent+collegekickstart
+Georgia Institute of Technology,29,ivytalent+collegekickstart
+Univ. of California - San Diego,29,ivytalent+collegekickstart
+Boston College,31,ivytalent+collegekickstart
+New York University,31,ivytalent+collegekickstart
+Tufts University,31,ivytalent+collegekickstart
+Boston University,34,ivytalent+collegekickstart
+Univ. of California - Davis,34,ivytalent+collegekickstart
+Univ. of California - Irvine,34,ivytalent+collegekickstart
+Univ. of Illinois at Urbana-Champaign,34,ivytalent+collegekickstart
+University of Florida,34,ivytalent+collegekickstart
+University of Texas at Austin,34,ivytalent+collegekickstart
+University of Wisconsin - Madison,34,ivytalent+collegekickstart
+Northeastern University,42,ivytalent+collegekickstart
+Case Western Reserve University,44,ivytalent+collegekickstart
+Lehigh University,44,ivytalent+collegekickstart
+Ohio State University,44,ivytalent+collegekickstart
+Rutgers University,44,ivytalent+collegekickstart
+Univ. of California - Santa Barbara,44,ivytalent+collegekickstart
+Univ. of Maryland - College Park,49,ivytalent+collegekickstart
+University of Rochester,49,ivytalent+collegekickstart
+University of Washington,49,ivytalent+collegekickstart
+College of William and Mary,52,usnews.com
+University of Georgia,52,usnews.com
+Virginia Tech,52,usnews.com
+Pennsylvania State University,55,usnews.com
+Purdue University,55,usnews.com+poetsandquants
+University of Miami,55,usnews.com
+Brandeis University,59,poetsandquants
+Florida State University,59,poetsandquants+sbstatesman
+George Washington University,59,sbstatesman
+Stevens Institute of Technology,59,poetsandquants
+Stony Brook University,59,sbstatesman
+Texas A&M University,59,usnews.com+poetsandquants
+Tulane University,59,poetsandquants
+Univ. of Massachusetts Amherst,59,usnews.com
+University of Minnesota,59,usnews.com
+University of Pittsburgh,59,usnews.com+poetsandquants
+Michigan State University,69,usnews.com
+Rensselaer Polytechnic Institute,69,usnews.com
+Univ. of California - Merced,69,poetsandquants
+Syracuse University,72,usnews.com
+Binghamton University,73,usnews.com
+Indiana University,73,usnews.com
+North Carolina State University,73,usnews.com+poetsandquants
+University of Connecticut,73,usnews.com
+Worcester Polytechnic Institute,73,poetsandquants
+Clemson University,80,usnews.com
+Colorado School of Mines,80,usnews.com
+Drexel University,80,usnews.com
+Univ. of California - Riverside,80,usnews.com
+NJIT,85,usnews.com
+Southern Methodist University,85,usnews.com
+University at Buffalo,85,usnews.com+poetsandquants
+University of Delaware,85,usnews.com
+Baylor University,90,usnews.com
+Rochester Inst. of Technology,95,poetsandquants
+University of Illinois at Chicago,95,usnews.com+poetsandquants
+University of Missouri,95,usnews.com
+Auburn University,100,usnews.com
+Florida International University,100,usnews.com
+University of Iowa,100,usnews.com
+University of South Florida,100,poetsandquants
+Temple University,109,usnews.com
+Univ. of California - Santa Cruz,109,usnews.com
+University of Colorado Boulder,109,usnews.com
+University of New Hampshire,109,usnews.com
+University of Tennessee,109,usnews.com
+Brigham Young University,116,usnews.com
+Iowa State University,116,usnews.com
+University of Oklahoma,116,usnews.com
+University of Oregon,116,usnews.com
+Arizona State University,121,usnews.com
+George Mason University,121,usnews.com
+Illinois Institute of Technology,121,usnews.com
+University at Albany - SUNY,121,usnews.com
+University of Arizona,121,usnews.com
+University of Central Florida,121,usnews.com
+University of Denver,121,usnews.com
+University of South Carolina,121,usnews.com
+University of Texas at Dallas,121,usnews.com
+University of Vermont,133,usnews.com
+Univ. of Maryland - Baltimore County,137,usnews.com
+University of Alabama - Birmingham,137,usnews.com
+University of Houston,137,usnews.com
+University of Kansas,148,usnews.com
+University of Kentucky,148,usnews.com
+University of Massachusetts Lowell,148,usnews.com
+University of Rhode Island,148,usnews.com
+University of Tulsa,148,usnews.com
+Kansas State University,156,usnews.com
+Oregon State University,156,usnews.com
+The University of Alabama,156,usnews.com
+Virginia Commonwealth University,156,usnews.com
+Colorado State University,169,usnews.com
+DePaul University,169,usnews.com
+Michigan Technological University,169,usnews.com
+UNC - Charlotte,169,usnews.com
+University of Nebraska,169,usnews.com
+University of Cincinnati,179,usnews.com
+University of Louisville,179,usnews.com
+University of Mississippi,179,usnews.com
+University of Utah,179,usnews.com
+Texas Tech University,186,usnews.com
+University of Hawaii at Manoa,186,usnews.com
+Wayne State University,186,usnews.com
+Florida Atlantic University,191,usnews.com
+Georgia State University,191,usnews.com
+Missouri S&T,191,usnews.com
+Oklahoma State University,191,usnews.com
+University of Arkansas,191,usnews.com
+Washington State University,191,usnews.com
+Louisiana State University,202,usnews.com
+Ohio University,202,usnews.com
+University of Massachusetts Boston,202,usnews.com
+Mississippi State University,208,usnews.com
+UNC - Greensboro,208,usnews.com
+University of Idaho,208,usnews.com
+University of North Texas,208,usnews.com
+New York Tech,219,usnews.com
+University of Nevada,219,usnews.com
+University of Michigan-Dearborn,227,usnews.com
+University of Texas at San Antonio,227,usnews.com
+West Virginia University,227,usnews.com
+Florida Institute of Technology,236,usnews.com
+Kent State University,236,usnews.com
+Portland State University,236,usnews.com
+University of Colorado - Denver,236,usnews.com
+University of Nevada Las Vegas,236,usnews.com
+University of New Mexico,236,usnews.com
+University of Texas at Arlington,236,usnews.com
+New Mexico State University,250,usnews.com
+Nova Southeastern University,250,usnews.com
+Univ. of Missouri - Kansas City,250,usnews.com
+University of Wyoming,250,usnews.com
+University of Alabama - Huntsville,262,usnews.com
+University of Texas - El Paso,262,usnews.com
+Northern Arizona University,276,usnews.com
+Western Michigan University,276,usnews.com
+Texas State University,288,usnews.com
+Univ. of Wisconsin - Milwaukee,288,usnews.com
+University of Memphis,288,usnews.com
+Utah State University,288,usnews.com
+Wichita State University,288,usnews.com
+Boise State University,299,usnews.com
+University of Nebraska - Omaha,299,usnews.com
+Montana State University,308,usnews.com
+Oakland University,308,usnews.com
+University of Southern Mississippi,308,usnews.com
+Augusta University,317,usnews.com
+Old Dominion University,328,usnews.com
+Cleveland State University,342,usnews.com
+Univ. of Louisiana - Lafayette,353,usnews.com
+Univ. of Arkansas - Little Rock,376,usnews.com

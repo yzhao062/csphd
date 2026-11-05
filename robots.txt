@@ -1,5 +1,5 @@
 # https://csphd.org/robots.txt
-# 博士栈 · CSPhD.org：纯静态公益站点，共六个页面，内容全部公开。
+# 博士栈 · CSPhD.org：纯静态公益站点，共七个页面，内容全部公开。
 # Non-profit static site. Nothing here is private, so nothing is disallowed.
 
 User-agent: *

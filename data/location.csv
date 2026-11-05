@@ -1,0 +1,182 @@
+school,city,jobs,venues,location,partial
+Arizona State University,"Tempe, AZ",46514,6141,21.1,0
+Auburn University,"Auburn, AL",732,238,67.0,0
+Augusta University,"Augusta, GA",1940,242,61.4,0
+Baylor University,"Waco, TX",440,363,67.0,0
+Binghamton University,"Vestal, NY",1491,352,60.3,0
+Boise State University,"Boise, ID",10617,932,42.5,0
+Boston College,"Chestnut Hill, MA",152238,6263,14.3,0
+Boston University,"Boston, MA",152238,1863,22.7,0
+Brandeis University,"Waltham, MA",152238,2992,19.4,0
+Brigham Young University,"Provo, UT",24129,792,39.1,0
+Brown University,"Providence, RI",9450,1452,40.1,0
+California Inst. of Technology,"Pasadena, CA",146646,34078,2.7,0
+Carnegie Mellon University,"Pittsburgh, PA",28358,2431,30.3,0
+Case Western Reserve University,"Cleveland, OH",18696,1977,34.1,0
+Clemson University,"Clemson, SC",5410,170,58.1,0
+Cleveland State University,"Cleveland, OH",18696,1977,34.1,0
+College of William and Mary,"Williamsburg, VA",11676,209,52.4,1
+Colorado School of Mines,"Golden, CO",64447,1040,31.6,0
+Colorado State University,"Fort Collins, CO",2922,760,51.2,0
+Columbia University,"New York, NY",298434,24550,1.0,0
+Cornell University,"Ithaca, NY",1107,207,65.7,1
+Dartmouth College,"Hanover, NH",1122,268,63.8,1
+DePaul University,"Chicago, IL",130841,8771,12.8,0
+Drexel University,"Philadelphia, PA",79698,3391,22.2,0
+Duke University,"Durham, NC",48876,777,35.2,0
+Emory University,"Atlanta, GA",141815,4066,17.7,0
+Florida Atlantic University,"Boca Raton, FL",45626,2893,26.5,0
+Florida Institute of Technology,"Melbourne, FL",6997,945,44.8,0
+Florida International University,"Miami, FL",45626,4932,22.7,0
+Florida State University,"Tallahassee, FL",3403,483,53.5,0
+George Mason University,"Fairfax, VA",307376,2726,16.2,0
+George Washington University,"Washington, DC",307376,3348,14.7,0
+Georgetown University,"Washington, DC",307376,4347,12.9,0
+Georgia Institute of Technology,"Atlanta, GA",141815,4066,17.7,0
+Georgia State University,"Atlanta, GA",141815,4066,17.7,0
+Harvard University,"Cambridge, MA",152238,4855,16.1,0
+Illinois Institute of Technology,"Chicago, IL",130841,8771,12.8,0
+Indiana University,"Bloomington, IN",887,246,65.7,1
+Iowa State University,"Ames, IA",10086,155,55.3,0
+Johns Hopkins University,"Baltimore, MD",50753,1912,28.7,0
+Kansas State University,"Manhattan, KS",869,113,71.2,1
+Kent State University,"Kent, OH",5792,984,45.6,0
+Lehigh University,"Bethlehem, PA",11419,995,41.7,0
+Louisiana State University,"Baton Rouge, LA",4138,681,50.0,0
+Massachusetts Inst. of Technology,"Cambridge, MA",152238,4855,16.1,0
+Michigan State University,"East Lansing, MI",3389,368,55.4,0
+Michigan Technological University,"Houghton, MI",90,79,86.4,1
+Mississippi State University,"Mississippi State, MS",147,76,83.9,1
+Missouri S&T,"Rolla, MO",11,57,100.0,1
+Montana State University,"Bozeman, MT",1652,467,57.8,0
+NJIT,"Newark, NJ",298434,14324,4.8,0
+New Mexico State University,"Las Cruces, NM",493,191,70.8,1
+New York Tech,"Old Westbury, NY",298434,3051,15.5,0
+New York University,"New York, NY",298434,22558,1.6,0
+North Carolina State University,"Raleigh, NC",47966,2068,28.5,0
+Northeastern University,"Boston, MA",152238,1863,22.7,0
+Northern Arizona University,"Flagstaff, AZ",105,352,75.2,1
+Northwestern University,"Evanston, IL",130841,9987,11.9,0
+Nova Southeastern University,"Fort Lauderdale, FL",45626,3630,24.9,0
+Oakland University,"Rochester Hills, MI",46259,2107,28.6,0
+Ohio State University,"Columbus, OH",22190,1915,33.4,0
+Ohio University,"Athens, OH",57,76,89.2,1
+Oklahoma State University,"Stillwater, OK",241,125,77.7,1
+Old Dominion University,"Norfolk, VA",11669,626,44.8,0
+Oregon State University,"Corvallis, OR",210,159,76.8,0
+Pennsylvania State University,"University Park, PA",1468,240,63.1,0
+Portland State University,"Portland, OR",28981,2472,30.1,0
+Princeton University,"Princeton, NJ",65436,619,35.2,0
+Purdue University,"West Lafayette, IN",673,278,66.4,1
+Rensselaer Polytechnic Institute,"Troy, NY",8823,232,53.2,0
+Rice University,"Houston, TX",49577,6654,20.2,0
+Rochester Inst. of Technology,"Rochester, NY",9315,1208,41.5,0
+Rutgers University,"New Brunswick, NJ",304779,1748,19.3,0
+Southern Methodist University,"Dallas, TX",150709,4029,17.4,0
+Stanford University,"Stanford, CA",421704,4793,10.4,0
+Stevens Institute of Technology,"Hoboken, NJ",298434,23814,1.2,0
+Stony Brook University,"Stony Brook, NY",299639,3149,15.3,0
+Syracuse University,"Syracuse, NY",3190,825,50.1,0
+Temple University,"Philadelphia, PA",79698,2610,24.0,0
+Texas A&M University,"College Station, TX",1551,355,60.0,0
+Texas State University,"San Marcos, TX",94808,378,36.5,0
+Texas Tech University,"Lubbock, TX",1308,468,59.1,0
+The University of Alabama,"Tuscaloosa, AL",804,238,66.5,1
+Tufts University,"Medford, MA",152238,4855,16.1,0
+Tulane University,"New Orleans, LA",3293,1242,47.1,0
+UNC - Charlotte,"Charlotte, NC",22917,2647,30.9,0
+UNC - Greensboro,"Greensboro, NC",3359,853,49.6,0
+Univ. of Arkansas - Little Rock,"Little Rock, AR",7550,621,47.3,0
+Univ. of California - Berkeley,"Berkeley, CA",352996,6424,9.4,0
+Univ. of California - Davis,"Davis, CA",16283,303,47.9,0
+Univ. of California - Irvine,"Irvine, CA",146646,6325,14.4,0
+Univ. of California - Los Angeles,"Los Angeles, CA",146646,34078,2.7,0
+Univ. of California - Merced,"Merced, CA",41,221,83.6,1
+Univ. of California - Riverside,"Riverside, CA",9769,2895,35.1,0
+Univ. of California - San Diego,"La Jolla, CA",65235,5813,19.6,0
+Univ. of California - Santa Barbara,"Santa Barbara, CA",7444,924,44.6,0
+Univ. of California - Santa Cruz,"Santa Cruz, CA",1005,543,59.5,0
+Univ. of Illinois at Urbana-Champaign,"Champaign, IL",1387,390,60.0,0
+Univ. of Louisiana - Lafayette,"Lafayette, LA",1314,459,59.2,0
+Univ. of Maryland - Baltimore County,"Baltimore, MD",50753,2402,27.1,0
+Univ. of Maryland - College Park,"College Park, MD",339940,2954,15.0,0
+Univ. of Massachusetts Amherst,"Amherst, MA",1510,325,60.8,0
+Univ. of Missouri - Kansas City,"Kansas City, MO",35930,1300,33.4,0
+Univ. of Wisconsin - Milwaukee,"Milwaukee, WI",16410,1516,36.7,0
+University at Albany - SUNY,"Albany, NY",8823,680,45.8,0
+University at Buffalo,"Buffalo, NY",5411,1591,42.6,0
+University of Alabama - Birmingham,"Birmingham, AL",8414,823,44.7,0
+University of Alabama - Huntsville,"Huntsville, AL",13984,513,45.1,0
+University of Arizona,"Tucson, AZ",6076,1299,43.4,0
+University of Arkansas,"Fayetteville, AR",4176,424,53.2,0
+University of Central Florida,"Orlando, FL",25985,3699,27.9,0
+University of Chicago,"Chicago, IL",130841,8771,12.8,0
+University of Cincinnati,"Cincinnati, OH",21052,1508,35.3,0
+University of Colorado - Denver,"Denver, CO",64447,1933,27.3,0
+University of Colorado Boulder,"Boulder, CO",20734,992,38.3,0
+University of Connecticut,"Storrs, CT",12035,1660,37.8,0
+University of Delaware,"Newark, DE",79698,957,31.0,0
+University of Denver,"Denver, CO",64447,1933,27.3,0
+University of Florida,"Gainesville, FL",1748,424,58.1,0
+University of Georgia,"Athens, GA",2210,344,58.3,0
+University of Hawaii at Manoa,"Honolulu, HI",3077,1572,45.8,0
+University of Houston,"Houston, TX",49577,6654,20.2,0
+University of Idaho,"Moscow, ID",18,78,95.3,1
+University of Illinois at Chicago,"Chicago, IL",130841,8771,12.8,0
+University of Iowa,"Iowa City, IA",640,318,65.8,0
+University of Kansas,"Lawrence, KS",14725,220,50.7,0
+University of Kentucky,"Lexington, KY",4935,680,49.0,0
+University of Louisville,"Louisville, KY",7784,1333,41.8,0
+University of Massachusetts Boston,"Boston, MA",152238,3271,18.8,0
+University of Massachusetts Lowell,"Lowell, MA",152238,2992,19.4,0
+University of Memphis,"Memphis, TN",4172,1106,46.6,0
+University of Miami,"Coral Gables, FL",45626,4932,22.7,0
+University of Michigan,"Ann Arbor, MI",19175,605,42.2,0
+University of Michigan-Dearborn,"Dearborn, MI",46259,2144,28.5,0
+University of Minnesota,"Minneapolis, MN",54687,3104,24.9,0
+University of Mississippi,"University, MS",212,123,78.5,1
+University of Missouri,"Columbia, MO",1140,311,62.7,0
+University of Nebraska,"Lincoln, NE",6328,529,49.4,0
+University of Nebraska - Omaha,"Omaha, NE",15826,1403,37.4,0
+University of Nevada,"Reno, NV",2370,969,50.7,0
+University of Nevada Las Vegas,"Las Vegas, NV",11492,4375,31.3,0
+University of New Hampshire,"Durham, NH",152599,195,38.4,1
+University of New Mexico,"Albuquerque, NM",3444,976,48.5,0
+University of North Carolina,"Chapel Hill, NC",49029,249,43.1,0
+University of North Texas,"Denton, TX",150709,1391,24.8,0
+University of Notre Dame,"Notre Dame, IN",2268,374,57.5,0
+University of Oklahoma,"Norman, OK",7608,375,50.7,0
+University of Oregon,"Eugene, OR",964,714,57.9,0
+University of Pennsylvania,"Philadelphia, PA",79698,3391,22.2,0
+University of Pittsburgh,"Pittsburgh, PA",28358,2431,30.3,0
+University of Rhode Island,"Kingston, RI",9450,394,49.2,0
+University of Rochester,"Rochester, NY",9315,1208,41.5,0
+University of South Carolina,"Columbia, SC",4075,557,51.5,0
+University of South Florida,"Tampa, FL",35863,2087,30.1,0
+University of Southern California,"Los Angeles, CA",146646,34078,2.7,0
+University of Southern Mississippi,"Hattiesburg, MS",422,112,75.3,1
+University of Tennessee,"Knoxville, TN",2486,768,52.0,0
+University of Texas - El Paso,"El Paso, TX",2759,1211,48.3,0
+University of Texas at Arlington,"Arlington, TX",150709,2973,19.5,0
+University of Texas at Austin,"Austin, TX",94237,2855,22.5,0
+University of Texas at Dallas,"Richardson, TX",150709,4029,17.4,0
+University of Texas at San Antonio,"San Antonio, TX",15371,2825,32.7,0
+University of Tulsa,"Tulsa, OK",4367,1214,45.7,0
+University of Utah,"Salt Lake City, UT",28354,1755,32.6,0
+University of Vermont,"Burlington, VT",4230,387,53.8,0
+University of Virginia,"Charlottesville, VA",2002,387,58.0,0
+University of Washington,"Seattle, WA",168187,5310,14.9,0
+University of Wisconsin - Madison,"Madison, WI",24047,1157,36.4,0
+University of Wyoming,"Laramie, WY",71,77,87.9,1
+Utah State University,"Logan, UT",1043,142,68.6,1
+Vanderbilt University,"Nashville, TN",22994,2274,32.0,0
+Virginia Commonwealth University,"Richmond, VA",10856,1051,41.6,0
+Virginia Tech,"Blacksburg, VA",1042,157,67.9,1
+Washington State University,"Pullman, WA",46,71,90.8,1
+Washington University in St. Louis,"Saint Louis, MO",23807,2176,32.1,0
+Wayne State University,"Detroit, MI",46259,2144,28.5,0
+West Virginia University,"Morgantown, WV",1208,223,64.7,1
+Western Michigan University,"Kalamazoo, MI",576,362,65.5,1
+Wichita State University,"Wichita, KS",2609,742,52.0,0
+Worcester Polytechnic Institute,"Worcester, MA",8208,1254,41.9,0
+Yale University,"New Haven, CT",8362,1082,42.8,0

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  博士栈 · CSPhD.org 站点地图，手工维护，共六个页面。
+  博士栈 · CSPhD.org 站点地图，手工维护，共七个页面。
   新增页面时请在此登记；assets/、screenshots/、data/ 等静态资源不列入。
 
   未使用 <lastmod>：board.html 的内容由每日同步的 data/openings.js 在浏览器里渲染，
@@ -16,6 +16,9 @@
   </url>
   <url>
     <loc>https://csphd.org/grad.html</loc>
+  </url>
+  <url>
+    <loc>https://csphd.org/rank.html</loc>
   </url>
   <url>
     <loc>https://csphd.org/jobs.html</loc>

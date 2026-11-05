@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>博士栈 · 美国 CS 博士综合排名</title>
+<link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+<meta name="description" content="把 CSRankings、US News 本科总榜和地理位置放在一起看的美国 CS 博士项目粗略排名。这是发起人 Yue Zhao 的个人观点，仅供参考。" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="博士栈" />
+<meta property="og:url" content="https://csphd.org/rank.html" />
+<meta property="og:title" content="博士栈 · 美国 CS 博士综合排名" />
+<meta property="og:description" content="把 CSRankings、US News 本科总榜和地理位置放在一起看的美国 CS 博士项目粗略排名。这是发起人 Yue Zhao 的个人观点，仅供参考。" />
+<meta property="og:image" content="https://csphd.org/assets/hero.png" />
+<meta property="og:locale" content="zh_CN" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="博士栈 · 美国 CS 博士综合排名" />
+<meta name="twitter:description" content="把 CSRankings、US News 本科总榜和地理位置放在一起看的美国 CS 博士项目粗略排名。这是发起人 Yue Zhao 的个人观点，仅供参考。" />
+<meta name="twitter:image" content="https://csphd.org/assets/hero.png" />
+<link rel="canonical" href="https://csphd.org/rank.html" />
+<style>
+  :root{ --ink:#16181d; --muted:#5b6270; --line:#e6e8ec; --bg:#fff; --accent:#1f6feb; --accent-ink:#fff; --soft:#f7f8fa;
+         --cs:#1f6feb; --us:#d97706; --geo:#15803d; --note:#f5f9ff; --note-line:#cfe0fb; }
+  *{box-sizing:border-box} html,body{margin:0;padding:0}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",Roboto,Helvetica,Arial,sans-serif;
+       color:var(--ink); background:var(--bg); line-height:1.6; -webkit-font-smoothing:antialiased;}
+  .wrap{max-width:920px; margin:0 auto; padding:24px 18px 64px}
+  a{color:var(--accent)}
+  .en{color:var(--muted); font-weight:600; font-size:13px; margin-left:6px}
+  .nav{display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap; padding:14px 0; margin-bottom:6px; border-bottom:1px solid var(--line)}
+  .nav-brand{font-weight:700; font-size:18px; color:var(--ink); text-decoration:none}
+  .nav-links{display:flex; gap:18px; flex-wrap:wrap; font-size:14px}
+  .nav-links a{color:var(--muted); text-decoration:none}
+  .nav-links a:hover{color:var(--ink)}
+  .nav-links a.active{color:var(--ink); font-weight:600}
+
+  .hero{margin:34px 0 22px}
+  .hero h1{font-size:32px; line-height:1.25; margin:0 0 10px; letter-spacing:-.01em}
+  .hero p{font-size:16px; color:var(--muted); margin:0; max-width:60ch}
+
+  .note{display:flex; gap:12px; align-items:flex-start; padding:14px 16px; margin:0 0 30px; border:1px solid var(--note-line); border-radius:12px; background:var(--note); font-size:14px; line-height:1.7}
+  .note-tag{flex:0 0 auto; margin-top:2px; padding:1px 9px; border-radius:999px; background:var(--accent); color:var(--accent-ink); font-size:12px; font-weight:700; white-space:nowrap}
+
+  .section-h{font-size:18px; font-weight:700; margin:0 0 12px}
+  .cards{display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; margin:0 0 34px}
+  .card{position:relative; display:flex; flex-direction:column; padding:18px 16px 15px; border:1px solid var(--line); border-radius:12px; background:var(--bg); overflow:hidden}
+  .card::before{content:""; position:absolute; inset:0 0 auto 0; height:4px; background:var(--tone)}
+  .card-top{display:flex; align-items:baseline; justify-content:space-between; gap:8px; margin-bottom:2px}
+  .card h3{font-size:16px; margin:0}
+  .card-weight{font-size:21px; font-weight:750; color:var(--tone); font-variant-numeric:tabular-nums; line-height:1.1}
+  .card-src{font-size:12.5px; color:var(--muted); margin:0 0 10px}
+  .card p{font-size:13.5px; line-height:1.65; margin:0 0 10px}
+  .card .limit{margin-top:auto; padding-top:9px; margin-bottom:0; border-top:1px dashed var(--line); font-size:12.5px; color:var(--muted)}
+
+  .controls{display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap; margin:0 0 12px}
+  .seg{display:inline-flex; padding:3px; border-radius:10px; background:var(--soft); border:1px solid var(--line)}
+  .seg button{font:inherit; font-size:13.5px; padding:6px 13px; border:0; border-radius:8px; background:transparent; color:var(--muted); cursor:pointer}
+  .seg button b{font-weight:700; font-variant-numeric:tabular-nums}
+  .seg button[aria-pressed="true"]{background:var(--bg); color:var(--ink); font-weight:650; box-shadow:0 1px 2px rgba(22,24,29,.12)}
+  .seg button:focus-visible, .more:focus-visible, #search:focus-visible{outline:2px solid rgba(31,111,235,.4); outline-offset:1px}
+  #search{font:inherit; font-size:14px; flex:1 1 200px; max-width:260px; min-height:36px; padding:6px 11px; border:1px solid var(--line); border-radius:9px; color:var(--ink); background:var(--bg)}
+
+  .legend{display:flex; gap:14px; flex-wrap:wrap; margin:0 0 8px; font-size:12.5px; color:var(--muted)}
+  .legend i{display:inline-block; width:10px; height:10px; border-radius:3px; margin-right:5px; vertical-align:-1px}
+
+  .board{border:1px solid var(--line); border-radius:12px; overflow-x:auto}
+  table.rk{width:100%; border-collapse:collapse; font-size:14px}
+  table.rk th, table.rk td{padding:9px 11px; text-align:right; border-bottom:1px solid #f0f1f3; font-variant-numeric:tabular-nums; white-space:nowrap}
+  table.rk tbody tr:last-child td{border-bottom:0}
+  table.rk th{color:var(--muted); font-size:12.5px; font-weight:650; background:var(--soft); border-bottom:1px solid var(--line)}
+  table.rk .school{text-align:left; white-space:normal; width:100%; min-width:170px}
+  .school b{display:block; font-weight:600; line-height:1.35}
+  .school span{display:block; font-size:12px; color:var(--muted); line-height:1.4}
+  table.rk .pos{text-align:center; width:52px; padding-left:8px; padding-right:4px}
+  .badge{display:inline-flex; align-items:center; justify-content:center; min-width:27px; height:27px; padding:0 4px; border-radius:999px; font-weight:700; font-size:13.5px; color:var(--muted)}
+  tr.top .badge{background:var(--accent); color:var(--accent-ink)}
+  td.score{font-weight:700}
+  td.num{color:var(--muted)}
+  table.rk .mix{width:128px; padding-right:14px}
+  .stack{display:flex; height:9px; min-width:104px; border-radius:999px; overflow:hidden; background:var(--soft)}
+  .stack i{display:block; height:100%}
+  .stack .c{background:var(--cs)} .stack .u{background:var(--us)} .stack .g{background:var(--geo)}
+
+  .more{display:block; font:inherit; font-size:14px; font-weight:600; width:100%; margin:12px 0 0; padding:10px; border:1px solid var(--line); border-radius:10px; background:var(--bg); color:var(--accent); cursor:pointer}
+  .more:hover{background:var(--soft)}
+  .more[hidden]{display:none}
+  #empty{padding:22px; text-align:center; color:var(--muted); font-size:14px}
+
+  details{margin:26px 0 0; padding:0 16px; border:1px solid var(--line); border-radius:12px}
+  summary{padding:13px 0; font-size:15px; font-weight:650; cursor:pointer}
+  details ul{margin:0 0 14px; padding-left:20px}
+  details li{font-size:13.5px; line-height:1.7; margin:6px 0}
+
+  .disc{font-size:12.5px; color:var(--muted); margin:16px 0 0; padding:13px 14px; background:var(--soft); border-radius:10px; line-height:1.7}
+  footer{margin-top:30px; padding-top:18px; border-top:1px solid var(--line); font-size:12px; color:var(--muted); text-align:center}
+  footer a{color:var(--muted)}
+
+  @media (max-width:760px){
+    .cards{grid-template-columns:1fr}
+    table.rk .mix, .legend{display:none}
+  }
+  @media (max-width:560px){
+    .hero{margin-top:26px}
+    .hero h1{font-size:26px}
+    .note{flex-direction:column; gap:7px}
+    #search{max-width:none}
+    table.rk{font-size:13.5px}
+    table.rk th, table.rk td{padding:8px 6px}
+    table.rk .school{min-width:120px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <nav class="nav">
+    <a class="nav-brand" href="./index.html">博士栈 <span class="en">CSPhD.org</span></a>
+    <div class="nav-links">
+      <a href="./index.html">首页</a>
+      <a href="./board.html">PhD机会</a>
+      <a href="./grad.html">申请读博</a>
+      <a href="./rank.html" class="active">CS排名</a>
+      <a href="./jobs.html">实习全职</a>
+      <a href="./faculty.html">教职资源</a>
+      <a href="./index.html#community">社群</a>
+      <a href="https://yzhao062.github.io" target="_blank" rel="noopener">关于</a>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <h1>美国 CS 博士综合排名</h1>
+    <p>做这个页面，就是因为总有人问我美国 CS 博士项目怎么排。这是我自己的一个粗略看法：把科研实力、学校牌子和地理位置放在一起看。</p>
+  </section>
+
+  <p class="note"><span class="note-tag">个人观点</span><span>这里的权重和解释纯粹是我（<a href="https://yzhao062.github.io" target="_blank" rel="noopener">Yue Zhao</a>）的个人观点，仅供参考，不是官方排名，也不代表任何机构。选校最终还是要看研究方向和导师。</span></p>
+
+  <section aria-labelledby="sources-h">
+    <h2 class="section-h" id="sources-h">三个来源，我为什么这样看</h2>
+    <div class="cards">
+      <article class="card" style="--tone:var(--cs)">
+        <div class="card-top"><h3>科研实力</h3><span class="card-weight" id="weightCs">50%</span></div>
+        <p class="card-src"><a href="https://csrankings.org/#/index?all&amp;us" target="_blank" rel="noopener">CSRankings</a></p>
+        <p>看各校 CS 教授在顶会上发了多少论文。读博的核心是做研究，这是我觉得最接近“这个系现在有多强”的公开指标，所以权重最高。</p>
+        <p class="limit">局限：只数论文，看不出导师怎么带学生，系大也更占优势。</p>
+      </article>
+      <article class="card" style="--tone:var(--us)">
+        <div class="card-top"><h3>学校牌子</h3><span class="card-weight" id="weightUs">30%</span></div>
+        <p class="card-src"><a href="https://www.usnews.com/best-colleges/rankings/national-universities" target="_blank" rel="noopener">US News 本科总榜</a></p>
+        <p>这里用的是本科总榜，不是 CS 专业榜。毕业以后找工作、换方向，学校这块牌子依然有用，所以也算进来。</p>
+        <p class="limit">局限：和 CS 实力不一定一致，比如 UW 的 CSRankings 第 6，本科总榜只有第 49。</p>
+      </article>
+      <article class="card" style="--tone:var(--geo)">
+        <div class="card-top"><h3>地理位置</h3><span class="card-weight" id="weightGeo">20%</span></div>
+        <p class="card-src"><a href="https://www.census.gov/programs-surveys/cbp.html" target="_blank" rel="noopener">美国 Census 企业统计</a></p>
+        <p>读博要在一个地方待很多年，地方不合适，人很容易读得不开心。所以我看两件事：找 CS 工作方不方便，课余有没有地方玩。</p>
+        <p class="limit">局限：只数场所数量，看不出好不好玩，爬山看海这类户外条件也量不出来。</p>
+      </article>
+    </div>
+  </section>
+
+  <section aria-labelledby="board-h">
+    <h2 class="section-h" id="board-h">排名</h2>
+    <div class="controls">
+      <div class="seg" role="group" aria-label="选择权重">
+        <button type="button" data-preset="research" aria-pressed="true">更看重科研 <b>5:3:2</b></button>
+        <button type="button" data-preset="balanced" aria-pressed="false">科研牌子并重 <b>4:4:2</b></button>
+      </div>
+      <input id="search" type="search" placeholder="搜索学校或城市" aria-label="搜索学校或城市" />
+    </div>
+    <div class="legend" aria-hidden="true">
+      <span><i style="background:var(--cs)"></i>科研</span>
+      <span><i style="background:var(--us)"></i>牌子</span>
+      <span><i style="background:var(--geo)"></i>地理</span>
+      <span>彩条是三项在综合分里的占比，越长说明这一项失分越多</span>
+    </div>
+    <div class="board">
+      <table class="rk">
+        <thead><tr>
+          <th class="pos" scope="col">名次</th><th class="school" scope="col">学校</th><th scope="col">综合分</th>
+          <th scope="col">CSRankings</th><th scope="col">US News</th><th scope="col">地理</th><th class="mix" scope="col">失分构成</th>
+        </tr></thead>
+        <tbody id="rows"></tbody>
+      </table>
+      <div id="empty" hidden>没有找到匹配的学校。</div>
+    </div>
+    <button class="more" id="more" type="button"></button>
+  </section>
+
+  <details>
+    <summary>怎么算的</summary>
+    <ul>
+      <li><strong>综合分：</strong>三项按上面选的权重做加权平均，分数越小越靠前，同分并列。比如 5:3:2 就是 (5 × CSRankings 名次 + 3 × US News 名次 + 2 × 地理分) ÷ 10。</li>
+      <li><strong>CSRankings：</strong>用公开数据按官网公式自行重算，范围是美国院校、全部 <span id="csrAreas">27</span> 个领域、<span id="csrYears"></span>，数字可能和官网略有出入。</li>
+      <li><strong>US News：</strong><span id="usnEdition"></span> 版 Best National Universities，名次整理自 US News 公开页面和第三方报道，以官网为准。</li>
+      <li><strong>地理分：</strong>1 最好，100 最差。一半看计算机行业就业人数（所在都市圈，加上县中心离校园 40 公里内的县），一半看娱乐、酒吧、正餐和咖啡场所数量（校园所在县，加上县中心离校园 20 公里内的县）。两项都取对数，差距不会被放得太大。数据来自美国 Census 2023 年的 County Business Patterns，按县统计，所以比较粗；小地方有些数据缺项，数字可能偏低。</li>
+      <li><strong>没有列入的学校：</strong>只有两榜都有名次的学校才进表。Wake Forest、Villanova 等学校不在 CSRankings 的美国院校列表里；<span id="excluded"></span>在 US News 全美榜单上没有单一名次（研究生院校、属于其他榜单、只给名次区间，或学校已拆分）。</li>
+    </ul>
+  </details>
+
+  <p class="disc">本页是我的个人观点，仅供参考，与 CSRankings、US News 和美国 Census 均无关联。数据快照 <span id="synced"></span>。怎么选校和找导师，可以看<a href="./grad.html#res-school">申请读博</a>。</p>
+
+  <footer>由 <a href="https://yzhao062.github.io" target="_blank" rel="noopener">Yue Zhao</a>(USC)发起与维护 · <a href="mailto:contact@csphd.org">contact@csphd.org</a> · csphd.org · <a href="./privacy.html">隐私与使用说明</a></footer>
+</div>
+
+<script src="./data/rankings.js"></script>
+<script src="./js/ranking.js"></script>
+<script>
+  (function () {
+    var data = window.CS_RANKINGS;
+    var body = document.getElementById('rows');
+    var more = document.getElementById('more');
+    var empty = document.getElementById('empty');
+    var search = document.getElementById('search');
+    var buttons = document.querySelectorAll('.seg button');
+    var FIRST_PAGE = 50;
+    var presetKey = 'research';
+    var showAll = false;
+
+    if (!data || !window.Ranking) {
+      empty.textContent = '数据载入失败，请刷新重试。';
+      empty.hidden = false;
+      more.hidden = true;
+      return;
+    }
+
+    function cell(text, className) {
+      var td = document.createElement('td');
+      td.textContent = text;
+      if (className) td.className = className;
+      return td;
+    }
+
+    function schoolCell(row) {
+      var td = document.createElement('td');
+      td.className = 'school';
+      var name = document.createElement('b');
+      name.textContent = row.school;
+      var city = document.createElement('span');
+      city.textContent = row.city;
+      td.appendChild(name);
+      td.appendChild(city);
+      return td;
+    }
+
+    function mixCell(row, preset) {
+      var parts = [
+        ['c', preset.csrankings * row.csrankings],
+        ['u', preset.usnews * row.usnews],
+        ['g', preset.location * row.location],
+      ];
+      var total = parts[0][1] + parts[1][1] + parts[2][1];
+      var td = document.createElement('td');
+      td.className = 'mix';
+      var stack = document.createElement('div');
+      stack.className = 'stack';
+      parts.forEach(function (part) {
+        var seg = document.createElement('i');
+        seg.className = part[0];
+        seg.style.width = (100 * part[1] / total).toFixed(1) + '%';
+        stack.appendChild(seg);
+      });
+      td.appendChild(stack);
+      return td;
+    }
+
+    function render() {
+      var preset = Ranking.PRESETS[presetKey];
+      var term = search.value.trim().toLowerCase();
+      var ranked = Ranking.rankSchools(data.schools, preset);
+      var matched = ranked.filter(function (r) {
+        return !term || r.school.toLowerCase().indexOf(term) >= 0 || r.city.toLowerCase().indexOf(term) >= 0;
+      });
+      var shown = term || showAll ? matched : matched.slice(0, FIRST_PAGE);
+
+      body.textContent = '';
+      shown.forEach(function (r) {
+        var tr = document.createElement('tr');
+        if (r.rank <= 10) tr.className = 'top';
+        var pos = document.createElement('td');
+        pos.className = 'pos';
+        var badge = document.createElement('span');
+        badge.className = 'badge';
+        badge.textContent = r.rank;
+        pos.appendChild(badge);
+        tr.appendChild(pos);
+        tr.appendChild(schoolCell(r));
+        tr.appendChild(cell(r.combined.toFixed(2), 'score'));
+        tr.appendChild(cell(r.csrankings, 'num'));
+        tr.appendChild(cell(r.usnews, 'num'));
+        tr.appendChild(cell(r.location.toFixed(1), 'num'));
+        tr.appendChild(mixCell(r, preset));
+        body.appendChild(tr);
+      });
+
+      empty.hidden = shown.length > 0;
+      more.hidden = Boolean(term) || showAll;
+      more.textContent = '显示全部 ' + ranked.length + ' 所';
+      document.getElementById('weightCs').textContent = preset.csrankings * 10 + '%';
+      document.getElementById('weightUs').textContent = preset.usnews * 10 + '%';
+      document.getElementById('weightGeo').textContent = preset.location * 10 + '%';
+    }
+
+    buttons.forEach(function (button) {
+      button.addEventListener('click', function () {
+        presetKey = button.dataset.preset;
+        buttons.forEach(function (b) { b.setAttribute('aria-pressed', String(b === button)); });
+        render();
+      });
+    });
+    search.addEventListener('input', render);
+    more.addEventListener('click', function () { showAll = true; render(); });
+
+    document.getElementById('csrAreas').textContent = data.csrankings.areas;
+    document.getElementById('csrYears').textContent = data.csrankings.from + '–' + data.csrankings.to + ' 年';
+    document.getElementById('usnEdition').textContent = data.usnews.edition;
+    document.getElementById('excluded').textContent = data.excluded.join('、');
+    document.getElementById('synced').textContent = data.synced;
+    render();
+  })();
+</script>
+</body>
+</html>

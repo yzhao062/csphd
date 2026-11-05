@@ -14,7 +14,7 @@
 [![china-safe](https://img.shields.io/badge/零外部依赖-中国大陆可直连-15803d)](#-技术亮点)
 [![free](https://img.shields.io/badge/对同学-永久免费-15803d)](https://csphd.org)
 
-[**🌐 csphd.org**](https://csphd.org) · [PhD 机会板](https://csphd.org/board.html) · [申请读博](https://csphd.org/grad.html) · [实习全职](https://csphd.org/jobs.html) · [教职资源](https://csphd.org/faculty.html) · [注册进群](https://forms.gle/ACJUTaqc5QPfLWPg8)
+[**🌐 csphd.org**](https://csphd.org) · [PhD 机会板](https://csphd.org/board.html) · [申请读博](https://csphd.org/grad.html) · [CS 排名](https://csphd.org/rank.html) · [实习全职](https://csphd.org/jobs.html) · [教职资源](https://csphd.org/faculty.html) · [注册进群](https://forms.gle/ACJUTaqc5QPfLWPg8)
 
 </div>
 
@@ -35,6 +35,7 @@
 |:--:|---|---|
 | 🎯 | [**PhD 机会板**](https://csphd.org/board.html) | 500+ 长期与短期 PhD / RA / Postdoc 机会，按学校分组，可搜索筛选，**每日自动同步** |
 | 🎓 | [**申请读博**](https://csphd.org/grad.html) | 选校找导师、申请材料、读博工具、会议审稿；专门标出国际生（F-1/J-1）常被卡的 GRE、fee waiver 与 fellowship 资格 |
+| 🏅 | [**CS 排名**](https://csphd.org/rank.html) | 美国 CS 博士项目的粗略综合排名：CSRankings、US News 本科总榜和地理位置加权，发起人的个人观点 |
 | 💼 | [**实习全职**](https://csphd.org/jobs.html) | 北美工业界实习与全职：职位追踪、求职时间线、面试准备、薪资基准、国际生身份基础 |
 | 🧑‍🏫 | [**教职资源**](https://csphd.org/faculty.html) | 教职申请全流程、材料清单、推荐信、面试题库、CRA 薪资数据 |
 | 👥 | [**社群**](https://csphd.org/#community) | 求职、教职、AP、审稿、开会等系列微信群，按方向分流 |
@@ -72,11 +73,17 @@ csphd/
 ├── index.html          首页：社区介绍、群系列、三步加入、注册
 ├── board.html          PhD / RA / Postdoc 机会板（搜索 + 筛选）
 ├── grad.html           申请读博：选校、材料、读博工具、会议审稿
+├── rank.html           美国 CS 博士综合排名
 ├── jobs.html           实习全职：工业界求职资源
 ├── faculty.html        教职资源：CS 教职求职合集
 ├── privacy.html        隐私与使用说明
 ├── data/openings.js    机会数据（GitHub Action 每日生成，含 firstSeen/lastChanged 新鲜度字段）
-├── tools/              build_openings.py（表格 → JSON / JS）
+├── data/rankings.js    综合排名数据（build_rankings.py 生成）
+├── data/usnews_national.csv  US News 本科总榜名次（手工维护）
+├── data/campus.csv     校园位置（来自 IPEDS，个别学校手工改到 CS 所在校区，刷新时保留）
+├── data/location.csv   地理分（build_location.py 生成）
+├── js/ranking.js       综合排名的权重与计算
+├── tools/              build_openings.py（表格 → JSON / JS）、build_rankings.py（CSRankings 重算并合并三项数据）、build_location.py（Census 数据 → 地理分）
 ├── .github/workflows/  sync-openings.yml（每日同步）
 ├── screenshots/        微信群截图
 └── CNAME               csphd.org

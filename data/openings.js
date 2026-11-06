@@ -1,12 +1,12 @@
 window.OPENINGS = {
-  "synced": "2026-11-05",
+  "synced": "2026-11-06",
   "source": "https://tinyurl.com/2026phd",
-  "count": 597,
+  "count": 598,
   "shortterm": 95,
-  "longterm": 502,
+  "longterm": 503,
   "tab_counts": {
     "387325261": 95,
-    "0": 502
+    "0": 503
   },
   "openings": [
     {
@@ -3015,6 +3015,25 @@ window.OPENINGS = {
       ],
       "firstSeen": "2026-06-30",
       "lastChanged": "2026-06-30"
+    },
+    {
+      "university": "George Mason University",
+      "faculty": "Qiang Zeng",
+      "interests": "IoT Security, AI Security",
+      "term": "27 Fall",
+      "deadline": "",
+      "homepage": "https://people.cs.gmu.edu/~zeng/recruiting_students.html",
+      "positions": "2-3 PhD with RA/TA",
+      "requirements": "TOEFL or IELTS, no GRE requirement",
+      "contact": "Email",
+      "materials": "CV, transcript, English score, sample papers",
+      "category": "长期",
+      "types": [
+        "PhD",
+        "RA"
+      ],
+      "firstSeen": "2026-11-06",
+      "lastChanged": "2026-11-06"
     },
     {
       "university": "George Mason University",

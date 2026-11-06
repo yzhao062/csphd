@@ -92,8 +92,8 @@ csphd/
 ## 🙋 怎么加入
 
 1. 填写[注册 Google 表单](https://forms.gle/ACJUTaqc5QPfLWPg8)，留下研究方向与所在阶段。
-2. 提交后获取群分类与拉群小助手微信。
-3. 加拉群小助手，按方向被拉进对应微信群。
+2. 提交后打开确认页中的固定链接：https://csphd.org/join.html。
+3. 选择求职群或审稿群，用微信扫码加入。二维码过期后，页面才显示备用微信及备注要求。
 
 > 表单与部分链接走 Google，中国大陆需自备网络环境。
 
@@ -110,3 +110,11 @@ csphd/
 ---
 
 <div align="center"><sub>© 2026 Yue Zhao · 本仓库公开仅供透明与查阅，保留所有权利；未经许可请勿复制或二次分发。<br>Published for transparency only. All rights reserved; not licensed for reuse.</sub></div>
+
+## 入群二维码维护
+
+表单提交确认消息中的链接固定为 `https://csphd.org/join.html`。上线后在 Google 表单的「设置 → 演示 → 确认消息」中设置该链接。此静态页面不验证表单提交状态，持有链接的人均可访问。
+
+换码时覆盖 `assets/groups/jobs.jpg` 或 `assets/groups/review.jpg`，并更新 `data/groups.json` 中对应群的 `expiresAt`（带时区的 ISO 时间）。页面和 CI 共用这个日期，图片 URL 以日期作为缓存版本。图片写明“11 月 12 日前有效”时，保守使用 `2026-11-12T00:00:00+08:00`。若只换图片而到期时间相同，另增或更新该群的 `version` 字段以刷新缓存。
+
+`check-group-qr` 每天运行，也支持手动运行；任一二维码到期、配置无效或图片缺失时失败，刷新后恢复通过。GitHub Actions 的失败通知取决于维护者的 GitHub 通知设置，定时任务也可能延迟。可在本地执行 `node tools/check_group_qr.js` 检查。页面按访问者设备时间判断到期，到期后隐藏对应二维码，显示备用微信和必填备注。

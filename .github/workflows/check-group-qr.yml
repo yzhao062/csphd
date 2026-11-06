@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: '23 16 * * *'
   workflow_dispatch:
+    inputs:
+      simulate_expired:
+        description: '通知测试：模拟过期并使本次运行失败，不改变网站'
+        type: boolean
+        default: false
   push:
     paths:
       - 'data/groups.json'
@@ -34,3 +39,5 @@ jobs:
           node-version: '22'
       - run: node --test tests/group-qr.test.js
       - run: node tools/check_group_qr.js
+        env:
+          SIMULATE_EXPIRED: ${{ github.event_name == 'workflow_dispatch' && inputs.simulate_expired == true }}

@@ -5,7 +5,9 @@ const root = path.resolve(__dirname, '..');
 
 try {
   const groups = validate(JSON.parse(fs.readFileSync(path.join(root, 'data/groups.json'), 'utf8')));
-  const now = Date.now();
+  const simulateExpired = process.env?.SIMULATE_EXPIRED === 'true';
+  const now = simulateExpired ? Math.max(...groups.map(group => Date.parse(group.expiresAt))) : Date.now();
+  if (simulateExpired) console.log('通知测试：仅本次检查模拟二维码过期，不修改正式配置。');
   for (const group of groups) {
     if (!fs.existsSync(path.join(root, group.image))) {
       console.error(`::error::${group.name}: 图片缺失 ${group.image}`);

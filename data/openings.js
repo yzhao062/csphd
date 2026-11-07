@@ -1,12 +1,12 @@
 window.OPENINGS = {
-  "synced": "2026-11-06",
+  "synced": "2026-11-07",
   "source": "https://tinyurl.com/2026phd",
-  "count": 598,
+  "count": 599,
   "shortterm": 95,
-  "longterm": 503,
+  "longterm": 504,
   "tab_counts": {
     "387325261": 95,
-    "0": 503
+    "0": 504
   },
   "openings": [
     {
@@ -4604,6 +4604,26 @@ window.OPENINGS = {
       ],
       "firstSeen": "2026-07-01",
       "lastChanged": "2026-07-01"
+    },
+    {
+      "university": "National University of Singapore",
+      "faculty": "Wei Li",
+      "interests": "EDA; Chip Design; Hardware software co-design; hardware testing; Agentic AI",
+      "term": "27 Fall, 28 Spring",
+      "deadline": "",
+      "homepage": "https://wadmes.github.io/cv/",
+      "positions": "multiple PhDs; RA; Visiting students; Postdoc",
+      "requirements": "TOEFL or IELTS, no GRE",
+      "contact": "Email (werry715@gmail.com)",
+      "materials": "CV, Transcript, Papers (if available)",
+      "category": "长期",
+      "types": [
+        "PhD",
+        "RA",
+        "Postdoc"
+      ],
+      "firstSeen": "2026-11-07",
+      "lastChanged": "2026-11-07"
     },
     {
       "university": "NC State University",

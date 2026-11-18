@@ -1,12 +1,12 @@
 window.OPENINGS = {
-  "synced": "2026-11-17",
+  "synced": "2026-11-18",
   "source": "https://tinyurl.com/2026phd",
-  "count": 599,
+  "count": 600,
   "shortterm": 95,
-  "longterm": 504,
+  "longterm": 505,
   "tab_counts": {
     "387325261": 95,
-    "0": 504
+    "0": 505
   },
   "openings": [
     {
@@ -11211,6 +11211,25 @@ window.OPENINGS = {
       ],
       "firstSeen": "2026-10-25",
       "lastChanged": "2026-10-25"
+    },
+    {
+      "university": "Fudan University",
+      "faculty": "Yi Liu",
+      "interests": "Agentic Robotics, Swarm Agent, AI Safety, Trustworthy AI",
+      "term": "2027 Fall",
+      "deadline": "",
+      "homepage": "Yi Liu",
+      "positions": "2PhD, RAs, Research Interns",
+      "requirements": "1-2 CCF-A Papers",
+      "contact": "97liuyi@gmail.com",
+      "materials": "CV, Transcript, Research Interest, Publication (if any)",
+      "category": "长期",
+      "types": [
+        "PhD",
+        "Intern"
+      ],
+      "firstSeen": "2026-11-18",
+      "lastChanged": "2026-11-18"
     }
   ]
 };

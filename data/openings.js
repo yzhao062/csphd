@@ -1,12 +1,12 @@
 window.OPENINGS = {
-  "synced": "2026-11-18",
+  "synced": "2026-11-19",
   "source": "https://tinyurl.com/2026phd",
-  "count": 600,
+  "count": 603,
   "shortterm": 95,
-  "longterm": 505,
+  "longterm": 508,
   "tab_counts": {
     "387325261": 95,
-    "0": 505
+    "0": 508
   },
   "openings": [
     {
@@ -3135,7 +3135,7 @@ window.OPENINGS = {
     {
       "university": "Georgia Institute of Technology",
       "faculty": "Molei Tao",
-      "interests": "Gen-AI (e.g., Diffusion Model), AI4Science (e.g., Quantum), Deep Learning Theory (e.g., Optimization and Generalization)",
+      "interests": "GenAI->diffusion model, especially diffusion language models",
       "term": "26 Fall",
       "deadline": "",
       "homepage": "https://mtao8.math.gatech.edu/",
@@ -3149,7 +3149,7 @@ window.OPENINGS = {
         "Postdoc"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-11-19"
     },
     {
       "university": "Georgia Institute of Technology",
@@ -5614,7 +5614,7 @@ window.OPENINGS = {
       "deadline": "",
       "homepage": "https://taolitxjs.github.io/",
       "positions": "2 PhDs with RA/TA support",
-      "requirements": "",
+      "requirements": "TOEFL or IELTS",
       "contact": "Email",
       "materials": "CVs, transcripts, TOEFL/IELTS scores, and any other materials they believe would be helpful",
       "category": "长期",
@@ -5623,7 +5623,7 @@ window.OPENINGS = {
         "RA"
       ],
       "firstSeen": "2026-08-22",
-      "lastChanged": "2026-10-31"
+      "lastChanged": "2026-11-19"
     },
     {
       "university": "Purdue University",
@@ -11230,6 +11230,63 @@ window.OPENINGS = {
       ],
       "firstSeen": "2026-11-18",
       "lastChanged": "2026-11-18"
+    },
+    {
+      "university": "University of Alberta",
+      "faculty": "Jocelyn Qiaochu Chen",
+      "interests": "Programming languages, formal methods, software engineering, neurosymbolic systems",
+      "term": "2027 Spring/Fall PhDs, interns",
+      "deadline": "",
+      "homepage": "Jocelyn Qiaochu Chen",
+      "positions": "Multiple Intern/PhD",
+      "requirements": "TOEFL/IELTS",
+      "contact": "jocelyn.chen@ualberta.ca",
+      "materials": "CV, Transcript",
+      "category": "长期",
+      "types": [
+        "PhD",
+        "Intern"
+      ],
+      "firstSeen": "2026-11-19",
+      "lastChanged": "2026-11-19"
+    },
+    {
+      "university": "University of South Florida",
+      "faculty": "Zheyu Jiang",
+      "interests": "Neural operators, AI for Science, AI for Math, learning-based optimization, quantum optimization",
+      "term": "2027 Fall",
+      "deadline": "",
+      "homepage": "https://checlams.github.io/",
+      "positions": "1-2 PhD with RA/TA",
+      "requirements": "TOEFL/IELTS/Duolingo",
+      "contact": "zheyu.jiang@okstate.edu",
+      "materials": "CV, Transcript",
+      "category": "长期",
+      "types": [
+        "PhD",
+        "RA"
+      ],
+      "firstSeen": "2026-11-19",
+      "lastChanged": "2026-11-19"
+    },
+    {
+      "university": "State University of New York at Albany",
+      "faculty": "Wenhui Chu",
+      "interests": "AI Agent Security, Multi-Agent Security, Game Security, Trustworthy Healthcare AI, LLM Security",
+      "term": "2027 Fall",
+      "deadline": "",
+      "homepage": "https://wenhuichu.com/",
+      "positions": "1-2 PhD with RA/TA",
+      "requirements": "TOEFL/IELTS/Duolingo",
+      "contact": "wchu3@albany.edu",
+      "materials": "CV, Transcript, Research Interest",
+      "category": "长期",
+      "types": [
+        "PhD",
+        "RA"
+      ],
+      "firstSeen": "2026-11-19",
+      "lastChanged": "2026-11-19"
     }
   ]
 };

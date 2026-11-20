@@ -1,5 +1,5 @@
 window.OPENINGS = {
-  "synced": "2026-11-19",
+  "synced": "2026-11-20",
   "source": "https://tinyurl.com/2026phd",
   "count": 603,
   "shortterm": 95,

@@ -1,5 +1,5 @@
 {
-  "synced": "2026-11-21",
+  "synced": "2026-11-22",
   "source": "https://tinyurl.com/2026phd",
   "count": 603,
   "shortterm": 95,
@@ -8007,14 +8007,14 @@
     {
       "university": "University of Florida",
       "faculty": "Yuanyuan Lei",
-      "interests": "Natural Language Processing, Large Language Models, Multi-Modality Learning",
-      "term": "2026 Fall",
+      "interests": "NLP, LLM, Agentic AI, Multimodality",
+      "term": "2027 Fall, 2028 Spring/Fall",
       "deadline": "",
       "homepage": "https://sites.google.com/view/yuanyuan-lei",
       "positions": "Multiple PhDs with RA, Multiple interns",
       "requirements": "",
-      "contact": "Email",
-      "materials": "CV, Transcript, Research Interest",
+      "contact": "Email (yuanyuan.lei@ufl.edu)",
+      "materials": "CV, Transcript, Research Interest and Experience",
       "category": "长期",
       "types": [
         "PhD",
@@ -8022,7 +8022,7 @@
         "Intern"
       ],
       "firstSeen": "2026-06-30",
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-11-22"
     },
     {
       "university": "University of Georgia",

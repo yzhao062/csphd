@@ -1,12 +1,12 @@
 {
-  "synced": "2026-11-24",
+  "synced": "2026-11-25",
   "source": "https://tinyurl.com/2026phd",
-  "count": 603,
+  "count": 604,
   "shortterm": 95,
-  "longterm": 508,
+  "longterm": 509,
   "tab_counts": {
     "387325261": 95,
-    "0": 508
+    "0": 509
   },
   "openings": [
     {
@@ -8984,6 +8984,25 @@
       ],
       "firstSeen": "2026-09-27",
       "lastChanged": "2026-09-27"
+    },
+    {
+      "university": "University of North Carolina at Chapel Hill",
+      "faculty": "Jim Shaw",
+      "interests": "Computational Biology and Genomics, Data Science, Bioinformatics Algorithms",
+      "term": "27 Fall",
+      "deadline": "",
+      "homepage": "https://jshaw-lab-compbio.github.io/",
+      "positions": "1-2 PhDs with RA.",
+      "requirements": "",
+      "contact": "Email",
+      "materials": "CV, Transcript, Research Interest",
+      "category": "长期",
+      "types": [
+        "PhD",
+        "RA"
+      ],
+      "firstSeen": "2026-11-25",
+      "lastChanged": "2026-11-25"
     },
     {
       "university": "University of North Carolina at Chapel Hill",
